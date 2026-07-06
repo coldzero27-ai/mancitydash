@@ -104,7 +104,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .news-row.dim{color:var(--steel);border-left-color:rgba(152,197,233,.22)}
 #vidbody{position:absolute;inset:0;cursor:pointer}
 #vid-img{width:100%;height:100%;object-fit:cover;display:block}
-#news-iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+#news-iframe{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:0;pointer-events:auto}
 #news-img{width:100%;height:108px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
 #news-iframe{width:100%;height:108px;border-radius:10px;border:1px solid var(--line)}
 #news-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.85)}
@@ -570,6 +570,7 @@ function clubByName(n){
 function scale(){
  var s=Math.min(window.innerWidth/1920,window.innerHeight/1080);
  document.getElementById("stage").style.transform="scale("+s+")";
+ if(typeof fitVideoCover==="function")fitVideoCover();
 }
 window.addEventListener("resize",scale);
 window.addEventListener("orientationchange",function(){setTimeout(scale,120);});
@@ -902,6 +903,17 @@ function fetchCityNews(){
   if(merged.length){NEWSITEMS=merged.slice(0,12);newsIdx=0;renderNewsCard();}
  });
 }
+function fitVideoCover(){
+ var f=document.getElementById("news-iframe");
+ var body=document.getElementById("vidbody");
+ if(!f||!body)return;
+ var w=body.offsetWidth,h=body.offsetHeight;
+ if(!w||!h)return;
+ /* true 16:9 rectangle that covers the card; card clips the small overflow */
+ var s=Math.max(w/16,h/9);
+ f.style.width=Math.ceil(16*s+2)+"px";
+ f.style.height=Math.ceil(9*s+2)+"px";
+}
 function fetchLatestVideo(){
  /* Direct embed of the channel's long-form uploads playlist (UULF = Shorts excluded).
     YouTube serves it and always starts at the newest video - no feeds, no proxies. */
@@ -913,6 +925,8 @@ function fetchLatestVideo(){
  f.allow="autoplay; encrypted-media";
  body.appendChild(f);
  document.getElementById("news-play").style.display="none";
+ fitVideoCover();
+ setTimeout(fitVideoCover,600); /* after layout settles */
 }
 function newsPlaylist(){
  var list=NEWSITEMS.slice();
