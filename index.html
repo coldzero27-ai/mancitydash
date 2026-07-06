@@ -98,14 +98,19 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #trophycard{flex:1;display:flex;flex-direction:column;justify-content:space-between;margin-top:8px}
 #newscard{flex:1;min-width:0;overflow:hidden}
 #vidcard{flex:1;min-width:0;overflow:hidden;position:relative;padding:0}
-#newsbody{position:relative;flex:1;display:flex;flex-direction:column;margin-top:10px;min-height:0;cursor:pointer}
+#newsbody{position:relative;flex:1;display:flex;flex-direction:column;margin-top:8px;min-height:0}
+#news-hero{position:relative;height:96px;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,rgba(108,171,221,.4),rgba(20,44,70,.7));flex:0 0 auto}
+#news-heroshade{position:absolute;left:0;right:0;bottom:0;height:64px;background:linear-gradient(rgba(6,16,28,0),rgba(6,16,28,.92))}
+#news-hero #news-title{position:absolute;left:10px;right:10px;bottom:6px;margin:0;font-size:17px;font-weight:500;line-height:1.3;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6);-webkit-line-clamp:2}
+#news-hero #news-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.news-mini{font-size:15px;color:#DCEBF8;line-height:1.35;margin-top:8px;padding-left:10px;border-left:2px solid var(--line-strong);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #vidbody{position:absolute;inset:0;cursor:pointer}
 #vid-img{width:100%;height:100%;object-fit:cover;display:block}
 #news-iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 #news-img{width:100%;height:108px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
 #news-iframe{width:100%;height:108px;border-radius:10px;border:1px solid var(--line)}
 #news-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.85)}
-#news-title{font-size:18px;line-height:1.35;color:var(--ice);margin-top:8px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+#news-title{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical}
 .trow{display:flex;align-items:center;gap:10px;font-size:16px;min-width:0}
 .trow svg{flex:0 0 auto}
 .trow .cn{font-family:'Barlow Condensed';font-weight:600;font-size:19px;letter-spacing:.05em;color:var(--sky);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -258,8 +263,13 @@ body.present:hover #ctrl{opacity:1;pointer-events:auto}
         <div class="hcard glass" id="newscard">
           <div class="label">City &middot; News</div>
           <div id="newsbody">
-            <img id="news-img" alt="" style="display:none">
-            <div id="news-title">Loading City news&hellip;</div>
+            <div id="news-hero">
+              <img id="news-img" alt="" style="display:none">
+              <div id="news-heroshade"></div>
+              <div id="news-title">Loading City news&hellip;</div>
+            </div>
+            <div class="news-mini" id="news-mini1"></div>
+            <div class="news-mini" id="news-mini2"></div>
           </div>
         </div>
         <div class="glass" id="vidcard">
@@ -373,6 +383,39 @@ var NEWS = [
 ];
 var DATA = {mancity:null,clubs:{}};
 var APIFIX = []; /* live fixtures from TheSportsDB; overridden by results.json */
+var APICLUBS = {}; /* live per-club next match; results.json clubs override */
+var SDB_QUERIES = {GIR:"Girona",PAL:"Palermo",NYC:"New York City FC",BAH:"EC Bahia",
+ TRO:"Troyes",LOM:"Lommel SK",MEL:"Melbourne City",TOR:"Montevideo City Torque",SHE:"Shenzhen Peng City"};
+function fetchClubNext(codes,i){
+ if(i>=codes.length)return;
+ var code=codes[i], q=SDB_QUERIES[code];
+ fetch("https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t="+encodeURIComponent(q))
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   var team=null;
+   if(j&&j.teams)for(var k=0;k<j.teams.length;k++){
+    if(j.teams[k].strSport==="Soccer"){team=j.teams[k];break;}
+   }
+   if(!team)return null;
+   APICLUBS[code]=APICLUBS[code]||{};
+   if(team.strLeague)APICLUBS[code].league=team.strLeague;
+   return fetch("https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id="+team.idTeam)
+    .then(function(r){return r.ok?r.json():null;});
+  })
+  .then(function(j){
+   if(j&&j.events&&j.events.length){
+    var e=j.events[0];
+    var time=(e.strTime&&e.strTime!=="00:00:00")?e.strTime:"14:00:00";
+    var meHome=(e.strHomeTeam||"").toLowerCase().indexOf(q.split(" ")[0].toLowerCase())!==-1;
+    APICLUBS[code].next={utc:e.dateEvent+"T"+time+"Z",
+      opp:meHome?e.strAwayTeam:e.strHomeTeam,home:meHome};
+    renderSpot();
+   }
+  })
+  .catch(function(){})
+  .then(function(){setTimeout(function(){fetchClubNext(codes,i+1);},2200);});
+}
+function fetchClubsAPI(){fetchClubNext(Object.keys(SDB_QUERIES),0);}
 function compFromLeague(s){
  s=String(s||"").toLowerCase();
  if(s.indexOf("premier league")!==-1)return "PL";
@@ -400,8 +443,13 @@ function fetchFixturesAPI(){
 }
 function getFixtures(){
  if(DATA.mancity&&DATA.mancity.fixtures&&DATA.mancity.fixtures.length)return DATA.mancity.fixtures;
- if(APIFIX.length)return APIFIX;
- return FIXTURES;
+ if(!APIFIX.length)return FIXTURES;
+ /* merge: API entries win on their calendar day (fresher kickoff times), baked fills the rest */
+ var byDay={};
+ FIXTURES.forEach(function(f){byDay[f.utc.slice(0,10)]=f;});
+ APIFIX.forEach(function(f){byDay[f.utc.slice(0,10)]=f;});
+ var out=[];for(var k in byDay)out.push(byDay[k]);
+ return out;
 }
 /* Transfer windows (UTC ends; 1 Sep 23:00 UK = 2 Sep 03:00 GST - rollover handled by conversion) */
 var WINDOWS = [
@@ -425,7 +473,7 @@ function fmtDT(iso){
  return {date:dt,time:tm};
 }
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
-var CRESTS={"MCI": "assets/crests/mci.svg", "GIR": "assets/crests/gir.svg", "PAL": "assets/crests/pal.svg", "MEL": "assets/crests/mel.svg", "BAH": "assets/crests/bah.svg", "NYC": "assets/crests/nyc.png", "TRO": "assets/crests/tro.png", "LOM": "assets/crests/lom.png", "TOR": "assets/crests/tor.png", "SHE": "assets/crests/she.png", "CFG": "assets/crests/cfg.png", "arsenal": "assets/crests/arsenal.png", "tottenham": "assets/crests/tottenham.png", "chelsea": "assets/crests/chelsea.png", "fulham": "assets/crests/fulham.png", "newcastle": "assets/crests/newcastle.png", "brighton": "assets/crests/brighton.png", "aston_villa": "assets/crests/aston_villa.png", "liverpool": "assets/crests/liverpool.png", "everton": "assets/crests/everton.png", "crystal_palace": "assets/crests/crystal_palace.png", "bournemouth": "assets/crests/bournemouth.png", "leeds": "assets/crests/leeds.png", "sunderland": "assets/crests/sunderland.png", "forest": "assets/crests/forest.png", "brentford": "assets/crests/brentford.png", "man_utd": "assets/crests/man_utd.png", "coventry": "assets/crests/coventry.svg", "hull": "assets/crests/hull.svg", "ipswich": "assets/crests/ipswich.svg"};
+var CRESTS={"MCI": "assets/crests/mci.svg", "GIR": "assets/crests/gir.svg", "PAL": "assets/crests/pal.svg", "MEL": "assets/crests/mel.svg", "BAH": "assets/crests/bah.svg", "NYC": "assets/crests/nyc.png", "TRO": "assets/crests/tro.png", "LOM": "assets/crests/lom.png", "TOR": "assets/crests/tor.png", "SHE": "assets/crests/she.png", "CFG": "assets/crests/cfg.png", "arsenal": "assets/crests/arsenal.png", "tottenham": "assets/crests/tottenham.png", "chelsea": "assets/crests/chelsea.png", "fulham": "assets/crests/fulham.png", "newcastle": "assets/crests/newcastle.png", "brighton": "assets/crests/brighton.png", "aston_villa": "assets/crests/aston_villa.png", "liverpool": "assets/crests/liverpool.png", "everton": "assets/crests/everton.png", "crystal_palace": "assets/crests/crystal_palace.png", "bournemouth": "assets/crests/bournemouth.png", "leeds": "assets/crests/leeds.png", "sunderland": "assets/crests/sunderland.png", "forest": "assets/crests/forest.png", "brentford": "assets/crests/brentford.png", "man_utd": "assets/crests/man_utd.png", "coventry": "assets/crests/coventry.svg", "hull": "assets/crests/hull.svg", "ipswich": "assets/crests/ipswich.svg", "acmilan": "assets/crests/acmilan.png", "alaves": "assets/crests/alaves.png", "angers": "assets/crests/angers.png", "atalanta": "assets/crests/atalanta.png", "athletic": "assets/crests/athletic.png", "atletico": "assets/crests/atletico.png", "auxerre": "assets/crests/auxerre.png", "barcelona": "assets/crests/barcelona.png", "betis": "assets/crests/betis.png", "bologna": "assets/crests/bologna.png", "brest": "assets/crests/brest.png", "cagliari": "assets/crests/cagliari.png", "celta": "assets/crests/celta.png", "como": "assets/crests/como.png", "empoli": "assets/crests/empoli.png", "espanyol": "assets/crests/espanyol.png", "fiorentina": "assets/crests/fiorentina.png", "genoa": "assets/crests/genoa.png", "getafe": "assets/crests/getafe.png", "inter": "assets/crests/inter.png", "juventus": "assets/crests/juventus.png", "laspalmas": "assets/crests/laspalmas.png", "lazio": "assets/crests/lazio.png", "lecce": "assets/crests/lecce.png", "leganes": "assets/crests/leganes.png", "lehavre": "assets/crests/lehavre.png", "lens": "assets/crests/lens.png", "lille": "assets/crests/lille.png", "lorient": "assets/crests/lorient.png", "lyon": "assets/crests/lyon.png", "mallorca": "assets/crests/mallorca.png", "marseille": "assets/crests/marseille.png", "metz": "assets/crests/metz.png", "monaco": "assets/crests/monaco.png", "monza": "assets/crests/monza.png", "nantes": "assets/crests/nantes.png", "napoli": "assets/crests/napoli.png", "nice": "assets/crests/nice.png", "osasuna": "assets/crests/osasuna.png", "parisfc": "assets/crests/parisfc.png", "parma": "assets/crests/parma.png", "psg": "assets/crests/psg.png", "rayo": "assets/crests/rayo.png", "realmadrid": "assets/crests/realmadrid.png", "rennes": "assets/crests/rennes.png", "roma": "assets/crests/roma.png", "sevilla": "assets/crests/sevilla.png", "sociedad": "assets/crests/sociedad.png", "strasbourg": "assets/crests/strasbourg.png", "torino": "assets/crests/torino.png", "toulouse": "assets/crests/toulouse.png", "udinese": "assets/crests/udinese.png", "valencia": "assets/crests/valencia.png", "valladolid": "assets/crests/valladolid.png", "venezia": "assets/crests/venezia.png", "verona": "assets/crests/verona.png", "villarreal": "assets/crests/villarreal.png"};
 var FACES={"aitnouri": "assets/faces/aitnouri.png", "akanji": "assets/faces/akanji.png", "alleyne": "assets/faces/alleyne.png", "anderson": "assets/faces/anderson.png", "bettinelli": "assets/faces/bettinelli.png", "burns": "assets/faces/burns.png", "cherki": "assets/faces/cherki.png", "dias": "assets/faces/dias.png", "doku": "assets/faces/doku.png", "donnarumma": "assets/faces/donnarumma.png", "echeverri": "assets/faces/echeverri.png", "foden": "assets/faces/foden.png", "gonzalez": "assets/faces/gonzalez.png", "grealish": "assets/faces/grealish.png", "guehi": "assets/faces/guehi.png", "gvardiol": "assets/faces/gvardiol.png", "haaland": "assets/faces/haaland.png", "kabore": "assets/faces/kabore.png", "khusanov": "assets/faces/khusanov.png", "kovacic": "assets/faces/kovacic.png", "lewis": "assets/faces/lewis.png", "marmoush": "assets/faces/marmoush.png", "nunes": "assets/faces/nunes.png", "oreilly": "assets/faces/oreilly.png", "reijnders": "assets/faces/reijnders.png", "rodri": "assets/faces/rodri.png", "savinho": "assets/faces/savinho.png", "semenyo": "assets/faces/semenyo.png", "stones": "assets/faces/stones.png", "trafford": "assets/faces/trafford.png", "wilsonesbrand": "assets/faces/wilsonesbrand.png"};
 function crestEl(club,size,ring){
  if(CRESTS[club.code]){
@@ -450,10 +498,74 @@ var OPPMAP=[["arsenal","arsenal"],["aston villa","aston_villa"],["bournemouth","
  ["palace","crystal_palace"],["everton","everton"],["forest","forest"],["nottingham","forest"],
  ["fulham","fulham"],["leeds","leeds"],["liverpool","liverpool"],["manchester united","man_utd"],
  ["man utd","man_utd"],["newcastle","newcastle"],["sunderland","sunderland"],["tottenham","tottenham"],
- ["spurs","tottenham"],["coventry","coventry"],["hull","hull"],["ipswich","ipswich"]];
+ ["spurs","tottenham"],["coventry","coventry"],["hull","hull"],["ipswich","ipswich"],
+ ["inter","inter"],
+ ["juventus","juventus"],
+ ["ac milan","acmilan"],
+ ["milan","acmilan"],
+ ["napoli","napoli"],
+ ["roma","roma"],
+ ["atalanta","atalanta"],
+ ["lazio","lazio"],
+ ["fiorentina","fiorentina"],
+ ["bologna","bologna"],
+ ["torino","torino"],
+ ["como","como"],
+ ["genoa","genoa"],
+ ["verona","verona"],
+ ["empoli","empoli"],
+ ["venezia","venezia"],
+ ["udinese","udinese"],
+ ["lecce","lecce"],
+ ["cagliari","cagliari"],
+ ["monza","monza"],
+ ["parma","parma"],
+ ["paris fc","parisfc"],
+ ["paris sg","psg"],
+ ["paris saint","psg"],
+ ["psg","psg"],
+ ["marseille","marseille"],
+ ["monaco","monaco"],
+ ["lyon","lyon"],
+ ["lille","lille"],
+ ["lens","lens"],
+ ["nice","nice"],
+ ["rennes","rennes"],
+ ["nantes","nantes"],
+ ["toulouse","toulouse"],
+ ["strasbourg","strasbourg"],
+ ["brest","brest"],
+ ["le havre","lehavre"],
+ ["havre","lehavre"],
+ ["auxerre","auxerre"],
+ ["angers","angers"],
+ ["lorient","lorient"],
+ ["metz","metz"],
+ ["real madrid","realmadrid"],
+ ["barcelona","barcelona"],
+ ["atletico","atletico"],
+ ["athletic","athletic"],
+ ["sevilla","sevilla"],
+ ["betis","betis"],
+ ["sociedad","sociedad"],
+ ["villarreal","villarreal"],
+ ["valencia","valencia"],
+ ["celta","celta"],
+ ["getafe","getafe"],
+ ["osasuna","osasuna"],
+ ["alaves","alaves"],
+ ["mallorca","mallorca"],
+ ["espanyol","espanyol"],
+ ["rayo","rayo"],
+ ["leganes","leganes"],
+ ["las palmas","laspalmas"],
+ ["valladolid","valladolid"]];
+function isCity(n){return /man(chester)?\s*city/i.test(String(n))&&!/shenzhen|melbourne|new york|montevideo/i.test(String(n));}
 function clubByName(n){
- if(/man(chester)? city/i.test(n)) return CLUBS[0];
- var ln=String(n).toLowerCase();
+ if(isCity(n)) return CLUBS[0];
+ var ln=String(n);
+ if(ln.normalize)ln=ln.normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+ ln=ln.toLowerCase();
  for(var i=0;i<OPPMAP.length;i++){
   if(ln.indexOf(OPPMAP[i][0])!==-1) return {code:OPPMAP[i][1]};
  }
@@ -604,7 +716,7 @@ function renderFixStrip(){
  var host=document.getElementById("fxlist");host.innerHTML="";
  list.forEach(function(f,i){
   var w=fmtDT(f.utc);
-  var home=/man city/i.test(f.home);
+  var home=isCity(f.home);
   var opp=home?f.away:f.home;
   var d=document.createElement("div");
   d.className="fxrow"+(i===0?" next":"");
@@ -656,7 +768,7 @@ function renderTransfers(){
 var spotIdx=0,SPOT_MS=20000,spotStart=Date.now();
 function renderSpot(){
  var c=CLUBS[spotIdx];
- var live=DATA.clubs[c.code]||{};
+ var live=DATA.clubs[c.code]||APICLUBS[c.code]||{};
  document.getElementById("spot-count").textContent="CLUB SPOTLIGHT \u00b7 "+(spotIdx+1)+"/"+CLUBS.length;
  var host=document.getElementById("spot-crest");host.innerHTML="";
  host.appendChild(crestEl(c,64));
@@ -746,21 +858,45 @@ setInterval(function(){
 
 /* ---------- City news card: BBC feed (thumbs) + latest YouTube highlight ---------- */
 var NEWSITEMS=[], newsIdx=0, LATESTVID=null;
+function fetchFeed(url,parse){
+ return fetch("https://api.allorigins.win/raw?url="+encodeURIComponent(url))
+  .then(function(r){return r.ok?r.text():null;})
+  .then(function(xml){
+   if(!xml)return [];
+   try{return parse(new DOMParser().parseFromString(xml,"text/xml"));}catch(e){return [];}
+  }).catch(function(){return [];});
+}
+function parseRss(doc,withThumbs,tag){
+ var out=[],items=doc.querySelectorAll("item");
+ for(var i=0;i<items.length&&out.length<8;i++){
+  var t=items[i].querySelector("title");
+  if(!t)continue;
+  var title=t.textContent.replace(/\s+-\s+[^-]+$/,"").trim();
+  var th=withThumbs?items[i].getElementsByTagNameNS("*","thumbnail")[0]:null;
+  out.push({title:title,img:th?th.getAttribute("url"):null,src:tag});
+ }
+ return out;
+}
 function fetchCityNews(){
- var feed="https://feeds.bbci.co.uk/sport/football/teams/manchester-city/rss.xml";
- var url="https://api.allorigins.win/raw?url="+encodeURIComponent(feed);
- fetch(url).then(function(r){return r.ok?r.text():null;}).then(function(xml){
-  if(!xml)return;
-  var doc=new DOMParser().parseFromString(xml,"text/xml");
-  var items=doc.querySelectorAll("item");
-  var out=[];
-  for(var i=0;i<items.length&&out.length<6;i++){
-   var t=items[i].querySelector("title");
-   var th=items[i].getElementsByTagNameNS("*","thumbnail")[0];
-   if(t)out.push({title:t.textContent.trim(), img:th?th.getAttribute("url"):null, video:null});
-  }
-  if(out.length){NEWSITEMS=out;newsIdx=0;renderNewsCard();}
- }).catch(function(){});
+ Promise.all([
+  fetchFeed("https://feeds.bbci.co.uk/sport/football/teams/manchester-city/rss.xml",
+   function(d){return parseRss(d,true,"BBC");}),
+  fetchFeed("https://news.google.com/rss/search?q=%22Manchester+City%22+site:skysports.com&hl=en-GB&gl=GB&ceid=GB:en",
+   function(d){return parseRss(d,false,"Sky");}),
+  fetchFeed("https://news.google.com/rss/search?q=site:mancity.com&hl=en-GB&gl=GB&ceid=GB:en",
+   function(d){return parseRss(d,false,"Club");})
+ ]).then(function(lists){
+  var merged=[],seen={};
+  /* interleave: imaged BBC first so the hero usually has a picture, then club, then sky */
+  [lists[0],lists[2],lists[1]].forEach(function(l){
+   l.forEach(function(it){
+    var key=it.title.toLowerCase().replace(/[^a-z0-9]/g,"").slice(0,42);
+    if(seen[key])return;
+    seen[key]=1;merged.push(it);
+   });
+  });
+  if(merged.length){NEWSITEMS=merged.slice(0,12);newsIdx=0;renderNewsCard();}
+ });
 }
 function fetchLatestVideo(){
  /* Man City official YouTube channel feed - newest upload */
@@ -776,23 +912,26 @@ function fetchLatestVideo(){
   if(id){LATESTVID={title:t.trim(),id:id};renderVideoFace();}
  }).catch(function(){});
 }
+var VIDPLAYING=null;
 function renderVideoFace(){
  if(!LATESTVID)return;
+ if(VIDPLAYING===LATESTVID.id)return; /* already playing this one */
+ VIDPLAYING=LATESTVID.id;
  var img=document.getElementById("vid-img");
- var old=document.getElementById("news-iframe"); if(old)old.parentNode.removeChild(old);
- document.getElementById("news-play").style.display="block";
- img.style.display="block";
- img.src="https://img.youtube.com/vi/"+LATESTVID.id+"/hqdefault.jpg";
  var body=document.getElementById("vidbody");
- body.onclick=function(){
-  img.style.display="none";
-  document.getElementById("news-play").style.display="none";
-  var f=document.createElement("iframe");
-  f.id="news-iframe";
-  f.src="https://www.youtube.com/embed/"+LATESTVID.id+"?autoplay=1&mute=1";
-  f.allow="autoplay; encrypted-media";
-  body.appendChild(f);
- };
+ var old=document.getElementById("news-iframe"); if(old)old.parentNode.removeChild(old);
+ /* widescreen thumbnail (no black bars) behind the iframe while it loads */
+ img.style.display="block";
+ img.src="https://img.youtube.com/vi/"+LATESTVID.id+"/maxresdefault.jpg";
+ img.onerror=function(){img.src="https://img.youtube.com/vi/"+LATESTVID.id+"/hqdefault.jpg";};
+ document.getElementById("news-play").style.display="none";
+ /* autoplay muted + loop: no click needed, always-on wall behaviour */
+ var f=document.createElement("iframe");
+ f.id="news-iframe";
+ f.src="https://www.youtube.com/embed/"+LATESTVID.id+
+   "?autoplay=1&mute=1&loop=1&playlist="+LATESTVID.id+"&controls=0&modestbranding=1&rel=0";
+ f.allow="autoplay; encrypted-media";
+ body.appendChild(f);
 }
 function newsPlaylist(){
  var list=NEWSITEMS.slice();
@@ -807,7 +946,9 @@ function renderNewsCard(){
  var ttl=document.getElementById("news-title");
  img.style.display=it.img?"block":"none";
  if(it.img)img.src=it.img;
- ttl.textContent=it.title;
+ ttl.textContent=it.title+(it.src==="Club"?" \u00b7 mancity.com":"");
+ document.getElementById("news-mini1").textContent=list[(newsIdx+1)%list.length].title;
+ document.getElementById("news-mini2").textContent=list.length>2?list[(newsIdx+2)%list.length].title:"";
 }
 setInterval(function(){
  newsIdx++;renderNewsCard();
@@ -849,6 +990,7 @@ function fetchNews(){
 setInterval(fetchResults,5*60*1000);
 setInterval(fetchNews,30*60*1000);
 setInterval(fetchFixturesAPI,6*60*60*1000);
+setInterval(fetchClubsAPI,6*60*60*1000);
 setInterval(function(){fetchCityNews();fetchLatestVideo();},60*60*1000);
 
 /* ---------- idle full reload every 20 min ---------- */
@@ -856,8 +998,10 @@ var lastTouch=Date.now();
 ["click","keydown","touchstart","mousemove"].forEach(function(ev){
  window.addEventListener(ev,function(){lastTouch=Date.now();},{passive:true});
 });
+var bootTime=Date.now();
 setInterval(function(){
- if(Date.now()-lastTouch>20*60*1000)location.reload();
+ var uptime=Date.now()-bootTime, idle=Date.now()-lastTouch;
+ if(uptime>60*60*1000 && idle>2*60*1000)location.reload();
 },60*1000);
 
 /* ---------- controls ---------- */
@@ -918,7 +1062,7 @@ document.getElementById("btnTint").addEventListener("click",function(){
 function tickSecond(){clock();renderNext();}
 scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();
 setInterval(tickSecond,1000);
-fetchResults();fetchNews();fetchFixturesAPI();fetchCityNews();fetchLatestVideo();renderNewsCard();
+fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchCityNews();fetchLatestVideo();renderNewsCard();
 </script>
 </body>
 </html>
