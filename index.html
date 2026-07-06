@@ -93,13 +93,13 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #nc-count{font-family:'Barlow Condensed';font-weight:700;font-size:52px;color:var(--gold);letter-spacing:.06em}
 #nc-note{position:absolute;right:22px;top:16px;font-size:14px;color:var(--steel)}
 #midrow{display:flex;gap:20px;height:206px;perspective:1600px}
-#flipcard{flex:1.18;padding:12px 20px;display:flex;flex-direction:column;transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden;min-width:0}
+#flipcard{flex:0.92;padding:12px 18px;display:flex;flex-direction:column;transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden;min-width:0}
 #face-titles,#face-tw{display:flex;flex-direction:column;flex:1;min-height:0}
 #trophycard{flex:1;display:flex;flex-direction:column;justify-content:space-between;margin-top:8px}
-#newscard{flex:1;min-width:0;overflow:hidden}
+#newscard{flex:1.25;min-width:0;overflow:hidden}
 #vidcard{flex:1;min-width:0;overflow:hidden;position:relative;padding:0}
-#newsbody{position:relative;flex:1;display:flex;flex-direction:column;margin-top:8px;min-height:0}
-#news-hero{position:relative;height:96px;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,rgba(108,171,221,.4),rgba(20,44,70,.7));flex:0 0 auto}
+#newsbody{position:relative;flex:1;display:flex;flex-direction:column;min-height:0}
+#news-hero{position:relative;height:118px;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,rgba(108,171,221,.4),rgba(20,44,70,.7));flex:0 0 auto}
 #news-heroshade{position:absolute;left:0;right:0;bottom:0;height:64px;background:linear-gradient(rgba(6,16,28,0),rgba(6,16,28,.92))}
 #news-hero #news-title{position:absolute;left:10px;right:10px;bottom:6px;margin:0;font-size:17px;font-weight:500;line-height:1.3;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6);-webkit-line-clamp:2}
 #news-hero #news-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -261,7 +261,6 @@ body.present:hover #ctrl{opacity:1;pointer-events:auto}
           </div>
         </div>
         <div class="hcard glass" id="newscard">
-          <div class="label">City &middot; News</div>
           <div id="newsbody">
             <div id="news-hero">
               <img id="news-img" alt="" style="display:none">
@@ -858,13 +857,23 @@ setInterval(function(){
 
 /* ---------- City news card: BBC feed (thumbs) + latest YouTube highlight ---------- */
 var NEWSITEMS=[], newsIdx=0, LATESTVID=null;
-function fetchFeed(url,parse){
- return fetch("https://api.allorigins.win/raw?url="+encodeURIComponent(url))
+var PROXIES=[
+ function(u){return "https://api.allorigins.win/raw?url="+encodeURIComponent(u);},
+ function(u){return "https://corsproxy.io/?url="+encodeURIComponent(u);},
+ function(u){return "https://api.codetabs.com/v1/proxy?quest="+encodeURIComponent(u);}
+];
+function fetchFeed(url,parse,pi){
+ pi=pi||0;
+ if(pi>=PROXIES.length)return Promise.resolve([]);
+ return fetch(PROXIES[pi](url))
   .then(function(r){return r.ok?r.text():null;})
   .then(function(xml){
-   if(!xml)return [];
-   try{return parse(new DOMParser().parseFromString(xml,"text/xml"));}catch(e){return [];}
-  }).catch(function(){return [];});
+   if(!xml)throw new Error("empty");
+   var out=parse(new DOMParser().parseFromString(xml,"text/xml"));
+   if(!out||!out.length)throw new Error("no items");
+   return out;
+  })
+  .catch(function(){return fetchFeed(url,parse,pi+1);});
 }
 function parseRss(doc,withThumbs,tag){
  var out=[],items=doc.querySelectorAll("item");
@@ -898,19 +907,28 @@ function fetchCityNews(){
   if(merged.length){NEWSITEMS=merged.slice(0,12);newsIdx=0;renderNewsCard();}
  });
 }
+function parseVideoFeed(doc){
+ var entries=doc.getElementsByTagNameNS("*","entry"),out=[];
+ for(var i=0;i<entries.length;i++){
+  var t=(entries[i].getElementsByTagNameNS("*","title")[0]||{}).textContent||"";
+  var id=(entries[i].getElementsByTagNameNS("*","videoId")[0]||{}).textContent;
+  if(id)out.push({title:t.trim(),id:id});
+ }
+ return out;
+}
 function fetchLatestVideo(){
- /* Man City official YouTube channel feed - newest upload */
- var feed="https://www.youtube.com/feeds/videos.xml?channel_id=UCkzCjdRMrW2vXLx8mvPVLdQ";
- var url="https://api.allorigins.win/raw?url="+encodeURIComponent(feed);
- fetch(url).then(function(r){return r.ok?r.text():null;}).then(function(xml){
-  if(!xml)return;
-  var doc=new DOMParser().parseFromString(xml,"text/xml");
-  var entries=doc.getElementsByTagNameNS("*","entry");
-  if(!entries.length)return;
-  var t=(entries[0].getElementsByTagNameNS("*","title")[0]||{}).textContent||"";
-  var id=(entries[0].getElementsByTagNameNS("*","videoId")[0]||{}).textContent;
-  if(id){LATESTVID={title:t.trim(),id:id};renderVideoFace();}
- }).catch(function(){});
+ /* UULF playlist = the channel's long-form videos ONLY (Shorts excluded by YouTube itself) */
+ var longform="https://www.youtube.com/feeds/videos.xml?playlist_id=UULFkzCjdRMrW2vXLx8mvPVLdQ";
+ var channel="https://www.youtube.com/feeds/videos.xml?channel_id=UCkzCjdRMrW2vXLx8mvPVLdQ";
+ fetchFeed(longform,parseVideoFeed).then(function(list){
+  if(list.length)return list;
+  /* fallback: channel feed, drop obvious shorts */
+  return fetchFeed(channel,parseVideoFeed).then(function(l){
+   return l.filter(function(v){return !/#shorts/i.test(v.title);});
+  });
+ }).then(function(list){
+  if(list&&list.length){LATESTVID=list[0];renderVideoFace();}
+ });
 }
 var VIDPLAYING=null;
 function renderVideoFace(){
@@ -973,19 +991,18 @@ function fetchNewsJson(){
 function fetchNews(){
  /* Route 1: Google News RSS (Manchester City), via CORS proxy. Fragile link -> silent fallback to news.json. */
  var rss="https://news.google.com/rss/search?q=%22Manchester+City%22&hl=en-GB&gl=GB&ceid=GB:en";
- var url="https://api.allorigins.win/raw?url="+encodeURIComponent(rss);
- fetch(url).then(function(r){return r.ok?r.text():null;}).then(function(xml){
-  if(!xml)throw new Error("no rss");
-  var doc=new DOMParser().parseFromString(xml,"text/xml");
+ fetchFeed(rss,function(doc){
   var items=doc.querySelectorAll("item > title");
   var out=[];
   for(var i=0;i<items.length&&out.length<8;i++){
-   var t=items[i].textContent.replace(/\s+-\s+[^-]+$/,"").trim(); /* strip trailing ' - Source' */
+   var t=items[i].textContent.replace(/\s+-\s+[^-]+$/,"").trim();
    if(t)out.push(t);
   }
+  return out;
+ }).then(function(out){
   if(out.length){NEWS=out;buildTicker();}
   else fetchNewsJson();
- }).catch(function(){fetchNewsJson();});
+ });
 }
 setInterval(fetchResults,5*60*1000);
 setInterval(fetchNews,30*60*1000);
