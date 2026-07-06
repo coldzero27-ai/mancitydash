@@ -876,7 +876,13 @@ function parseRss(doc,withThumbs,tag){
  for(var i=0;i<items.length&&out.length<8;i++){
   var t=items[i].querySelector("title");
   if(!t)continue;
-  var title=t.textContent.replace(/\s+-\s+[^-]+$/,"").trim();
+  var raw=t.textContent.trim();
+  var stripped=raw.replace(/\s+-\s+[^-]+$/,"").trim();
+  var title=(stripped.length>=20)?stripped:raw; /* don't strip a headline into nothing */
+  /* junk filters: too short, or just the club name / generic index pages */
+  if(title.length<22)continue;
+  if(/^man(chester)? city( fc)?([ ,.:|-].{0,20})?$/i.test(title))continue;
+  if(/official website|news, fixtures|latest news$/i.test(title))continue;
   var th=withThumbs?items[i].getElementsByTagNameNS("*","thumbnail")[0]:null;
   out.push({title:title,img:th?th.getAttribute("url"):null,src:tag});
  }
@@ -900,7 +906,9 @@ function fetchCityNews(){
     seen[key]=1;merged.push(it);
    });
   });
-  if(merged.length){NEWSITEMS=merged.slice(0,12);newsIdx=0;renderNewsCard();}
+  if(merged.length>=3||merged.length>NEWSITEMS.length){
+   NEWSITEMS=merged.slice(0,12);newsIdx=0;renderNewsCard();
+  }
  });
 }
 function fitVideoCover(){
@@ -937,9 +945,14 @@ function renderNewsCard(){
  var list=newsPlaylist();
  if(!list.length)return;
  for(var i=0;i<4;i++){
-  var it=list[(newsIdx+i)%list.length];
   var el=document.getElementById("news-row"+i);
-  if(el)el.textContent=it?it.title+(it.src==="Club"?" \u00b7 mancity.com":""):"";
+  if(!el)continue;
+  if(i<list.length){
+   var it=list[(newsIdx+i)%list.length];
+   el.textContent=it.title+(it.src==="Club"?" \u00b7 mancity.com":"");
+  }else{
+   el.textContent="";
+  }
  }
 }
 setInterval(function(){
