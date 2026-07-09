@@ -44,10 +44,12 @@
 -->
 <style>
 :root{
-  --bg:#0A1826; --panel:rgba(152,197,233,0.12); --panel-strong:rgba(152,197,233,0.2);
-  --line:rgba(152,197,233,0.4); --line-strong:rgba(152,197,233,0.65);
-  --sky:#98C5E9; --skydeep:#6CABDD; --ice:#F2F8FD; --steel:#A6C8E4; --gold:#F0C869;
-  --win:#57C08D; --draw:#D3AC52; --loss:#DB6B58;
+  /* Manchester City brand guidelines: Sky #6CADDF, Midnight #001838, Electric #3BD6FF, White */
+  --bg:#001838; --midnight:#001838; --panel:rgba(108,173,223,0.12); --panel-strong:rgba(108,173,223,0.2);
+  --line:rgba(108,173,223,0.42); --line-strong:rgba(108,173,223,0.68);
+  --sky:#6CADDF; --skydeep:#6CADDF; --electric:#3BD6FF; --ice:#FFFFFF; --steel:#6CADDF;
+  --gold:#3BD6FF; /* highlight role now Electric Blue - var name kept for sweep */
+  --win:#57C08D; --draw:#6CADDF; --loss:#DB6B58;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{height:100%;background:var(--bg);overflow:hidden;font-family:'Inter',sans-serif;color:var(--ice)}
@@ -69,10 +71,10 @@ body.hasphoto .aurora{display:none}
 body.tint-light #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,.14) 0%,rgba(6,18,32,.56) 100%)}
 body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,.48) 0%,rgba(6,18,32,.86) 100%)}
 .layer{position:relative;z-index:2}
-.glass{background:linear-gradient(160deg,rgba(108,171,221,0.22),rgba(28,60,92,0.38));border:1px solid var(--line);border-radius:16px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.glass{background:linear-gradient(160deg,rgba(0,24,56,0.5),rgba(0,24,56,0.74));border:1px solid var(--line);border-radius:16px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 .label{font-family:'Barlow Condensed';font-weight:600;letter-spacing:.18em;color:var(--steel);font-size:20px}
 /* header */
-#hdr{height:96px;display:flex;align-items:center;padding:0 44px;border-bottom:1px solid var(--line);background:rgba(26,58,90,0.5);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+#hdr{height:96px;display:flex;align-items:center;padding:0 44px;border-bottom:1px solid var(--line);background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 #brand{width:360px;display:flex;align-items:center}
 #cfglogo{height:64px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.45))}
 #cfwrap{flex:1;height:100%;position:relative;perspective:900px;overflow:hidden}
@@ -116,14 +118,14 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .trow.hot .cn{color:var(--gold)}
 .trow.hot .cd{color:var(--gold)}
 #compstrip{display:none;gap:14px;height:84px}
-.chip{flex:1;border-radius:12px;background:linear-gradient(160deg,rgba(108,171,221,0.22),rgba(28,60,92,0.38));border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:6px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.chip{flex:1;border-radius:12px;background:linear-gradient(160deg,rgba(0,24,56,0.5),rgba(0,24,56,0.74));border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:6px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 .chip .n{font-family:'Barlow Condensed';font-weight:600;font-size:21px;letter-spacing:.14em;color:var(--sky)}
 .chip .v{font-size:16px;color:var(--ice);text-align:center;line-height:1.25}
-.chip.hot{background:rgba(240,200,105,.13);border-color:var(--gold)}
+.chip.hot{background:rgba(59,214,255,.13);border-color:var(--gold)}
 .chip.hot .n{color:var(--gold)}
 #fixstrip{display:none}
-.fx{flex:1;border-radius:12px;background:linear-gradient(160deg,rgba(108,171,221,0.22),rgba(28,60,92,0.38));border:1px solid var(--line);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:8px}
-.fx.next{border-color:var(--gold);background:rgba(240,200,105,.10)}
+.fx{flex:1;border-radius:12px;background:linear-gradient(160deg,rgba(0,24,56,0.5),rgba(0,24,56,0.74));border:1px solid var(--line);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:8px}
+.fx.next{border-color:var(--gold);background:rgba(59,214,255,.10)}
 .fx .d{font-family:'Barlow Condensed';font-weight:600;font-size:19px;color:var(--sky);letter-spacing:.08em}
 .fx.next .d{color:var(--gold)}
 .fx .o{font-size:17px;color:var(--ice);text-align:center;line-height:1.2;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -153,7 +155,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #form-note{font-size:18px;color:var(--steel)}
 .fdot{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:700;font-size:19px;color:#06121f}
 .tag{display:inline-block;min-width:52px;text-align:center;border-radius:6px;padding:1px 8px;font-family:'Barlow Condensed';font-weight:600;font-size:17px;letter-spacing:.08em;margin-right:10px}
-.tag.PL{background:rgba(240,200,105,.2);color:var(--gold)}
+.tag.PL{background:rgba(59,214,255,.2);color:var(--gold)}
 .tag.UCL{background:rgba(108,171,221,.22);color:var(--sky)}
 .tag.FA{background:rgba(196,168,238,.2);color:#C4A8EE}
 .tag.EFL{background:rgba(158,225,203,.18);color:#9FE1CB}
@@ -175,7 +177,9 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #x-count{font-family:'Barlow Condensed';font-weight:700;color:var(--gold);font-size:26px}
 #mchdr{display:flex;align-items:center;gap:16px;height:56px}
 #mchdr .t{font-family:'Barlow Condensed';font-weight:700;font-size:38px;letter-spacing:.12em;color:var(--ice)}
-#mchdr .s{font-size:15px;color:var(--steel);letter-spacing:.22em;text-transform:uppercase;margin-left:auto}
+#clublinks{margin-left:auto;display:flex;gap:12px}
+#clublinks a{font-size:15px;color:var(--sky);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 16px;background:rgba(0,24,56,0.5)}
+#clublinks a:hover{color:var(--electric);border-color:var(--electric)}
 #spot-top{display:flex;justify-content:space-between;align-items:center}
 #spot-count{font-family:'Barlow Condensed';font-weight:600;font-size:20px;letter-spacing:.2em;color:var(--steel)}
 #spot-bar{width:130px;height:5px;background:rgba(255,255,255,.13);border-radius:3px;overflow:hidden}
@@ -190,16 +194,16 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #spot-foot{margin-top:auto;font-size:15px;color:var(--steel)}
 .pend{font-size:14px;color:var(--steel);border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin-left:10px;vertical-align:middle}
 /* ticker + foot */
-#tick{height:54px;border-top:1px solid var(--line);display:flex;align-items:center;overflow:hidden;position:relative;background:rgba(26,58,90,0.5);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
-#tick .badge{flex:0 0 auto;z-index:2;background:rgba(16,42,68,0.9);height:100%;display:flex;align-items:center;padding:0 26px 0 44px;font-family:'Barlow Condensed';font-weight:600;font-size:21px;letter-spacing:.24em;color:var(--gold)}
+#tick{height:54px;border-top:1px solid var(--line);display:flex;align-items:center;overflow:hidden;position:relative;background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+#tick .badge{flex:0 0 auto;z-index:2;background:rgba(0,24,56,0.92);height:100%;display:flex;align-items:center;padding:0 26px 0 44px;font-family:'Barlow Condensed';font-weight:600;font-size:21px;letter-spacing:.24em;color:var(--gold)}
 #tickline{white-space:nowrap;font-size:21px;color:#CFE4F6;will-change:transform}
-#foot{height:30px;display:flex;align-items:center;justify-content:space-between;padding:0 44px;font-size:13px;color:#9FC2DE;background:rgba(16,42,68,0.6)}
+#foot{height:30px;display:flex;align-items:center;justify-content:space-between;padding:0 44px;font-size:13px;color:#9FC2DE;background:rgba(0,24,56,0.68)}
 /* controls */
-#ctrl{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;gap:10px;transition:opacity .4s}
+#ctrl{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;gap:10px;transition:opacity .4s;opacity:0;pointer-events:none}
+#ctrl.show{opacity:1;pointer-events:auto}
 #ctrl button{background:rgba(10,22,36,.85);color:var(--ice);border:1px solid var(--line-strong);border-radius:10px;padding:10px 16px;font-family:'Inter';font-size:14px;cursor:pointer}
 #ctrl button:hover{background:rgba(20,40,62,.95)}
-body.present #ctrl{opacity:0;pointer-events:none}
-body.present:hover #ctrl{opacity:1;pointer-events:auto}
+
 #viewport{background:#000}
 @media print{
   @page{size:landscape}
@@ -234,7 +238,12 @@ body.present:hover #ctrl{opacity:1;pointer-events:auto}
       <div id="mchdr">
         <div id="mc-crest"></div>
         <div class="t">MANCHESTER CITY</div>
-        <div class="s">Flagship club &middot; all cards below</div>
+        <div id="clublinks">
+          <a href="https://www.mancity.com/citytv/mens/chairman-interview-khaldoon-al-mubarak-part-one-63916161" target="_blank" rel="noopener">Chairman's Interview '26</a>
+          <a href="https://www.mancity.com/annualreport2025/" target="_blank" rel="noopener">Annual Report 24-25</a>
+          <a href="https://www.mancity.com/news" target="_blank" rel="noopener">News</a>
+          <a href="https://x.com/ManCity" target="_blank" rel="noopener">@ManCity</a>
+        </div>
       </div>
       <div id="nextcard" class="glass">
         <div id="nc-note"></div>
@@ -250,7 +259,7 @@ body.present:hover #ctrl{opacity:1;pointer-events:auto}
       <div id="midrow">
         <div id="flipcard" class="glass">
           <div id="face-titles">
-            <div class="label">City &middot; Titles 2026/27</div>
+            <div class="label">City &middot; Competitions 2026/27</div>
             <div id="trophycard"></div>
           </div>
           <div id="face-tw" style="display:none">
@@ -1012,6 +1021,17 @@ setInterval(function(){
  if(uptime>60*60*1000 && idle>2*60*1000)location.reload();
 },60*1000);
 
+/* ---------- controls: hidden until the mouse moves ---------- */
+var ctrlTimer=null;
+function showCtrl(){
+ var c=document.getElementById("ctrl");
+ c.classList.add("show");
+ clearTimeout(ctrlTimer);
+ ctrlTimer=setTimeout(function(){c.classList.remove("show");},3000);
+}
+window.addEventListener("mousemove",showCtrl);
+window.addEventListener("touchstart",showCtrl,{passive:true});
+
 /* ---------- controls ---------- */
 document.getElementById("btnPresent").addEventListener("click",function(){
  var el=document.documentElement;
@@ -1048,11 +1068,14 @@ function buildMCHeader(){
 })();
 
 /* ---------- background mode toggle ---------- */
+document.body.classList.add("bg-photo");
+(function(){var v=document.getElementById("bgvid");if(v)v.pause();
+ document.getElementById("btnBg").textContent="Background: graphic";})();
 document.getElementById("btnBg").addEventListener("click",function(){
  var b=document.body,v=document.getElementById("bgvid");
  b.classList.toggle("bg-photo");
  var photo=b.classList.contains("bg-photo");
- this.textContent="Background: "+(photo?"photo":"video");
+ this.textContent="Background: "+(photo?"graphic":"video");
  if(v){if(photo)v.pause();else{var p=v.play();if(p&&p.catch)p.catch(function(){});}}
 });
 
