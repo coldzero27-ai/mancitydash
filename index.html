@@ -165,7 +165,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .tag.FR{background:rgba(166,200,228,.18);color:#A6C8E4}
 #herorow{display:flex;gap:20px;height:172px;perspective:1600px}
 #statscard{flex:0.9;display:flex;flex-direction:column;gap:2px;min-width:0;padding:10px 16px}
-#spot{flex:1.02}
+#spot{flex:1.02;overflow:hidden}
 .vrow{display:flex;align-items:center;gap:10px;flex:1;min-height:0}
 .vk{font-family:'Barlow Condensed';font-weight:600;font-size:18px;letter-spacing:.14em;color:var(--steel);width:72px}
 .statblk{display:flex;align-items:center;gap:14px}
@@ -184,17 +184,21 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .plrow.me .pp{color:#fff}
 #fxhead{display:flex;align-items:center;justify-content:space-between}
 #fxToggle{background:rgba(0,24,56,.5);border:1px solid var(--line);color:var(--electric);border-radius:999px;padding:4px 16px;font-size:14px;cursor:pointer;font-family:'Inter',sans-serif}
-#fxcal{margin-top:8px;flex:1;min-height:0}
-#cal-month{text-align:center;font-family:'Barlow Condensed';font-weight:600;font-size:20px;letter-spacing:.2em;color:var(--sky);margin-bottom:6px}
-#cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+#fxcal{margin-top:6px;flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+#cal-month{text-align:center;font-family:'Barlow Condensed';font-weight:600;font-size:19px;letter-spacing:.2em;color:var(--sky);margin-bottom:4px}
+#cal-grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(7,1fr);grid-auto-rows:minmax(0,1fr);gap:4px}
 .cal-dow{font-size:12px;color:var(--steel);text-align:center;font-family:'Barlow Condensed';letter-spacing:.1em}
-.cal-day{position:relative;border:1px solid rgba(108,173,223,.18);border-radius:8px;min-height:46px;padding:2px 5px}
+.cal-day{position:relative;border:1px solid rgba(108,173,223,.18);border-radius:8px;min-height:0;padding:1px 4px;overflow:hidden}
 .cal-day .dn{font-size:12px;color:var(--steel)}
 .cal-day.out{opacity:.22}
 .cal-day.match{border-color:var(--line-strong);background:rgba(108,173,223,.10)}
 .cal-day.nextm{border-color:var(--electric);box-shadow:0 0 10px rgba(59,214,255,.35)}
-.cal-day img{position:absolute;right:3px;bottom:3px;width:26px;height:26px;object-fit:contain}
+.cal-day img{position:absolute;right:2px;bottom:2px;width:24px;height:24px;object-fit:contain}
 .cal-day .hm{position:absolute;left:5px;bottom:2px;font-size:11px;color:var(--steel)}
+.cal-day .cd{position:absolute;top:4px;right:4px;width:9px;height:9px;border-radius:50%}
+#cal-legend{display:none;gap:13px;align-items:center;margin:0 12px 0 18px;flex:1;font-family:'Barlow Condensed';font-weight:600;font-size:14px;letter-spacing:.06em;color:#CFE4F6;overflow:hidden;white-space:nowrap}
+#cal-legend span{display:flex;align-items:center;gap:5px}
+#cal-legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
 /* right column: compact spotlight + Man City extras */
 #right{flex:1;display:flex;flex-direction:column;gap:20px;min-width:0;perspective:1400px}
 #spot{transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden}
@@ -215,17 +219,16 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #clublinks{margin-left:auto;display:flex;gap:12px}
 #clublinks a{font-size:15px;color:var(--sky);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 16px;background:rgba(0,24,56,0.5)}
 #clublinks a:hover{color:var(--electric);border-color:var(--electric)}
-#spot-top{display:flex;justify-content:space-between;align-items:center}
-#spot-count{font-family:'Barlow Condensed';font-weight:600;font-size:20px;letter-spacing:.2em;color:var(--steel)}
-#spot-bar{width:130px;height:5px;background:rgba(255,255,255,.13);border-radius:3px;overflow:hidden}
-#spot-fill{height:100%;width:0;background:var(--sky);border-radius:3px}
-#spot-id{display:flex;align-items:center;gap:12px;margin:8px 0 4px}
+#spot-bar{position:absolute;top:0;left:0;right:0;height:3px;background:rgba(255,255,255,.10);border-radius:3px 3px 0 0;overflow:hidden}
+#spot-fill{height:100%;width:0;background:var(--electric)}
+#spot-id{display:flex;align-items:center;gap:12px;margin:4px 0 2px}
 #spot-name{font-family:'Barlow Condensed';font-weight:700;font-size:22px;line-height:1;color:var(--ice)}
 #spot-league{font-size:14px;color:var(--steel);margin-top:3px}
-.srow{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:5px 2px;font-size:15px}
+.srow{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:4px 2px;font-size:14px;min-height:0}
+.srow .v{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62%}
 .srow .k{color:var(--steel)}
 .srow .v{color:var(--ice);text-align:right}
-#spot-next{font-size:14px;line-height:1.4}
+#spot-next{font-size:13px;line-height:1.3}
 #spot-foot{margin-top:auto;font-size:12px;color:var(--steel)}
 .pend{font-size:14px;color:var(--steel);border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin-left:10px;vertical-align:middle}
 /* ticker + foot */
@@ -326,10 +329,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
           <div class="vrow"><div class="statblk sm" id="blk-assists"></div></div>
         </div>
         <div id="spot" class="glass">
-        <div id="spot-top">
-          <div id="spot-count">CLUB SPOTLIGHT</div>
-          <div id="spot-bar"><div id="spot-fill"></div></div>
-        </div>
+        <div id="spot-bar"><div id="spot-fill"></div></div>
         <div id="spot-id">
           <div id="spot-crest"></div>
           <div>
@@ -353,6 +353,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
       <div id="fxpanel" class="glass">
         <div id="fxhead">
           <div class="label">City &middot; Fixtures &middot; GST</div>
+          <div id="cal-legend"></div>
           <button id="fxToggle">Calendar</button>
         </div>
         <div id="fxlist"></div>
@@ -853,6 +854,7 @@ function gstParts(utc){
  return {y:d.getUTCFullYear(),m:d.getUTCMonth(),day:d.getUTCDate()};
 }
 var MONTHS=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+var COMPCOLORS={PL:"#3BD6FF",UCL:"#6CADDF",FA:"#C4A8EE",EFL:"#9FE1CB",SHIELD:"#F0997B",FR:"#A6C8E4"};
 function renderFxCal(){
  var host=document.getElementById("fxcal");if(!host)return;
  var list=getFixtures().slice()
@@ -872,7 +874,7 @@ function renderFxCal(){
  var first=new Date(Date.UTC(y,m,1));
  var startDow=(first.getUTCDay()+6)%7; /* Monday first */
  var days=new Date(Date.UTC(y,m+1,0)).getUTCDate();
- var h="<div id='cal-month'>"+MONTHS[m]+" "+y+"</div><div id='cal-grid'>";
+ var h="<div id='cal-grid'>";
  ["MO","TU","WE","TH","FR","SA","SU"].forEach(function(d){h+="<div class='cal-dow'>"+d+"</div>";});
  for(var i=0;i<startDow;i++)h+="<div class='cal-day out'></div>";
  for(var d=1;d<=days;d++){
@@ -885,11 +887,20 @@ function renderFxCal(){
    var src=CRESTS[club.code];
    if(src)h+="<img src='"+src+"' alt=''>";
    h+="<span class='hm'>"+(home?"H":"A")+"</span>";
+   h+="<span class='cd' style='background:"+(COMPCOLORS[f.comp]||"#A6C8E4")+"'></span>";
   }
   h+="</div>";
  }
  h+="</div>";
- host.innerHTML=h;
+ /* legend renders in the card header, next to the GST label */
+ var present={};for(var k in byDay)present[byDay[k].comp]=1;
+ var lg="";
+ ["PL","UCL","FA","EFL","SHIELD","FR"].forEach(function(c){
+  if(present[c])lg+="<span><i style='background:"+COMPCOLORS[c]+"'></i>"+esc(COMPNAMES[c]||c)+"</span>";
+ });
+ var lgEl=document.getElementById("cal-legend");
+ if(lgEl){lgEl.innerHTML=lg;lgEl.style.display=calMode?"flex":"none";}
+ host.innerHTML="<div id='cal-month'>"+MONTHS[m]+" "+y+"</div>"+h;
 }
 var calMode=true;
 document.getElementById("fxlist").style.display="none";
@@ -899,6 +910,7 @@ document.getElementById("fxToggle").addEventListener("click",function(){
  calMode=!calMode;
  document.getElementById("fxlist").style.display=calMode?"none":"flex";
  document.getElementById("fxcal").style.display=calMode?"block":"none";
+ document.getElementById("cal-legend").style.display=calMode?"flex":"none";
  this.textContent=calMode?"List":"Calendar";
  if(calMode)renderFxCal();
 });
@@ -939,7 +951,7 @@ var spotIdx=0,SPOT_MS=20000,spotStart=Date.now();
 function renderSpot(){
  var c=CLUBS[spotIdx];
  var live=DATA.clubs[c.code]||APICLUBS[c.code]||{};
- document.getElementById("spot-count").textContent="CLUB SPOTLIGHT \u00b7 "+(spotIdx+1)+"/"+CLUBS.length;
+ 
  var host=document.getElementById("spot-crest");host.innerHTML="";
  host.appendChild(crestEl(c,64));
  document.getElementById("spot-name").textContent=c.name;
