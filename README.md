@@ -41,3 +41,36 @@ are used, by design.
 ## Data sources (baked snapshot, verified 4-6 Jul 2026)
 premierleague.com · mancity.com · skysports.com · ESPN. Fixture times beyond
 opening weekend are provisional until broadcast picks.
+
+## VVIP ops runbook (resilience & manual control)
+- **Priority everywhere:** `results.json` (manual) > fresh API > last local snapshot > baked list.
+- **Sources go down?** Every successful pull is snapshotted in the display's browser
+  (localStorage). Cards silently keep serving the last good data. Nothing blanks.
+- **Fix a record fast:** move mouse (controls appear) → **Export data** → downloads
+  `results.json` with the board's current effective data → edit any record (in Claude,
+  a text editor, anywhere) → upload to the repo as `results.json` → all screens adopt
+  it within ~5 min. The `fixtures` array replaces the whole list, so removing a record
+  from the file removes it from the board.
+- **All times:** stored as UTC in `utc` fields; rendered in GST (UTC+4) with correct
+  date rollovers. Edit times in UTC; the board does the conversion.
+- **Standings/form:** live from TheSportsDB (PL league table + City last-5), 6-hourly,
+  snapshotted. Pre-season shows the 20 clubs at zero with a "season starts" note.
+- **Still manual by design:** transfers, top scorer/assists (until an API-Football key
+  is added), and anything you choose to pin via `results.json`.
+
+## social.json (X / @ManCity pipeline)
+Written automatically by a scheduled Claude Cowork task on an operator laptop
+(X logged in via Claude in Chrome, GitHub connected). Schema:
+`{"updated":"<ISO UTC>","posts":[{"text":"...","url":"https://x.com/ManCity/status/...","time":"<ISO UTC>"}]}`
+Newest first, max 8. The board merges the top posts into the news rotation tagged
+"X @ManCity" and refreshes every 15 min. Manual edits work the same way as results.json.
+
+## Data aging policy
+- **X posts (social.json):** anything older than 72h is dropped automatically at
+  render, and a dead laptop's snapshot expires after 72h too. Old posts cannot linger.
+- **News:** cached headlines keep showing (the wall never blanks), but the card badge
+  escalates from CACHED to STALE once the snapshot passes 72h.
+- **results.json:** manual data is authoritative and never auto-expires — instead its
+  age is surfaced: if the file's `updated` field is 7+ days old, the footer shows a
+  warning. Exported files carry `updated` automatically.
+- **Fixtures:** past matches drop out of list and calendar ~2h after kickoff.

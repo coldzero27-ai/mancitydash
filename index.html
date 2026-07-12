@@ -94,15 +94,19 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #nc-meta{font-size:23px;color:var(--sky)}
 #nc-count{font-family:'Barlow Condensed';font-weight:700;font-size:52px;color:var(--gold);letter-spacing:.06em}
 #nc-note{position:absolute;right:22px;top:16px;font-size:14px;color:var(--steel)}
-#midrow{display:flex;gap:20px;height:206px;perspective:1600px}
-#flipcard{flex:0.92;padding:12px 18px;display:flex;flex-direction:column;transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden;min-width:0}
+#midrow{display:flex;gap:20px;height:252px;perspective:1600px}
+#flipcard{flex:1.02;padding:10px 16px;display:flex;flex-direction:column;transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden;min-width:0}
 #face-titles,#face-tw{display:flex;flex-direction:column;flex:1;min-height:0}
 #trophycard{flex:1;display:flex;flex-direction:column;justify-content:space-between;margin-top:8px}
-#newscard{flex:1.25;min-width:0;overflow:hidden}
+#newscard{flex:1.25;min-width:0;overflow:hidden;position:relative}
 #vidcard{flex:1;min-width:0;overflow:hidden;position:relative;padding:0}
 #newsbody{position:relative;flex:1;display:flex;flex-direction:column;justify-content:space-between;min-height:0;padding:4px 0}
-.news-row{font-size:16px;color:#DCEBF8;line-height:1.35;padding-left:12px;border-left:2px solid rgba(152,197,233,.4);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-.news-row.lead{font-size:17px;font-weight:500;color:var(--gold);border-left:3px solid var(--gold)}
+#news-fresh{position:absolute;top:10px;right:14px;font-family:'Barlow Condensed';font-weight:600;font-size:14px;letter-spacing:.1em}
+#news-fresh.live{color:var(--electric)}
+#news-fresh.cached{color:var(--sky)}
+#news-fresh.seed{color:var(--steel)}
+.news-row{font-size:19px;color:#DCEBF8;line-height:1.4;padding-left:12px;border-left:2px solid rgba(152,197,233,.4);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.news-row.lead{font-size:21px;font-weight:500;color:var(--gold);border-left:3px solid var(--gold)}
 .news-row.dim{color:var(--steel);border-left-color:rgba(152,197,233,.22)}
 #vidbody{position:absolute;inset:0;cursor:pointer}
 #vid-img{width:100%;height:100%;object-fit:cover;display:block}
@@ -111,9 +115,9 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #news-iframe{width:100%;height:108px;border-radius:10px;border:1px solid var(--line)}
 #news-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.85)}
 
-.trow{display:flex;align-items:center;gap:10px;font-size:16px;min-width:0}
+.trow{display:flex;align-items:center;gap:8px;font-size:14px;min-width:0}
 .trow svg{flex:0 0 auto}
-.trow .cn{font-family:'Barlow Condensed';font-weight:600;font-size:19px;letter-spacing:.05em;color:var(--sky);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trow .cn{font-family:'Barlow Condensed';font-weight:600;font-size:17px;letter-spacing:.04em;color:var(--sky);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .trow .cd{color:var(--ice);white-space:nowrap;font-size:16px}
 .trow.hot .cn{color:var(--gold)}
 .trow.hot .cd{color:var(--gold)}
@@ -141,9 +145,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .hcard{flex:1;padding:18px 22px;display:flex;flex-direction:column;min-width:0}
 .hcard .body{margin-top:12px;font-size:19px;line-height:1.75;color:#DCEBF8;overflow:hidden}
 .frow{display:flex;gap:9px}
-#statsrow{display:flex;align-items:center;gap:30px;height:100%;margin-top:6px}
-.statdiv{width:1px;height:64px;background:var(--line)}
-.statblk{display:flex;align-items:center;gap:14px}
+.statdiv{display:none}
 .statface{width:60px;height:60px;border-radius:50%;object-fit:cover;background:#1a3050}
 .statface.gold{border:2.5px solid var(--gold)}
 .statface.sky{border:2.5px solid var(--sky)}
@@ -152,8 +154,8 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .statn{font-size:21px;color:var(--ice)}
 .statn b{font-weight:600}
 .statn b.gold{color:var(--gold)} .statn b.sky{color:var(--sky)}
-#form-note{font-size:18px;color:var(--steel)}
-.fdot{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:700;font-size:19px;color:#06121f}
+#form-note{font-size:14px;color:var(--steel)}
+.fdot{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:700;font-size:19px;color:#06121f}
 .tag{display:inline-block;min-width:52px;text-align:center;border-radius:6px;padding:1px 8px;font-family:'Barlow Condensed';font-weight:600;font-size:17px;letter-spacing:.08em;margin-right:10px}
 .tag.PL{background:rgba(59,214,255,.2);color:var(--gold)}
 .tag.UCL{background:rgba(108,171,221,.22);color:var(--sky)}
@@ -161,11 +163,44 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .tag.EFL{background:rgba(158,225,203,.18);color:#9FE1CB}
 .tag.SHIELD{background:rgba(240,153,123,.18);color:#F0997B}
 .tag.FR{background:rgba(166,200,228,.18);color:#A6C8E4}
+#herorow{display:flex;gap:20px;height:172px;perspective:1600px}
+#statscard{flex:0.9;display:flex;flex-direction:column;gap:2px;min-width:0;padding:10px 16px}
+#spot{flex:1.02}
+.vrow{display:flex;align-items:center;gap:10px;flex:1;min-height:0}
+.vk{font-family:'Barlow Condensed';font-weight:600;font-size:18px;letter-spacing:.14em;color:var(--steel);width:72px}
+.statblk{display:flex;align-items:center;gap:14px}
+.statblk.sm .statface{width:40px;height:40px}
+.statblk.sm .stath{font-size:15px}
+.statblk.sm .statn{font-size:19px}
+#standings{padding:16px 20px;display:flex;flex-direction:column;min-height:0}
+#plTable{margin-top:8px;flex:1;display:flex;flex-direction:column;justify-content:space-between;font-size:17px;min-height:0}
+.plrow{display:flex;align-items:center;gap:9px;padding:3px 8px;border-radius:8px;color:#DCEBF8}
+.plrow.head{color:var(--steel);font-family:'Barlow Condensed';font-weight:600;letter-spacing:.1em;font-size:15px}
+.plrow.me{background:rgba(59,214,255,.16);color:#fff;font-weight:600}
+.plrow .pr{width:24px;text-align:right;font-family:'Barlow Condensed';font-weight:600}
+.plrow .pn{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-left:4px}
+.plrow .pc{width:36px;text-align:center}
+.plrow .pp{width:42px;text-align:center;font-weight:700;color:var(--electric)}
+.plrow.me .pp{color:#fff}
+#fxhead{display:flex;align-items:center;justify-content:space-between}
+#fxToggle{background:rgba(0,24,56,.5);border:1px solid var(--line);color:var(--electric);border-radius:999px;padding:4px 16px;font-size:14px;cursor:pointer;font-family:'Inter',sans-serif}
+#fxcal{margin-top:8px;flex:1;min-height:0}
+#cal-month{text-align:center;font-family:'Barlow Condensed';font-weight:600;font-size:20px;letter-spacing:.2em;color:var(--sky);margin-bottom:6px}
+#cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.cal-dow{font-size:12px;color:var(--steel);text-align:center;font-family:'Barlow Condensed';letter-spacing:.1em}
+.cal-day{position:relative;border:1px solid rgba(108,173,223,.18);border-radius:8px;min-height:46px;padding:2px 5px}
+.cal-day .dn{font-size:12px;color:var(--steel)}
+.cal-day.out{opacity:.22}
+.cal-day.match{border-color:var(--line-strong);background:rgba(108,173,223,.10)}
+.cal-day.nextm{border-color:var(--electric);box-shadow:0 0 10px rgba(59,214,255,.35)}
+.cal-day img{position:absolute;right:3px;bottom:3px;width:26px;height:26px;object-fit:contain}
+.cal-day .hm{position:absolute;left:5px;bottom:2px;font-size:11px;color:var(--steel)}
 /* right column: compact spotlight + Man City extras */
 #right{flex:1;display:flex;flex-direction:column;gap:20px;min-width:0;perspective:1400px}
 #spot{transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden}
-#spot{flex:0 0 44%;display:flex;flex-direction:column;padding:16px 22px;min-width:0;position:relative}
-#fxpanel{flex:1;padding:16px 22px;display:flex;flex-direction:column;overflow:hidden}
+#spot{flex:1;display:flex;flex-direction:column;padding:12px 18px;min-width:0;position:relative}
+#standings{flex:1.08}
+#fxpanel{flex:1;padding:14px 20px;display:flex;flex-direction:column;overflow:hidden}
 #fxlist{margin-top:10px;display:flex;flex-direction:column;gap:8px;font-size:18px;color:#DCEBF8}
 #fxlist .fxrow{display:flex;align-items:center}
 #fxlist .fxrow.next{color:var(--gold)}
@@ -184,14 +219,14 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #spot-count{font-family:'Barlow Condensed';font-weight:600;font-size:20px;letter-spacing:.2em;color:var(--steel)}
 #spot-bar{width:130px;height:5px;background:rgba(255,255,255,.13);border-radius:3px;overflow:hidden}
 #spot-fill{height:100%;width:0;background:var(--sky);border-radius:3px}
-#spot-id{display:flex;align-items:center;gap:16px;margin:16px 0 6px}
-#spot-name{font-family:'Barlow Condensed';font-weight:700;font-size:34px;line-height:1;color:var(--ice)}
-#spot-league{font-size:17px;color:var(--steel);margin-top:5px}
-.srow{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:10px 2px;font-size:18px}
+#spot-id{display:flex;align-items:center;gap:12px;margin:8px 0 4px}
+#spot-name{font-family:'Barlow Condensed';font-weight:700;font-size:22px;line-height:1;color:var(--ice)}
+#spot-league{font-size:14px;color:var(--steel);margin-top:3px}
+.srow{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:5px 2px;font-size:15px}
 .srow .k{color:var(--steel)}
 .srow .v{color:var(--ice);text-align:right}
-#spot-next{font-size:17px;line-height:1.45}
-#spot-foot{margin-top:auto;font-size:15px;color:var(--steel)}
+#spot-next{font-size:14px;line-height:1.4}
+#spot-foot{margin-top:auto;font-size:12px;color:var(--steel)}
 .pend{font-size:14px;color:var(--steel);border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin-left:10px;vertical-align:middle}
 /* ticker + foot */
 #tick{height:54px;border-top:1px solid var(--line);display:flex;align-items:center;overflow:hidden;position:relative;background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
@@ -257,17 +292,8 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
         <div id="nc-count"></div>
       </div>
       <div id="midrow">
-        <div id="flipcard" class="glass">
-          <div id="face-titles">
-            <div class="label">City &middot; Competitions 2026/27</div>
-            <div id="trophycard"></div>
-          </div>
-          <div id="face-tw" style="display:none">
-            <div class="label" id="tw-label">City &middot; Transfer Window</div>
-            <div class="body" id="tw-body"></div>
-          </div>
-        </div>
         <div class="hcard glass" id="newscard">
+          <div id="news-fresh"></div>
           <div id="newsbody">
             <div class="news-row lead" id="news-row0">Loading City news&hellip;</div>
             <div class="news-row" id="news-row1"></div>
@@ -283,22 +309,23 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
         </div>
       </div>
       <div id="herorow">
-        <div class="hcard glass">
-          <div class="label">City &middot; Form &amp; Stats</div>
-          <div id="statsrow">
-            <div class="frow" id="form-dots"></div>
-            <div id="form-note"></div>
-            <div class="statdiv"></div>
-            <div class="statblk" id="blk-scorer"></div>
-            <div class="statdiv"></div>
-            <div class="statblk" id="blk-assists"></div>
+        <div id="flipcard" class="glass">
+          <div id="face-titles">
+            <div class="label">City &middot; Competitions 2026/27</div>
+            <div id="trophycard"></div>
+          </div>
+          <div id="face-tw" style="display:none">
+            <div class="label" id="tw-label">City &middot; Transfer Window</div>
+            <div class="body" id="tw-body"></div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div id="right">
-      <div id="spot" class="glass">
+        <div class="hcard glass" id="statscard">
+          <div class="label">City &middot; Form &amp; Stats</div>
+          <div class="vrow"><span class="vk">Last 5</span><div class="frow" id="form-dots"></div><span id="form-note"></span></div>
+          <div class="vrow"><div class="statblk sm" id="blk-scorer"></div></div>
+          <div class="vrow"><div class="statblk sm" id="blk-assists"></div></div>
+        </div>
+        <div id="spot" class="glass">
         <div id="spot-top">
           <div id="spot-count">CLUB SPOTLIGHT</div>
           <div id="spot-bar"><div id="spot-fill"></div></div>
@@ -315,9 +342,21 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
         <div class="srow"><span class="k">Next match</span><span class="v" id="spot-next">&mdash;</span></div>
         <div id="spot-foot">&mdash;</div>
       </div>
+      </div>
+    </div>
+
+    <div id="right">
+      <div id="standings" class="glass">
+        <div class="label">Premier League &middot; Standings</div>
+        <div id="plTable"></div>
+      </div>
       <div id="fxpanel" class="glass">
-        <div class="label">City &middot; Fixtures &middot; GST</div>
+        <div id="fxhead">
+          <div class="label">City &middot; Fixtures &middot; GST</div>
+          <button id="fxToggle">Calendar</button>
+        </div>
         <div id="fxlist"></div>
+        <div id="fxcal" style="display:none"></div>
       </div>
     </div>
   </div>
@@ -328,12 +367,13 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
   </div>
   <div id="foot" class="layer">
     <span>Fixtures: premierleague.com &middot; mancity.com &middot; skysports.com (retrieved 4 Jul 2026) &middot; live values via results.json / news.json</span>
-    <span>All times GST (UTC+4)</span>
+    <span id="freshline">All times GST (UTC+4)</span>
   </div>
 </div>
 </div>
 
 <div id="ctrl">
+  <button id="btnExport">Export data</button>
   <button id="btnBg">Background: video</button>
   <button id="btnTint">Tint: medium</button>
   <button id="btnPresent">Present</button>
@@ -385,8 +425,14 @@ var NEWS = [
  "Update this line via news.json in the repo"
 ];
 var DATA = {mancity:null,clubs:{}};
-var APIFIX = []; /* live fixtures from TheSportsDB; overridden by results.json */
-var APICLUBS = {}; /* live per-club next match; results.json clubs override */
+/* ---- resilience layer: every successful online pull is snapshotted locally.
+   Priority everywhere: results.json (manual) > fresh API > snapshot > baked. ---- */
+var LIVE=(function(){try{return JSON.parse(localStorage.getItem("cfgLive")||"{}");}catch(e){return {};}})();
+function saveLive(k,v){LIVE[k]={t:Date.now(),v:v};try{localStorage.setItem("cfgLive",JSON.stringify(LIVE));}catch(e){}}
+function liveGet(k){return LIVE[k]?LIVE[k].v:null;}
+var APITABLE=liveGet("table")||[], APIFORM=liveGet("form")||[];
+var APIFIX = liveGet("fixtures")||[]; /* live fixtures; overridden by results.json */
+var APICLUBS = liveGet("clubs")||{}; /* live per-club next match; results.json clubs override */
 var SDB_QUERIES = {GIR:"Girona",PAL:"Palermo",NYC:"New York City FC",BAH:"EC Bahia",
  TRO:"Troyes",LOM:"Lommel SK",MEL:"Melbourne City",TOR:"Montevideo City Torque",SHE:"Shenzhen Peng City"};
 function fetchClubNext(codes,i){
@@ -412,6 +458,7 @@ function fetchClubNext(codes,i){
     var meHome=(e.strHomeTeam||"").toLowerCase().indexOf(q.split(" ")[0].toLowerCase())!==-1;
     APICLUBS[code].next={utc:e.dateEvent+"T"+time+"Z",
       opp:meHome?e.strAwayTeam:e.strHomeTeam,home:meHome};
+    saveLive("clubs",APICLUBS);
     renderSpot();
    }
   })
@@ -441,8 +488,69 @@ function fetchFixturesAPI(){
     out.push({utc:e.dateEvent+"T"+time+"Z",comp:compFromLeague(e.strLeague),
       home:e.strHomeTeam,away:e.strAwayTeam,venue:e.strVenue||"",subj:false});
    });
-   if(out.length){APIFIX=out;renderNext();renderHero();}
+   if(out.length){APIFIX=out;saveLive("fixtures",out);renderNext();renderHero();}
   }).catch(function(){});
+}
+var PL_CLUBS_2627=["Man City","Arsenal","Liverpool","Chelsea","Aston Villa","Newcastle","Tottenham",
+ "Brighton","Nottingham Forest","Fulham","Brentford","Crystal Palace","Everton","Bournemouth",
+ "Manchester United","Sunderland","Leeds","Coventry City","Ipswich Town","Hull City"];
+function fetchTableAPI(){
+ fetch("https://www.thesportsdb.com/api/v1/json/3/lookuptable.php?l=4328&s=2026-2027")
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.table||!j.table.length)return;
+   var out=j.table.map(function(t){return {rank:+t.intRank,team:t.strTeam,p:+t.intPlayed,
+     w:+t.intWin,d:+t.intDraw,l:+t.intLoss,gd:+t.intGoalDifference,pts:+t.intPoints};});
+   APITABLE=out;saveLive("table",out);renderTable();
+  }).catch(function(){});
+}
+function fetchFormAPI(){
+ fetch("https://www.thesportsdb.com/api/v1/json/3/eventslast.php?id=133613")
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.results)return;
+   var out=[];
+   j.results.forEach(function(e){
+    if(!e.dateEvent||e.dateEvent<"2026-08-01")return; /* competitive season only */
+    if(e.intHomeScore===null||e.intAwayScore===null)return;
+    var hs=+e.intHomeScore,as=+e.intAwayScore,meHome=isCity(e.strHomeTeam);
+    var mine=meHome?hs:as,theirs=meHome?as:hs;
+    out.push(mine>theirs?"W":(mine===theirs?"D":"L"));
+   });
+   out.reverse(); /* oldest -> newest */
+   if(out.length){APIFORM=out.slice(-5);saveLive("form",APIFORM);renderHero();}
+  }).catch(function(){});
+}
+function getTable(){
+ if(DATA.mancity&&DATA.mancity.table&&DATA.mancity.table.length)return DATA.mancity.table;
+ if(APITABLE.length)return APITABLE;
+ return PL_CLUBS_2627.map(function(n,i){return {rank:i+1,team:n,p:0,w:0,d:0,l:0,gd:0,pts:0};});
+}
+function renderTable(){
+ var t=getTable().slice().sort(function(a,b){return a.rank-b.rank;});
+ var host=document.getElementById("plTable");if(!host)return;
+ host.innerHTML="";
+ var head=document.createElement("div");head.className="plrow head";
+ head.innerHTML="<span class='pr'>#</span><span class='pn' style='margin-left:38px'>TEAM</span>"+
+  "<span class='pc'>P</span><span class='pc'>W</span><span class='pc'>GD</span><span class='pp'>PTS</span>";
+ host.appendChild(head);
+ var rows=t.slice(0,8);
+ var cityIn=rows.some(function(r){return isCity(r.team);});
+ if(!cityIn){var c=t.filter(function(r){return isCity(r.team);})[0];if(c)rows=t.slice(0,7).concat([c]);}
+ rows.forEach(function(r){
+  var d=document.createElement("div");
+  d.className="plrow"+(isCity(r.team)?" me":"");
+  d.innerHTML="<span class='pr'>"+r.rank+"</span>";
+  d.appendChild(crestEl(clubByName(r.team),26));
+  d.insertAdjacentHTML("beforeend","<span class='pn'>"+esc(r.team)+"</span>"+
+   "<span class='pc'>"+r.p+"</span><span class='pc'>"+r.w+"</span>"+
+   "<span class='pc'>"+(r.gd>0?"+":"")+r.gd+"</span><span class='pp'>"+r.pts+"</span>");
+  host.appendChild(d);
+ });
+ var note=document.createElement("div");
+ note.className="plrow head";note.style.justifyContent="center";
+ note.textContent=(t[0]&&t[0].p>0)?"":"Season starts 23 Aug \u00b7 GST";
+ host.appendChild(note);
 }
 function getFixtures(){
  if(DATA.mancity&&DATA.mancity.fixtures&&DATA.mancity.fixtures.length)return DATA.mancity.fixtures;
@@ -632,7 +740,7 @@ function trophyImg(key,hot){
  if(!TROPHIES[key]){var sp=document.createElement("span");sp.style.width="26px";sp.style.display="inline-block";return sp;}
  var img=document.createElement("img");
  img.src=TROPHIES[key][hot?"gold":"ice"]||"";
- img.style.width="26px";img.style.height="26px";img.style.objectFit="contain";
+ img.style.width="22px";img.style.height="22px";img.style.objectFit="contain";
  img.style.filter="drop-shadow(0 1px 4px rgba(0,0,0,.5))";
  img.alt="";
  return img;
@@ -666,15 +774,16 @@ function renderHero(){
  var fd=document.getElementById("form-dots");
  fd.innerHTML="";
  var note=document.getElementById("form-note");
- if(mc&&mc.form&&mc.form.length){
+ var form=(mc&&mc.form&&mc.form.length)?mc.form:APIFORM;
+ if(form&&form.length){
   note.textContent="";
-  mc.form.slice(-5).forEach(function(r){
+  form.slice(-5).forEach(function(r){
    var d=document.createElement("div");d.className="fdot";
    d.style.background=r==="W"?"var(--win)":r==="D"?"var(--draw)":"var(--loss)";
    d.textContent=r;fd.appendChild(d);
   });
  }else{
-  note.textContent="New season \u2014 form appears after matchday 1";
+  note.textContent="from matchday 1";
  }
  statBlock("blk-scorer","TOP SCORER","gold",mc&&mc.topScorer);
  statBlock("blk-assists","TOP ASSISTS","sky",mc&&mc.topAssists);
@@ -717,6 +826,7 @@ function renderFixStrip(){
    .sort(function(a,b){return new Date(a.utc)-new Date(b.utc);})
    .filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;})
    .slice(0,9);
+ if(calMode)renderFxCal();
  var host=document.getElementById("fxlist");host.innerHTML="";
  list.forEach(function(f,i){
   var w=fmtDT(f.utc);
@@ -736,6 +846,62 @@ function renderFixStrip(){
   host.appendChild(d);
  });
 }
+
+/* ---------- fixtures calendar view ---------- */
+function gstParts(utc){
+ var d=new Date(new Date(utc).getTime()+4*3600e3);
+ return {y:d.getUTCFullYear(),m:d.getUTCMonth(),day:d.getUTCDate()};
+}
+var MONTHS=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+function renderFxCal(){
+ var host=document.getElementById("fxcal");if(!host)return;
+ var list=getFixtures().slice()
+   .sort(function(a,b){return new Date(a.utc)-new Date(b.utc);})
+   .filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;});
+ if(!list.length){host.innerHTML="";return;}
+ var anchor=gstParts(list[0].utc); /* month of the next fixture */
+ var y=anchor.y,m=anchor.m;
+ var byDay={};var nextDay=null;
+ list.forEach(function(f,i){
+  var p=gstParts(f.utc);
+  if(p.y===y&&p.m===m){
+   if(!byDay[p.day])byDay[p.day]=f;
+   if(i===0)nextDay=p.day;
+  }
+ });
+ var first=new Date(Date.UTC(y,m,1));
+ var startDow=(first.getUTCDay()+6)%7; /* Monday first */
+ var days=new Date(Date.UTC(y,m+1,0)).getUTCDate();
+ var h="<div id='cal-month'>"+MONTHS[m]+" "+y+"</div><div id='cal-grid'>";
+ ["MO","TU","WE","TH","FR","SA","SU"].forEach(function(d){h+="<div class='cal-dow'>"+d+"</div>";});
+ for(var i=0;i<startDow;i++)h+="<div class='cal-day out'></div>";
+ for(var d=1;d<=days;d++){
+  var f=byDay[d];
+  var cls="cal-day"+(f?" match":"")+(d===nextDay?" nextm":"");
+  h+="<div class='"+cls+"'><span class='dn'>"+d+"</span>";
+  if(f){
+   var home=isCity(f.home);var opp=home?f.away:f.home;
+   var club=clubByName(opp);
+   var src=CRESTS[club.code];
+   if(src)h+="<img src='"+src+"' alt=''>";
+   h+="<span class='hm'>"+(home?"H":"A")+"</span>";
+  }
+  h+="</div>";
+ }
+ h+="</div>";
+ host.innerHTML=h;
+}
+var calMode=true;
+document.getElementById("fxlist").style.display="none";
+document.getElementById("fxcal").style.display="block";
+document.getElementById("fxToggle").textContent="List";
+document.getElementById("fxToggle").addEventListener("click",function(){
+ calMode=!calMode;
+ document.getElementById("fxlist").style.display=calMode?"none":"flex";
+ document.getElementById("fxcal").style.display=calMode?"block":"none";
+ this.textContent=calMode?"List":"Calendar";
+ if(calMode)renderFxCal();
+});
 
 /* ---------- transfer window card (auto on/off by date) ---------- */
 function currentWindow(){
@@ -861,7 +1027,23 @@ setInterval(function(){
 },24);
 
 /* ---------- City news card: BBC feed (thumbs) + latest YouTube highlight ---------- */
-var NEWSITEMS=[], newsIdx=0, LATESTVID=null;
+var NEWSITEMS=liveGet("news")||[], newsIdx=0, LATESTVID=null;
+var SOCIAL=(LIVE.social&&Date.now()-LIVE.social.t<72*3600e3)?LIVE.social.v:[];
+function fetchSocial(){
+ fetch("social.json?v="+Date.now()).then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.posts)return;
+   var cutoff=Date.now()-72*3600e3; /* posts older than 3 days drop out automatically */
+   SOCIAL=j.posts.filter(function(p){
+     return !p.time || new Date(p.time).getTime()>=cutoff;
+    }).slice(0,4).map(function(p){
+    return {title:p.text,img:null,src:"X",url:p.url||""};
+   });
+   saveLive("social",SOCIAL);
+   renderNewsCard();
+  }).catch(function(){});
+}
+var NEWSSTATE=NEWSITEMS.length?{mode:"cached",t:(LIVE.news&&LIVE.news.t)||0}:{mode:"seed",t:0};
 var PROXIES=[
  function(u){return "https://api.allorigins.win/raw?url="+encodeURIComponent(u);},
  function(u){return "https://corsproxy.io/?url="+encodeURIComponent(u);},
@@ -916,7 +1098,8 @@ function fetchCityNews(){
    });
   });
   if(merged.length>=3||merged.length>NEWSITEMS.length){
-   NEWSITEMS=merged.slice(0,12);newsIdx=0;renderNewsCard();
+   NEWSITEMS=merged.slice(0,12);newsIdx=0;saveLive("news",NEWSITEMS);
+   NEWSSTATE={mode:"live",t:Date.now()};renderNewsCard();
   }
  });
 }
@@ -948,9 +1131,19 @@ function fetchLatestVideo(){
 function newsPlaylist(){
  var list=NEWSITEMS.slice();
  if(!list.length)NEWS.slice(0,4).forEach(function(n){list.push({title:n,img:null,video:null});});
+ /* X posts join the rotation, tagged */
+ SOCIAL.forEach(function(p,i){list.splice(1+i*3,0,p);});
  return list;
 }
 function renderNewsCard(){
+ var fb=document.getElementById("news-fresh");
+ if(fb){
+  var tt=NEWSSTATE.t?fmtDT(new Date(NEWSSTATE.t).toISOString()):null;
+  var stale=NEWSSTATE.mode==="cached"&&NEWSSTATE.t&&(Date.now()-NEWSSTATE.t>72*3600e3);
+  fb.className=stale?"seed":NEWSSTATE.mode;
+  fb.textContent=NEWSSTATE.mode==="live"?("LIVE \u00b7 "+tt.time):
+   NEWSSTATE.mode==="cached"?((stale?"STALE \u00b7 ":"CACHED \u00b7 ")+tt.date+" "+tt.time):"OFFLINE \u00b7 BASELINE";
+ }
  var list=newsPlaylist();
  if(!list.length)return;
  for(var i=0;i<4;i++){
@@ -958,7 +1151,7 @@ function renderNewsCard(){
   if(!el)continue;
   if(i<list.length){
    var it=list[(newsIdx+i)%list.length];
-   el.textContent=it.title+(it.src==="Club"?" \u00b7 mancity.com":"");
+   el.textContent=it.title+(it.src==="Club"?" \u00b7 mancity.com":it.src==="X"?" \u00b7 \uD835\uDD4F @ManCity":"");
   }else{
    el.textContent="";
   }
@@ -974,6 +1167,7 @@ function fetchResults(){
  fetch("results.json?t="+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
   if(!j)return;
   if(j.mancity)DATA.mancity=j.mancity;
+  DATA.updated=j.updated||null;
   if(j.clubs)DATA.clubs=j.clubs;
   if(j.transfers){if(!DATA.mancity)DATA.mancity={};DATA.mancity.transfers=j.transfers;}
   renderNext();renderHero();renderSpot();
@@ -996,7 +1190,7 @@ function fetchNews(){
   }
   return out;
  }).then(function(out){
-  if(out.length){NEWS=out;buildTicker();}
+  if(out.length){NEWS=out;saveLive("ticker",out);buildTicker();}
   else fetchNewsJson();
  });
 }
@@ -1004,6 +1198,9 @@ setInterval(fetchResults,5*60*1000);
 setInterval(fetchNews,30*60*1000);
 setInterval(fetchFixturesAPI,6*60*60*1000);
 setInterval(fetchClubsAPI,6*60*60*1000);
+setInterval(fetchTableAPI,6*60*60*1000);
+setInterval(fetchFormAPI,6*60*60*1000);
+setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  var f=document.getElementById("news-iframe");
  if(f)f.parentNode.removeChild(f);
@@ -1067,6 +1264,50 @@ function buildMCHeader(){
  }
 })();
 
+/* ---------- footer freshness line (updates every minute) ---------- */
+function freshLine(){
+ var el=document.getElementById("freshline");if(!el)return;
+ function ago(k){
+  if(!LIVE[k]||!LIVE[k].t)return "\u2014";
+  var m=Math.round((Date.now()-LIVE[k].t)/60000);
+  return m<1?"now":(m<60?m+"m":Math.round(m/60)+"h");
+ }
+ var warn="";
+ if(DATA.mancity&&DATA.updated){
+  var d=Math.round((Date.now()-new Date(DATA.updated).getTime())/86400e3);
+  if(d>=7)warn=" \u00b7 \u26a0 results.json "+d+"d old";
+ }
+ el.textContent="Updated \u00b7 fixtures "+ago("fixtures")+" \u00b7 table "+ago("table")+
+  " \u00b7 form "+ago("form")+" \u00b7 news "+ago("news")+warn+" \u00b7 All times GST (UTC+4)";
+}
+setInterval(freshLine,60*1000);freshLine();
+
+/* ---------- export: download current effective data as an editable results.json ---------- */
+document.getElementById("btnExport").addEventListener("click",function(){
+ var mc=DATA.mancity||{};
+ var out={
+  _readme:"Edited copies of this file uploaded to the repo as results.json OVERRIDE all live sources within ~5 min. fixtures[] replaces the whole fixture list. Times are UTC in 'utc'; the board renders them in GST.",
+  updated:new Date().toISOString(),
+  _exported_gst:fmtDT(new Date().toISOString()).date+" "+fmtDT(new Date().toISOString()).time+" GST",
+  mancity:{
+   fixtures:getFixtures(),
+   table:getTable(),
+   form:(mc.form&&mc.form.length)?mc.form:APIFORM,
+   topScorer:mc.topScorer||"",
+   topAssists:mc.topAssists||"",
+   transfers:mc.transfers||null
+  },
+  clubs:(function(){var o={};for(var k in APICLUBS)o[k]=APICLUBS[k];
+   for(var k2 in (DATA.clubs||{}))o[k2]=DATA.clubs[k2];return o;})(),
+  news:NEWS
+ };
+ var blob=new Blob([JSON.stringify(out,null,1)],{type:"application/json"});
+ var a=document.createElement("a");
+ a.href=URL.createObjectURL(blob);a.download="results.json";
+ document.body.appendChild(a);a.click();
+ setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);
+});
+
 /* ---------- background mode toggle ---------- */
 document.body.classList.add("bg-photo");
 (function(){var v=document.getElementById("bgvid");if(v)v.pause();
@@ -1091,9 +1332,9 @@ document.getElementById("btnTint").addEventListener("click",function(){
 
 /* ---------- boot ---------- */
 function tickSecond(){clock();renderNext();}
-scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();
+scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();renderFxCal();
 setInterval(tickSecond,1000);
-fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchCityNews();fetchLatestVideo();renderNewsCard();
+fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();
 </script>
 </body>
 </html>
