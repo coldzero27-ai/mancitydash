@@ -188,19 +188,31 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #fxToggle{background:rgba(0,24,56,.5);border:1px solid var(--line);color:var(--electric);border-radius:999px;padding:4px 16px;font-size:14px;cursor:pointer;font-family:'Inter',sans-serif}
 #fxcal{margin-top:8px;flex:1;min-height:0;overflow:hidden}
 #cal-month{text-align:center;font-family:'Barlow Condensed';font-weight:600;font-size:22px;letter-spacing:.2em;color:var(--sky);margin-bottom:7px}
-#cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
-#cal-grid.r6{gap:4px}
-.cal-dow{font-size:12px;color:var(--steel);text-align:center;font-family:'Barlow Condensed';letter-spacing:.1em}
-.cal-day{position:relative;border:1px solid rgba(108,173,223,.18);border-radius:8px;min-height:53px;padding:2px 6px}
-.r6 .cal-day{min-height:43px}
-.r6 .cal-day img{width:24px;height:24px}
-.cal-day .dn{font-size:13px;color:var(--steel)}
-.cal-day.out{opacity:.22}
-.cal-day.match{border-color:var(--line-strong);background:rgba(108,173,223,.10)}
-.cal-day.nextm{border-color:var(--electric);box-shadow:0 0 10px rgba(59,214,255,.35)}
-.cal-day img{position:absolute;right:3px;bottom:3px;width:30px;height:30px;object-fit:contain}
-.cal-day .hm{position:absolute;left:5px;bottom:2px;font-size:11px;color:var(--steel)}
-.cal-day .cd{position:absolute;top:4px;right:4px;width:9px;height:9px;border-radius:50%}
+#cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}
+#cal-grid.r6{gap:5px}
+.cal-dow{font-size:12px;color:var(--steel);text-align:center;font-family:'Barlow Condensed';font-weight:600;letter-spacing:.14em;align-self:end;padding-bottom:1px}
+.cal-day{position:relative;border-radius:12px;min-height:53px;padding:3px 7px;overflow:hidden;
+  background:rgba(20,33,80,.55);
+  box-shadow:inset 0 1px 0 rgba(160,200,255,.13), 0 2px 6px rgba(0,0,10,.22)}
+.r6 .cal-day{min-height:43px;border-radius:10px}
+.r6 .cal-day img{width:22px;height:22px}
+.r6 .cal-day .dn{font-size:15px}
+.cal-day .dn{font-family:'Barlow Condensed';font-weight:700;font-size:18px;line-height:1;color:#F2F8FF;text-shadow:0 2px 4px rgba(0,0,30,.65)}
+.cal-day.out{background:rgba(20,33,80,.26);box-shadow:none}
+.cal-day.out .dn{color:rgba(210,230,252,.38);text-shadow:none}
+.cal-day.match{background:linear-gradient(150deg,rgba(70,140,230,.75),rgba(50,90,190,.72))}
+.cal-day.nextm{outline:2px solid var(--electric);outline-offset:-1px;box-shadow:0 0 14px rgba(59,214,255,.5), inset 0 1px 0 rgba(160,200,255,.13)}
+.cal-day img{position:absolute;right:5px;bottom:7px;width:28px;height:28px;object-fit:contain;filter:drop-shadow(0 2px 4px rgba(0,0,20,.5))}
+.cal-day .hm{position:absolute;left:7px;bottom:8px;font-family:'Inter';font-weight:800;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,30,.6)}
+.r6 .cal-day .hm{font-size:11px;bottom:7px}
+.cal-day .cb{position:absolute;left:0;right:0;bottom:0;height:4px}
+/* finished / past days */
+.cal-day.past{background:rgba(10,18,42,.5);box-shadow:none}
+.cal-day.past .dn{color:rgba(190,210,235,.42);text-shadow:none}
+.cal-day.past.match{background:linear-gradient(150deg,rgba(70,95,135,.42),rgba(50,70,110,.4))}
+.cal-day.past img{filter:grayscale(1) opacity(.55)}
+.cal-day.past .hm{color:rgba(220,235,255,.5);text-shadow:none}
+.cal-day.past .cb{opacity:.35}
 #cal-legend{display:none;gap:13px;align-items:center;margin:0 12px 0 18px;flex:1;font-family:'Barlow Condensed';font-weight:600;font-size:14px;letter-spacing:.06em;color:#CFE4F6;overflow:hidden;white-space:nowrap}
 #cal-legend span{display:flex;align-items:center;gap:5px}
 #cal-legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
@@ -862,30 +874,39 @@ var MONTHS=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","S
 var COMPCOLORS={PL:"#3BD6FF",UCL:"#6CADDF",FA:"#C4A8EE",EFL:"#9FE1CB",SHIELD:"#F0997B",FR:"#A6C8E4"};
 function renderFxCal(){
  var host=document.getElementById("fxcal");if(!host)return;
- var list=getFixtures().slice()
-   .sort(function(a,b){return new Date(a.utc)-new Date(b.utc);})
-   .filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;});
- if(!list.length){host.innerHTML="";return;}
- var anchor=gstParts(list[0].utc); /* month of the next fixture */
+ var all=getFixtures().slice()
+   .sort(function(a,b){return new Date(a.utc)-new Date(b.utc);});
+ if(!all.length){host.innerHTML="";return;}
+ var future=all.filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;});
+ /* month anchored to the next fixture; if season over, show the last fixture's month */
+ var anchor=gstParts((future.length?future[0]:all[all.length-1]).utc);
  var y=anchor.y,m=anchor.m;
  var byDay={};var nextDay=null;
- list.forEach(function(f,i){
+ all.forEach(function(f){
   var p=gstParts(f.utc);
-  if(p.y===y&&p.m===m){
-   if(!byDay[p.day])byDay[p.day]=f;
-   if(i===0)nextDay=p.day;
-  }
+  if(p.y===y&&p.m===m&&!byDay[p.day])byDay[p.day]=f;
  });
+ if(future.length){
+  var np=gstParts(future[0].utc);
+  if(np.y===y&&np.m===m)nextDay=np.day;
+ }
+ var today=gstParts(new Date().toISOString()); /* current GST date */
+ function isPast(day){
+  if(y<today.y)return true; if(y>today.y)return false;
+  if(m<today.m)return true; if(m>today.m)return false;
+  return day<today.day;
+ }
  var first=new Date(Date.UTC(y,m,1));
  var startDow=(first.getUTCDay()+6)%7; /* Monday first */
  var days=new Date(Date.UTC(y,m+1,0)).getUTCDate();
+ var prevDays=new Date(Date.UTC(y,m,0)).getUTCDate();
  var weeks=Math.ceil((startDow+days)/7);
  var h="<div id='cal-grid' class='"+(weeks>=6?"r6":"")+"'>";
  ["MO","TU","WE","TH","FR","SA","SU"].forEach(function(d){h+="<div class='cal-dow'>"+d+"</div>";});
- for(var i=0;i<startDow;i++)h+="<div class='cal-day out'></div>";
+ for(var i=0;i<startDow;i++)h+="<div class='cal-day out'><span class='dn'>"+(prevDays-startDow+1+i)+"</span></div>";
  for(var d=1;d<=days;d++){
   var f=byDay[d];
-  var cls="cal-day"+(f?" match":"")+(d===nextDay?" nextm":"");
+  var cls="cal-day"+(f?" match":"")+(d===nextDay?" nextm":"")+(isPast(d)?" past":"");
   h+="<div class='"+cls+"'><span class='dn'>"+d+"</span>";
   if(f){
    var home=isCity(f.home);var opp=home?f.away:f.home;
@@ -893,10 +914,12 @@ function renderFxCal(){
    var src=CRESTS[club.code];
    if(src)h+="<img src='"+src+"' alt=''>";
    h+="<span class='hm'>"+(home?"H":"A")+"</span>";
-   h+="<span class='cd' style='background:"+(COMPCOLORS[f.comp]||"#A6C8E4")+"'></span>";
+   h+="<span class='cb' style='background:"+(COMPCOLORS[f.comp]||"#A6C8E4")+"'></span>";
   }
   h+="</div>";
  }
+ var trail=(7-(startDow+days)%7)%7;
+ for(var t=1;t<=trail;t++)h+="<div class='cal-day out'><span class='dn'>"+t+"</span></div>";
  h+="</div>";
  /* legend renders in the card header, next to the GST label */
  var present={};for(var k in byDay)present[byDay[k].comp]=1;
