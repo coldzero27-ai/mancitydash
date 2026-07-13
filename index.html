@@ -59,7 +59,10 @@ html,body{height:100%;background:var(--bg);overflow:hidden;font-family:'Inter',s
 #bgvid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none;z-index:1}
 body.hasvideo #bgvid{display:block}
 body.bg-photo #bgvid{display:none}
-#bgphoto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#bgphoto,#bgbrand{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+body.bg-photo #bgphoto{display:block}
+body.bg-brand #bgbrand{display:block}
+body.bg-brand #bgvid{display:none}
 body.hasphoto .aurora{display:none}
 .aurora{position:absolute;border-radius:50%;filter:blur(90px);opacity:.35;pointer-events:none}
 .a1{width:1100px;height:1100px;background:#123a63;left:-300px;top:-400px;animation:drift1 46s ease-in-out infinite alternate}
@@ -73,6 +76,14 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 .layer{position:relative;z-index:2}
 .glass{background:linear-gradient(160deg,rgba(0,24,56,0.5),rgba(0,24,56,0.74));border:1px solid var(--line);border-radius:16px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 .label{font-family:'Barlow Condensed';font-weight:600;letter-spacing:.18em;color:var(--steel);font-size:20px}
+/* brand color mode: cards #001838, titles #3BD6FF, in-card text #6CADDF; news card + accents untouched */
+body.brand .glass{background:linear-gradient(160deg,rgba(0,24,56,.9),#001838);color:#6CADDF}
+body.brand .glass .label{color:#3BD6FF}
+body.brand #nc-comp{color:#3BD6FF}
+body.brand #fxlist{color:#6CADDF}
+body.brand .fxcard .fc-side span{color:#6CADDF}
+body.brand #newscard{background:linear-gradient(160deg,rgba(0,24,56,0.5),rgba(0,24,56,0.74));color:inherit}
+body.brand #newscard .label{color:var(--steel)}
 /* header */
 #hdr{height:96px;display:flex;align-items:center;padding:0 44px;border-bottom:1px solid var(--line);background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 #brand{width:360px;display:flex;align-items:center}
@@ -216,6 +227,20 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #cal-legend{display:none;gap:13px;align-items:center;margin:0 12px 0 18px;flex:1;font-family:'Barlow Condensed';font-weight:600;font-size:14px;letter-spacing:.06em;color:#CFE4F6;overflow:hidden;white-space:nowrap}
 #cal-legend span{display:flex;align-items:center;gap:5px}
 #cal-legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
+/* fixtures: match-card view */
+#fxcards{margin-top:10px;flex:1;min-height:0;grid-template-columns:1fr 1fr;gap:10px;align-content:start;overflow:hidden}
+.fxcard{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  background:linear-gradient(160deg,rgba(0,24,56,.42),rgba(0,24,56,.66));
+  padding:7px 10px 8px;display:flex;flex-direction:column;align-items:center;gap:3px}
+.fxcard.next{border-color:var(--electric);box-shadow:0 0 12px rgba(59,214,255,.35)}
+.fxcard .fc-comp{font-family:'Barlow Condensed';font-weight:600;font-size:13px;letter-spacing:.14em;color:var(--steel);text-transform:uppercase}
+.fxcard .fc-teams{display:flex;align-items:flex-start;gap:8px;width:100%;justify-content:center}
+.fxcard .fc-side{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1;min-width:0}
+.fxcard .fc-side img{width:34px;height:34px;object-fit:contain;filter:drop-shadow(0 2px 4px rgba(0,0,20,.5))}
+.fxcard .fc-side span{font-size:13px;color:#DCEBF8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.fxcard .fc-vs{font-family:'Barlow Condensed';font-weight:700;font-size:15px;color:var(--sky);letter-spacing:.1em;margin-top:9px}
+.fxcard .fc-when{font-size:13px;color:var(--sky)}
+.fxcard.next .fc-when{color:var(--gold)}
 /* right column: compact spotlight + Man City extras */
 #right{flex:1;display:flex;flex-direction:column;gap:20px;min-width:0;perspective:1400px}
 #spot{transition:transform .5s ease;transform-style:preserve-3d;backface-visibility:hidden}
@@ -252,7 +277,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 #tick{height:54px;border-top:1px solid var(--line);display:flex;align-items:center;overflow:hidden;position:relative;background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 #tick .badge{flex:0 0 auto;z-index:2;background:rgba(0,24,56,0.92);height:100%;display:flex;align-items:center;padding:0 26px 0 44px;font-family:'Barlow Condensed';font-weight:600;font-size:21px;letter-spacing:.24em;color:var(--gold)}
 #tickline{white-space:nowrap;font-size:21px;color:#CFE4F6;will-change:transform}
-#foot{height:30px;display:flex;align-items:center;justify-content:space-between;padding:0 44px;font-size:13px;color:#9FC2DE;background:rgba(0,24,56,0.68)}
+#foot{height:30px;display:flex;align-items:center;justify-content:flex-end;padding:0 44px;font-size:13px;color:#9FC2DE;background:rgba(0,24,56,0.68)}
 /* controls */
 #ctrl{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;gap:10px;transition:opacity .4s;opacity:0;pointer-events:none}
 #ctrl.show{opacity:1;pointer-events:auto}
@@ -263,7 +288,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 @media print{
   @page{size:landscape}
   html,body{overflow:visible;background:#fff}
-  #ctrl,.aurora,#tint,#bgvid,#bgphoto{display:none !important}
+  #ctrl,.aurora,#tint,#bgvid,#bgphoto,#bgbrand{display:none !important}
   #stage{transform:none !important;width:100%;height:auto;color:#111}
   .glass,.chip{background:#f2f6fa !important;border-color:#b8cbdc !important;backdrop-filter:none}
 }
@@ -274,6 +299,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
 <div id="stage">
   <video id="bgvid" muted loop autoplay playsinline src="assets/bg.mp4"></video>
   <img id="bgphoto" alt="" src="assets/bg.jpg">
+  <img id="bgbrand" alt="" src="assets/bg-brand.jpg">
   <div class="aurora a1"></div><div class="aurora a2"></div><div class="aurora a3"></div>
   <div id="tint"></div>
 
@@ -375,6 +401,7 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
         </div>
         <div id="fxlist"></div>
         <div id="fxcal" style="display:none"></div>
+        <div id="fxcards" style="display:none"></div>
       </div>
     </div>
   </div>
@@ -384,13 +411,13 @@ body.tint-dark #tint{background:radial-gradient(ellipse at 50% 42%,rgba(9,26,44,
     <div id="tickline"></div>
   </div>
   <div id="foot" class="layer">
-    <span>Fixtures: premierleague.com &middot; mancity.com &middot; skysports.com (retrieved 4 Jul 2026) &middot; live values via results.json / news.json</span>
     <span id="freshline">All times GST (UTC+4)</span>
   </div>
 </div>
 </div>
 
 <div id="ctrl">
+  <button id="btnBrand">Colors: glass</button>
   <button id="btnExport">Export data</button>
   <button id="btnBg">Background: video</button>
   <button id="btnTint">Tint: medium</button>
@@ -439,8 +466,7 @@ var NEWS = [
  "Premier League opener: Man City v Bournemouth at the Etihad, Sun 23 Aug \u00b7 17:00 GST",
  "First Manchester derby of 26/27 at Old Trafford on 12 Sep",
  "UCL league phase runs 8 Sep to 27 Jan \u2014 no qualifiers for City",
- "Girona begin life in the Segunda Divisi\u00f3n \u00b7 Palermo go again in Serie B",
- "Update this line via news.json in the repo"
+ "Girona begin life in the Segunda Divisi\u00f3n \u00b7 Palermo go again in Serie B"
 ];
 var DATA = {mancity:null,clubs:{}};
 /* ---- resilience layer: every successful online pull is snapshotted locally.
@@ -845,6 +871,7 @@ function renderFixStrip(){
    .filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;})
    .slice(0,9);
  if(calMode)renderFxCal();
+ if(typeof fxMode!=="undefined"&&fxMode==="cards")renderFxCards();
  var host=document.getElementById("fxlist");host.innerHTML="";
  list.forEach(function(f,i){
   var w=fmtDT(f.utc);
@@ -931,18 +958,52 @@ function renderFxCal(){
  if(lgEl){lgEl.innerHTML=lg;lgEl.style.display=calMode?"flex":"none";}
  host.innerHTML="<div id='cal-month'>"+MONTHS[m]+" "+y+"</div>"+h;
 }
-var calMode=true;
-document.getElementById("fxlist").style.display="none";
-document.getElementById("fxcal").style.display="block";
-document.getElementById("fxToggle").textContent="List";
-document.getElementById("fxToggle").addEventListener("click",function(){
- calMode=!calMode;
- document.getElementById("fxlist").style.display=calMode?"none":"flex";
- document.getElementById("fxcal").style.display=calMode?"block":"none";
+/* match-card view: home side always listed first — City first = home */
+function crestSrcFor(name){
+ if(isCity(name))return CRESTS["MCI"];
+ var c=clubByName(name);return c?CRESTS[c.code]:null;
+}
+function shortTeam(n){return String(n).replace(/^Manchester City$/i,"Man City");}
+function renderFxCards(){
+ var host=document.getElementById("fxcards");if(!host)return;
+ var list=getFixtures().slice()
+   .sort(function(a,b){return new Date(a.utc)-new Date(b.utc);})
+   .filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;})
+   .slice(0,6);
+ var h="";
+ list.forEach(function(f,i){
+  var w=fmtDT(f.utc);
+  var hs=crestSrcFor(f.home),as=crestSrcFor(f.away);
+  h+="<div class='fxcard"+(i===0?" next":"")+"'>"
+   +"<div class='fc-comp'>"+esc(COMPNAMES[f.comp]||f.comp)+"</div>"
+   +"<div class='fc-teams'>"
+   +"<div class='fc-side'>"+(hs?"<img src='"+hs+"' alt=''>":"")+"<span>"+esc(shortTeam(f.home))+"</span></div>"
+   +"<span class='fc-vs'>VS</span>"
+   +"<div class='fc-side'>"+(as?"<img src='"+as+"' alt=''>":"")+"<span>"+esc(shortTeam(f.away))+"</span></div>"
+   +"</div>"
+   +"<div class='fc-when'>"+esc(w.date)+" · "+esc(w.time)+" GST</div>"
+   +"</div>";
+ });
+ host.innerHTML=h;
+}
+var FXMODES=["cal","cards","list"],FXLABEL={cal:"Calendar",cards:"Match cards",list:"List"};
+var fxMode="cal",calMode=true;
+function applyFxMode(){
+ calMode=(fxMode==="cal");
+ document.getElementById("fxlist").style.display=fxMode==="list"?"flex":"none";
+ document.getElementById("fxcal").style.display=fxMode==="cal"?"block":"none";
+ document.getElementById("fxcards").style.display=fxMode==="cards"?"grid":"none";
  document.getElementById("cal-legend").style.display=calMode?"flex":"none";
- this.textContent=calMode?"List":"Calendar";
- if(calMode)renderFxCal();
+ var next=FXMODES[(FXMODES.indexOf(fxMode)+1)%FXMODES.length];
+ document.getElementById("fxToggle").textContent=FXLABEL[next];
+ if(fxMode==="cal")renderFxCal();
+ if(fxMode==="cards")renderFxCards();
+}
+document.getElementById("fxToggle").addEventListener("click",function(){
+ fxMode=FXMODES[(FXMODES.indexOf(fxMode)+1)%FXMODES.length];
+ applyFxMode();
 });
+applyFxMode();
 
 /* ---------- transfer window card (auto on/off by date) ---------- */
 function currentWindow(){
@@ -1034,7 +1095,7 @@ var cfEls=[],cfIdx=0;
 function buildCoverflow(){
  var wrap=document.getElementById("cfwrap");
  cfEls=CLUBS.map(function(c){
-  var e=crestEl(c,52,4);
+  var e=crestEl(c,42,4);
   e.style.position="absolute";e.style.left="50%";e.style.top="50%";
   e.style.transition="transform 1.1s ease, opacity 1.1s ease";
   wrap.appendChild(e);return e;
@@ -1050,7 +1111,7 @@ function layoutCF(){
   var vis=Math.abs(d)<=4;
   e.style.opacity=vis?String(1-Math.abs(d)*0.2):"0";
   e.style.zIndex=String(20-Math.abs(d));
-  e.style.transform="translate(-50%,-50%) translateX("+(d*92)+"px) translateZ("+(d===0?110:0)+"px) rotateY("+(d*-34)+"deg) scale("+(d===0?1.35:0.95-Math.abs(d)*0.05)+")";
+  e.style.transform="translate(-50%,-50%) translateX("+(d*78)+"px) translateZ("+(d===0?110:0)+"px) rotateY("+(d*-34)+"deg) scale("+(d===0?1.35:0.95-Math.abs(d)*0.05)+")";
  });
 }
 
@@ -1183,7 +1244,7 @@ function renderNewsCard(){
   var stale=NEWSSTATE.mode==="cached"&&NEWSSTATE.t&&(Date.now()-NEWSSTATE.t>72*3600e3);
   fb.className=stale?"seed":NEWSSTATE.mode;
   fb.textContent=NEWSSTATE.mode==="live"?("LIVE \u00b7 "+tt.time):
-   NEWSSTATE.mode==="cached"?((stale?"STALE \u00b7 ":"CACHED \u00b7 ")+tt.date+" "+tt.time):"OFFLINE \u00b7 BASELINE";
+   NEWSSTATE.mode==="cached"?((stale?"STALE \u00b7 ":"CACHED \u00b7 ")+tt.date+" "+tt.time):"";
  }
  var list=newsPlaylist();
  if(!list.length)return;
@@ -1349,16 +1410,32 @@ document.getElementById("btnExport").addEventListener("click",function(){
  setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);
 });
 
-/* ---------- background mode toggle ---------- */
-document.body.classList.add("bg-photo");
-(function(){var v=document.getElementById("bgvid");if(v)v.pause();
- document.getElementById("btnBg").textContent="Background: graphic";})();
+/* ---------- background mode cycle: brand (default) -> graphic -> video ---------- */
+var BGMODES=["brand","graphic","video"],bgIdx=0;
+function applyBg(){
+ var b=document.body,v=document.getElementById("bgvid"),m=BGMODES[bgIdx];
+ b.classList.remove("bg-photo","bg-brand");
+ if(m==="brand")b.classList.add("bg-brand");
+ if(m==="graphic")b.classList.add("bg-photo");
+ document.getElementById("btnBg").textContent="Background: "+m;
+ if(v){if(m==="video"){var p=v.play();if(p&&p.catch)p.catch(function(){});}else v.pause();}
+}
+applyBg();
+(function(){var bi=document.getElementById("bgbrand");
+ if(bi)bi.addEventListener("error",function(){if(BGMODES[bgIdx]==="brand"){bgIdx=1;applyBg();}});})();
 document.getElementById("btnBg").addEventListener("click",function(){
- var b=document.body,v=document.getElementById("bgvid");
- b.classList.toggle("bg-photo");
- var photo=b.classList.contains("bg-photo");
- this.textContent="Background: "+(photo?"graphic":"video");
- if(v){if(photo)v.pause();else{var p=v.play();if(p&&p.catch)p.catch(function(){});}}
+ bgIdx=(bgIdx+1)%BGMODES.length;applyBg();
+});
+/* brand colors: default ON; remembered opt-out via the button */
+(function(){
+ var off=false;try{off=localStorage.getItem("cfgBrand")==="0";}catch(e){}
+ if(!off)document.body.classList.add("brand");
+ document.getElementById("btnBrand").textContent=off?"Colors: glass":"Colors: brand";
+})();
+document.getElementById("btnBrand").addEventListener("click",function(){
+ var on=document.body.classList.toggle("brand");
+ this.textContent=on?"Colors: brand":"Colors: glass";
+ try{localStorage.setItem("cfgBrand",on?"1":"0");}catch(e){}
 });
 
 /* ---------- tint cycle ---------- */
