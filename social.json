@@ -1,8 +1,12 @@
 {
     "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first, max ~8 posts. 'time' is the post's UTC timestamp; the board renders GST.",
-    "updated": "2026-07-16T20:15:01Z",
-    "posts": [
-        {
+        "updated": "2026-07-17T11:13:30Z",
+            "posts": [
+                            {
+                                                "text": "On this day in 2015, Fabian Delph joined the Club ⏪🩵",
+                                                "url": "https://x.com/ManCity/status/2078043310816465311",
+                                                "time": "2026-07-17T09:05:08Z"
+                            },{
             "text": "Every @Erling goal in the 2025/26 @premierleague season ✨",
             "url": "https://x.com/ManCity/status/2077805834642280658",
             "time": "2026-07-16T17:21:29Z"
@@ -36,11 +40,6 @@
             "text": "Defensive duo 😤🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "url": "https://x.com/ManCity/status/2077422943257182424",
             "time": "2026-07-15T16:00:00Z"
-        },
-        {
-            "text": "Fighting for their place in the World Cup final! 🏴󠁧󠁢󠁥󠁮󠁧󠁿🦁\n\nBest of luck to our English quartet as they take on Argentina in Atlanta this evening! 🩵",
-            "url": "https://x.com/ManCity/status/2077392744817779121",
-            "time": "2026-07-15T14:00:01Z"
         }
     ]
 }
