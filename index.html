@@ -13,7 +13,7 @@
    - Man City 2026/27 PL fixtures: premierleague.com fixture release + mancity.com
    - Community Shield: Arsenal v Man City, Sun 16 Aug 2026, Principality Stadium,
      15:00 UK -> 18:00 GST (Sky Sports / skysports.com)
-   - Cup entry points: Carabao R3 (w/c 7 & 14 Sep), FA Cup R3 (9/10 Jan 2027),
+   - Cup entry points: Carabao Round 3 (w/c 7 & 14 Sep), FA Cup Round 3 (9/10 Jan 2027),
      UCL league phase 8 Sep 2026 - 27 Jan 2027 (skysports.com)
    - Girona relegated to Segunda Division (19th, 2025/26 La Liga - Wikipedia/BBC)
    - Palermo remain in Serie B (4th, lost promotion playoff SF - football-italia)
@@ -32,10 +32,13 @@
       "form": ["W"],
       "topScorer": "Haaland - 1", "topAssists": "Foden - 1",
       "table": [ {"pos":1,"team":"Man City","pts":3}, ... up to 4 rows ],
-      "comps": { "PL":"1st", "UCL":"MD1 - 15 Sep", "FA":"Holders - R3 Jan",
-                 "EFL":"R3 - 22 Sep", "SHIELD":"Winners" },
+      "comps": { "PL":"1st", "UCL":"MD1 - 15 Sep", "FA":"Holders - Round 3 Jan",
+                 "EFL":"Round 3 - 22 Sep", "SHIELD":"Winners" },
       "fixtures": [ {"utc":"2026-08-29T14:00:00Z","comp":"PL","home":"Crystal Palace",
-                     "away":"Man City","venue":"Selhurst Park"} ]
+                     "away":"Man City","venue":"Selhurst Park"} ],
+      "results": { "2026-08-16": {"score":"1-2","res":"W","fr":false} }
+      (results = manual score override by GST date; outranks both live sources;
+       scores display ONLY when TheSportsDB and ESPN agree, or via this map)
     },
     "clubs": { "GIR": {"league":"Segunda Division","pos":"3rd","form":["W","D","W"],
                "next":{"utc":"...","opp":"...","home":true}}, ... }
@@ -87,7 +90,7 @@ body.brand #newscard .label{color:var(--steel)}
 /* header */
 #hdr{height:96px;display:flex;align-items:center;padding:0 44px;border-bottom:1px solid var(--line);background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 #brand{width:360px;display:flex;align-items:center}
-#cfglogo{height:64px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.45))}
+#cfglogo{height:76px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.45))}
 #cfwrap{flex:1;height:100%;position:relative;perspective:900px;overflow:hidden}
 .crest{border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:700;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.4)}
 .crestimg{object-fit:contain;filter:drop-shadow(0 2px 8px rgba(0,0,0,.55));flex:0 0 auto}
@@ -224,6 +227,10 @@ body.brand #newscard .label{color:var(--steel)}
 .cal-day.past img{filter:grayscale(1) opacity(.55)}
 .cal-day.past .hm{color:rgba(220,235,255,.5);text-shadow:none}
 .cal-day.past .cb{opacity:.35}
+.cal-day.past.resW{outline:1.5px solid rgba(87,192,141,.75);outline-offset:-1px}
+.cal-day.past.resD{outline:1.5px solid rgba(108,173,223,.75);outline-offset:-1px}
+.cal-day.past.resL{outline:1.5px solid rgba(219,107,88,.75);outline-offset:-1px}
+.cal-day.past .hm{font-weight:700}
 #cal-legend{display:none;gap:13px;align-items:center;margin:0 12px 0 18px;flex:1;font-family:'Barlow Condensed';font-weight:600;font-size:14px;letter-spacing:.06em;color:#CFE4F6;overflow:hidden;white-space:nowrap}
 #cal-legend span{display:flex;align-items:center;gap:5px}
 #cal-legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
@@ -275,8 +282,9 @@ body.brand #newscard .label{color:var(--steel)}
 .pend{font-size:14px;color:var(--steel);border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin-left:10px;vertical-align:middle}
 /* ticker + foot */
 #tick{height:54px;border-top:1px solid var(--line);display:flex;align-items:center;overflow:hidden;position:relative;background:rgba(0,24,56,0.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
-#tick .badge{flex:0 0 auto;z-index:2;background:rgba(0,24,56,0.92);height:100%;display:flex;align-items:center;padding:0 26px 0 44px;font-family:'Barlow Condensed';font-weight:600;font-size:21px;letter-spacing:.24em;color:var(--gold)}
-#tickline{white-space:nowrap;font-size:21px;color:#CFE4F6;will-change:transform}
+#tick .badge{flex:0 0 auto;z-index:2;background:#001838;height:100%;display:flex;align-items:center;padding:0 26px 0 44px;font-family:'Barlow Condensed';font-weight:600;font-size:21px;letter-spacing:.24em;color:var(--gold)}
+#tickwrap{flex:1 1 auto;min-width:0;height:100%;overflow:hidden;position:relative}
+#tickline{position:absolute;left:0;top:50%;transform:translateY(-50%);white-space:nowrap;font-size:21px;color:#CFE4F6;will-change:transform}
 #foot{height:30px;display:flex;align-items:center;justify-content:flex-end;padding:0 44px;font-size:13px;color:#9FC2DE;background:rgba(0,24,56,0.68)}
 /* controls */
 #ctrl{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;gap:10px;transition:opacity .4s;opacity:0;pointer-events:none}
@@ -408,7 +416,7 @@ body.brand #newscard .label{color:var(--steel)}
 
   <div id="tick" class="layer">
     <div class="badge">NEWS</div>
-    <div id="tickline"></div>
+    <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
     <span id="freshline">All times GST (UTC+4)</span>
@@ -420,7 +428,7 @@ body.brand #newscard .label{color:var(--steel)}
   <button id="btnBrand">Colors: glass</button>
   <button id="btnExport">Export data</button>
   <button id="btnBg">Background: video</button>
-  <button id="btnTint">Tint: medium</button>
+  <button id="btnTint">Tint: light</button>
   <button id="btnPresent">Present</button>
 </div>
 
@@ -456,8 +464,8 @@ var FIXTURES = [
 var COMPS = {
  PL:"Starts 23 Aug",
  UCL:"League phase \u00b7 from 8 Sep",
- FA:"Holders \u00b7 R3 Jan",
- EFL:"Enter R3 \u00b7 Sep",
+ FA:"Holders \u00b7 Round 3 Jan",
+ EFL:"Enter Round 3 \u00b7 Sep",
  SHIELD:"vs Arsenal \u00b7 16 Aug 18:00"
 };
 var COMPNAMES = {PL:"Premier League",UCL:"Champions League",FA:"FA Cup",EFL:"Carabao Cup",SHIELD:"Community Shield",FR:"Friendly"};
@@ -466,7 +474,8 @@ var NEWS = [
  "Premier League opener: Man City v Bournemouth at the Etihad, Sun 23 Aug \u00b7 17:00 GST",
  "First Manchester derby of 26/27 at Old Trafford on 12 Sep",
  "UCL league phase runs 8 Sep to 27 Jan \u2014 no qualifiers for City",
- "Girona begin life in the Segunda Divisi\u00f3n \u00b7 Palermo go again in Serie B"
+ "Girona begin life in the Segunda Divisi\u00f3n \u00b7 Palermo go again in Serie B",
+ "City return to European action in September"
 ];
 var DATA = {mancity:null,clubs:{}};
 /* ---- resilience layer: every successful online pull is snapshotted locally.
@@ -548,21 +557,75 @@ function fetchTableAPI(){
    APITABLE=out;saveLive("table",out);renderTable();
   }).catch(function(){});
 }
+/* ===== dual-source verified results =====
+   A score is only ever DISPLAYED when two independent sources agree on it:
+   Source A: TheSportsDB (community)  -> APIRES
+   Source B: ESPN public API          -> ESPNRES
+   Agreement -> VERRES[dateKey]={score,res,fr}. Disagreement or single-source
+   -> the match shows "FT" with no score, never a possibly-wrong number.
+   results.json "results" map is the manual override and outranks both. */
+var APIRES=liveGet("res")||{}, ESPNRES=liveGet("res2")||{}, VERRES={};
+function dateKey(p){return p.y+"-"+("0"+(p.m+1)).slice(-2)+"-"+("0"+p.day).slice(-2);}
+function recomputeVerified(){
+ VERRES={};
+ for(var k in APIRES){
+  var a=APIRES[k],b=ESPNRES[k];
+  if(a&&b&&a.score===b.score)VERRES[k]={score:a.score,res:a.res,fr:!!(a.fr||b.fr)};
+ }
+ /* manual override: results.json { "mancity": { "results": {"2026-08-09":{"score":"3-0","res":"W","fr":true}} } } */
+ var man=(DATA.mancity&&DATA.mancity.results)||{};
+ for(var mk in man){if(man[mk]&&man[mk].score)VERRES[mk]={score:man[mk].score,res:man[mk].res||"",fr:!!man[mk].fr};}
+ /* form dots: confirmed competitive matches only, oldest -> newest */
+ var keys=Object.keys(VERRES).filter(function(k2){return !VERRES[k2].fr&&VERRES[k2].res&&k2>="2026-08-01";}).sort();
+ var frm=keys.map(function(k3){return VERRES[k3].res;});
+ APIFORM=frm.slice(-5);saveLive("form",APIFORM); /* always from confirmed set - empty means "no verified results yet", never a stale guess */
+ renderHero();renderFxCal();
+}
 function fetchFormAPI(){
  fetch("https://www.thesportsdb.com/api/v1/json/3/eventslast.php?id=133613")
   .then(function(r){return r.ok?r.json():null;})
   .then(function(j){
    if(!j||!j.results)return;
-   var out=[];
    j.results.forEach(function(e){
-    if(!e.dateEvent||e.dateEvent<"2026-08-01")return; /* competitive season only */
-    if(e.intHomeScore===null||e.intAwayScore===null)return;
+    if(!e.dateEvent||e.intHomeScore===null||e.intAwayScore===null)return;
+    var time=(e.strTime&&e.strTime!=="00:00:00")?e.strTime:"14:00:00";
+    var key=dateKey(gstParts(e.dateEvent+"T"+time+"Z"));
     var hs=+e.intHomeScore,as=+e.intAwayScore,meHome=isCity(e.strHomeTeam);
     var mine=meHome?hs:as,theirs=meHome?as:hs;
-    out.push(mine>theirs?"W":(mine===theirs?"D":"L"));
+    APIRES[key]={score:hs+"-"+as,res:mine>theirs?"W":(mine===theirs?"D":"L"),fr:/friendl/i.test(e.strLeague||"")};
    });
-   out.reverse(); /* oldest -> newest */
-   if(out.length){APIFORM=out.slice(-5);saveLive("form",APIFORM);renderHero();}
+   saveLive("res",APIRES);
+   recomputeVerified();
+  }).catch(function(){});
+}
+function fetchResultsESPN(){
+ /* ESPN unofficial API, keyless; "all" slug spans every competition City play in */
+ fetch("https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/382/schedule")
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.events)return;
+   j.events.forEach(function(ev){
+    try{
+     var comp=ev.competitions&&ev.competitions[0];if(!comp)return;
+     var st=comp.status&&comp.status.type;if(!st||!st.completed)return;
+     var cs=comp.competitors;if(!cs||cs.length<2)return;
+     var home=null,away=null;
+     cs.forEach(function(c){if(c.homeAway==="home")home=c;if(c.homeAway==="away")away=c;});
+     if(!home||!away)return;
+     function sc(c){var s=c.score;if(s&&typeof s==="object")s=s.value!==undefined?s.value:s.displayValue;s=parseFloat(s);return isNaN(s)?null:s;}
+     var hs=sc(home),as=sc(away);
+     if(hs===null||as===null)return;
+     var meHome=String(home.team&&home.team.id)==="382";
+     var meAway=String(away.team&&away.team.id)==="382";
+     if(!meHome&&!meAway)return;
+     var mine=meHome?hs:as,theirs=meHome?as:hs;
+     var slug=(ev.league&&ev.league.slug)||"";
+     var key=dateKey(gstParts(ev.date));
+     ESPNRES[key]={score:hs+"-"+as,res:mine>theirs?"W":(mine===theirs?"D":"L"),fr:/friendly/i.test(slug)};
+    }catch(x){}
+   });
+   saveLive("res2",ESPNRES);
+   recomputeVerified();
   }).catch(function(){});
 }
 function getTable(){
@@ -793,8 +856,8 @@ var COMP_DATES = {
  SHIELD:"16 Aug \u00b7 18:00",
  PL:"from 23 Aug",
  UCL:"from 8 Sep",
- EFL:"R3 \u00b7 Sep",
- FA:"R3 \u00b7 9 Jan"
+ EFL:"Round 3 \u00b7 Sep",
+ FA:"Round 3 \u00b7 9 Jan"
 };
 function renderStrip(hotComp){
  var comps=(DATA.mancity&&DATA.mancity.comps)||null;
@@ -934,13 +997,20 @@ function renderFxCal(){
  for(var d=1;d<=days;d++){
   var f=byDay[d];
   var cls="cal-day"+(f?" match":"")+(d===nextDay?" nextm":"")+(isPast(d)?" past":"");
-  h+="<div class='"+cls+"'><span class='dn'>"+d+"</span>";
+  
   if(f){
    var home=isCity(f.home);var opp=home?f.away:f.home;
    var club=clubByName(opp);
    var src=CRESTS[club.code];
+   var wasPlayed=new Date(f.utc).getTime()<Date.now()-2*3600e3;
+   var rkey=y+"-"+("0"+(m+1)).slice(-2)+"-"+("0"+d).slice(-2);
+   var rr=wasPlayed?VERRES[rkey]:null; /* dual-confirmed or manual only */
+   if(rr&&rr.res)cls+=" res"+rr.res;
+  }
+  h+="<div class='"+cls+"'><span class='dn'>"+d+"</span>";
+  if(f){
    if(src)h+="<img src='"+src+"' alt=''>";
-   h+="<span class='hm'>"+(home?"H":"A")+"</span>";
+   h+="<span class='hm'>"+(rr?esc(rr.score):(wasPlayed?"FT":(home?"H":"A")))+"</span>";
    h+="<span class='cb' style='background:"+(COMPCOLORS[f.comp]||"#A6C8E4")+"'></span>";
   }
   h+="</div>";
@@ -987,7 +1057,7 @@ function renderFxCards(){
  host.innerHTML=h;
 }
 var FXMODES=["cal","cards","list"],FXLABEL={cal:"Calendar",cards:"Match cards",list:"List"};
-var fxMode="cal",calMode=true;
+var fxMode="cards",calMode=false;
 function applyFxMode(){
  calMode=(fxMode==="cal");
  document.getElementById("fxlist").style.display=fxMode==="list"?"flex":"none";
@@ -1125,7 +1195,7 @@ setInterval(function(){
  var line=document.getElementById("tickline");
  tickX-=1.4;
  if(tickX<-line.offsetWidth)tickX=1920;
- line.style.transform="translateX("+tickX+"px)";
+ line.style.transform="translateY(-50%) translateX("+tickX+"px)";
 },24);
 
 /* ---------- City news card: BBC feed (thumbs) + latest YouTube highlight ---------- */
@@ -1216,19 +1286,54 @@ function fitVideoCover(){
  f.style.width=Math.ceil(16*s+2)+"px";
  f.style.height=Math.ceil(9*s+2)+"px";
 }
+var YT_LIST="UULFkzCjdRMrW2vXLx8mvPVLdQ"; /* Man City long-form uploads (no Shorts) */
+var ytPlayer=null, ytApiTimer=null;
 function fetchLatestVideo(){
- /* Direct embed of the channel's long-form uploads playlist (UULF = Shorts excluded).
-    YouTube serves it and always starts at the newest video - no feeds, no proxies. */
  var body=document.getElementById("vidbody");
  if(document.getElementById("news-iframe"))return;
- var f=document.createElement("iframe");
- f.id="news-iframe";
- f.src="https://www.youtube.com/embed/videoseries?list=UULFkzCjdRMrW2vXLx8mvPVLdQ&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1";
- f.allow="autoplay; encrypted-media";
- body.appendChild(f);
+ var holder=document.createElement("div");
+ holder.id="news-iframe";
+ body.appendChild(holder);
  document.getElementById("news-play").style.display="none";
- fitVideoCover();
- setTimeout(fitVideoCover,600); /* after layout settles */
+ /* YouTube IFrame API: lets us catch embed-restricted videos and skip them */
+ if(window.YT&&YT.Player){buildYt();}
+ else{
+  var s=document.createElement("script");
+  s.src="https://www.youtube.com/iframe_api";
+  document.head.appendChild(s);
+  window.onYouTubeIframeAPIReady=buildYt;
+  /* API blocked? fall back to the plain playlist iframe after 6s */
+  ytApiTimer=setTimeout(function(){
+   if(window.YT&&YT.Player)return;
+   var h=document.getElementById("news-iframe");
+   if(!h||h.tagName==="IFRAME")return;
+   var f=document.createElement("iframe");
+   f.id="news-iframe";
+   f.src="https://www.youtube.com/embed/videoseries?list="+YT_LIST+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0";
+   f.allow="autoplay; encrypted-media";
+   h.parentNode.replaceChild(f,h);
+   fitVideoCover();
+  },6000);
+ }
+}
+function buildYt(){
+ if(ytApiTimer)clearTimeout(ytApiTimer);
+ var h=document.getElementById("news-iframe");
+ if(!h||h.tagName==="IFRAME")return;
+ ytPlayer=new YT.Player("news-iframe",{
+  playerVars:{listType:"playlist",list:YT_LIST,autoplay:1,mute:1,controls:0,rel:0,modestbranding:1,playsinline:1},
+  events:{
+   onReady:function(e){e.target.mute();e.target.playVideo();
+    try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
+    fitVideoCover();setTimeout(fitVideoCover,600);},
+   onStateChange:function(e){ /* re-kill captions for every new video in the playlist */
+    if(e.data===1){try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}}
+   },
+   onError:function(e){ /* 101/150 = embed disabled; 100 = removed: skip to the next video */
+    try{e.target.nextVideo();}catch(x){}
+   }
+  }
+ });
 }
 function newsPlaylist(){
  var list=NEWSITEMS.slice();
@@ -1272,7 +1377,7 @@ function fetchResults(){
   DATA.updated=j.updated||null;
   if(j.clubs)DATA.clubs=j.clubs;
   if(j.transfers){if(!DATA.mancity)DATA.mancity={};DATA.mancity.transfers=j.transfers;}
-  renderNext();renderHero();renderSpot();
+  renderNext();renderHero();renderSpot();recomputeVerified();
  }).catch(function(){});
 }
 function fetchNewsJson(){
@@ -1302,11 +1407,16 @@ setInterval(fetchFixturesAPI,6*60*60*1000);
 setInterval(fetchClubsAPI,6*60*60*1000);
 setInterval(fetchTableAPI,6*60*60*1000);
 setInterval(fetchFormAPI,6*60*60*1000);
+setInterval(fetchResultsESPN,6*60*60*1000);
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
- var f=document.getElementById("news-iframe");
- if(f)f.parentNode.removeChild(f);
- fetchLatestVideo();
+ if(ytPlayer&&ytPlayer.loadPlaylist){
+  try{ytPlayer.loadPlaylist({listType:"playlist",list:YT_LIST});ytPlayer.mute();}catch(x){}
+ }else{
+  var f=document.getElementById("news-iframe");
+  if(f)f.parentNode.removeChild(f);
+  fetchLatestVideo();
+ }
 },60*60*1000);
 
 /* ---------- idle full reload every 20 min ---------- */
@@ -1397,7 +1507,8 @@ document.getElementById("btnExport").addEventListener("click",function(){
    form:(mc.form&&mc.form.length)?mc.form:APIFORM,
    topScorer:mc.topScorer||"",
    topAssists:mc.topAssists||"",
-   transfers:mc.transfers||null
+   transfers:mc.transfers||null,
+   results:(function(){var o={};for(var rk in VERRES)o[rk]=VERRES[rk];return o;})()
   },
   clubs:(function(){var o={};for(var k in APICLUBS)o[k]=APICLUBS[k];
    for(var k2 in (DATA.clubs||{}))o[k2]=DATA.clubs[k2];return o;})(),
@@ -1440,7 +1551,8 @@ document.getElementById("btnBrand").addEventListener("click",function(){
 
 /* ---------- tint cycle ---------- */
 document.body.classList.add("hasphoto");
-var TINTS=["tint-light","","tint-dark"],TINTNAMES=["light","medium","dark"],tintIdx=1;
+var TINTS=["tint-light","","tint-dark"],TINTNAMES=["light","medium","dark"],tintIdx=0;
+document.body.classList.add("tint-light");
 document.getElementById("btnTint").addEventListener("click",function(){
  document.body.classList.remove("tint-light","tint-dark");
  tintIdx=(tintIdx+1)%3;
@@ -1452,7 +1564,7 @@ document.getElementById("btnTint").addEventListener("click",function(){
 function tickSecond(){clock();renderNext();}
 scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();renderFxCal();
 setInterval(tickSecond,1000);
-fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();
+fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
 </script>
 </body>
 </html>
