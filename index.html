@@ -36,7 +36,7 @@
                  "EFL":"Round 3 - 22 Sep", "SHIELD":"Winners" },
       "fixtures": [ {"utc":"2026-08-29T14:00:00Z","comp":"PL","home":"Crystal Palace",
                      "away":"Man City","venue":"Selhurst Park"} ],
-      "results": { "2026-08-16": {"score":"1-2","res":"W","fr":false} }
+      "results": { "2026-08-16": {"score":"3-0","res":"L","fr":false} }
       (results = manual score override by GST date; outranks both live sources;
        scores display ONLY when TheSportsDB and ESPN agree, or via this map)
     },
@@ -437,14 +437,14 @@ body.brand #newscard .label{color:var(--steel)}
 /* ---------- seed data (verified sources in header comment) ---------- */
 var CLUBS = [
  {code:"MCI",name:"Manchester City",league:"Premier League",country:"England",c1:"#6CABDD",c2:"#1C2C5B",verified:true,note:"FA Cup + Carabao holders"},
- {code:"GIR",name:"Girona FC",league:"Segunda Divisi\u00f3n",country:"Spain",c1:"#CD2534",c2:"#FFFFFF",verified:true,note:"Relegated from La Liga 25/26 (19th)"},
- {code:"PAL",name:"Palermo FC",league:"Serie B",country:"Italy",c1:"#E77FAF",c2:"#111111",verified:true,note:"4th in 25/26 \u00b7 lost promotion playoff SF"},
+ {code:"GIR",name:"Girona FC",league:"Segunda División",country:"Spain",c1:"#CD2534",c2:"#FFFFFF",verified:true,note:"Relegated from La Liga 25/26 (19th)"},
+ {code:"PAL",name:"Palermo FC",league:"Serie B",country:"Italy",c1:"#E77FAF",c2:"#111111",verified:true,note:"4th in 25/26 · lost promotion playoff SF"},
  {code:"NYC",name:"New York City FC",league:"MLS",country:"USA",c1:"#6CABDD",c2:"#041E42",verified:true,note:"Season in progress"},
- {code:"BAH",name:"EC Bahia",league:"S\u00e9rie A (BRA)",country:"Brazil",c1:"#006CB5",c2:"#D40000",verified:false,note:"Season in progress"},
+ {code:"BAH",name:"EC Bahia",league:"Série A (BRA)",country:"Brazil",c1:"#006CB5",c2:"#D40000",verified:false,note:"Season in progress"},
  {code:"TRO",name:"Troyes AC",league:"Ligue 2",country:"France",c1:"#2A5DA7",c2:"#FFFFFF",verified:false,note:""},
  {code:"LOM",name:"Lommel SK",league:"Challenger Pro League",country:"Belgium",c1:"#62B446",c2:"#0B2A0B",verified:false,note:""},
  {code:"MEL",name:"Melbourne City",league:"A-League",country:"Australia",c1:"#87C0E8",c2:"#0F2B46",verified:true,note:"Off-season"},
- {code:"TOR",name:"Montevideo City Torque",league:"Primera Divisi\u00f3n (URU)",country:"Uruguay",c1:"#55B5E5",c2:"#0A2A4A",verified:false,note:"Season in progress"},
+ {code:"TOR",name:"Montevideo City Torque",league:"Primera División (URU)",country:"Uruguay",c1:"#55B5E5",c2:"#0A2A4A",verified:false,note:"Season in progress"},
  {code:"SHE",name:"Shenzhen Peng City",league:"China League One",country:"China",c1:"#F2A03D",c2:"#12365B",verified:false,note:""}
 ];
 /* Man City fixtures, UTC. subj=true means kickoff time still subject to broadcast picks */
@@ -463,18 +463,18 @@ var FIXTURES = [
 ];
 var COMPS = {
  PL:"Starts 23 Aug",
- UCL:"League phase \u00b7 from 8 Sep",
- FA:"Holders \u00b7 Round 3 Jan",
- EFL:"Enter Round 3 \u00b7 Sep",
- SHIELD:"vs Arsenal \u00b7 16 Aug 18:00"
+ UCL:"League phase · from 8 Sep",
+ FA:"Holders · Round 3 Jan",
+ EFL:"Enter Round 3 · Sep",
+ SHIELD:"vs Arsenal · 16 Aug 18:00"
 };
 var COMPNAMES = {PL:"Premier League",UCL:"Champions League",FA:"FA Cup",EFL:"Carabao Cup",SHIELD:"Community Shield",FR:"Friendly"};
 var NEWS = [
- "Community Shield: Arsenal v Man City at the Principality Stadium, Sun 16 Aug \u00b7 18:00 GST",
- "Premier League opener: Man City v Bournemouth at the Etihad, Sun 23 Aug \u00b7 17:00 GST",
+ "Community Shield: Arsenal v Man City at the Principality Stadium, Sun 16 Aug · 18:00 GST",
+ "Premier League opener: Man City v Bournemouth at the Etihad, Sun 23 Aug · 17:00 GST",
  "First Manchester derby of 26/27 at Old Trafford on 12 Sep",
- "UCL league phase runs 8 Sep to 27 Jan \u2014 no qualifiers for City",
- "Girona begin life in the Segunda Divisi\u00f3n \u00b7 Palermo go again in Serie B",
+ "UCL league phase runs 8 Sep to 27 Jan — no qualifiers for City",
+ "Girona begin life in the Segunda División · Palermo go again in Serie B",
  "City return to European action in September"
 ];
 var DATA = {mancity:null,clubs:{}};
@@ -564,6 +564,11 @@ function fetchTableAPI(){
    Agreement -> VERRES[dateKey]={score,res,fr}. Disagreement or single-source
    -> the match shows "FT" with no score, never a possibly-wrong number.
    results.json "results" map is the manual override and outranks both. */
+/* Editor-verified results baked at build time (source + date noted per entry).
+   Sit ABOVE dual-agreement, BELOW the user's results.json manual map. */
+var BAKEDRES={
+ "2026-08-16":{score:"3-0",res:"L",fr:false} /* Community Shield, Arsenal 3-0 City, Cardiff - thefa.com & mancity.com, retrieved 19 Aug 2026 */
+};
 var APIRES=liveGet("res")||{}, ESPNRES=liveGet("res2")||{}, VERRES={};
 function dateKey(p){return p.y+"-"+("0"+(p.m+1)).slice(-2)+"-"+("0"+p.day).slice(-2);}
 function recomputeVerified(){
@@ -572,7 +577,8 @@ function recomputeVerified(){
   var a=APIRES[k],b=ESPNRES[k];
   if(a&&b&&a.score===b.score)VERRES[k]={score:a.score,res:a.res,fr:!!(a.fr||b.fr)};
  }
- /* manual override: results.json { "mancity": { "results": {"2026-08-09":{"score":"3-0","res":"W","fr":true}} } } */
+ for(var bk in BAKEDRES)VERRES[bk]=BAKEDRES[bk];
+ /* manual override: results.json { "mancity": { "results": {...} } } - outranks everything */
  var man=(DATA.mancity&&DATA.mancity.results)||{};
  for(var mk in man){if(man[mk]&&man[mk].score)VERRES[mk]={score:man[mk].score,res:man[mk].res||"",fr:!!man[mk].fr};}
  /* form dots: confirmed competitive matches only, oldest -> newest */
@@ -607,7 +613,8 @@ function fetchResultsESPN(){
    j.events.forEach(function(ev){
     try{
      var comp=ev.competitions&&ev.competitions[0];if(!comp)return;
-     var st=comp.status&&comp.status.type;if(!st||!st.completed)return;
+     var stat=comp.status||ev.status;
+     var st=stat&&stat.type;if(!st||!st.completed)return;
      var cs=comp.competitors;if(!cs||cs.length<2)return;
      var home=null,away=null;
      cs.forEach(function(c){if(c.homeAway==="home")home=c;if(c.homeAway==="away")away=c;});
@@ -656,7 +663,7 @@ function renderTable(){
  });
  var note=document.createElement("div");
  note.className="plrow head";note.style.justifyContent="center";
- note.textContent=(t[0]&&t[0].p>0)?"":"Season starts 23 Aug \u00b7 GST";
+ note.textContent=(t[0]&&t[0].p>0)?"":"Season starts 23 Aug · GST";
  host.appendChild(note);
 }
 function getFixtures(){
@@ -675,11 +682,24 @@ var WINDOWS = [
  {name:"Winter 2027", open:"2027-01-01T00:00:00Z", close:"2027-02-01T23:00:00Z", reopens:"June 2027"}
 ];
 /* Confirmed only; rumours clearly labelled. Source: teamtalk.com / sportsmole / Sky (retrieved 6 Jul 2026) */
+/* verified 19 Aug 2026 - skysports.com / espn.com / official Barcelona statement
+   (Rodri confirmed 18-19 Aug); window closes 1 Sep. FIRST-TEAM CONFIRMED DEALS ONLY,
+   names only on the wall. Youth/loan-back moves (Monga, Detourbet, Charles, Ndala,
+   McFarlane, Nypan) intentionally excluded. Reijnders->Al Qadsiah "set to" per Sky,
+   NOT baked until official. */
 var TRANSFERS = {
- ins: [{n:"Elliot Anderson",d:"\u00a3116m \u00b7 Forest \u00b7 British record"}],
- outs: [{n:"Bernardo Silva",d:"end of contract \u00b7 460 apps"}],
- targets: [],
- lastWindow: "Jan 26: Semenyo \u00a364m \u00b7 Gu\u00e9hi \u00a320m in"
+ ins: [
+  {n:"Elliot Anderson"},
+  {n:"Gerónimo Rulli"}
+ ],
+ outs: [
+  {n:"Rodri"},
+  {n:"Bernardo Silva"},
+  {n:"Manuel Akanji"},
+  {n:"Nathan Aké"}
+ ],
+ targets: [{n:"Ayyoub Bouaddi"}],
+ lastWindow: "Jan 26: Semenyo £64m · Guéhi £20m in"
 };
 
 /* ---------- helpers ---------- */
@@ -782,7 +802,7 @@ function isCity(n){return /man(chester)?\s*city/i.test(String(n))&&!/shenzhen|me
 function clubByName(n){
  if(isCity(n)) return CLUBS[0];
  var ln=String(n);
- if(ln.normalize)ln=ln.normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+ if(ln.normalize)ln=ln.normalize("NFD").replace(/[̀-ͯ]/g,"");
  ln=ln.toLowerCase();
  for(var i=0;i<OPPMAP.length;i++){
   if(ln.indexOf(OPPMAP[i][0])!==-1) return {code:OPPMAP[i][1]};
@@ -825,9 +845,9 @@ function renderNext(){
  var f=nextFixture(); if(!f)return;
  var w=fmtDT(f.utc);
  var live=Date.now()>=new Date(f.utc).getTime()&&Date.now()<new Date(f.utc).getTime()+2*3600e3;
- document.getElementById("nc-comp").textContent="NEXT MATCH \u00b7 "+(COMPNAMES[f.comp]||f.comp).toUpperCase();
+ document.getElementById("nc-comp").textContent="NEXT MATCH · "+(COMPNAMES[f.comp]||f.comp).toUpperCase();
  document.getElementById("nc-title").textContent=f.home+"  v  "+f.away;
- document.getElementById("nc-meta").textContent=w.date+" \u00b7 "+w.time+" GST \u00b7 "+f.venue;
+ document.getElementById("nc-meta").textContent=w.date+" · "+w.time+" GST · "+f.venue;
  document.getElementById("nc-note").textContent=f.subj?"kick-off subject to broadcast change":"";
  var h=document.getElementById("nc-hcrest"),a=document.getElementById("nc-acrest");
  h.innerHTML="";a.innerHTML="";
@@ -853,11 +873,11 @@ function trophyImg(key,hot){
  return img;
 }
 var COMP_DATES = {
- SHIELD:"16 Aug \u00b7 18:00",
+ SHIELD:"16 Aug · 18:00",
  PL:"from 23 Aug",
  UCL:"from 8 Sep",
- EFL:"Round 3 \u00b7 Sep",
- FA:"Round 3 \u00b7 9 Jan"
+ EFL:"Round 3 · Sep",
+ FA:"Round 3 · 9 Jan"
 };
 function renderStrip(hotComp){
  var comps=(DATA.mancity&&DATA.mancity.comps)||null;
@@ -866,7 +886,7 @@ function renderStrip(hotComp){
   var hot=(k===hotComp);
   var r=document.createElement("div");
   r.className="trow"+(hot?" hot":"");
-  var val=(comps&&comps[k])||COMP_DATES[k]||"\u2014";
+  var val=(comps&&comps[k])||COMP_DATES[k]||"—";
   r.appendChild(trophyImg(k,hot));
   r.insertAdjacentHTML("beforeend",
    "<span class='cn'>"+esc(COMPNAMES[k])+"</span>"+
@@ -900,7 +920,7 @@ function renderHero(){
 
 function faceFor(name){
  var s=String(name);
- if(s.normalize)s=s.normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+ if(s.normalize)s=s.normalize("NFD").replace(/[̀-ͯ]/g,"");
  var k=s.toLowerCase().replace(/[^a-z]/g,"");
  if(!k)return null;
  for(var key in FACES){
@@ -910,10 +930,10 @@ function faceFor(name){
 }
 function statBlock(id,title,cls,val){
  var host=document.getElementById(id);host.innerHTML="";
- var name="\u2014",num="";
+ var name="—",num="";
  if(val){
-  var p=String(val).split(/\s*[-\u00b7:]\s*/);
-  name=p[0]||"\u2014"; num=p[1]||"";
+  var p=String(val).split(/\s*[-·:]\s*/);
+  name=p[0]||"—"; num=p[1]||"";
  }
  var src=faceFor(name);
  var img=document.createElement(src?"img":"div");
@@ -946,7 +966,7 @@ function renderFixStrip(){
   var tr=trophyImg(f.comp,i===0); tr.style.width="24px";tr.style.height="24px";tr.style.marginRight="8px";
   d.appendChild(tr);
   d.insertAdjacentHTML("beforeend","<span class='tag "+esc(f.comp)+"'>"+esc(f.comp)+"</span>"+
-   esc(w.time)+" \u00b7 "+(home?"vs":"at")+" ");
+   esc(w.time)+" · "+(home?"vs":"at")+" ");
   d.appendChild(crestEl(clubByName(opp),28));
   var nm=document.createElement("span");
   nm.style.marginLeft="8px";nm.textContent=opp;
@@ -1093,7 +1113,7 @@ function renderTransfers(){
   label.innerHTML="City &middot; Transfer Window <span style='color:var(--win)'>&middot; OPEN</span>";
   function col(cls,title,arr){
    var rows=arr.length?arr.map(function(x){
-    return "<div class='twn'>"+esc(x.n)+(x.d?" <small>"+esc(x.d)+"</small>":"")+"</div>";
+    return "<div class='twn'>"+esc(x.n)+"</div>";
    }).join(""):"<div class='twn' style='color:var(--steel)'>none yet</div>";
    return "<div class='twcol'><div class='twh "+cls+"'>"+title+"</div>"+rows+"</div>";
   }
@@ -1115,16 +1135,16 @@ function renderSpot(){
  var host=document.getElementById("spot-crest");host.innerHTML="";
  host.appendChild(crestEl(c,64));
  document.getElementById("spot-name").textContent=c.name;
- document.getElementById("spot-league").innerHTML=esc(live.league||c.league)+" \u00b7 "+esc(c.country)+(c.verified||live.league?"":"<span class='pend'>league pending verification</span>");
- document.getElementById("spot-pos").textContent=live.pos||"\u2014";
- document.getElementById("spot-form").textContent=(live.form&&live.form.join(" "))||"\u2014";
+ document.getElementById("spot-league").innerHTML=esc(live.league||c.league)+" · "+esc(c.country)+(c.verified||live.league?"":"<span class='pend'>league pending verification</span>");
+ document.getElementById("spot-pos").textContent=live.pos||"—";
+ document.getElementById("spot-form").textContent=(live.form&&live.form.join(" "))||"—";
  var nx=document.getElementById("spot-next");
  if(live.next&&live.next.utc){
   var w=fmtDT(live.next.utc);
-  nx.textContent=w.date+" "+w.time+" \u00b7 "+(live.next.home?"vs ":"at ")+live.next.opp;
- }else{nx.textContent=c.note||"\u2014";}
+  nx.textContent=w.date+" "+w.time+" · "+(live.next.home?"vs ":"at ")+live.next.opp;
+ }else{nx.textContent=c.note||"—";}
  var n=CLUBS[(spotIdx+1)%CLUBS.length];
- document.getElementById("spot-foot").textContent="next: "+n.name+" \u2192";
+ document.getElementById("spot-foot").textContent="next: "+n.name+" →";
  spotStart=Date.now();
 }
 var flipping=false;
@@ -1189,7 +1209,7 @@ function layoutCF(){
 var tickX=1920;
 function buildTicker(){
  var line=document.getElementById("tickline");
- line.textContent=NEWS.join("   \u00b7   ")+"   \u00b7   ";
+ line.textContent=NEWS.join("   ·   ")+"   ·   ";
 }
 setInterval(function(){
  var line=document.getElementById("tickline");
@@ -1251,7 +1271,27 @@ function parseRss(doc,withThumbs,tag){
  }
  return out;
 }
+/* Local-runner feeds: run_city.py fetches the RSS feeds server-side (no CORS)
+   and writes feeds.json next to this file. When that file exists and is fresh
+   (<45 min), it wins; otherwise the browser falls back to the proxy chain.
+   Hosted (GitHub Pages) builds simply never find feeds.json and work as before. */
+function tryLocalFeeds(){
+ return fetch("feeds.json?t="+Date.now())
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.updated)return false;
+   if(Date.now()-new Date(j.updated).getTime()>45*60*1000)return false; /* stale = runner down, use proxies */
+   if(j.news&&j.news.length){
+    NEWSITEMS=j.news.slice(0,12);newsIdx=0;saveLive("news",NEWSITEMS);
+    NEWSSTATE={mode:"live",t:new Date(j.updated).getTime()};renderNewsCard();
+   }
+   if(j.ticker&&j.ticker.length){NEWS=j.ticker;saveLive("ticker",j.ticker);buildTicker();}
+   return true;
+  }).catch(function(){return false;});
+}
 function fetchCityNews(){
+ tryLocalFeeds().then(function(local){
+ if(local)return;
  Promise.all([
   fetchFeed("https://feeds.bbci.co.uk/sport/football/teams/manchester-city/rss.xml",
    function(d){return parseRss(d,true,"BBC");}),
@@ -1273,6 +1313,7 @@ function fetchCityNews(){
    NEWSITEMS=merged.slice(0,12);newsIdx=0;saveLive("news",NEWSITEMS);
    NEWSSTATE={mode:"live",t:Date.now()};renderNewsCard();
   }
+ });
  });
 }
 function fitVideoCover(){
@@ -1348,8 +1389,8 @@ function renderNewsCard(){
   var tt=NEWSSTATE.t?fmtDT(new Date(NEWSSTATE.t).toISOString()):null;
   var stale=NEWSSTATE.mode==="cached"&&NEWSSTATE.t&&(Date.now()-NEWSSTATE.t>72*3600e3);
   fb.className=stale?"seed":NEWSSTATE.mode;
-  fb.textContent=NEWSSTATE.mode==="live"?("LIVE \u00b7 "+tt.time):
-   NEWSSTATE.mode==="cached"?((stale?"STALE \u00b7 ":"CACHED \u00b7 ")+tt.date+" "+tt.time):"";
+  fb.textContent=NEWSSTATE.mode==="live"?("LIVE · "+tt.time):
+   NEWSSTATE.mode==="cached"?((stale?"STALE · ":"CACHED · ")+tt.date+" "+tt.time):"";
  }
  var list=newsPlaylist();
  if(!list.length)return;
@@ -1358,7 +1399,7 @@ function renderNewsCard(){
   if(!el)continue;
   if(i<list.length){
    var it=list[(newsIdx+i)%list.length];
-   el.textContent=it.title+(it.src==="Club"?" \u00b7 mancity.com":it.src==="X"?" \u00b7 \uD835\uDD4F @ManCity":"");
+   el.textContent=it.title+(it.src==="Club"?" · mancity.com":it.src==="X"?" · 𝕏 @ManCity":"");
   }else{
    el.textContent="";
   }
@@ -1386,7 +1427,9 @@ function fetchNewsJson(){
  }).catch(function(){});
 }
 function fetchNews(){
- /* Route 1: Google News RSS (Manchester City), via CORS proxy. Fragile link -> silent fallback to news.json. */
+ /* Route 0: local runner feeds.json. Route 1: Google News RSS via CORS proxy. Fallback: news.json. */
+ tryLocalFeeds().then(function(local){
+ if(local)return;
  var rss="https://news.google.com/rss/search?q=%22Manchester+City%22&hl=en-GB&gl=GB&ceid=GB:en";
  fetchFeed(rss,function(doc){
   var items=doc.querySelectorAll("item > title");
@@ -1399,6 +1442,7 @@ function fetchNews(){
  }).then(function(out){
   if(out.length){NEWS=out;saveLive("ticker",out);buildTicker();}
   else fetchNewsJson();
+ });
  });
 }
 setInterval(fetchResults,5*60*1000);
@@ -1480,17 +1524,17 @@ function buildMCHeader(){
 function freshLine(){
  var el=document.getElementById("freshline");if(!el)return;
  function ago(k){
-  if(!LIVE[k]||!LIVE[k].t)return "\u2014";
+  if(!LIVE[k]||!LIVE[k].t)return "—";
   var m=Math.round((Date.now()-LIVE[k].t)/60000);
   return m<1?"now":(m<60?m+"m":Math.round(m/60)+"h");
  }
  var warn="";
  if(DATA.mancity&&DATA.updated){
   var d=Math.round((Date.now()-new Date(DATA.updated).getTime())/86400e3);
-  if(d>=7)warn=" \u00b7 \u26a0 results.json "+d+"d old";
+  if(d>=7)warn=" · ! results.json "+d+"d old";
  }
- el.textContent="Updated \u00b7 fixtures "+ago("fixtures")+" \u00b7 table "+ago("table")+
-  " \u00b7 form "+ago("form")+" \u00b7 news "+ago("news")+warn+" \u00b7 All times GST (UTC+4)";
+ el.textContent="Updated · fixtures "+ago("fixtures")+" · table "+ago("table")+
+  " · form "+ago("form")+" · news "+ago("news")+warn+" · All times GST (UTC+4)";
 }
 setInterval(freshLine,60*1000);freshLine();
 
