@@ -154,7 +154,11 @@ body.brand #newscard .label{color:var(--steel)}
 .twcol+.twcol{border-left:1px solid var(--line)}
 .twh{font-family:'Barlow Condensed';font-weight:700;font-size:24px;letter-spacing:.2em}
 .twh.in{color:var(--win)} .twh.out{color:var(--loss)}
-.twn{font-size:19px;color:var(--ice);line-height:1.35}
+.twn{font-size:16px;color:var(--ice);line-height:1.3;break-inside:avoid;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.twcol{overflow:hidden;min-width:0}
+.twlist{overflow:hidden}
+.twlist.two{column-count:2;column-gap:12px}
+.twlist.two .twn{font-size:14px}
 .twn small{color:var(--steel);font-size:15px}
 .hcard{flex:1;padding:18px 22px;display:flex;flex-direction:column;min-width:0}
 .hcard .body{margin-top:12px;font-size:19px;line-height:1.75;color:#DCEBF8;overflow:hidden}
@@ -1150,7 +1154,7 @@ function renderTransfers(){
    var rows=arr.length?arr.map(function(x){
     return "<div class='twn'>"+esc(x.n)+"</div>";
    }).join(""):"<div class='twn' style='color:var(--steel)'>none yet</div>";
-   return "<div class='twcol'><div class='twh "+cls+"'>"+title+"</div>"+rows+"</div>";
+   return "<div class='twcol'><div class='twh "+cls+"'>"+title+"</div><div class='twlist"+(arr.length>4?" two":"")+"'>"+rows+"</div></div>";
   }
   body.innerHTML="<div class='twcols'>"+col("in","IN",t.ins||[])+col("out","OUT",t.outs||[])+"</div>";
  }else{
@@ -1161,7 +1165,7 @@ function renderTransfers(){
    var rows=arr.length?arr.map(function(x){
     return "<div class='twn'>"+esc(x.n)+"</div>";
    }).join(""):"<div class='twn' style='color:var(--steel)'>none</div>";
-   return "<div class='twcol'><div class='twh "+cls+"'>"+title+"</div>"+rows+"</div>";
+   return "<div class='twcol'><div class='twh "+cls+"'>"+title+"</div><div class='twlist"+(arr.length>4?" two":"")+"'>"+rows+"</div></div>";
   }
   body.innerHTML="<div class='twcols'>"+col2("in","IN",t.ins||[])+col2("out","OUT",t.outs||[])+"</div>";
  }
@@ -1189,20 +1193,30 @@ function renderSpot(){
  spotStart=Date.now();
 }
 var flipping=false;
+var flipSince=0;
 setInterval(function(){
- var p=Math.min(1,(Date.now()-spotStart)/SPOT_MS);
- document.getElementById("spot-fill").style.width=(p*100)+"%";
- if(p>=1&&!flipping){
-  flipping=true;
-  var card=document.getElementById("spot");
-  card.style.transform="rotateY(90deg)";
-  setTimeout(function(){
-   spotIdx=(spotIdx+1)%CLUBS.length;
-   renderSpot();
-   card.style.transform="rotateY(0deg)";
-   setTimeout(function(){flipping=false;},520);
-  },510);
- }
+ try{
+  /* watchdog: if a throttled/failed flip left the card mid-turn, force-recover */
+  if(flipping&&flipSince&&Date.now()-flipSince>4000){
+   flipping=false;
+   var c0=document.getElementById("spot");if(c0)c0.style.transform="rotateY(0deg)";
+  }
+  var p=Math.min(1,(Date.now()-spotStart)/SPOT_MS);
+  document.getElementById("spot-fill").style.width=(p*100)+"%";
+  if(p>=1&&!flipping){
+   flipping=true;flipSince=Date.now();
+   var card=document.getElementById("spot");
+   card.style.transform="rotateY(90deg)";
+   setTimeout(function(){
+    try{
+     spotIdx=(spotIdx+1)%CLUBS.length;
+     renderSpot();
+    }catch(e){}
+    card.style.transform="rotateY(0deg)";
+    setTimeout(function(){flipping=false;flipSince=0;},520);
+   },510);
+  }
+ }catch(e){}
 },200);
 
 /* ---------- flip card: titles <-> transfers ---------- */
@@ -1380,6 +1394,28 @@ function fitVideoCover(){
  f.style.height=Math.ceil(9*s+2)+"px";
 }
 var YT_LIST="PLJ7zFS-ntztM"; /* "HIGHLIGHTS 26/27" - official Man City playlist, verified 24 Aug 2026 */
+var YT_FALLBACK="UULFkzCjdRMrW2vXLx8mvPVLdQ"; /* channel long-form uploads - used when the playlist won't play (e.g. geo-blocked match footage) */
+var ytErrors=0, ytOnFallback=false, ytLastOk=0, ytWatch=null;
+function ytSkipStuck(){
+ /* Watchdog: premieres, members-only videos and some geo-blocks show
+    "unavailable" WITHOUT firing onError. Rule: if nothing has actually been
+    playing for 12s, skip forward - no error signal required. */
+ try{
+  if(!ytPlayer||!ytPlayer.getPlayerState)return;
+  var s=ytPlayer.getPlayerState(); /* 1 playing, 2 paused = healthy */
+  if(s===1||s===2){ytLastOk=Date.now();return;}
+  if(Date.now()-ytLastOk>12000){
+   ytLastOk=Date.now();
+   ytErrors++;
+   if(ytErrors>=3&&!ytOnFallback){
+    ytOnFallback=true;ytErrors=0;
+    ytPlayer.loadPlaylist({listType:"playlist",list:YT_FALLBACK});ytPlayer.mute();
+   }else{
+    ytPlayer.nextVideo();
+   }
+  }
+ }catch(e){}
+}
 var ytPlayer=null, ytApiTimer=null;
 function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
@@ -1402,7 +1438,7 @@ function fetchLatestVideo(){
    if(!h||h.tagName==="IFRAME")return;
    var f=document.createElement("iframe");
    f.id="news-iframe";
-   f.src="https://www.youtube.com/embed/videoseries?list="+YT_LIST+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0&loop=1";
+   f.src="https://www.youtube.com/embed/videoseries?list="+YT_FALLBACK+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0&loop=1";
    f.allow="autoplay; encrypted-media";
    h.parentNode.replaceChild(f,h);
    fitVideoCover();
@@ -1418,12 +1454,23 @@ function buildYt(){
   events:{
    onReady:function(e){e.target.mute();e.target.playVideo();
     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
+    ytLastOk=Date.now();
+    if(!ytWatch)ytWatch=setInterval(ytSkipStuck,3000);
     fitVideoCover();setTimeout(fitVideoCover,600);},
    onStateChange:function(e){ /* re-kill captions for every new video in the playlist */
-    if(e.data===1){try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}}
+    if(e.data===1){ytErrors=0;ytLastOk=Date.now();try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}}
    },
-   onError:function(e){ /* 101/150 = embed disabled; 100 = removed: skip to the next video */
-    try{e.target.nextVideo();}catch(x){}
+   onError:function(e){
+    /* 101/150 = embed disabled or geo-blocked; 100 = removed. Skip; if the whole
+       playlist is unplayable (e.g. PL highlights geo-blocked in this region),
+       fall back to the channel's uploads feed, which mixes in unrestricted content. */
+    ytErrors++;
+    if(ytErrors>=3&&!ytOnFallback){
+     ytOnFallback=true;ytErrors=0;
+     try{e.target.loadPlaylist({listType:"playlist",list:YT_FALLBACK});e.target.mute();}catch(x){}
+    }else{
+     try{e.target.nextVideo();}catch(x){}
+    }
    }
   }
  });
@@ -1441,8 +1488,8 @@ function renderNewsCard(){
   var tt=NEWSSTATE.t?fmtDT(new Date(NEWSSTATE.t).toISOString()):null;
   var stale=NEWSSTATE.mode==="cached"&&NEWSSTATE.t&&(Date.now()-NEWSSTATE.t>72*3600e3);
   fb.className=stale?"seed":NEWSSTATE.mode;
-  fb.textContent=NEWSSTATE.mode==="live"?("LIVE · "+tt.time):
-   NEWSSTATE.mode==="cached"?((stale?"STALE · ":"CACHED · ")+tt.date+" "+tt.time):"";
+  fb.textContent=NEWSSTATE.mode==="live"?("LIVE"+(tt?" · "+tt.time:"")):
+   NEWSSTATE.mode==="cached"&&tt?((stale?"STALE · ":"CACHED · ")+tt.date+" "+tt.time):"";
  }
  var list=newsPlaylist();
  if(!list.length)return;
@@ -1457,9 +1504,16 @@ function renderNewsCard(){
   }
  }
 }
+/* wall-clock rotation: even if the browser throttles timers (Edge efficiency
+   mode / sleeping tabs), the card catches up to the correct position on the
+   next tick instead of freezing; try/catch so one bad item can't kill it */
+var newsClock=Math.floor(Date.now()/12000);
 setInterval(function(){
- newsIdx++;renderNewsCard();
-},12000);
+ try{
+  var wi=Math.floor(Date.now()/12000);
+  if(wi!==newsClock){newsIdx+=(wi-newsClock);newsClock=wi;renderNewsCard();}
+ }catch(e){}
+},2000);
 
 
 /* ---------- data refresh (results.json / news.json, silent) ---------- */
@@ -1514,7 +1568,7 @@ setInterval(fetchLeadersESPN,6*60*60*1000);
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  if(ytPlayer&&ytPlayer.loadPlaylist){
-  try{ytPlayer.loadPlaylist({listType:"playlist",list:YT_LIST});ytPlayer.mute();}catch(x){}
+  try{ytPlayer.loadPlaylist({listType:"playlist",list:ytOnFallback?YT_FALLBACK:YT_LIST});ytPlayer.mute();}catch(x){}
  }else{
   var f=document.getElementById("news-iframe");
   if(f)f.parentNode.removeChild(f);
