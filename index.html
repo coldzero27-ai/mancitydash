@@ -604,6 +604,38 @@ function fetchFormAPI(){
    recomputeVerified();
   }).catch(function(){});
 }
+var APILEADERS=liveGet("leaders")||{};
+function fetchLeadersESPN(){
+ /* ESPN per-team PL season leaders - scorer/assists update themselves; results.json overrides */
+ fetch("https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/leaders")
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j)return;
+   var cats=(j.leaders&&j.leaders.categories)||j.leaders||j.categories||[];
+   if(!cats.length)return;
+   function top(nameRe){
+    for(var i=0;i<cats.length;i++){
+     var c=cats[i];
+     if(!nameRe.test(c.name||c.displayName||""))continue;
+     var l=(c.leaders&&c.leaders[0])||null;
+     if(!l)return null;
+     var who=(l.athlete&&(l.athlete.shortName||l.athlete.displayName))||"";
+     var val=l.displayValue||l.value||"";
+     /* surname only, matches the manual "Haaland - 3" convention */
+     who=String(who).trim().split(/\s+/).pop();
+     return who&&val!==""?who+" - "+val:null;
+    }
+    return null;
+   }
+   var sc=top(/^(goals|totalGoals)$/i), as=top(/^(assists|goalAssists)$/i);
+   if(sc||as){
+    if(sc)APILEADERS.scorer=sc;
+    if(as)APILEADERS.assists=as;
+    saveLive("leaders",APILEADERS);
+    renderHero();
+   }
+  }).catch(function(){});
+}
 function fetchResultsESPN(){
  /* ESPN unofficial API, keyless; "all" slug spans every competition City play in */
  fetch("https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/382/schedule")
@@ -682,11 +714,11 @@ var WINDOWS = [
  {name:"Winter 2027", open:"2027-01-01T00:00:00Z", close:"2027-02-01T23:00:00Z", reopens:"June 2027"}
 ];
 /* Confirmed only; rumours clearly labelled. Source: teamtalk.com / sportsmole / Sky (retrieved 6 Jul 2026) */
-/* verified 19 Aug 2026 - skysports.com / espn.com / official Barcelona statement
-   (Rodri confirmed 18-19 Aug); window closes 1 Sep. FIRST-TEAM CONFIRMED DEALS ONLY,
-   names only on the wall. Youth/loan-back moves (Monga, Detourbet, Charles, Ndala,
-   McFarlane, Nypan) intentionally excluded. Reijnders->Al Qadsiah "set to" per Sky,
-   NOT baked until official. */
+/* verified 24 Aug 2026 - skysports.com / espn.com / readmancity.com / footballtransfers.
+   Window closes 1 Sep 23:00 UK. FIRST-TEAM CONFIRMED DEALS ONLY, names only on the wall.
+   Agreed-but-not-announced as of 24 Aug (kept OFF the wall): Savinho->Spurs £85m (medical),
+   Marmoush->Spurs (advanced), Bouaddi<-Lille EUR100m ("here we go"), Allan<-Palmeiras.
+   Final sweep due 2 Sep after deadline day. */
 var TRANSFERS = {
  ins: [
   {n:"Elliot Anderson"},
@@ -694,9 +726,12 @@ var TRANSFERS = {
  ],
  outs: [
   {n:"Rodri"},
+  {n:"Tijjani Reijnders"},
   {n:"Bernardo Silva"},
   {n:"Manuel Akanji"},
-  {n:"Nathan Aké"}
+  {n:"Nathan Aké"},
+  {n:"John Stones"},
+  {n:"James Trafford"}
  ],
  targets: [{n:"Ayyoub Bouaddi"}],
  lastWindow: "Jan 26: Semenyo £64m · Guéhi £20m in"
@@ -912,8 +947,8 @@ function renderHero(){
  }else{
   note.textContent="from matchday 1";
  }
- statBlock("blk-scorer","TOP SCORER","gold",mc&&mc.topScorer);
- statBlock("blk-assists","TOP ASSISTS","sky",mc&&mc.topAssists);
+ statBlock("blk-scorer","TOP SCORER","gold",(mc&&mc.topScorer)||APILEADERS.scorer);
+ statBlock("blk-assists","TOP ASSISTS","sky",(mc&&mc.topAssists)||APILEADERS.assists);
  renderFixStrip();
  renderTransfers();
 }
@@ -1121,8 +1156,14 @@ function renderTransfers(){
  }else{
   var nxt=null,now=Date.now();
   for(var i=0;i<WINDOWS.length;i++){if(new Date(WINDOWS[i].open).getTime()>now){nxt=WINDOWS[i];break;}}
-  label.innerHTML="City &middot; Transfer Window <span style='color:var(--steel)'>&middot; CLOSED</span>";
-  body.innerHTML="<div class='twn' style='color:var(--steel)'>"+(nxt?"Reopens "+esc(nxt.name):"")+"</div>";
+  label.innerHTML="City &middot; Transfer Window <span style='color:var(--steel)'>&middot; CLOSED"+(nxt?" &middot; reopens "+esc(nxt.name):"")+"</span>";
+  function col2(cls,title,arr){
+   var rows=arr.length?arr.map(function(x){
+    return "<div class='twn'>"+esc(x.n)+"</div>";
+   }).join(""):"<div class='twn' style='color:var(--steel)'>none</div>";
+   return "<div class='twcol'><div class='twh "+cls+"'>"+title+"</div>"+rows+"</div>";
+  }
+  body.innerHTML="<div class='twcols'>"+col2("in","IN",t.ins||[])+col2("out","OUT",t.outs||[])+"</div>";
  }
 }
 
@@ -1219,7 +1260,15 @@ setInterval(function(){
 },24);
 
 /* ---------- City news card: BBC feed (thumbs) + latest YouTube highlight ---------- */
-var NEWSITEMS=liveGet("news")||[], newsIdx=0, LATESTVID=null;
+var NEWS_MAX_AGE=72*3600e3; /* house rule: no news older than 3 days, anywhere */
+function freshOnly(arr,fallbackT){
+ var cut=Date.now()-NEWS_MAX_AGE;
+ return (arr||[]).filter(function(it){
+  var t=it.time?new Date(it.time).getTime():fallbackT;
+  return !t||t>=cut; /* undatable item with no fallback stays (manual entries) */
+ });
+}
+var NEWSITEMS=freshOnly(liveGet("news"),(LIVE.news&&LIVE.news.t)||0), newsIdx=0, LATESTVID=null;
 var SOCIAL=(LIVE.social&&Date.now()-LIVE.social.t<72*3600e3)?LIVE.social.v:[];
 function fetchSocial(){
  fetch("social.json?v="+Date.now()).then(function(r){return r.ok?r.json():null;})
@@ -1229,7 +1278,7 @@ function fetchSocial(){
    SOCIAL=j.posts.filter(function(p){
      return !p.time || new Date(p.time).getTime()>=cutoff;
     }).slice(0,4).map(function(p){
-    return {title:p.text,img:null,src:"X",url:p.url||""};
+    return {title:p.text,img:null,src:"X",url:p.url||"",handle:p.handle||"ManCity"};
    });
    saveLive("social",SOCIAL);
    renderNewsCard();
@@ -1266,8 +1315,11 @@ function parseRss(doc,withThumbs,tag){
   if(title.length<22)continue;
   if(/^man(chester)? city( fc)?([ ,.:|-].{0,20})?$/i.test(title))continue;
   if(/official website|news, fixtures|latest news$/i.test(title))continue;
+  var pd=items[i].querySelector("pubDate");
+  var ts=pd?new Date(pd.textContent.trim()).getTime():NaN;
+  if(!isNaN(ts)&&Date.now()-ts>NEWS_MAX_AGE)continue; /* nothing older than 3 days */
   var th=withThumbs?items[i].getElementsByTagNameNS("*","thumbnail")[0]:null;
-  out.push({title:title,img:th?th.getAttribute("url"):null,src:tag});
+  out.push({title:title,img:th?th.getAttribute("url"):null,src:tag,time:isNaN(ts)?new Date().toISOString():new Date(ts).toISOString()});
  }
  return out;
 }
@@ -1282,7 +1334,7 @@ function tryLocalFeeds(){
    if(!j||!j.updated)return false;
    if(Date.now()-new Date(j.updated).getTime()>45*60*1000)return false; /* stale = runner down, use proxies */
    if(j.news&&j.news.length){
-    NEWSITEMS=j.news.slice(0,12);newsIdx=0;saveLive("news",NEWSITEMS);
+    NEWSITEMS=freshOnly(j.news,new Date(j.updated).getTime()).slice(0,12);newsIdx=0;saveLive("news",NEWSITEMS);
     NEWSSTATE={mode:"live",t:new Date(j.updated).getTime()};renderNewsCard();
    }
    if(j.ticker&&j.ticker.length){NEWS=j.ticker;saveLive("ticker",j.ticker);buildTicker();}
@@ -1327,7 +1379,7 @@ function fitVideoCover(){
  f.style.width=Math.ceil(16*s+2)+"px";
  f.style.height=Math.ceil(9*s+2)+"px";
 }
-var YT_LIST="UULFkzCjdRMrW2vXLx8mvPVLdQ"; /* Man City long-form uploads (no Shorts) */
+var YT_LIST="PLJ7zFS-ntztM"; /* "HIGHLIGHTS 26/27" - official Man City playlist, verified 24 Aug 2026 */
 var ytPlayer=null, ytApiTimer=null;
 function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
@@ -1350,7 +1402,7 @@ function fetchLatestVideo(){
    if(!h||h.tagName==="IFRAME")return;
    var f=document.createElement("iframe");
    f.id="news-iframe";
-   f.src="https://www.youtube.com/embed/videoseries?list="+YT_LIST+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0";
+   f.src="https://www.youtube.com/embed/videoseries?list="+YT_LIST+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0&loop=1";
    f.allow="autoplay; encrypted-media";
    h.parentNode.replaceChild(f,h);
    fitVideoCover();
@@ -1362,7 +1414,7 @@ function buildYt(){
  var h=document.getElementById("news-iframe");
  if(!h||h.tagName==="IFRAME")return;
  ytPlayer=new YT.Player("news-iframe",{
-  playerVars:{listType:"playlist",list:YT_LIST,autoplay:1,mute:1,controls:0,rel:0,modestbranding:1,playsinline:1},
+  playerVars:{listType:"playlist",list:YT_LIST,autoplay:1,mute:1,controls:0,rel:0,modestbranding:1,playsinline:1,loop:1},
   events:{
    onReady:function(e){e.target.mute();e.target.playVideo();
     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
@@ -1377,7 +1429,7 @@ function buildYt(){
  });
 }
 function newsPlaylist(){
- var list=NEWSITEMS.slice();
+ var list=freshOnly(NEWSITEMS,NEWSSTATE.t||0);
  if(!list.length)NEWS.slice(0,4).forEach(function(n){list.push({title:n,img:null,video:null});});
  /* X posts join the rotation, tagged */
  SOCIAL.forEach(function(p,i){list.splice(1+i*3,0,p);});
@@ -1399,7 +1451,7 @@ function renderNewsCard(){
   if(!el)continue;
   if(i<list.length){
    var it=list[(newsIdx+i)%list.length];
-   el.textContent=it.title+(it.src==="Club"?" · mancity.com":it.src==="X"?" · 𝕏 @ManCity":"");
+   el.textContent=it.title+(it.src==="Club"?" · mancity.com":it.src==="X"?" · 𝕏 @"+(it.handle||"ManCity"):"");
   }else{
    el.textContent="";
   }
@@ -1423,7 +1475,9 @@ function fetchResults(){
 }
 function fetchNewsJson(){
  fetch("news.json?t="+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
-  if(j&&j.items&&j.items.length){NEWS=j.items;buildTicker();}
+  if(!j||!j.items||!j.items.length)return;
+  if(j.updated&&Date.now()-new Date(j.updated).getTime()>NEWS_MAX_AGE)return; /* dated file older than 3 days: ignore */
+  NEWS=j.items;buildTicker();
  }).catch(function(){});
 }
 function fetchNews(){
@@ -1432,10 +1486,14 @@ function fetchNews(){
  if(local)return;
  var rss="https://news.google.com/rss/search?q=%22Manchester+City%22&hl=en-GB&gl=GB&ceid=GB:en";
  fetchFeed(rss,function(doc){
-  var items=doc.querySelectorAll("item > title");
+  var items=doc.querySelectorAll("item");
   var out=[];
   for(var i=0;i<items.length&&out.length<8;i++){
-   var t=items[i].textContent.replace(/\s+-\s+[^-]+$/,"").trim();
+   var tt=items[i].querySelector("title");if(!tt)continue;
+   var pd=items[i].querySelector("pubDate");
+   var ts=pd?new Date(pd.textContent.trim()).getTime():NaN;
+   if(!isNaN(ts)&&Date.now()-ts>NEWS_MAX_AGE)continue;
+   var t=tt.textContent.replace(/\s+-\s+[^-]+$/,"").trim();
    if(t)out.push(t);
   }
   return out;
@@ -1452,6 +1510,7 @@ setInterval(fetchClubsAPI,6*60*60*1000);
 setInterval(fetchTableAPI,6*60*60*1000);
 setInterval(fetchFormAPI,6*60*60*1000);
 setInterval(fetchResultsESPN,6*60*60*1000);
+setInterval(fetchLeadersESPN,6*60*60*1000);
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  if(ytPlayer&&ytPlayer.loadPlaylist){
@@ -1608,7 +1667,7 @@ document.getElementById("btnTint").addEventListener("click",function(){
 function tickSecond(){clock();renderNext();}
 scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();renderFxCal();
 setInterval(tickSecond,1000);
-fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
+fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchLeadersESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
 </script>
 </body>
 </html>
