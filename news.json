@@ -1,9 +1,11 @@
 {
-  "items": [
-    "Community Shield: Arsenal v Man City at the Principality Stadium, Sun 16 Aug - 18:00 GST",
-    "Premier League opener: Man City v Bournemouth at the Etihad, Sun 23 Aug - 17:00 GST",
-    "First Manchester derby of 26/27 at Old Trafford on 12 Sep",
-    "UCL league phase runs 8 Sep to 27 Jan - no qualifiers for City",
-    "Edit this file (news.json) in the repo to update the ticker"
-  ]
+ "_readme": "Emergency ticker fallback - used only when live feeds fail AND this file's 'updated' date is under 3 days old. After 3 days the board ignores it automatically. To refresh: edit items, set updated to today, re-upload.",
+ "updated": "2026-08-24T12:00:00Z",
+ "items": [
+  "City open the season with a 2-1 comeback win over Bournemouth - Gvardiol 90th-minute winner",
+  "Next up: Crystal Palace away, Friday night at Selhurst Park - 23:00 GST",
+  "Rodri completes his move to Barcelona - Bernardo Silva, Akanji, Ake, Stones and Reijnders also depart",
+  "Elliot Anderson becomes City's record signing at 116m from Nottingham Forest",
+  "Transfer window closes Tuesday 1 September, 2am GST"
+ ]
 }

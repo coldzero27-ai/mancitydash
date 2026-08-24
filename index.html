@@ -423,7 +423,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4)</span>
+    <span id="freshline">All times GST (UTC+4) · b28</span>
   </div>
 </div>
 </div>
@@ -455,7 +455,7 @@ var CLUBS = [
 var FIXTURES = [
  {utc:"2026-08-16T14:00:00Z",comp:"SHIELD",home:"Arsenal",away:"Man City",venue:"Principality Stadium, Cardiff",subj:false},
  {utc:"2026-08-23T13:00:00Z",comp:"PL",home:"Man City",away:"Bournemouth",venue:"Etihad Stadium",subj:false},
- {utc:"2026-08-29T14:00:00Z",comp:"PL",home:"Crystal Palace",away:"Man City",venue:"Selhurst Park",subj:true},
+ {utc:"2026-08-28T19:00:00Z",comp:"PL",home:"Crystal Palace",away:"Man City",venue:"Selhurst Park",subj:false}, /* Fri 20:00 BST, verified premierleague.com/mancity.com 28 Aug 2026 */
  {utc:"2026-09-05T14:00:00Z",comp:"PL",home:"Man City",away:"Coventry City",venue:"Etihad Stadium",subj:true},
  {utc:"2026-09-12T14:00:00Z",comp:"PL",home:"Manchester United",away:"Man City",venue:"Old Trafford",subj:true},
  {utc:"2026-09-19T14:00:00Z",comp:"PL",home:"Man City",away:"Sunderland",venue:"Etihad Stadium",subj:true},
@@ -705,11 +705,25 @@ function renderTable(){
 function getFixtures(){
  if(DATA.mancity&&DATA.mancity.fixtures&&DATA.mancity.fixtures.length)return DATA.mancity.fixtures;
  if(!APIFIX.length)return FIXTURES;
- /* merge: API entries win on their calendar day (fresher kickoff times), baked fills the rest */
- var byDay={};
- FIXTURES.forEach(function(f){byDay[f.utc.slice(0,10)]=f;});
- APIFIX.forEach(function(f){byDay[f.utc.slice(0,10)]=f;});
- var out=[];for(var k in byDay)out.push(byDay[k]);
+ /* merge: API entries win. A baked entry is dropped when the API carries the
+    SAME MATCHUP within 5 days (TV picks move kickoffs across days) or anything
+    on the same calendar day - so a rescheduled game can never appear twice. */
+ function sideKey(n){
+  if(isCity(n))return "MCI";
+  var c=clubByName(n);
+  return c&&c.code?c.code:String(n).toLowerCase().replace(/[^a-z]/g,"");
+ }
+ function mk(f){return f.comp+"|"+sideKey(f.home)+"|"+sideKey(f.away);}
+ var out=APIFIX.slice();
+ FIXTURES.forEach(function(b){
+  var bt=new Date(b.utc).getTime(),bkey=mk(b),bday=b.utc.slice(0,10);
+  var dup=APIFIX.some(function(a){
+   if(a.utc.slice(0,10)===bday)return true;
+   return mk(a)===bkey&&Math.abs(new Date(a.utc).getTime()-bt)<5*86400e3;
+  });
+  if(!dup)out.push(b);
+ });
+ out.sort(function(x,y){return new Date(x.utc)-new Date(y.utc);});
  return out;
 }
 /* Transfer windows (UTC ends; 1 Sep 23:00 UK = 2 Sep 03:00 GST - rollover handled by conversion) */
@@ -1176,6 +1190,20 @@ var spotIdx=0,SPOT_MS=20000,spotStart=Date.now();
 function renderSpot(){
  var c=CLUBS[spotIdx];
  var live=DATA.clubs[c.code]||APICLUBS[c.code]||{};
+ if(c.code==="MCI"){
+  /* City's spotlight card reads the board's own live data */
+  live=Object.assign({},live);
+  for(var ti=0;ti<APITABLE.length;ti++){
+   if(isCity(APITABLE[ti].team)){live.pos=APITABLE[ti].rank+(APITABLE[ti].rank===1?"st":APITABLE[ti].rank===2?"nd":APITABLE[ti].rank===3?"rd":"th")+" · "+APITABLE[ti].pts+" pts";break;}
+  }
+  if(APIFORM.length)live.form=APIFORM.slice(-5);
+  var fut=getFixtures().slice().sort(function(a,b){return new Date(a.utc)-new Date(b.utc);})
+    .filter(function(f){return new Date(f.utc).getTime()>Date.now()-2*3600e3;});
+  if(fut.length){
+   var f0=fut[0],home=isCity(f0.home);
+   live.next={utc:f0.utc,home:home,opp:home?f0.away:f0.home};
+  }
+ }
  
  var host=document.getElementById("spot-crest");host.innerHTML="";
  host.appendChild(crestEl(c,64));
@@ -1404,7 +1432,7 @@ function ytSkipStuck(){
   if(!ytPlayer||!ytPlayer.getPlayerState)return;
   var s=ytPlayer.getPlayerState(); /* 1 playing, 2 paused = healthy */
   if(s===1||s===2){ytLastOk=Date.now();return;}
-  if(Date.now()-ytLastOk>12000){
+  if(Date.now()-ytLastOk>8000){
    ytLastOk=Date.now();
    ytErrors++;
    if(ytErrors>=3&&!ytOnFallback){
@@ -1445,17 +1473,38 @@ function fetchLatestVideo(){
   },6000);
  }
 }
+function ytPlainFallback(){
+ /* last resort: replace whatever is there with a plain uploads embed */
+ var h=document.getElementById("news-iframe");
+ if(!h||h.tagName==="IFRAME")return;
+ var f=document.createElement("iframe");
+ f.id="news-iframe";
+ f.src="https://www.youtube.com/embed/videoseries?list="+YT_FALLBACK+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0";
+ f.allow="autoplay; encrypted-media";
+ h.parentNode.replaceChild(f,h);
+ fitVideoCover();
+}
 function buildYt(){
  if(ytApiTimer)clearTimeout(ytApiTimer);
  var h=document.getElementById("news-iframe");
  if(!h||h.tagName==="IFRAME")return;
+ /* watchdog runs from creation, not from onReady - a player that never
+    becomes ready is itself a failure mode we must escape */
+ ytLastOk=Date.now();
+ var ytBorn=Date.now();
+ if(!ytWatch)ytWatch=setInterval(function(){
+  if(ytPlayer&&typeof ytPlayer.getPlayerState==="function"){ytSkipStuck();return;}
+  if(Date.now()-ytBorn>25000){ /* API player never came alive: plain embed */
+   clearInterval(ytWatch);ytWatch=null;ytPlayer=null;
+   ytPlainFallback();
+  }
+ },3000);
  ytPlayer=new YT.Player("news-iframe",{
   playerVars:{listType:"playlist",list:YT_LIST,autoplay:1,mute:1,controls:0,rel:0,modestbranding:1,playsinline:1,loop:1},
   events:{
    onReady:function(e){e.target.mute();e.target.playVideo();
     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
     ytLastOk=Date.now();
-    if(!ytWatch)ytWatch=setInterval(ytSkipStuck,3000);
     fitVideoCover();setTimeout(fitVideoCover,600);},
    onStateChange:function(e){ /* re-kill captions for every new video in the playlist */
     if(e.data===1){ytErrors=0;ytLastOk=Date.now();try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}}
@@ -1531,7 +1580,10 @@ function fetchNewsJson(){
  fetch("news.json?t="+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
   if(!j||!j.items||!j.items.length)return;
   if(j.updated&&Date.now()-new Date(j.updated).getTime()>NEWS_MAX_AGE)return; /* dated file older than 3 days: ignore */
-  NEWS=j.items;buildTicker();
+  var items=j.items.filter(function(s){ /* never show template/instructional lines */
+   return !/news\.json|edit this (file|line)|update the ticker|placeholder/i.test(String(s));
+  });
+  if(items.length){NEWS=items;buildTicker();}
  }).catch(function(){});
 }
 function fetchNews(){
