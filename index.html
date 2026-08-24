@@ -128,6 +128,9 @@ body.brand #newscard .label{color:var(--steel)}
 #news-img{width:100%;height:108px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
 #news-iframe{width:100%;height:108px;border-radius:10px;border:1px solid var(--line)}
 #news-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.85)}
+#vid-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#vid-cap{position:absolute;left:0;right:0;bottom:0;padding:6px 12px;font-size:14px;color:#EAF4FF;
+ background:linear-gradient(transparent,rgba(0,10,26,.85));white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:none;z-index:2}
 
 .trow{display:flex;align-items:center;gap:8px;font-size:14px;min-width:0}
 .trow svg{flex:0 0 auto}
@@ -423,7 +426,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b29</span>
+    <span id="freshline">All times GST (UTC+4) · b30</span>
   </div>
 </div>
 </div>
@@ -1421,151 +1424,121 @@ function fitVideoCover(){
  f.style.width=Math.ceil(16*s+2)+"px";
  f.style.height=Math.ceil(9*s+2)+"px";
 }
-/* LATEST-ONLY mode: the channel's uploads RSS tells us the newest video ids;
-   the player starts at the newest and auto-skips to the newest PLAYABLE one
-   (geo-blocked highlights / premieres / members-only get passed over). */
+/* SIMPLE LATEST VIDEO (b30):
+   Show the channel's newest upload. Try to play it once; if it will not embed
+   (Premier League content is usually embed-disabled: plays fine on youtube.com,
+   forbidden inside other sites' players - confirmed by testing on this network),
+   the card shows the SAME video's thumbnail poster + title instead. A poster is
+   a plain image: nothing can block it. Either way the card always shows the
+   latest video, and "Video unavailable" can no longer appear. */
 var YT_RSS="https://www.youtube.com/feeds/videos.xml?channel_id=UCkzCjdRMrW2vXLx8mvPVLdQ";
-var YT_FALLBACK="UULFkzCjdRMrW2vXLx8mvPVLdQ"; /* uploads playlist - used when the RSS route fails */
-function getVideoIds(){
+var ytPlayer=null, ytApiTimer=null, ytTryTimer=null, LATESTVIDEO=null;
+function getLatestVideo(){
  /* local runner first (feeds.json "videos"), then RSS via the proxy chain */
  return fetch("feeds.json?t="+Date.now())
   .then(function(r){return r.ok?r.json():null;})
   .then(function(j){
-   if(j&&j.videos&&j.videos.length&&j.updated&&Date.now()-new Date(j.updated).getTime()<45*60*1000)return j.videos;
+   if(j&&j.videos&&j.videos.length&&j.updated&&Date.now()-new Date(j.updated).getTime()<45*60*1000){
+    var v=j.videos[0];
+    return (typeof v==="string")?{id:v,title:""}:{id:v.id,title:v.title||""};
+   }
    return fetchFeed(YT_RSS,function(doc){
     var out=[],es=doc.querySelectorAll("entry");
-    for(var i=0;i<es.length&&out.length<10;i++){
+    for(var i=0;i<es.length&&out.length<1;i++){
      var idn=es[i].getElementsByTagNameNS("*","videoId")[0];
      var tn=es[i].querySelector("title");
      if(!idn)continue;
      if(tn&&/#shorts/i.test(tn.textContent))continue;
-     out.push(idn.textContent.trim());
+     out.push({id:idn.textContent.trim(),title:tn?tn.textContent.trim():""});
     }
     return out;
-   });
-  }).catch(function(){return [];});
+   }).then(function(a){return a&&a.length?a[0]:null;});
+  }).catch(function(){return null;});
 }
-var ytLastOk=0, ytWatch=null;
-/* THE FIX (b29): playlists passed as player parameters are the failure surface -
-   when the first video is unplayable the playlist never activates internally,
-   so nextVideo() silently no-ops and onError never fires. We therefore manage
-   the list OURSELVES and feed the player ONE video at a time via loadVideoById,
-   the most primitive call in the API. Skipping = we load the next id. Cannot no-op. */
-var ytIdx=0, ytLocked=false;
-function ytLoadCurrent(){
- if(!ytPlayer||!YT_IDS.length)return;
- if(ytIdx>=YT_IDS.length){ /* nothing playable in the whole latest list */
-  try{console.log("[vid] no playable video in latest "+YT_IDS.length+" - showing newest thumbnail");}catch(e){}
-  return;
+function showPoster(){
+ /* the guaranteed path: thumbnail + title of the latest video */
+ if(!LATESTVIDEO)return;
+ try{console.log("[vid] poster mode: "+LATESTVIDEO.id);}catch(e){}
+ if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
+ try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
+ ytPlayer=null;
+ var f=document.getElementById("news-iframe");
+ if(f&&f.parentNode)f.parentNode.removeChild(f);
+ var img=document.getElementById("vid-img");
+ if(img){
+  img.onerror=function(){img.onerror=null;img.src="https://img.youtube.com/vi/"+LATESTVIDEO.id+"/hqdefault.jpg";};
+  img.src="https://img.youtube.com/vi/"+LATESTVIDEO.id+"/maxresdefault.jpg";
+  img.style.display="block";
  }
- try{
-  console.log("[vid] trying "+(ytIdx+1)+"/"+YT_IDS.length+" "+YT_IDS[ytIdx]);
-  ytLastOk=Date.now();
-  ytPlayer.loadVideoById(YT_IDS[ytIdx]);
-  ytPlayer.mute();
- }catch(e){}
+ var cap=document.getElementById("vid-cap");
+ if(!cap){
+  cap=document.createElement("div");cap.id="vid-cap";
+  document.getElementById("vidbody").appendChild(cap);
+ }
+ cap.textContent=LATESTVIDEO.title||"Latest video · youtube.com/@mancity";
+ cap.style.display="block";
+ document.getElementById("news-play").style.display="block";
 }
-function ytAdvance(reason){
- if(ytLocked)return;
- try{console.log("[vid] skip ("+reason+")");}catch(e){}
- ytIdx++;
- ytLoadCurrent();
+function hidePoster(){
+ var img=document.getElementById("vid-img");if(img)img.style.display="none";
+ var cap=document.getElementById("vid-cap");if(cap)cap.style.display="none";
+ document.getElementById("news-play").style.display="none";
 }
-function ytSkipStuck(){
- try{
-  if(!ytPlayer||!ytPlayer.getPlayerState)return;
-  var s=ytPlayer.getPlayerState(); /* 1 playing, 2 paused = healthy */
-  if(s===1||s===2){ytLastOk=Date.now();ytLocked=true;return;}
-  if(!ytLocked&&Date.now()-ytLastOk>8000)ytAdvance("not playing after 8s");
- }catch(e){}
+function buildYt(){
+ if(ytApiTimer){clearTimeout(ytApiTimer);ytApiTimer=null;}
+ var h=document.getElementById("news-iframe");
+ if(!h||h.tagName==="IFRAME")return;
+ ytPlayer=new YT.Player("news-iframe",{
+  playerVars:{autoplay:1,mute:1,controls:0,rel:0,modestbranding:1,playsinline:1},
+  events:{
+   onReady:function(e){
+    e.target.mute();
+    try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
+    try{console.log("[vid] trying latest: "+LATESTVIDEO.id);}catch(x){}
+    e.target.loadVideoById(LATESTVIDEO.id);
+    /* one chance: playing within 10s or we go to the poster */
+    ytTryTimer=setTimeout(function(){
+     try{
+      if(!ytPlayer||ytPlayer.getPlayerState()!==1)showPoster();
+     }catch(x){showPoster();}
+    },10000);
+    fitVideoCover();setTimeout(fitVideoCover,600);
+   },
+   onStateChange:function(e){
+    if(e.data===1){ /* playing: success */
+     if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
+     hidePoster();
+     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
+    }
+    if(e.data===0){ /* ended: loop the latest */
+     try{e.target.seekTo(0,true);e.target.playVideo();}catch(x){}
+    }
+   },
+   onError:function(e){
+    try{console.log("[vid] embed refused ("+e.data+")");}catch(x){}
+    showPoster();
+   }
+  }
+ });
 }
-var ytPlayer=null, ytApiTimer=null;
 function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
  if(document.getElementById("news-iframe"))return;
- var holder=document.createElement("div");
- holder.id="news-iframe";
- body.appendChild(holder);
- document.getElementById("news-play").style.display="none";
- /* YouTube IFrame API: lets us catch embed-restricted videos and skip them */
- getVideoIds().then(function(ids){YT_IDS=ids||[];
+ getLatestVideo().then(function(v){
+  if(!v){try{console.log("[vid] no video id available");}catch(e){}return;}
+  LATESTVIDEO=v;
+  var holder=document.createElement("div");
+  holder.id="news-iframe";
+  body.appendChild(holder);
+  document.getElementById("news-play").style.display="none";
   if(window.YT&&YT.Player){buildYt();}
   else{
    var s=document.createElement("script");
    s.src="https://www.youtube.com/iframe_api";
    document.head.appendChild(s);
    window.onYouTubeIframeAPIReady=buildYt;
-   armYtApiTimeout();
-  }
- });
-}
-var YT_IDS=[];
-function armYtApiTimeout(){
- /* API blocked? fall back to a plain iframe after 6s: newest known id, else uploads */
- ytApiTimer=setTimeout(function(){
-  if(window.YT&&YT.Player)return;
-  var h=document.getElementById("news-iframe");
-  if(!h||h.tagName==="IFRAME")return;
-  var f=document.createElement("iframe");
-  f.id="news-iframe";
-  f.src=YT_IDS.length
-   ?"https://www.youtube.com/embed/"+YT_IDS[0]+"?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0&loop=1&playlist="+YT_IDS.join(",")
-   :"https://www.youtube.com/embed/videoseries?list="+YT_FALLBACK+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0";
-  f.allow="autoplay; encrypted-media";
-  h.parentNode.replaceChild(f,h);
-  fitVideoCover();
- },6000);
-}
-function ytPlainFallback(){
- /* last resort: replace whatever is there with a plain uploads embed */
- var h=document.getElementById("news-iframe");
- if(!h||h.tagName==="IFRAME")return;
- var f=document.createElement("iframe");
- f.id="news-iframe";
- f.src="https://www.youtube.com/embed/videoseries?list="+YT_FALLBACK+"&autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&cc_load_policy=0";
- f.allow="autoplay; encrypted-media";
- h.parentNode.replaceChild(f,h);
- fitVideoCover();
-}
-function buildYt(){
- if(ytApiTimer)clearTimeout(ytApiTimer);
- var h=document.getElementById("news-iframe");
- if(!h||h.tagName==="IFRAME")return;
- /* watchdog runs from creation, not from onReady - a player that never
-    becomes ready is itself a failure mode we must escape */
- ytLastOk=Date.now();
- var ytBorn=Date.now();
- if(!ytWatch)ytWatch=setInterval(function(){
-  if(ytPlayer&&typeof ytPlayer.getPlayerState==="function"){ytSkipStuck();return;}
-  if(Date.now()-ytBorn>25000){ /* API player never came alive: plain embed */
-   clearInterval(ytWatch);ytWatch=null;ytPlayer=null;
-   ytPlainFallback();
-  }
- },3000);
- ytPlayer=new YT.Player("news-iframe",{
-  /* no video, no playlist at construction - we drive everything explicitly */
-  playerVars:{autoplay:1,mute:1,controls:0,rel:0,modestbranding:1,playsinline:1},
-  events:{
-   onReady:function(e){
-    e.target.mute();
-    try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
-    ytIdx=0;ytLocked=false;
-    if(YT_IDS.length)ytLoadCurrent();
-    else{try{e.target.loadPlaylist({listType:"playlist",list:YT_FALLBACK});e.target.mute();}catch(x){}}
-    fitVideoCover();setTimeout(fitVideoCover,600);
-   },
-   onStateChange:function(e){
-    if(e.data===1){ /* PLAYING: lock onto this video */
-     ytLastOk=Date.now();ytLocked=true;
-     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
-    }
-    if(e.data===0){ /* ENDED: latest-only means loop the video we settled on */
-     try{e.target.seekTo(0,true);e.target.playVideo();}catch(x){}
-    }
-   },
-   onError:function(e){ /* explicit loads make this fire reliably */
-    ytAdvance("error "+e.data);
-   }
+   /* player script never arrives: poster, not a dead iframe */
+   ytApiTimer=setTimeout(function(){if(!(window.YT&&YT.Player))showPoster();},8000);
   }
  });
 }
@@ -1664,19 +1637,16 @@ setInterval(fetchResultsESPN,6*60*60*1000);
 setInterval(fetchLeadersESPN,6*60*60*1000);
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
- if(ytPlayer&&ytPlayer.loadVideoById){
-  getVideoIds().then(function(ids){
-   try{
-    if(ids&&ids.length&&(!YT_IDS.length||ids[0]!==YT_IDS[0])){
-     YT_IDS=ids;ytIdx=0;ytLocked=false;ytLoadCurrent(); /* newer upload: rehunt from the top */
-    }
-   }catch(x){}
-  });
- }else{
+ getLatestVideo().then(function(v){
+  if(!v||(LATESTVIDEO&&v.id===LATESTVIDEO.id))return; /* nothing newer */
+  LATESTVIDEO=null;
+  try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(x){}
+  ytPlayer=null;
   var f=document.getElementById("news-iframe");
-  if(f)f.parentNode.removeChild(f);
+  if(f&&f.parentNode)f.parentNode.removeChild(f);
+  hidePoster();
   fetchLatestVideo();
- }
+ });
 },60*60*1000);
 
 /* ---------- idle full reload every 20 min ---------- */
