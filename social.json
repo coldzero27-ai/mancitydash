@@ -1,78 +1,30 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first, max ~8 posts. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-08-25T02:11:18Z",
+  "updated": "2026-08-25T05:24:01Z",
   "posts": [
     {
       "text": "Cole Palmer to Joao Pedro in a flash ⚡️",
       "url": "https://x.com/premierleague/status/2092036033646932055",
       "time": "2026-08-24T23:47:13Z",
-      "account": "Premier League"
+      "handle": "premierleague"
     },
     {
       "text": "Best friends having fun 🤩",
       "url": "https://x.com/premierleague/status/2092027498984780135",
       "time": "2026-08-24T23:13:18Z",
-      "account": "Premier League"
-    },
-    {
-      "text": "Cole Palmer running the show is a joy to watch 💫",
-      "url": "https://x.com/premierleague/status/2092024154904048074",
-      "time": "2026-08-24T23:00:01Z",
-      "account": "Premier League"
-    },
-    {
-      "text": "From team-mates to touchline rivals.\n\nAlvaro Arbeloa and Xabi Alonso go way back 🤝 🇪🇸",
-      "url": "https://x.com/premierleague/status/2092015555754545359",
-      "time": "2026-08-24T22:25:50Z",
-      "account": "Premier League"
-    },
-    {
-      "text": "Cole Palmer at his brilliant best ✨\n\n🔎 @Microsoft",
-      "url": "https://x.com/premierleague/status/2092004094307103007",
-      "time": "2026-08-24T21:40:18Z",
-      "account": "Premier League"
+      "handle": "premierleague"
     },
     {
       "text": "The next generation 👨‍👦",
       "url": "https://x.com/ManCity/status/2091999033661247923",
       "time": "2026-08-24T21:20:11Z",
-      "account": "Man City"
+      "handle": "ManCity"
     },
     {
       "text": "Recovery mode 🔛",
       "url": "https://x.com/ManCity/status/2091997785973313554",
       "time": "2026-08-24T21:15:14Z",
-      "account": "Man City"
-    },
-    {
-      "text": "Cole Palmer: \"Growing up, you always want to do everything with your best friends.\"\n\n🤗 🤝",
-      "url": "https://x.com/premierleague/status/2091996851012595895",
-      "time": "2026-08-24T21:11:31Z",
-      "account": "Premier League"
-    },
-    {
-      "text": "Starting the week strong! 💪",
-      "url": "https://x.com/ManCity/status/2091996489161527734",
-      "time": "2026-08-24T21:10:05Z",
-      "account": "Man City"
-    },
-    {
-      "text": "What a match.\n\n@chelseafc edge a five-goal thriller!",
-      "url": "https://x.com/premierleague/status/2091993040424444124",
-      "time": "2026-08-24T20:56:22Z",
-      "account": "Premier League"
-    },
-    {
-      "text": "⚽️ 1' Joao Pedro\n⚽️ 23' Josh King\n⚽️ 41' Morgan Rogers\n\nMore of the same drama in the second half, please 😀",
-      "url": "https://x.com/premierleague/status/2091979529187139854",
-      "time": "2026-08-24T20:02:41Z",
-      "account": "Premier League"
-    },
-    {
-      "text": "18°C at Craven Cottage... but it still feels a little chilly 🥶\n\n@morgz_10 with a debut goal for @ChelseaFC 🔵",
-      "url": "https://x.com/premierleague/status/2091976342468280748",
-      "time": "2026-08-24T19:50:01Z",
-      "account": "Premier League"
+      "handle": "ManCity"
     }
   ]
 }
