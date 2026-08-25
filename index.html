@@ -1503,6 +1503,7 @@ function getLatestVideo(){
    }).then(function(a){return a&&a.length?a[0]:null;});
   }).catch(function(){return null;});
 }
+var SB_ENABLED=false; /* ScoreBat parked pending approval - set true to re-enable the whole layer */
 var sbTried=false, SBMETA=null, sbIdx=0, sbCycle=null;
 var SB_DWELL=90*1000; /* seconds per clip before rotating to the next */
 function sbStop(){if(sbCycle){clearInterval(sbCycle);sbCycle=null;}}
@@ -1527,6 +1528,7 @@ function sbShowClip(){
  fitVideoCover();setTimeout(fitVideoCover,600);
 }
 function tryScorebat(){
+ if(!SB_ENABLED){showPoster();return;} /* parked: YouTube -> poster, nothing else */
  /* middle layer: latest City match highlights from ScoreBat (server-fetched) */
  if(sbTried){showPoster();return;}
  sbTried=true;
@@ -1818,7 +1820,7 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
-var BOARD_BUILD="b37";
+var BOARD_BUILD="b38";
 try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
  return; /* boss mode: freshness ages hidden from the wall; build id in console */
