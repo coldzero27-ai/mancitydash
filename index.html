@@ -426,7 +426,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b33</span>
+    <span id="freshline">All times GST (UTC+4) · b35</span>
   </div>
 </div>
 </div>
@@ -1440,6 +1440,7 @@ function fitVideoCover(){
  if(!w||!h)return;
  /* true 16:9 rectangle that covers the card; card clips the small overflow */
  var s=Math.max(w/16,h/9);
+ if(f.className==="sb")s*=1.16; /* crop scorebat's edge chrome (volume icon, corner branding) */
  f.style.width=Math.ceil(16*s+2)+"px";
  f.style.height=Math.ceil(9*s+2)+"px";
 }
@@ -1452,7 +1453,30 @@ function fitVideoCover(){
    latest video, and "Video unavailable" can no longer appear. */
 var YT_RSS="https://www.youtube.com/feeds/videos.xml?channel_id=UCkzCjdRMrW2vXLx8mvPVLdQ";
 var ytPlayer=null, ytApiTimer=null, ytTryTimer=null, LATESTVIDEO=null;
+/* PINNED MODE: results.json {"mancity":{"pinnedVideo":"<youtube link or id>"}}
+   pins the card to that one video, looping. Remove the field to go back to
+   the automatic latest-video chain. Fallbacks (ScoreBat -> poster) still apply
+   if the pinned video will not embed. */
+function parseYtId(s){
+ s=String(s||"").trim();
+ var m=s.match(/[?&]v=([A-Za-z0-9_-]{11})/)||s.match(/youtu\.be\/([A-Za-z0-9_-]{11})/)||s.match(/embed\/([A-Za-z0-9_-]{11})/);
+ if(m)return m[1];
+ return /^[A-Za-z0-9_-]{11}$/.test(s)?s:null;
+}
+function pinnedId(){return parseYtId(DATA.mancity&&DATA.mancity.pinnedVideo);}
+function rebuildVideo(){
+ sbTried=false;sbStop();
+ if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
+ try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(x){}
+ ytPlayer=null;
+ var f=document.getElementById("news-iframe");
+ if(f&&f.parentNode)f.parentNode.removeChild(f);
+ hidePoster();
+ fetchLatestVideo();
+}
 function getLatestVideo(){
+ var pin=pinnedId();
+ if(pin)return Promise.resolve({id:pin,title:"",pinned:true});
  /* local runner first (feeds.json "videos"), then RSS via the proxy chain */
  return fetch("feeds.json?t="+Date.now())
   .then(function(r){return r.ok?r.json():null;})
@@ -1474,7 +1498,29 @@ function getLatestVideo(){
    }).then(function(a){return a&&a.length?a[0]:null;});
   }).catch(function(){return null;});
 }
-var sbTried=false, SBMETA=null;
+var sbTried=false, SBMETA=null, sbIdx=0, sbCycle=null;
+var SB_DWELL=90*1000; /* seconds per clip before rotating to the next */
+function sbStop(){if(sbCycle){clearInterval(sbCycle);sbCycle=null;}}
+function sbShowClip(){
+ var vids=(SBMETA&&SBMETA.videos&&SBMETA.videos.length)?SBMETA.videos:
+          (SBMETA&&SBMETA.embed)?[{title:"",src:SBMETA.embed}]:null;
+ if(!vids)return;
+ var clip=vids[sbIdx%vids.length];
+ var f=document.getElementById("news-iframe");
+ if(f&&f.parentNode)f.parentNode.removeChild(f);
+ var ifr=document.createElement("iframe");
+ ifr.id="news-iframe";
+ ifr.className="sb";
+ ifr.src=clip.src+(clip.src.indexOf("?")>-1?"&":"?")+"autoplay=1";
+ ifr.allow="autoplay; encrypted-media";
+ ifr.setAttribute("frameborder","0");
+ document.getElementById("vidbody").appendChild(ifr);
+ var cap=document.getElementById("vid-cap");
+ if(!cap){cap=document.createElement("div");cap.id="vid-cap";document.getElementById("vidbody").appendChild(cap);}
+ cap.textContent=(SBMETA.match||"Latest highlights")+(clip.title?" · "+clip.title:"")+" · scorebat";
+ cap.style.display="block";
+ fitVideoCover();setTimeout(fitVideoCover,600);
+}
 function tryScorebat(){
  /* middle layer: latest City match highlights from ScoreBat (server-fetched) */
  if(sbTried){showPoster();return;}
@@ -1485,28 +1531,19 @@ function tryScorebat(){
    if(!j||!j.embed||!j.updated){try{console.log("[vid] scorebat.json missing/empty");}catch(e){}showPoster();return;}
    SBMETA=j;
    if(Date.now()-new Date(j.updated).getTime()>7*24*3600e3){try{console.log("[vid] scorebat stale");}catch(e){}showPoster();return;}
-   try{console.log("[vid] scorebat: "+j.match);}catch(e){}
+   try{console.log("[vid] scorebat: "+j.match+" ("+((j.videos&&j.videos.length)||1)+" clips)");}catch(e){}
    if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
    try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
    ytPlayer=null;
-   var f=document.getElementById("news-iframe");
-   if(f&&f.parentNode)f.parentNode.removeChild(f);
-   var ifr=document.createElement("iframe");
-   ifr.id="news-iframe";
-   ifr.src=j.embed+(j.embed.indexOf("?")>-1?"&":"?")+"autoplay=1";
-   ifr.allow="autoplay; encrypted-media";
-   ifr.setAttribute("frameborder","0");
-   document.getElementById("vidbody").appendChild(ifr);
-   var cap=document.getElementById("vid-cap");
-   if(!cap){cap=document.createElement("div");cap.id="vid-cap";document.getElementById("vidbody").appendChild(cap);}
-   cap.textContent=(j.match||"Latest highlights")+" · scorebat";
-   cap.style.display="block";
-   fitVideoCover();setTimeout(fitVideoCover,600);
+   sbIdx=0;sbShowClip();
+   /* continuous playback: rotate through the match's clips forever */
+   sbStop();sbCycle=setInterval(function(){sbIdx++;sbShowClip();},SB_DWELL);
   }).catch(function(){showPoster();});
 }
 function showPoster(){
  /* the guaranteed path: a thumbnail + title from whatever source we know about */
  try{console.log("[vid] poster mode");}catch(e){}
+ sbStop();
  if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
  try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
  ytPlayer=null;
@@ -1652,6 +1689,9 @@ function fetchResults(){
   if(j.clubs)DATA.clubs=j.clubs;
   if(j.transfers){if(!DATA.mancity)DATA.mancity={};DATA.mancity.transfers=j.transfers;}
   renderNext();renderHero();renderSpot();recomputeVerified();
+  var pin=pinnedId();
+  if(pin&&(!LATESTVIDEO||LATESTVIDEO.id!==pin))rebuildVideo();      /* pin set/changed */
+  if(!pin&&LATESTVIDEO&&LATESTVIDEO.pinned)rebuildVideo();          /* pin removed */
  }).catch(function(){});
 }
 function fetchNewsJson(){
@@ -1699,8 +1739,8 @@ setInterval(fetchFootballJson,30*60*1000); /* local file: cheap to poll */
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  getLatestVideo().then(function(v){
-  if(!v||(LATESTVIDEO&&v.id===LATESTVIDEO.id))return; /* nothing newer */
-  LATESTVIDEO=null;sbTried=false;
+  if(!v||(LATESTVIDEO&&v.id===LATESTVIDEO.id))return; /* nothing newer (or same pin) */
+  LATESTVIDEO=null;sbTried=false;sbStop();
   try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(x){}
   ytPlayer=null;
   var f=document.getElementById("news-iframe");
@@ -1799,6 +1839,7 @@ document.getElementById("btnExport").addEventListener("click",function(){
    topScorer:mc.topScorer||"",
    topAssists:mc.topAssists||"",
    transfers:mc.transfers||null,
+   pinnedVideo:mc.pinnedVideo||"",
    results:(function(){var o={};for(var rk in VERRES)o[rk]=VERRES[rk];return o;})()
   },
   clubs:(function(){var o={};for(var k in APICLUBS)o[k]=APICLUBS[k];
