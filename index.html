@@ -426,7 +426,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b35</span>
+    <span id="freshline">All times GST (UTC+4) · b36</span>
   </div>
 </div>
 </div>
@@ -1465,7 +1465,9 @@ function parseYtId(s){
 }
 function pinnedId(){return parseYtId(DATA.mancity&&DATA.mancity.pinnedVideo);}
 function rebuildVideo(){
+ vidGen++; /* invalidate every in-flight attempt */
  sbTried=false;sbStop();
+ if(ytApiTimer){clearTimeout(ytApiTimer);ytApiTimer=null;}
  if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
  try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(x){}
  ytPlayer=null;
@@ -1615,10 +1617,14 @@ function buildYt(){
   }
  });
 }
+var vidGen=0;
 function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
  if(document.getElementById("news-iframe"))return;
+ var gen=++vidGen; /* stale attempts (slow proxies resolving late) must never touch the card */
  getLatestVideo().then(function(v){
+  if(gen!==vidGen){try{console.log("[vid] stale attempt ignored");}catch(e){}return;}
+  if(document.getElementById("news-iframe"))return; /* something already built meanwhile */
   if(!v){ /* couldn't even discover the latest YouTube id: straight to ScoreBat */
    try{console.log("[vid] no video id available - trying scorebat");}catch(e){}
    tryScorebat();return;
@@ -1740,7 +1746,8 @@ setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  getLatestVideo().then(function(v){
   if(!v||(LATESTVIDEO&&v.id===LATESTVIDEO.id))return; /* nothing newer (or same pin) */
-  LATESTVIDEO=null;sbTried=false;sbStop();
+  LATESTVIDEO=null;sbTried=false;sbStop();vidGen++;
+  if(ytApiTimer){clearTimeout(ytApiTimer);ytApiTimer=null;}
   try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(x){}
   ytPlayer=null;
   var f=document.getElementById("news-iframe");
