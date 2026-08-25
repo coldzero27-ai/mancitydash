@@ -1,0 +1,51 @@
+name: Refresh football.json
+
+on:
+
+  schedule:
+
+    - cron: "17 2,8,14,20 * * *"   # 4x daily (UTC) = ~16-20 API requests/day
+
+  workflow_dispatch: {}             # manual "Run workflow" button
+
+permissions:
+
+  contents: write
+
+jobs:
+
+  fetch:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+
+        with:
+
+          python-version: "3.12"
+
+      - name: Fetch API-Football
+
+        env:
+
+          APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
+
+        run: python fetch_football.py
+
+      - name: Commit if changed
+
+        run: |
+
+          git config user.name "dashboard-bot"
+
+          git config user.email "bot@users.noreply.github.com"
+
+          git add football.json
+
+          git diff --cached --quiet || git commit -m "football.json refresh"
+
+          git push
