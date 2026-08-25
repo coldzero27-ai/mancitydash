@@ -1492,6 +1492,7 @@ function parseYtId(s){
 }
 function pinnedId(){return parseYtId(DATA.mancity&&DATA.mancity.pinnedVideo);}
 function videoFile(){return (DATA.mancity&&DATA.mancity.videoFile)||"";}
+var VF_FAILED="";
 function playLocalVideo(src){
  /* native video element: no MSE needed - the one path every TV engine can decode */
  try{console.log("[vid] local file: "+src);}catch(e){}
@@ -1504,7 +1505,8 @@ function playLocalVideo(src){
  v.muted=true;v.loop=true;v.autoplay=true;v.setAttribute("playsinline","");
  v.src=src+"?t="+(DATA.updated||"");
  v.addEventListener("error",function(){
-  try{console.log("[vid] local file failed - falling back");}catch(e){}
+  try{console.log("[vid] local file failed (missing/unplayable) - falling back to pin/poster");}catch(e){}
+  VF_FAILED=src; /* do not retry a dead file - proceed down the chain */
   if(v.parentNode)v.parentNode.removeChild(v);
   LATESTVIDEO=null;fetchLatestVideo();
  });
@@ -1673,7 +1675,7 @@ function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
  if(document.getElementById("news-iframe"))return;
  var vf=videoFile();
- if(vf){ /* local MP4 outranks everything - it is the only mode both TVs can play */
+ if(vf&&vf!==VF_FAILED){ /* local MP4 outranks everything - it is the only mode both TVs can play */
   vidGen++;LATESTVIDEO={id:"file:"+vf};
   playLocalVideo(vf);return;
  }
@@ -1756,7 +1758,7 @@ function fetchResults(){
   if(j.transfers){if(!DATA.mancity)DATA.mancity={};DATA.mancity.transfers=j.transfers;}
   renderNext();renderHero();renderSpot();recomputeVerified();
   var vf=videoFile(),pin=pinnedId();
-  if(vf&&(!LATESTVIDEO||LATESTVIDEO.id!=="file:"+vf))rebuildVideo();       /* video file set/changed */
+  if(vf&&vf!==VF_FAILED&&(!LATESTVIDEO||LATESTVIDEO.id!=="file:"+vf))rebuildVideo(); /* video file set/changed */
   if(!vf&&LATESTVIDEO&&String(LATESTVIDEO.id).indexOf("file:")===0)rebuildVideo(); /* file removed */
   if(!vf&&pin&&(!LATESTVIDEO||LATESTVIDEO.id!==pin))rebuildVideo();        /* pin set/changed */
   if(!vf&&!pin&&LATESTVIDEO&&LATESTVIDEO.pinned)rebuildVideo();            /* pin removed */
@@ -1877,7 +1879,7 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
-var BOARD_BUILD="b39-signage";
+var BOARD_BUILD="b40-signage";
 setTimeout(function(){location.reload();},30*60*1000);
 try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
