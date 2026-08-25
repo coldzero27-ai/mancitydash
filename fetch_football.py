@@ -128,9 +128,7 @@ def transform_fixtures(payload):
 
                 continue
 
-            utc = datetime.fromisoformat(date.replace("Z", "+00:00")) \
-
-                  .astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            utc = datetime.fromisoformat(date.replace("Z", "+00:00")).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
             home = (tm.get("home") or {}).get("name", "")
 
