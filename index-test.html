@@ -1491,6 +1491,27 @@ function parseYtId(s){
  return /^[A-Za-z0-9_-]{11}$/.test(s)?s:null;
 }
 function pinnedId(){return parseYtId(DATA.mancity&&DATA.mancity.pinnedVideo);}
+function videoFile(){return (DATA.mancity&&DATA.mancity.videoFile)||"";}
+function playLocalVideo(src){
+ /* native video element: no MSE needed - the one path every TV engine can decode */
+ try{console.log("[vid] local file: "+src);}catch(e){}
+ var body=document.getElementById("vidbody");
+ var f=document.getElementById("news-iframe");
+ if(f&&f.parentNode)f.parentNode.removeChild(f);
+ hidePoster();
+ var v=document.createElement("video");
+ v.id="news-iframe"; /* fitVideoCover sizes whatever holds this id */
+ v.muted=true;v.loop=true;v.autoplay=true;v.setAttribute("playsinline","");
+ v.src=src+"?t="+(DATA.updated||"");
+ v.addEventListener("error",function(){
+  try{console.log("[vid] local file failed - falling back");}catch(e){}
+  if(v.parentNode)v.parentNode.removeChild(v);
+  LATESTVIDEO=null;fetchLatestVideo();
+ });
+ body.appendChild(v);
+ var p=v.play();if(p&&p.catch)p.catch(function(){});
+ fitVideoCover();setTimeout(fitVideoCover,600);
+}
 function rebuildVideo(){
  vidGen++; /* invalidate every in-flight attempt */
  sbTried=false;sbStop();
@@ -1527,7 +1548,7 @@ function getLatestVideo(){
    }).then(function(a){return a&&a.length?a[0]:null;});
   }).catch(function(){return null;});
 }
-var SB_ENABLED=false; /* ScoreBat parked pending approval - set true to re-enable the whole layer */
+var SB_ENABLED=(!CALM&&!!window.MediaSource); /* ScoreBat parked pending approval - set true to re-enable the whole layer */
 var sbTried=false, SBMETA=null, sbIdx=0, sbCycle=null;
 var SB_DWELL=90*1000; /* seconds per clip before rotating to the next */
 function sbStop(){if(sbCycle){clearInterval(sbCycle);sbCycle=null;}}
@@ -1651,6 +1672,11 @@ var vidGen=0;
 function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
  if(document.getElementById("news-iframe"))return;
+ var vf=videoFile();
+ if(vf){ /* local MP4 outranks everything - it is the only mode both TVs can play */
+  vidGen++;LATESTVIDEO={id:"file:"+vf};
+  playLocalVideo(vf);return;
+ }
  var gen=++vidGen; /* stale attempts (slow proxies resolving late) must never touch the card */
  getLatestVideo().then(function(v){
   if(gen!==vidGen){try{console.log("[vid] stale attempt ignored");}catch(e){}return;}
@@ -1664,7 +1690,10 @@ function fetchLatestVideo(){
   holder.id="news-iframe";
   body.appendChild(holder);
   document.getElementById("news-play").style.display="none";
-  if(SIGNAGE&&(CALM||!window.MediaSource)){showPoster();return;} /* piloted: BrightSign (no MSE) posters instantly; Tizen (MSE+EME true) gets one real attempt, poster on failure */
+  if(SIGNAGE){ /* piloted: wrapper blocks YouTube on Tizen; BrightSign has no MSE */
+   if(CALM||!window.MediaSource){showPoster();}else{tryScorebat();}
+   return;
+  }
   if(window.YT&&YT.Player){buildYt();}
   else{
    var s=document.createElement("script");
@@ -1726,9 +1755,11 @@ function fetchResults(){
   if(j.clubs)DATA.clubs=j.clubs;
   if(j.transfers){if(!DATA.mancity)DATA.mancity={};DATA.mancity.transfers=j.transfers;}
   renderNext();renderHero();renderSpot();recomputeVerified();
-  var pin=pinnedId();
-  if(pin&&(!LATESTVIDEO||LATESTVIDEO.id!==pin))rebuildVideo();      /* pin set/changed */
-  if(!pin&&LATESTVIDEO&&LATESTVIDEO.pinned)rebuildVideo();          /* pin removed */
+  var vf=videoFile(),pin=pinnedId();
+  if(vf&&(!LATESTVIDEO||LATESTVIDEO.id!=="file:"+vf))rebuildVideo();       /* video file set/changed */
+  if(!vf&&LATESTVIDEO&&String(LATESTVIDEO.id).indexOf("file:")===0)rebuildVideo(); /* file removed */
+  if(!vf&&pin&&(!LATESTVIDEO||LATESTVIDEO.id!==pin))rebuildVideo();        /* pin set/changed */
+  if(!vf&&!pin&&LATESTVIDEO&&LATESTVIDEO.pinned)rebuildVideo();            /* pin removed */
  }).catch(function(){});
 }
 function fetchNewsJson(){
@@ -1846,7 +1877,7 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
-var BOARD_BUILD="b38-signage";
+var BOARD_BUILD="b39-signage";
 setTimeout(function(){location.reload();},30*60*1000);
 try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
@@ -1882,6 +1913,7 @@ document.getElementById("btnExport").addEventListener("click",function(){
    topAssists:mc.topAssists||"",
    transfers:mc.transfers||null,
    pinnedVideo:mc.pinnedVideo||"",
+   videoFile:mc.videoFile||"",
    results:(function(){var o={};for(var rk in VERRES)o[rk]=VERRES[rk];return o;})()
   },
   clubs:(function(){var o={};for(var k in APICLUBS)o[k]=APICLUBS[k];
