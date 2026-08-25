@@ -426,7 +426,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b32</span>
+    <span id="freshline">All times GST (UTC+4) · b33</span>
   </div>
 </div>
 </div>
@@ -1474,7 +1474,7 @@ function getLatestVideo(){
    }).then(function(a){return a&&a.length?a[0]:null;});
   }).catch(function(){return null;});
 }
-var sbTried=false;
+var sbTried=false, SBMETA=null;
 function tryScorebat(){
  /* middle layer: latest City match highlights from ScoreBat (server-fetched) */
  if(sbTried){showPoster();return;}
@@ -1482,8 +1482,9 @@ function tryScorebat(){
  fetch("scorebat.json?t="+Date.now())
   .then(function(r){return r.ok?r.json():null;})
   .then(function(j){
-   if(!j||!j.embed||!j.updated){showPoster();return;}
-   if(Date.now()-new Date(j.updated).getTime()>7*24*3600e3){showPoster();return;} /* older than a week: poster */
+   if(!j||!j.embed||!j.updated){try{console.log("[vid] scorebat.json missing/empty");}catch(e){}showPoster();return;}
+   SBMETA=j;
+   if(Date.now()-new Date(j.updated).getTime()>7*24*3600e3){try{console.log("[vid] scorebat stale");}catch(e){}showPoster();return;}
    try{console.log("[vid] scorebat: "+j.match);}catch(e){}
    if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
    try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
@@ -1504,18 +1505,26 @@ function tryScorebat(){
   }).catch(function(){showPoster();});
 }
 function showPoster(){
- /* the guaranteed path: thumbnail + title of the latest video */
- if(!LATESTVIDEO)return;
- try{console.log("[vid] poster mode: "+LATESTVIDEO.id);}catch(e){}
+ /* the guaranteed path: a thumbnail + title from whatever source we know about */
+ try{console.log("[vid] poster mode");}catch(e){}
  if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
  try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
  ytPlayer=null;
  var f=document.getElementById("news-iframe");
  if(f&&f.parentNode)f.parentNode.removeChild(f);
+ var src=null,alt=null,title=null;
+ if(LATESTVIDEO){
+  src="https://img.youtube.com/vi/"+LATESTVIDEO.id+"/maxresdefault.jpg";
+  alt="https://img.youtube.com/vi/"+LATESTVIDEO.id+"/hqdefault.jpg";
+  title=LATESTVIDEO.title||"Latest video · youtube.com/@mancity";
+ }else if(SBMETA&&SBMETA.thumbnail){
+  src=SBMETA.thumbnail;
+  title=(SBMETA.match||"Latest highlights")+" · scorebat";
+ }
  var img=document.getElementById("vid-img");
- if(img){
-  img.onerror=function(){img.onerror=null;img.src="https://img.youtube.com/vi/"+LATESTVIDEO.id+"/hqdefault.jpg";};
-  img.src="https://img.youtube.com/vi/"+LATESTVIDEO.id+"/maxresdefault.jpg";
+ if(img&&src){
+  img.onerror=alt?function(){img.onerror=null;img.src=alt;}:function(){img.style.display="none";};
+  img.src=src;
   img.style.display="block";
  }
  var cap=document.getElementById("vid-cap");
@@ -1523,7 +1532,7 @@ function showPoster(){
   cap=document.createElement("div");cap.id="vid-cap";
   document.getElementById("vidbody").appendChild(cap);
  }
- cap.textContent=LATESTVIDEO.title||"Latest video · youtube.com/@mancity";
+ cap.textContent=title||"Latest videos · youtube.com/@mancity";
  cap.style.display="block";
  document.getElementById("news-play").style.display="block";
 }
@@ -1573,7 +1582,10 @@ function fetchLatestVideo(){
  var body=document.getElementById("vidbody");
  if(document.getElementById("news-iframe"))return;
  getLatestVideo().then(function(v){
-  if(!v){try{console.log("[vid] no video id available");}catch(e){}return;}
+  if(!v){ /* couldn't even discover the latest YouTube id: straight to ScoreBat */
+   try{console.log("[vid] no video id available - trying scorebat");}catch(e){}
+   tryScorebat();return;
+  }
   LATESTVIDEO=v;
   var holder=document.createElement("div");
   holder.id="news-iframe";
