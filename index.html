@@ -426,7 +426,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b31</span>
+    <span id="freshline">All times GST (UTC+4) · b32</span>
   </div>
 </div>
 </div>
@@ -1474,6 +1474,35 @@ function getLatestVideo(){
    }).then(function(a){return a&&a.length?a[0]:null;});
   }).catch(function(){return null;});
 }
+var sbTried=false;
+function tryScorebat(){
+ /* middle layer: latest City match highlights from ScoreBat (server-fetched) */
+ if(sbTried){showPoster();return;}
+ sbTried=true;
+ fetch("scorebat.json?t="+Date.now())
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.embed||!j.updated){showPoster();return;}
+   if(Date.now()-new Date(j.updated).getTime()>7*24*3600e3){showPoster();return;} /* older than a week: poster */
+   try{console.log("[vid] scorebat: "+j.match);}catch(e){}
+   if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
+   try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
+   ytPlayer=null;
+   var f=document.getElementById("news-iframe");
+   if(f&&f.parentNode)f.parentNode.removeChild(f);
+   var ifr=document.createElement("iframe");
+   ifr.id="news-iframe";
+   ifr.src=j.embed+(j.embed.indexOf("?")>-1?"&":"?")+"autoplay=1";
+   ifr.allow="autoplay; encrypted-media";
+   ifr.setAttribute("frameborder","0");
+   document.getElementById("vidbody").appendChild(ifr);
+   var cap=document.getElementById("vid-cap");
+   if(!cap){cap=document.createElement("div");cap.id="vid-cap";document.getElementById("vidbody").appendChild(cap);}
+   cap.textContent=(j.match||"Latest highlights")+" · scorebat";
+   cap.style.display="block";
+   fitVideoCover();setTimeout(fitVideoCover,600);
+  }).catch(function(){showPoster();});
+}
 function showPoster(){
  /* the guaranteed path: thumbnail + title of the latest video */
  if(!LATESTVIDEO)return;
@@ -1518,8 +1547,8 @@ function buildYt(){
     /* one chance: playing within 10s or we go to the poster */
     ytTryTimer=setTimeout(function(){
      try{
-      if(!ytPlayer||ytPlayer.getPlayerState()!==1)showPoster();
-     }catch(x){showPoster();}
+      if(!ytPlayer||ytPlayer.getPlayerState()!==1)tryScorebat();
+     }catch(x){tryScorebat();}
     },10000);
     fitVideoCover();setTimeout(fitVideoCover,600);
    },
@@ -1535,7 +1564,7 @@ function buildYt(){
    },
    onError:function(e){
     try{console.log("[vid] embed refused ("+e.data+")");}catch(x){}
-    showPoster();
+    tryScorebat();
    }
   }
  });
@@ -1557,7 +1586,7 @@ function fetchLatestVideo(){
    document.head.appendChild(s);
    window.onYouTubeIframeAPIReady=buildYt;
    /* player script never arrives: poster, not a dead iframe */
-   ytApiTimer=setTimeout(function(){if(!(window.YT&&YT.Player))showPoster();},8000);
+   ytApiTimer=setTimeout(function(){if(!(window.YT&&YT.Player))tryScorebat();},8000);
   }
  });
 }
@@ -1659,7 +1688,7 @@ setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  getLatestVideo().then(function(v){
   if(!v||(LATESTVIDEO&&v.id===LATESTVIDEO.id))return; /* nothing newer */
-  LATESTVIDEO=null;
+  LATESTVIDEO=null;sbTried=false;
   try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(x){}
   ytPlayer=null;
   var f=document.getElementById("news-iframe");
