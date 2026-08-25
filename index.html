@@ -298,6 +298,9 @@ body.brand #newscard .label{color:var(--steel)}
 #ctrl.show{opacity:1;pointer-events:auto}
 #ctrl button{background:rgba(10,22,36,.85);color:var(--ice);border:1px solid var(--line-strong);border-radius:10px;padding:10px 16px;font-family:'Inter';font-size:14px;cursor:pointer}
 #ctrl button:hover{background:rgba(20,40,62,.95)}
+/* boss mode: only Present is visible; the others stay in the DOM (their JS
+   wiring needs the ids) and Export remains reachable via the E hotkey */
+#btnBrand,#btnExport,#btnBg,#btnTint{display:none !important}
 
 #viewport{background:#000}
 @media print{
@@ -426,7 +429,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b36</span>
+    <span id="freshline" style="display:none"></span>
   </div>
 </div>
 </div>
@@ -1815,7 +1818,10 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
+var BOARD_BUILD="b37";
+try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
+ return; /* boss mode: freshness ages hidden from the wall; build id in console */
  var el=document.getElementById("freshline");if(!el)return;
  function ago(k){
   if(!LIVE[k]||!LIVE[k].t)return "—";
@@ -1882,6 +1888,11 @@ document.getElementById("btnBg").addEventListener("click",function(){
  if(!off)document.body.classList.add("brand");
  document.getElementById("btnBrand").textContent=off?"Colors: glass":"Colors: brand";
 })();
+document.addEventListener("keydown",function(e){
+ if((e.key==="e"||e.key==="E")&&!/input|textarea|select/i.test((e.target&&e.target.tagName)||"")){
+  var b=document.getElementById("btnExport");if(b)b.click();
+ }
+});
 document.getElementById("btnBrand").addEventListener("click",function(){
  var on=document.body.classList.toggle("brand");
  this.textContent=on?"Colors: brand":"Colors: glass";
