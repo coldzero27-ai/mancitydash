@@ -4,9 +4,9 @@ on:
 
   schedule:
 
-    - cron: "17 2,8,14,20 * * *"   # 4x daily (UTC) = ~16-20 API requests/day
+    - cron: "17 2,8,14,20 * * *"   # 4x daily (UTC)
 
-  workflow_dispatch: {}             # manual "Run workflow" button
+  workflow_dispatch: {}
 
 permissions:
 
@@ -30,6 +30,16 @@ jobs:
 
         run: python3 fetch_football.py
 
+      - name: Fetch ScoreBat
+
+        continue-on-error: true      # video fallback must never block the football data
+
+        env:
+
+          SCOREBAT_TOKEN: ${{ secrets.SCOREBAT_TOKEN }}
+
+        run: python3 fetch_scorebat.py
+
       - name: Commit if changed
 
         run: |
@@ -38,8 +48,8 @@ jobs:
 
           git config user.email "bot@users.noreply.github.com"
 
-          git add football.json
+          git add football.json scorebat.json
 
-          git diff --cached --quiet || git commit -m "football.json refresh"
+          git diff --cached --quiet || git commit -m "data refresh"
 
           git push
