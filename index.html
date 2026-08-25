@@ -426,7 +426,7 @@ body.brand #newscard .label{color:var(--steel)}
     <div id="tickwrap"><div id="tickline"></div></div>
   </div>
   <div id="foot" class="layer">
-    <span id="freshline">All times GST (UTC+4) · b30</span>
+    <span id="freshline">All times GST (UTC+4) · b31</span>
   </div>
 </div>
 </div>
@@ -577,12 +577,30 @@ var BAKEDRES={
  "2026-08-16":{score:"3-0",res:"L",fr:false} /* Community Shield, Arsenal 3-0 City, Cardiff - thefa.com & mancity.com, retrieved 19 Aug 2026 */
 };
 var APIRES=liveGet("res")||{}, ESPNRES=liveGet("res2")||{}, VERRES={};
+/* API-Football (via server-written football.json - the key never touches this page) */
+var FBALL=liveGet("fb")||{};
+function fetchFootballJson(){
+ fetch("football.json?t="+Date.now())
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j||!j.updated)return;
+   if(Date.now()-new Date(j.updated).getTime()>48*3600e3)return; /* stale file: ignore */
+   FBALL=j;saveLive("fb",FBALL);
+   recomputeVerified();
+   renderNext();renderHero();renderFixtures();
+  }).catch(function(){});
+}
 function dateKey(p){return p.y+"-"+("0"+(p.m+1)).slice(-2)+"-"+("0"+p.day).slice(-2);}
 function recomputeVerified(){
  VERRES={};
- for(var k in APIRES){
-  var a=APIRES[k],b=ESPNRES[k];
-  if(a&&b&&a.score===b.score)VERRES[k]={score:a.score,res:a.res,fr:!!(a.fr||b.fr)};
+ /* a score displays when ANY TWO independent sources agree on it exactly */
+ var FBRES=(FBALL&&FBALL.results)||{};
+ var keys={};
+ [APIRES,ESPNRES,FBRES].forEach(function(src){for(var kk in src)keys[kk]=1;});
+ for(var k in keys){
+  var a=APIRES[k],b=ESPNRES[k],c=FBRES[k];
+  var hit=(a&&b&&a.score===b.score)?a:(a&&c&&a.score===c.score)?a:(b&&c&&b.score===c.score)?b:null;
+  if(hit)VERRES[k]={score:hit.score,res:hit.res,fr:!!((a&&a.fr)||(b&&b.fr)||(c&&c.fr))};
  }
  for(var bk in BAKEDRES)VERRES[bk]=BAKEDRES[bk];
  /* manual override: results.json { "mancity": { "results": {...} } } - outranks everything */
@@ -707,7 +725,8 @@ function renderTable(){
 }
 function getFixtures(){
  if(DATA.mancity&&DATA.mancity.fixtures&&DATA.mancity.fixtures.length)return DATA.mancity.fixtures;
- if(!APIFIX.length)return FIXTURES;
+ var LIVEFIX=(FBALL&&FBALL.fixtures&&FBALL.fixtures.length)?FBALL.fixtures:APIFIX;
+ if(!LIVEFIX.length)return FIXTURES;
  /* merge: API entries win. A baked entry is dropped when the API carries the
     SAME MATCHUP within 5 days (TV picks move kickoffs across days) or anything
     on the same calendar day - so a rescheduled game can never appear twice. */
@@ -717,10 +736,10 @@ function getFixtures(){
   return c&&c.code?c.code:String(n).toLowerCase().replace(/[^a-z]/g,"");
  }
  function mk(f){return f.comp+"|"+sideKey(f.home)+"|"+sideKey(f.away);}
- var out=APIFIX.slice();
+ var out=LIVEFIX.slice();
  FIXTURES.forEach(function(b){
   var bt=new Date(b.utc).getTime(),bkey=mk(b),bday=b.utc.slice(0,10);
-  var dup=APIFIX.some(function(a){
+  var dup=LIVEFIX.some(function(a){
    if(a.utc.slice(0,10)===bday)return true;
    return mk(a)===bkey&&Math.abs(new Date(a.utc).getTime()-bt)<5*86400e3;
   });
@@ -968,8 +987,8 @@ function renderHero(){
  }else{
   note.textContent="from matchday 1";
  }
- statBlock("blk-scorer","TOP SCORER","gold",(mc&&mc.topScorer)||APILEADERS.scorer);
- statBlock("blk-assists","TOP ASSISTS","sky",(mc&&mc.topAssists)||APILEADERS.assists);
+ statBlock("blk-scorer","TOP SCORER","gold",(mc&&mc.topScorer)||(FBALL&&FBALL.topScorer)||APILEADERS.scorer);
+ statBlock("blk-assists","TOP ASSISTS","sky",(mc&&mc.topAssists)||(FBALL&&FBALL.topAssists)||APILEADERS.assists);
  renderFixStrip();
  renderTransfers();
 }
@@ -1635,6 +1654,7 @@ setInterval(fetchTableAPI,6*60*60*1000);
 setInterval(fetchFormAPI,6*60*60*1000);
 setInterval(fetchResultsESPN,6*60*60*1000);
 setInterval(fetchLeadersESPN,6*60*60*1000);
+setInterval(fetchFootballJson,30*60*1000); /* local file: cheap to poll */
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  getLatestVideo().then(function(v){
@@ -1794,7 +1814,7 @@ document.getElementById("btnTint").addEventListener("click",function(){
 function tickSecond(){clock();renderNext();}
 scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();renderFxCal();
 setInterval(tickSecond,1000);
-fetchResults();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchLeadersESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
+fetchResults();fetchFootballJson();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchLeadersESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
 </script>
 </body>
 </html>
