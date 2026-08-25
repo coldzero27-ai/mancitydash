@@ -20,13 +20,7 @@ jobs:
 
     steps:
 
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-
-        with:
-
-          python-version: "3.12"
+      - uses: actions/checkout@v5
 
       - name: Fetch API-Football
 
@@ -34,7 +28,7 @@ jobs:
 
           APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
 
-        run: python fetch_football.py
+        run: python3 fetch_football.py
 
       - name: Commit if changed
 
