@@ -1664,10 +1664,19 @@ function buildYt(){
     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
     try{console.log("[vid] trying latest: "+LATESTVIDEO.id);}catch(x){}
     e.target.loadVideoById(LATESTVIDEO.id);
-    /* one chance: playing within 10s or we go to the poster */
+    /* two-stage check: ads occupy the player while the content sits "unstarted",
+       so 10s of not-playing gets an AD GRACE extension to 45s total before we
+       conclude failure. Playing at any point clears everything (onStateChange). */
     ytTryTimer=setTimeout(function(){
      try{
-      if(!ytPlayer||ytPlayer.getPlayerState()!==1)tryScorebat();
+      var st=ytPlayer?ytPlayer.getPlayerState():-99;
+      if(st===1)return;
+      try{console.log("[vid] not playing at 10s (state "+st+") - ad grace until 45s");}catch(x){}
+      ytTryTimer=setTimeout(function(){
+       try{
+        if(!ytPlayer||ytPlayer.getPlayerState()!==1)tryScorebat();
+       }catch(x){tryScorebat();}
+      },35000);
      }catch(x){tryScorebat();}
     },10000);
     fitVideoCover();setTimeout(fitVideoCover,600);
@@ -1899,7 +1908,7 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
-var BOARD_BUILD="b42-signage";
+var BOARD_BUILD="b43-signage";
 setTimeout(function(){location.reload();},30*60*1000);
 try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
