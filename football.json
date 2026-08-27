@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T23:29:36Z",
+ "updated": "2026-08-27T12:44:59Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -14,6 +14,13 @@
    "comp": "PL",
    "home": "Manchester City",
    "away": "Coventry",
+   "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-09-08T14:00:00Z",
+   "comp": "EFL",
+   "home": "Manchester City",
+   "away": "Norwich",
    "venue": "Etihad Stadium"
   },
   {
@@ -134,13 +141,6 @@
    "home": "Leeds",
    "away": "Manchester City",
    "venue": "Elland Road"
-  },
-  {
-   "utc": "2027-01-16T15:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Nottingham Forest",
-   "venue": "Etihad Stadium"
   }
  ],
  "results": {
