@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T23:46:19Z",
+ "updated": "2026-08-28T14:18:35Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -22,6 +22,62 @@
    "home": "Manchester City",
    "away": "Norwich",
    "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "Barcelona",
+   "away": "Manchester City",
+   "venue": "Camp Nou"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "FC Porto",
+   "away": "Manchester City",
+   "venue": ""
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "Lens",
+   "away": "Manchester City",
+   "venue": "Stade Bollaert-Delelis"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "Manchester City",
+   "away": "Paris Saint Germain",
+   "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "Manchester City",
+   "away": "Sporting CP",
+   "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "Manchester City",
+   "away": "Napoli",
+   "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "Manchester City",
+   "away": "AEK Athens FC",
+   "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-09-08T19:00:00Z",
+   "comp": "UCL",
+   "home": "RB Leipzig",
+   "away": "Manchester City",
+   "venue": "Red Bull Arena"
   },
   {
    "utc": "2026-09-13T15:30:00Z",
@@ -85,62 +141,6 @@
    "home": "Arsenal",
    "away": "Manchester City",
    "venue": "Emirates Stadium"
-  },
-  {
-   "utc": "2026-12-02T20:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Leeds",
-   "venue": "Etihad Stadium"
-  },
-  {
-   "utc": "2026-12-05T15:00:00Z",
-   "comp": "PL",
-   "home": "Brentford",
-   "away": "Manchester City",
-   "venue": "Brentford Community Stadium"
-  },
-  {
-   "utc": "2026-12-12T15:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Chelsea",
-   "venue": "Etihad Stadium"
-  },
-  {
-   "utc": "2026-12-19T15:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Hull City",
-   "venue": "Etihad Stadium"
-  },
-  {
-   "utc": "2026-12-26T15:00:00Z",
-   "comp": "PL",
-   "home": "Newcastle",
-   "away": "Manchester City",
-   "venue": ""
-  },
-  {
-   "utc": "2026-12-30T20:00:00Z",
-   "comp": "PL",
-   "home": "Everton",
-   "away": "Manchester City",
-   "venue": "Hill Dickinson Stadium"
-  },
-  {
-   "utc": "2027-01-02T15:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Tottenham",
-   "venue": "Etihad Stadium"
-  },
-  {
-   "utc": "2027-01-06T20:00:00Z",
-   "comp": "PL",
-   "home": "Leeds",
-   "away": "Manchester City",
-   "venue": "Elland Road"
   }
  ],
  "results": {
