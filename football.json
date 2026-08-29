@@ -1,14 +1,7 @@
 {
- "updated": "2026-08-28T14:18:35Z",
+ "updated": "2026-08-29T02:47:59Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-08-28T19:00:00Z",
-   "comp": "PL",
-   "home": "Crystal Palace",
-   "away": "Manchester City",
-   "venue": "Selhurst Park"
-  },
   {
    "utc": "2026-09-05T14:00:00Z",
    "comp": "PL",
@@ -87,7 +80,7 @@
    "venue": "Old Trafford"
   },
   {
-   "utc": "2026-09-19T14:00:00Z",
+   "utc": "2026-09-20T13:00:00Z",
    "comp": "PL",
    "home": "Manchester City",
    "away": "Sunderland",
@@ -141,6 +134,13 @@
    "home": "Arsenal",
    "away": "Manchester City",
    "venue": "Emirates Stadium"
+  },
+  {
+   "utc": "2026-12-02T20:00:00Z",
+   "comp": "PL",
+   "home": "Manchester City",
+   "away": "Leeds",
+   "venue": "Etihad Stadium"
   }
  ],
  "results": {
@@ -151,6 +151,11 @@
   },
   "2026-08-23": {
    "score": "2-1",
+   "res": "W",
+   "fr": false
+  },
+  "2026-08-28": {
+   "score": "1-4",
    "res": "W",
    "fr": false
   },
