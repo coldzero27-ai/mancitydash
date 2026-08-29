@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T02:47:59Z",
+ "updated": "2026-08-29T13:49:10Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -175,6 +175,6 @@
    "fr": true
   }
  },
- "topScorer": "Guéhi - 1",
- "topAssists": "Cherki - 2"
+ "topScorer": "Haaland - 2",
+ "topAssists": "Foden - 2"
 }
