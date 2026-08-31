@@ -763,13 +763,19 @@ var WINDOWS = [
    Agreed-but-not-announced as of 24 Aug (kept OFF the wall): Savinho->Spurs £85m (medical),
    Marmoush->Spurs (advanced), Bouaddi<-Lille EUR100m ("here we go"), Allan<-Palmeiras.
    Final sweep due 2 Sep after deadline day. */
+/* verified 26 Aug 2026 - teamtalk done-deals / readmancity / si.com. Window closes
+   1 Sep 23:00 UK. NOT baked (unconfirmed): Marmoush->Spurs loan (one tracker only),
+   Allan<-Palmeiras (terms agreed). Final sweep due 2 Sep. */
 var TRANSFERS = {
  ins: [
   {n:"Elliot Anderson"},
+  {n:"Ayyoub Bouaddi"},
   {n:"Gerónimo Rulli"}
  ],
  outs: [
   {n:"Rodri"},
+  {n:"Savinho"},
+  {n:"Nico González"},
   {n:"Tijjani Reijnders"},
   {n:"Bernardo Silva"},
   {n:"Manuel Akanji"},
@@ -777,7 +783,7 @@ var TRANSFERS = {
   {n:"John Stones"},
   {n:"James Trafford"}
  ],
- targets: [{n:"Ayyoub Bouaddi"}],
+ targets: [{n:"Allan"}],
  lastWindow: "Jan 26: Semenyo £64m · Guéhi £20m in"
 };
 
@@ -1130,7 +1136,14 @@ function renderFxCal(){
 /* match-card view: home side always listed first — City first = home */
 function crestSrcFor(name){
  if(isCity(name))return CRESTS["MCI"];
- var c=clubByName(name);return c?CRESTS[c.code]:null;
+ var c=clubByName(name);
+ if(c&&CRESTS[c.code])return CRESTS[c.code];
+ /* unknown team: derive assets/crests/<normalized>.png - drop a file with that
+    exact name into the crests folder and it appears, no code change needed */
+ var k=String(name).toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+ if(!k)return null;
+ try{console.log("[crest] auto: '"+name+"' -> assets/crests/"+k+".png");}catch(e){}
+ return "assets/crests/"+k+".png";
 }
 function shortTeam(n){return String(n).replace(/^Manchester City$/i,"Man City");}
 function renderFxCards(){
@@ -1146,9 +1159,9 @@ function renderFxCards(){
   h+="<div class='fxcard"+(i===0?" next":"")+"'>"
    +"<div class='fc-comp'>"+esc(COMPNAMES[f.comp]||f.comp)+"</div>"
    +"<div class='fc-teams'>"
-   +"<div class='fc-side'>"+(hs?"<img src='"+hs+"' alt=''>":"")+"<span>"+esc(shortTeam(f.home))+"</span></div>"
+   +"<div class='fc-side'>"+(hs?"<img src='"+hs+"' alt='' onerror=\"this.style.display='none'\">":"")+"<span>"+esc(shortTeam(f.home))+"</span></div>"
    +"<span class='fc-vs'>VS</span>"
-   +"<div class='fc-side'>"+(as?"<img src='"+as+"' alt=''>":"")+"<span>"+esc(shortTeam(f.away))+"</span></div>"
+   +"<div class='fc-side'>"+(as?"<img src='"+as+"' alt='' onerror=\"this.style.display='none'\">":"")+"<span>"+esc(shortTeam(f.away))+"</span></div>"
    +"</div>"
    +"<div class='fc-when'>"+esc(w.date)+" · "+esc(w.time)+" GST</div>"
    +"</div>";
@@ -1535,7 +1548,7 @@ function getLatestVideo(){
    }).then(function(a){return a&&a.length?a[0]:null;});
   }).catch(function(){return null;});
 }
-var SB_ENABLED=false; /* ScoreBat parked pending approval - set true to re-enable the whole layer */
+var SB_ENABLED=true; /* unparked 26 Aug on request: fail-safe for ad-killed video */
 var sbTried=false, SBMETA=null, sbIdx=0, sbCycle=null;
 var SB_DWELL=90*1000; /* seconds per clip before rotating to the next */
 function sbStop(){if(sbCycle){clearInterval(sbCycle);sbCycle=null;}}
@@ -1571,6 +1584,7 @@ function tryScorebat(){
    SBMETA=j;
    if(Date.now()-new Date(j.updated).getTime()>7*24*3600e3){try{console.log("[vid] scorebat stale");}catch(e){}showPoster();return;}
    try{console.log("[vid] scorebat: "+j.match+" ("+((j.videos&&j.videos.length)||1)+" clips)");}catch(e){}
+   if(ytAliveWatch){clearInterval(ytAliveWatch);ytAliveWatch=null;}
    if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
    try{if(ytPlayer&&ytPlayer.destroy)ytPlayer.destroy();}catch(e){}
    ytPlayer=null;
@@ -1579,8 +1593,20 @@ function tryScorebat(){
    sbStop();sbCycle=setInterval(function(){sbIdx++;sbShowClip();},SB_DWELL);
   }).catch(function(){showPoster();});
 }
+var sbMetaTried=false;
 function showPoster(){
- /* the guaranteed path: a thumbnail + title from whatever source we know about */
+ if(ytAliveWatch){clearInterval(ytAliveWatch);ytAliveWatch=null;}
+ /* the guaranteed path: a thumbnail + title from whatever source we know about.
+    If we know nothing yet, fetch scorebat.json ONCE just for its thumbnail -
+    an image plays everywhere, even on devices whose player cannot. */
+ if(!LATESTVIDEO&&!(SBMETA&&SBMETA.thumbnail)&&!sbMetaTried){
+  sbMetaTried=true;
+  fetch("scorebat.json?t="+Date.now())
+   .then(function(r){return r.ok?r.json():null;})
+   .then(function(j){if(j&&j.thumbnail){SBMETA=j;}showPoster();})
+   .catch(function(){showPoster();});
+  return;
+ }
  try{console.log("[vid] poster mode");}catch(e){}
  sbStop();
  if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
@@ -1629,10 +1655,19 @@ function buildYt(){
     try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
     try{console.log("[vid] trying latest: "+LATESTVIDEO.id);}catch(x){}
     e.target.loadVideoById(LATESTVIDEO.id);
-    /* one chance: playing within 10s or we go to the poster */
+    /* two-stage check: ads occupy the player while the content sits "unstarted",
+       so 10s of not-playing gets an AD GRACE extension to 45s total before we
+       conclude failure. Playing at any point clears everything (onStateChange). */
     ytTryTimer=setTimeout(function(){
      try{
-      if(!ytPlayer||ytPlayer.getPlayerState()!==1)tryScorebat();
+      var st=ytPlayer?ytPlayer.getPlayerState():-99;
+      if(st===1)return;
+      try{console.log("[vid] not playing at 10s (state "+st+") - ad grace until 45s");}catch(x){}
+      ytTryTimer=setTimeout(function(){
+       try{
+        if(!ytPlayer||ytPlayer.getPlayerState()!==1)tryScorebat();
+       }catch(x){tryScorebat();}
+      },35000);
      }catch(x){tryScorebat();}
     },10000);
     fitVideoCover();setTimeout(fitVideoCover,600);
@@ -1641,9 +1676,12 @@ function buildYt(){
     if(e.data===1){ /* playing: success */
      if(ytTryTimer){clearTimeout(ytTryTimer);ytTryTimer=null;}
      hidePoster();
+     ytAliveT=Date.now();
+     if(!ytAliveWatch)ytAliveWatch=setInterval(ytStallCheck,5000);
      try{e.target.unloadModule("captions");e.target.unloadModule("cc");}catch(x){}
     }
     if(e.data===0){ /* ended: loop the latest */
+     ytAliveT=Date.now();
      try{e.target.seekTo(0,true);e.target.playVideo();}catch(x){}
     }
    },
@@ -1653,6 +1691,22 @@ function buildYt(){
    }
   }
  });
+}
+/* Stall watchdog: an ad can report PLAYING (clearing the start checks), then die
+   mid-roll, leaving the card frozen forever. After first playback, if nothing has
+   been playing for 20s straight, fail over. */
+var ytAliveT=0, ytAliveWatch=null;
+function ytStallCheck(){
+ try{
+  if(!ytPlayer||!ytPlayer.getPlayerState){clearInterval(ytAliveWatch);ytAliveWatch=null;return;}
+  var s=ytPlayer.getPlayerState();
+  if(s===1){ytAliveT=Date.now();return;}
+  if(Date.now()-ytAliveT>20000){
+   try{console.log("[vid] stalled after playback (state "+s+") - failing over");}catch(e){}
+   clearInterval(ytAliveWatch);ytAliveWatch=null;
+   tryScorebat();
+  }
+ }catch(e){}
 }
 var vidGen=0;
 function fetchLatestVideo(){
@@ -1859,7 +1913,7 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
-var BOARD_BUILD="b41";
+var BOARD_BUILD="b44";
 try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
  return; /* boss mode: freshness ages hidden from the wall; build id in console */
