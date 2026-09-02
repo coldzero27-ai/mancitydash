@@ -1,7 +1,49 @@
 {
- "updated": "2026-09-01T23:58:10Z",
+ "updated": "2026-09-02T04:15:51Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Transfer news LIVE: Chelsea furious as Camara deal collapses and Man City sign Enzo",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T03:47:21Z"
+  },
+  {
+   "title": "Shock Deadline Day twist! Red Devils launch stunning move for Manchester City star Rayan Ait-Nouri",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T03:41:38Z"
+  },
+  {
+   "title": "Manchester City sign Enzo Fernandez from Chelsea",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T03:05:00Z"
+  },
+  {
+   "title": "Manchester City sign Senegal winger Iliman Ndiaye on five-year deal",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T03:05:00Z"
+  },
+  {
+   "title": "Jack Grealish joins Everton on loan from Manchester City for 2026/27",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T02:52:28Z"
+  },
+  {
+   "title": "Jack Grealish Returns To Everton On Loan From Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T02:21:47Z"
+  },
+  {
+   "title": "Fernández completes record-equalling £125m move from Chelsea to Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T01:31:00Z"
+  },
   {
    "title": "Chelsea’s Enzo Fernandez set for joint British record £125m Manchester City move",
    "img": null,
@@ -9,10 +51,10 @@
    "time": "2026-09-01T23:52:16Z"
   },
   {
-   "title": "Transfer news LIVE: Alvarez to Arsenal; Man Utd bid; Chelsea deal OFF",
+   "title": "Manchester City welcome Enzo Fernandez with dramatic intro video",
    "img": null,
    "video": null,
-   "time": "2026-09-01T23:42:58Z"
+   "time": "2026-09-01T23:22:49Z"
   },
   {
    "title": "Enzo Fernandez: How Man City completed £125m deal for Chelsea midfielder",
@@ -27,64 +69,22 @@
    "time": "2026-09-01T23:16:54Z"
   },
   {
-   "title": "Manchester City complete £125million signing of Enzo Fernandez from Chelsea",
+   "title": "The historic deal completed in the final moments: Manchester City officially announce the signing of Enzo",
    "img": null,
    "video": null,
-   "time": "2026-09-01T23:11:11Z"
-  },
-  {
-   "title": "Swansea City transfer news: Jeremy Monga deal set to go through despite Ronald and Inoussa deals collapsing",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T23:10:46Z"
-  },
-  {
-   "title": "Enzo Fernandez: Man City sign midfielder from Chelsea",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T22:55:45Z"
-  },
-  {
-   "title": "Enzo Fernandez transfer from Chelsea to Manchester City for a nine-figure price tag",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T22:47:34Z"
-  },
-  {
-   "title": "'I'm ready': Grealish returns to Everton on loan from Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T22:47:08Z"
-  },
-  {
-   "title": "Confirmed Transfer: Manchester City signs Enzo Fernández.",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T22:46:56Z"
-  },
-  {
-   "title": "Ndiaye explains transfer decision after £65m Tottenham hijack",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T22:46:19Z"
-  },
-  {
-   "title": "Shock Deadline Day twist! Red Devils launch stunning move for Manchester City star Rayan Ait-Nouri",
-   "img": null,
-   "video": null,
-   "time": "2026-09-01T22:43:52Z"
+   "time": "2026-09-01T23:11:32Z"
   }
  ],
  "ticker": [
+  "Transfer news LIVE: Chelsea furious as Camara deal collapses and Man City sign Enzo",
+  "Shock Deadline Day twist! Red Devils launch stunning move for Manchester City star Rayan Ait-Nouri",
+  "Manchester City sign Enzo Fernandez from Chelsea",
+  "Manchester City sign Senegal winger Iliman Ndiaye on five-year deal",
+  "Jack Grealish joins Everton on loan from Manchester City for 2026/27",
+  "Jack Grealish Returns To Everton On Loan From Manchester City",
+  "Fernández completes record-equalling £125m move from Chelsea to Manchester City",
   "Chelsea’s Enzo Fernandez set for joint British record £125m Manchester City move",
-  "Transfer news LIVE: Alvarez to Arsenal; Man Utd bid; Chelsea deal OFF",
-  "Enzo Fernandez: How Man City completed £125m deal for Chelsea midfielder",
-  "Transfer deadline day: Enzo Fernandez makes £125m Manchester City move",
-  "Manchester City complete £125million signing of Enzo Fernandez from Chelsea",
-  "Swansea City transfer news: Jeremy Monga deal set to go through despite Ronald and Inoussa deals collapsing",
-  "Enzo Fernandez: Man City sign midfielder from Chelsea",
-  "Enzo Fernandez transfer from Chelsea to Manchester City for a nine-figure price tag",
-  "'I'm ready': Grealish returns to Everton on loan from Manchester City",
-  "Confirmed Transfer: Manchester City signs Enzo Fernández."
+  "Manchester City welcome Enzo Fernandez with dramatic intro video",
+  "Enzo Fernandez: How Man City completed £125m deal for Chelsea midfielder"
  ]
 }
