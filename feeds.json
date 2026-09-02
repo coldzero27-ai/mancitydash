@@ -1,7 +1,55 @@
 {
- "updated": "2026-09-02T17:41:51Z",
+ "updated": "2026-09-02T20:41:51Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Echeverri joins Benfica on loan",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T20:30:00Z"
+  },
+  {
+   "title": "Everton U21s sign Ezra Carrington from Manchester City Academy",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T20:08:31Z"
+  },
+  {
+   "title": "Enzo Fernandez takes swipe at Chelsea after first day with Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T19:32:17Z"
+  },
+  {
+   "title": "Ndiaye explains transfer decision after £65m Tottenham hijack",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T19:31:53Z"
+  },
+  {
+   "title": "Enzo Maresca Given Major Say In Manchester City's Transfer Business",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T19:20:44Z"
+  },
+  {
+   "title": "Enzo Fernandez Joins Manchester City in Record £125m Transfer",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T18:50:20Z"
+  },
+  {
+   "title": "Our Way: New surroundings, same City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T18:00:00Z"
+  },
+  {
+   "title": "'The midfield quality is unbelievable' - fans on Man City squad",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T17:33:06Z"
+  },
   {
    "title": "Manchester City Sign Iliman Ndiaye for £65m",
    "img": null,
@@ -9,22 +57,10 @@
    "time": "2026-09-02T17:30:10Z"
   },
   {
-   "title": "Time to triple up on Man City? Who are their best picks in FPL?",
+   "title": "Enzo Fernandez takes swipe at Chelsea after record-breaking Manchester City transfer",
    "img": null,
    "video": null,
-   "time": "2026-09-02T16:55:34Z"
-  },
-  {
-   "title": "WSL Power Rankings: Manchester City aim to defend their title with Chelsea and Arsenal close behind",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T16:47:00Z"
-  },
-  {
-   "title": "Deadline Day fallout LIVE: Richarlison to Turkey, Chelsea 'contact' Wijnaldum",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T16:32:00Z"
+   "time": "2026-09-02T16:18:53Z"
   },
   {
    "title": "Manchester City Complete Huge €378m Midfield Rebuild Under Enzo Maresca",
@@ -37,54 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-02T16:08:38Z"
-  },
-  {
-   "title": "Enzo Fernandez takes a subtle shot at Chelsea after completing Manchester City transfer",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T15:51:36Z"
-  },
-  {
-   "title": "Rayan Ait-Nouri: How close were Manchester United to signing Man City player?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T15:31:08Z"
-  },
-  {
-   "title": "How to watch Manchester City vs Coventry City live: Stream, TV, team news, prediction",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T14:57:15Z"
-  },
-  {
-   "title": "Aoibhe Brennan joins Manchester City from Bohemians",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T14:49:20Z"
-  },
-  {
-   "title": "Enzo Fernandez aims parting shot at Chelsea after finally getting Manchester City move",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T14:40:22Z"
-  },
-  {
-   "title": "Man City news: Why Enzo Fernandez transfer was pursued",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T14:27:52Z"
   }
  ],
  "ticker": [
+  "Echeverri joins Benfica on loan",
+  "Everton U21s sign Ezra Carrington from Manchester City Academy",
+  "Enzo Fernandez takes swipe at Chelsea after first day with Manchester City",
+  "Ndiaye explains transfer decision after £65m Tottenham hijack",
+  "Enzo Maresca Given Major Say In Manchester City's Transfer Business",
+  "Enzo Fernandez Joins Manchester City in Record £125m Transfer",
+  "Our Way: New surroundings, same City",
+  "'The midfield quality is unbelievable' - fans on Man City squad",
   "Manchester City Sign Iliman Ndiaye for £65m",
-  "Time to triple up on Man City? Who are their best picks in FPL?",
-  "WSL Power Rankings: Manchester City aim to defend their title with Chelsea and Arsenal close behind",
-  "Deadline Day fallout LIVE: Richarlison to Turkey, Chelsea 'contact' Wijnaldum",
-  "Manchester City Complete Huge €378m Midfield Rebuild Under Enzo Maresca",
-  "Man City Mini Kickers | Man City Football Programs",
-  "Enzo Fernandez takes a subtle shot at Chelsea after completing Manchester City transfer",
-  "Rayan Ait-Nouri: How close were Manchester United to signing Man City player?",
-  "How to watch Manchester City vs Coventry City live: Stream, TV, team news, prediction",
-  "Aoibhe Brennan joins Manchester City from Bohemians"
+  "Enzo Fernandez takes swipe at Chelsea after record-breaking Manchester City transfer"
  ]
 }
