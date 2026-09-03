@@ -1,7 +1,14 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first, max ~8 posts. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-03T05:14:24Z",
+  "updated": "2026-09-03T08:10:22Z",
   "posts": [
+    {
+      "text": "Mainoo pulling the strings 🧵",
+      "url": "https://x.com/premierleague/status/2095421562174202326",
+      "time": "2026-09-03T08:00:06Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "Skiliman 😅",
       "url": "https://x.com/ManCity/status/2095251110814462451",
@@ -76,13 +83,6 @@
       "text": "Habib Diarra with the burst, Wilson Isidor with the finish 🎯",
       "url": "https://x.com/premierleague/status/2094183381474869270",
       "time": "2026-08-30T22:00:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Joao Pedro is enjoying his start to the season ✨\n\n@ChelseaFC",
-      "url": "https://x.com/premierleague/status/2094179605519204594",
-      "time": "2026-08-30T21:45:00Z",
       "account": "Premier League",
       "handle": "premierleague"
     }
