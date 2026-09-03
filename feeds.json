@@ -1,12 +1,48 @@
 {
- "updated": "2026-09-03T21:50:00Z",
+ "updated": "2026-09-03T23:50:12Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Orlando Pride loan goalkeeper Anna Moorhouse to Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T23:14:00Z"
+  },
+  {
+   "title": "Ndiaye shirt number revealed as triple Man City debut plotted after £65m deal",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T22:28:16Z"
+  },
+  {
+   "title": "Manchester City secure the loan signing of England goalkeeper Anna Moorhouse from Orlando Pride",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T21:59:44Z"
+  },
+  {
+   "title": "Former Manchester City star named new Canvey boss",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T21:42:55Z"
+  },
+  {
+   "title": "WSL Deadline Day round up: Man City have busy day and Arsenal make huge signing!",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T21:38:50Z"
+  },
   {
    "title": "Manchester City vs Coventry City: Premier League preview, team news, stats & head-to-head",
    "img": null,
    "video": null,
    "time": "2026-09-03T21:28:02Z"
+  },
+  {
+   "title": "Man City's 'Haaland backup plan revealed' after £60m transfer",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T21:23:24Z"
   },
   {
    "title": "Manchester City Complete The Capture Of This Chelsea Midfielder: Decent Signing For Maresca?",
@@ -15,76 +51,40 @@
    "time": "2026-09-03T21:05:00Z"
   },
   {
+   "title": "Manchester City sign Orlando Pride keeper Moorhouse on loan",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T20:35:00Z"
+  },
+  {
    "title": "Orlando Pride loan Goalkeeper Anna Moorhouse to Manchester City W.F.C.",
    "img": null,
    "video": null,
    "time": "2026-09-03T20:32:24Z"
   },
   {
-   "title": "Man City sign England goalkeeper Moorhouse on loan",
+   "title": "Anna Moorhouse: Manchester City sign England goalkeeper on loan",
    "img": null,
    "video": null,
    "time": "2026-09-03T20:30:19Z"
-  },
-  {
-   "title": "City sign Moorhouse on loan",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T20:30:00Z"
-  },
-  {
-   "title": "Moorhouse: When a club like City calls, you have to answer",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T20:30:00Z"
   },
   {
    "title": "Gallery: Moorhouse’s first day at City",
    "img": null,
    "video": null,
    "time": "2026-09-03T20:30:00Z"
-  },
-  {
-   "title": "10 things you might not know about Anna Moorhouse",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T20:30:00Z"
-  },
-  {
-   "title": "Moorhouse shirt number revealed",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T20:30:00Z"
-  },
-  {
-   "title": "Moorhouse: USA experience has helped me grow",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T20:30:00Z"
-  },
-  {
-   "title": "Man City complete £320m midfield rebuild...but have they strengthened? | Transfer Talk Podcast",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T19:57:45Z"
-  },
-  {
-   "title": "Fernandez To Start, O’Reilly On The Bench | 4-2-3-1 Manchester City Predicted Lineup Vs Coventry City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T19:00:53Z"
   }
  ],
  "ticker": [
+  "Orlando Pride loan goalkeeper Anna Moorhouse to Manchester City",
+  "Ndiaye shirt number revealed as triple Man City debut plotted after £65m deal",
+  "Manchester City secure the loan signing of England goalkeeper Anna Moorhouse from Orlando Pride",
+  "Former Manchester City star named new Canvey boss",
+  "WSL Deadline Day round up: Man City have busy day and Arsenal make huge signing!",
   "Manchester City vs Coventry City: Premier League preview, team news, stats & head-to-head",
+  "Man City's 'Haaland backup plan revealed' after £60m transfer",
   "Manchester City Complete The Capture Of This Chelsea Midfielder: Decent Signing For Maresca?",
-  "Orlando Pride loan Goalkeeper Anna Moorhouse to Manchester City W.F.C.",
-  "Man City sign England goalkeeper Moorhouse on loan",
-  "City sign Moorhouse on loan",
-  "Moorhouse: When a club like City calls, you have to answer",
-  "Gallery: Moorhouse’s first day at City",
-  "10 things you might not know about Anna Moorhouse",
-  "Moorhouse shirt number revealed",
-  "Moorhouse: USA experience has helped me grow"
+  "Manchester City sign Orlando Pride keeper Moorhouse on loan",
+  "Orlando Pride loan Goalkeeper Anna Moorhouse to Manchester City W.F.C."
  ]
 }
