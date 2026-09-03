@@ -1,30 +1,30 @@
 {
- "updated": "2026-09-02T23:04:46Z",
+ "updated": "2026-09-03T01:19:12Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City transfer news: New midfield but major Haaland gamble",
+   "title": "Divine Mukasa: A Manchester City midfield gem making a name for himself back at West Ham",
    "img": null,
    "video": null,
-   "time": "2026-09-02T22:07:52Z"
+   "time": "2026-09-02T23:54:55Z"
   },
   {
-   "title": "Revealed: Jose Mourinho’s failed summer target as Manchester City beat Real Madrid to a blockbuster deal",
+   "title": "Man City injury, suspension news and return dates for Coventry City clash: Jeremy Doku, Matheus Nunes latest",
    "img": null,
    "video": null,
-   "time": "2026-09-02T21:04:30Z"
-  },
-  {
-   "title": "Transfer news LIVE: Arsenal make Alvarez plan; new Chelsea target, Camara OFF; Man Utd, Liverpool latest",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T21:02:50Z"
+   "time": "2026-09-02T22:51:41Z"
   },
   {
    "title": "Man City, Chelsea fuel record-breaking Premier League transfer window",
    "img": null,
    "video": null,
    "time": "2026-09-02T21:00:00Z"
+  },
+  {
+   "title": "Enzo Fernandez takes swipe at Chelsea after first day at Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T20:51:00Z"
   },
   {
    "title": "Echeverri joins Benfica on loan",
@@ -37,6 +37,12 @@
    "img": null,
    "video": null,
    "time": "2026-09-02T20:10:00Z"
+  },
+  {
+   "title": "Man City sign Enzo Fernández in record-breaking deal from Chelsea",
+   "img": null,
+   "video": null,
+   "time": "2026-09-02T20:04:51Z"
   },
   {
    "title": "Enzo Fernandez ‘didn’t hesitate’ over record Manchester City move",
@@ -57,34 +63,28 @@
    "time": "2026-09-02T19:26:26Z"
   },
   {
-   "title": "Enzo Maresca Given Major Say In Manchester City's Transfer Business",
+   "title": "Manchester City 2026 Summer Transfer Window: Full List of Signings and Departures",
    "img": null,
    "video": null,
-   "time": "2026-09-02T19:20:44Z"
+   "time": "2026-09-02T19:18:20Z"
   },
   {
-   "title": "Enzo Fernandez Joins Manchester City in Record £125m Transfer",
+   "title": "Revealed: Jose Mourinho’s failed summer target as Manchester City beat Real Madrid to a blockbuster deal",
    "img": null,
    "video": null,
-   "time": "2026-09-02T18:50:20Z"
-  },
-  {
-   "title": "Inside City 528: Transfer special",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T18:00:00Z"
+   "time": "2026-09-02T18:56:38Z"
   }
  ],
  "ticker": [
-  "Man City transfer news: New midfield but major Haaland gamble",
-  "Revealed: Jose Mourinho’s failed summer target as Manchester City beat Real Madrid to a blockbuster deal",
-  "Transfer news LIVE: Arsenal make Alvarez plan; new Chelsea target, Camara OFF; Man Utd, Liverpool latest",
+  "Divine Mukasa: A Manchester City midfield gem making a name for himself back at West Ham",
+  "Man City injury, suspension news and return dates for Coventry City clash: Jeremy Doku, Matheus Nunes latest",
   "Man City, Chelsea fuel record-breaking Premier League transfer window",
+  "Enzo Fernandez takes swipe at Chelsea after first day at Manchester City",
   "Echeverri joins Benfica on loan",
   "Enzo Fernández: Dream to be at club as 'big' as Man City",
+  "Man City sign Enzo Fernández in record-breaking deal from Chelsea",
   "Enzo Fernandez ‘didn’t hesitate’ over record Manchester City move",
   "Manchester City Complete Huge €378m Midfield Rebuild Under Enzo Maresca",
-  "Noel Gallagher gives surprise review of documentary on Pep Guardiola's Man City departure",
-  "Enzo Maresca Given Major Say In Manchester City's Transfer Business"
+  "Noel Gallagher gives surprise review of documentary on Pep Guardiola's Man City departure"
  ]
 }
