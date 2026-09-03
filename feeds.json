@@ -1,7 +1,43 @@
 {
- "updated": "2026-09-03T15:59:38Z",
+ "updated": "2026-09-03T19:15:40Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "⚽ Insiders at Manchester City Council say the relationship between the town hall and club ‘has changed’ from what it was in previous years",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T19:02:16Z"
+  },
+  {
+   "title": "Gallery: New faces spotted in training!",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T19:00:00Z"
+  },
+  {
+   "title": "\"For As Long As I'Ve Known Manchester, City Have Been The Kings Of Manchester\": Elliot Anderson",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T18:40:23Z"
+  },
+  {
+   "title": "A$AP Rocky teams up with Manchester City and PUMA to launch club-first jersey",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T16:58:00Z"
+  },
+  {
+   "title": "🔴 Football fans are being warned of road closures",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T16:17:36Z"
+  },
+  {
+   "title": "Iliman Ndiaye squad number confirmed",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T16:00:00Z"
+  },
   {
    "title": "Former Man City midfielder and ex-Fleetwood Town manager Joey Barton could remain in prison until 2027",
    "img": null,
@@ -27,64 +63,28 @@
    "time": "2026-09-03T15:05:00Z"
   },
   {
+   "title": "Road closures in full as Manchester City take on Coventry City at the Etihad this Saturday",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T15:04:00Z"
+  },
+  {
    "title": "It's time to really start judging Maresca and new-look Man City after $600M refresh",
    "img": null,
    "video": null,
    "time": "2026-09-03T14:58:32Z"
-  },
-  {
-   "title": "Scout Selection: Best Fantasy team for Gameweek 3",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T14:46:01Z"
-  },
-  {
-   "title": "ASAP Rocky Brings 'Don't Be Dumb' Ethos to Manchester City, AC Milan With Limited-Edition Jerseys",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T14:43:01Z"
-  },
-  {
-   "title": "WSL transfer deadline day LIVE: Signings, season preview and predictions",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T14:28:27Z"
-  },
-  {
-   "title": "Robi signs for Man City Esports",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T14:00:00Z"
-  },
-  {
-   "title": "Gallery: Robi’s first day as a Blue",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T14:00:00Z"
-  },
-  {
-   "title": "Semenyo emerges as Manchester City’s emergency striker",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T13:20:43Z"
-  },
-  {
-   "title": "Man City news: Robinho and Sergio Aguero in Premier League game-changers",
-   "img": null,
-   "video": null,
-   "time": "2026-09-03T13:01:23Z"
   }
  ],
  "ticker": [
+  "⚽ Insiders at Manchester City Council say the relationship between the town hall and club ‘has changed’ from what it was in previous years",
+  "Gallery: New faces spotted in training!",
+  "\"For As Long As I'Ve Known Manchester, City Have Been The Kings Of Manchester\": Elliot Anderson",
+  "A$AP Rocky teams up with Manchester City and PUMA to launch club-first jersey",
+  "🔴 Football fans are being warned of road closures",
+  "Iliman Ndiaye squad number confirmed",
   "Former Man City midfielder and ex-Fleetwood Town manager Joey Barton could remain in prison until 2027",
   "Under-21s fixture change | Manchester City at home",
   "Women's Champions League draw: Everything Man City fans need to know",
-  "City v Norwich: Tickets on sale for GA and Hospitality!",
-  "It's time to really start judging Maresca and new-look Man City after $600M refresh",
-  "Scout Selection: Best Fantasy team for Gameweek 3",
-  "ASAP Rocky Brings 'Don't Be Dumb' Ethos to Manchester City, AC Milan With Limited-Edition Jerseys",
-  "WSL transfer deadline day LIVE: Signings, season preview and predictions",
-  "Robi signs for Man City Esports",
-  "Gallery: Robi’s first day as a Blue"
+  "City v Norwich: Tickets on sale for GA and Hospitality!"
  ]
 }
