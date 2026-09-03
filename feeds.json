@@ -1,7 +1,55 @@
 {
- "updated": "2026-09-03T01:19:12Z",
+ "updated": "2026-09-03T06:16:06Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Premier League sets new transfer market record with more than €4 billion spent",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T05:23:52Z"
+  },
+  {
+   "title": "Chelsea £125m transfer confirmed amid late twist on Deadline Day",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T04:32:59Z"
+  },
+  {
+   "title": "Fantasy Premier League: Why triple-captaining Erling Haaland in Gameweek Three makes sense",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T04:30:00Z"
+  },
+  {
+   "title": "Reviewing Man City’s transfer window: Are they stronger now and will Maresca be happy?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T04:16:10Z"
+  },
+  {
+   "title": "Premier League predictions: Man City thrash Coventry, Arsenal beat Chelsea",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T03:28:47Z"
+  },
+  {
+   "title": "Manchester City Invests £380 Million to Rebuild Midfield With Enzo Fernández, Elliot Anderson, Ayub Bouadi",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T01:26:52Z"
+  },
+  {
+   "title": "Enzo Fernández: 'I always dreamed of joining a club as big as City'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T00:51:01Z"
+  },
+  {
+   "title": "Enzo Fernández: “Siempre soñé con fichar por un club tan grande como el City”",
+   "img": null,
+   "video": null,
+   "time": "2026-09-03T00:47:27Z"
+  },
   {
    "title": "Divine Mukasa: A Manchester City midfield gem making a name for himself back at West Ham",
    "img": null,
@@ -9,82 +57,34 @@
    "time": "2026-09-02T23:54:55Z"
   },
   {
-   "title": "Man City injury, suspension news and return dates for Coventry City clash: Jeremy Doku, Matheus Nunes latest",
+   "title": "Transfer news LIVE: Arsenal make Alvarez plan; new Chelsea target, Camara OFF; Man Utd, Liverpool latest",
    "img": null,
    "video": null,
-   "time": "2026-09-02T22:51:41Z"
+   "time": "2026-09-02T22:39:03Z"
   },
   {
-   "title": "Man City, Chelsea fuel record-breaking Premier League transfer window",
+   "title": "Man City transfer news: New midfield but major Haaland gamble",
    "img": null,
    "video": null,
-   "time": "2026-09-02T21:00:00Z"
-  },
-  {
-   "title": "Enzo Fernandez takes swipe at Chelsea after first day at Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T20:51:00Z"
-  },
-  {
-   "title": "Echeverri joins Benfica on loan",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T20:30:00Z"
-  },
-  {
-   "title": "Enzo Fernández: Dream to be at club as 'big' as Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T20:10:00Z"
-  },
-  {
-   "title": "Man City sign Enzo Fernández in record-breaking deal from Chelsea",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T20:04:51Z"
-  },
-  {
-   "title": "Enzo Fernandez ‘didn’t hesitate’ over record Manchester City move",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T19:51:00Z"
-  },
-  {
-   "title": "Manchester City Complete Huge €378m Midfield Rebuild Under Enzo Maresca",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T19:49:33Z"
-  },
-  {
-   "title": "Noel Gallagher gives surprise review of documentary on Pep Guardiola's Man City departure",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T19:26:26Z"
-  },
-  {
-   "title": "Manchester City 2026 Summer Transfer Window: Full List of Signings and Departures",
-   "img": null,
-   "video": null,
-   "time": "2026-09-02T19:18:20Z"
+   "time": "2026-09-02T22:07:52Z"
   },
   {
    "title": "Revealed: Jose Mourinho’s failed summer target as Manchester City beat Real Madrid to a blockbuster deal",
    "img": null,
    "video": null,
-   "time": "2026-09-02T18:56:38Z"
+   "time": "2026-09-02T21:04:30Z"
   }
  ],
  "ticker": [
+  "Premier League sets new transfer market record with more than €4 billion spent",
+  "Chelsea £125m transfer confirmed amid late twist on Deadline Day",
+  "Fantasy Premier League: Why triple-captaining Erling Haaland in Gameweek Three makes sense",
+  "Reviewing Man City’s transfer window: Are they stronger now and will Maresca be happy?",
+  "Premier League predictions: Man City thrash Coventry, Arsenal beat Chelsea",
+  "Manchester City Invests £380 Million to Rebuild Midfield With Enzo Fernández, Elliot Anderson, Ayub Bouadi",
+  "Enzo Fernández: 'I always dreamed of joining a club as big as City'",
+  "Enzo Fernández: “Siempre soñé con fichar por un club tan grande como el City”",
   "Divine Mukasa: A Manchester City midfield gem making a name for himself back at West Ham",
-  "Man City injury, suspension news and return dates for Coventry City clash: Jeremy Doku, Matheus Nunes latest",
-  "Man City, Chelsea fuel record-breaking Premier League transfer window",
-  "Enzo Fernandez takes swipe at Chelsea after first day at Manchester City",
-  "Echeverri joins Benfica on loan",
-  "Enzo Fernández: Dream to be at club as 'big' as Man City",
-  "Man City sign Enzo Fernández in record-breaking deal from Chelsea",
-  "Enzo Fernandez ‘didn’t hesitate’ over record Manchester City move",
-  "Manchester City Complete Huge €378m Midfield Rebuild Under Enzo Maresca",
-  "Noel Gallagher gives surprise review of documentary on Pep Guardiola's Man City departure"
+  "Transfer news LIVE: Arsenal make Alvarez plan; new Chelsea target, Camara OFF; Man Utd, Liverpool latest"
  ]
 }
