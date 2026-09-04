@@ -1,15 +1,90 @@
 {
- "updated": "2026-09-04T21:41:08Z",
+ "updated": "2026-09-04T23:47:54Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City blanked by Alvarez amid £128m bid to 'hijack' Arsenal deal - Paper Round",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T22:23:00Z"
+  },
+  {
+   "title": "Enzo Maresca says Enzo Fernandez’s arrival lifted Manchester City players",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:42:13Z"
+  },
   {
    "title": "Manchester City",
    "img": null,
    "video": null,
    "time": "2026-09-04T21:30:00Z"
+  },
+  {
+   "title": "Maresca: City have to compete for trophies",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:30:00Z"
+  },
+  {
+   "title": "‘We are the same – but different’ says Dias",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:30:00Z"
+  },
+  {
+   "title": "Maresca: Anderson, Fernández and Bouaddai will be crucial for us",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:30:00Z"
+  },
+  {
+   "title": "Maresca responds to Fernandez’s ‘big club’ comments after completing move to Man City from Chelsea",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:30:00Z"
+  },
+  {
+   "title": "Farioli: “Manchester City? Moreirense first, then the three points”",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:12:23Z"
+  },
+  {
+   "title": "Football gossip: Bissouma, Wharton, Baena, Mane, Richarlison, Castellanos",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:07:33Z"
+  },
+  {
+   "title": "Manchester City failed to land Spain pair in scramble for Miedema cover",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T21:05:00Z"
+  },
+  {
+   "title": "Manchester City vs Coventry City Prediction, Tips and Odds | 05/09/2026",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T20:38:15Z"
+  },
+  {
+   "title": "Enzo Maresca on determination to sign Enzo Fernandez and Manchester City players' reaction",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T20:31:32Z"
   }
  ],
  "ticker": [
-  "Manchester City"
+  "Man City blanked by Alvarez amid £128m bid to 'hijack' Arsenal deal - Paper Round",
+  "Enzo Maresca says Enzo Fernandez’s arrival lifted Manchester City players",
+  "Manchester City",
+  "Maresca: City have to compete for trophies",
+  "‘We are the same – but different’ says Dias",
+  "Maresca: Anderson, Fernández and Bouaddai will be crucial for us",
+  "Maresca responds to Fernandez’s ‘big club’ comments after completing move to Man City from Chelsea",
+  "Farioli: “Manchester City? Moreirense first, then the three points”",
+  "Football gossip: Bissouma, Wharton, Baena, Mane, Richarlison, Castellanos",
+  "Manchester City failed to land Spain pair in scramble for Miedema cover"
  ]
 }
