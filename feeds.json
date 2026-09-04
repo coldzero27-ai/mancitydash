@@ -1,90 +1,15 @@
 {
- "updated": "2026-09-04T19:20:19Z",
+ "updated": "2026-09-04T21:41:08Z",
  "source": "bbc + google news (server-side)",
  "news": [
-  {
-   "title": "Manchester City vs Coventry City: Key stats and talking points",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T18:05:00Z"
-  },
-  {
-   "title": "Friday training: City prepare for Coventry test",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T18:00:00Z"
-  },
-  {
-   "title": "Real Madrid will face PSG, Paris FC, Inter, Bayern, Roma, and Manchester City in the first phase of the Women’s Champions League. - Real Madrid CF | Web Oficial",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T17:47:14Z"
-  },
   {
    "title": "Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-09-04T17:31:00Z"
-  },
-  {
-   "title": "Alan Shearer's Premier League predictions, including Arsenal vs Chelsea",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T17:18:00Z"
-  },
-  {
-   "title": "FPL Gameweek 3 Scout Picks: Man City triple-up",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T17:10:05Z"
-  },
-  {
-   "title": "Man City boss Andrée Jeglertz hails WSL: 'Best league in the world'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T16:51:00Z"
-  },
-  {
-   "title": "Manchester City failed to land Spain pair in scramble for Miedema cover",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T16:05:00Z"
-  },
-  {
-   "title": "Enzo Maresca says Enzo Fernandez’s arrival lifted Manchester City players",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T16:02:23Z"
-  },
-  {
-   "title": "FOOTBALL - Frank Lampard talks up Stephen Mfuni and delivers verdict on Coventry City loan departures",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T16:00:47Z"
-  },
-  {
-   "title": "Cherki voted Etihad Player of the Month",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T16:00:00Z"
-  },
-  {
-   "title": "Women's Super League: Birmingham relish challenge of facing WSL champions Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T15:57:24Z"
+   "time": "2026-09-04T21:30:00Z"
   }
  ],
  "ticker": [
-  "Manchester City vs Coventry City: Key stats and talking points",
-  "Friday training: City prepare for Coventry test",
-  "Real Madrid will face PSG, Paris FC, Inter, Bayern, Roma, and Manchester City in the first phase of the Women’s Champions League. - Real Madrid CF | Web Oficial",
-  "Manchester City",
-  "Alan Shearer's Premier League predictions, including Arsenal vs Chelsea",
-  "FPL Gameweek 3 Scout Picks: Man City triple-up",
-  "Man City boss Andrée Jeglertz hails WSL: 'Best league in the world'",
-  "Manchester City failed to land Spain pair in scramble for Miedema cover",
-  "Enzo Maresca says Enzo Fernandez’s arrival lifted Manchester City players",
-  "FOOTBALL - Frank Lampard talks up Stephen Mfuni and delivers verdict on Coventry City loan departures"
+  "Manchester City"
  ]
 }
