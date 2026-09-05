@@ -1,7 +1,43 @@
 {
- "updated": "2026-09-04T23:47:54Z",
+ "updated": "2026-09-05T03:30:52Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Enzo Maresca issues 'main target' for new-look Man City after drastic changes",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T03:00:00Z"
+  },
+  {
+   "title": "Manchester City vs Coventry City: Where to watch, TV channel, live stream & kick-off time | Goal.com US",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T02:02:21Z"
+  },
+  {
+   "title": "Manchester City vs Coventry City: TV channel, live stream & kick-off time | Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T02:01:47Z"
+  },
+  {
+   "title": "Maresca reveals why Enzo Fernández is so important to Man City, Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T01:04:44Z"
+  },
+  {
+   "title": "Transfer news LIVE: Arsenal medical; Richarlison faces Turkey deadline",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T23:18:35Z"
+  },
+  {
+   "title": "Manchester City failed to land Spain pair in scramble for Miedema cover",
+   "img": null,
+   "video": null,
+   "time": "2026-09-04T22:49:00Z"
+  },
   {
    "title": "Man City blanked by Alvarez amid £128m bid to 'hijack' Arsenal deal - Paper Round",
    "img": null,
@@ -33,58 +69,22 @@
    "time": "2026-09-04T21:30:00Z"
   },
   {
-   "title": "Maresca: Anderson, Fernández and Bouaddai will be crucial for us",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T21:30:00Z"
-  },
-  {
    "title": "Maresca responds to Fernandez’s ‘big club’ comments after completing move to Man City from Chelsea",
    "img": null,
    "video": null,
    "time": "2026-09-04T21:30:00Z"
-  },
-  {
-   "title": "Farioli: “Manchester City? Moreirense first, then the three points”",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T21:12:23Z"
-  },
-  {
-   "title": "Football gossip: Bissouma, Wharton, Baena, Mane, Richarlison, Castellanos",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T21:07:33Z"
-  },
-  {
-   "title": "Manchester City failed to land Spain pair in scramble for Miedema cover",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T21:05:00Z"
-  },
-  {
-   "title": "Manchester City vs Coventry City Prediction, Tips and Odds | 05/09/2026",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T20:38:15Z"
-  },
-  {
-   "title": "Enzo Maresca on determination to sign Enzo Fernandez and Manchester City players' reaction",
-   "img": null,
-   "video": null,
-   "time": "2026-09-04T20:31:32Z"
   }
  ],
  "ticker": [
+  "Enzo Maresca issues 'main target' for new-look Man City after drastic changes",
+  "Manchester City vs Coventry City: Where to watch, TV channel, live stream & kick-off time | Goal.com US",
+  "Manchester City vs Coventry City: TV channel, live stream & kick-off time | Premier League",
+  "Maresca reveals why Enzo Fernández is so important to Man City, Manchester City",
+  "Transfer news LIVE: Arsenal medical; Richarlison faces Turkey deadline",
+  "Manchester City failed to land Spain pair in scramble for Miedema cover",
   "Man City blanked by Alvarez amid £128m bid to 'hijack' Arsenal deal - Paper Round",
   "Enzo Maresca says Enzo Fernandez’s arrival lifted Manchester City players",
   "Manchester City",
-  "Maresca: City have to compete for trophies",
-  "‘We are the same – but different’ says Dias",
-  "Maresca: Anderson, Fernández and Bouaddai will be crucial for us",
-  "Maresca responds to Fernandez’s ‘big club’ comments after completing move to Man City from Chelsea",
-  "Farioli: “Manchester City? Moreirense first, then the three points”",
-  "Football gossip: Bissouma, Wharton, Baena, Mane, Richarlison, Castellanos",
-  "Manchester City failed to land Spain pair in scramble for Miedema cover"
+  "Maresca: City have to compete for trophies"
  ]
 }
