@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-05T11:49:16Z",
+ "updated": "2026-09-05T16:48:39Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-09-05T14:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Coventry",
-   "venue": "Etihad Stadium"
-  },
   {
    "utc": "2026-09-08T19:00:00Z",
    "comp": "UCL",
@@ -141,6 +134,13 @@
    "home": "Manchester City",
    "away": "Chelsea",
    "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-12-19T15:00:00Z",
+   "comp": "PL",
+   "home": "Manchester City",
+   "away": "Hull City",
+   "venue": "Etihad Stadium"
   }
  ],
  "results": {
@@ -156,6 +156,11 @@
   },
   "2026-08-28": {
    "score": "1-4",
+   "res": "W",
+   "fr": false
+  },
+  "2026-09-05": {
+   "score": "1-0",
    "res": "W",
    "fr": false
   },
