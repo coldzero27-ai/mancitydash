@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T07:06:09Z",
+ "updated": "2026-09-06T12:07:28Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -180,6 +180,6 @@
    "fr": true
   }
  },
- "topScorer": "Haaland - 2",
+ "topScorer": "Haaland - 3",
  "topAssists": "Foden - 2"
 }
