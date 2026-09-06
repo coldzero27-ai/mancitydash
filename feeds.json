@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T23:36:46Z",
+ "updated": "2026-09-06T03:31:48Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
@@ -15,16 +15,10 @@
    "time": "2026-09-05T23:16:13Z"
   },
   {
-   "title": "City 1-0 Coventry City: 8-minute highlights",
+   "title": "Manchester City 1-0 Coventry City: MOTD pundit Rob Edwards analyses Erling Haaland's goal",
    "img": null,
    "video": null,
-   "time": "2026-09-05T23:00:00Z"
-  },
-  {
-   "title": "Manchester City 1 Coventry City 0: How did Fernandez, Ndiaye fare on debuts? Why only one goal?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T22:34:14Z"
+   "time": "2026-09-05T23:02:15Z"
   },
   {
    "title": "Midfielder keen on Man Utd move as INEOS ‘complete’ Man City raid",
@@ -33,28 +27,22 @@
    "time": "2026-09-05T22:08:46Z"
   },
   {
+   "title": "City 1-0 Coventry City: 8-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T22:00:00Z"
+  },
+  {
    "title": "Manchester City Extend Win Streak to Three Matches to Claim Premier League Summit - Fana News -",
    "img": null,
    "video": null,
    "time": "2026-09-05T21:35:21Z"
   },
   {
-   "title": "Man City: Fan delighted thanks to Anderson masterclass",
+   "title": "'Amazing to see'! - Erling Haaland hails Man City's new signings Enzo Fernandez and Iliman Ndiaye but admits Arsenal have the edge",
    "img": null,
    "video": null,
-   "time": "2026-09-05T21:25:37Z"
-  },
-  {
-   "title": "Cody Gakpo outshines new Liverpool signing Bradley Barcola as Elliot Anderson gives his best Rodri impression - PL hits and misses",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T20:41:44Z"
-  },
-  {
-   "title": "Man City flats to be built in Gulf hols hotspot with surprising starting price and rising to £6m",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T20:08:00Z"
+   "time": "2026-09-05T20:59:27Z"
   },
   {
    "title": "Maresca: ‘These players all need time’",
@@ -73,18 +61,30 @@
    "img": null,
    "video": null,
    "time": "2026-09-05T19:37:05Z"
+  },
+  {
+   "title": "Frank Lampard highlights 'difference' between Arsenal and Man City after Coventry defeat",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T19:32:00Z"
+  },
+  {
+   "title": "Manchester City beat Coventry in Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-05T19:30:41Z"
   }
  ],
  "ticker": [
   "Haaland trifft auch gegen Aufsteiger | Manchester City - Coventry City | Highlights - Premier League",
   "Premier League - Manchester City 1 - 0 Coventry City",
-  "City 1-0 Coventry City: 8-minute highlights",
-  "Manchester City 1 Coventry City 0: How did Fernandez, Ndiaye fare on debuts? Why only one goal?",
+  "Manchester City 1-0 Coventry City: MOTD pundit Rob Edwards analyses Erling Haaland's goal",
   "Midfielder keen on Man Utd move as INEOS ‘complete’ Man City raid",
+  "City 1-0 Coventry City: 8-minute highlights",
   "Manchester City Extend Win Streak to Three Matches to Claim Premier League Summit - Fana News -",
-  "Man City: Fan delighted thanks to Anderson masterclass",
-  "Cody Gakpo outshines new Liverpool signing Bradley Barcola as Elliot Anderson gives his best Rodri impression - PL hits and misses",
-  "Man City flats to be built in Gulf hols hotspot with surprising starting price and rising to £6m",
-  "Maresca: ‘These players all need time’"
+  "'Amazing to see'! - Erling Haaland hails Man City's new signings Enzo Fernandez and Iliman Ndiaye but admits Arsenal have the edge",
+  "Maresca: ‘These players all need time’",
+  "Manchester City analysis: Elliot Anderson the pass master",
+  "Premier League round-up: Erling Haaland’s goal secures points for Manchester City"
  ]
 }
