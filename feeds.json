@@ -1,18 +1,48 @@
 {
- "updated": "2026-09-06T03:31:48Z",
+ "updated": "2026-09-06T08:27:04Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "'We suffered together' - Maresca hails Man City's 'ugly' win over Coventry",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T08:13:00Z"
+  },
+  {
+   "title": "Enzo Maresca fires Premier League title warning to Arsenal after record-breaking £458m Man City transfer spree",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T05:58:27Z"
+  },
+  {
+   "title": "The Manchester City keeper was crucial to his team’s win over Coventry although he did provide a scare",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T05:55:00Z"
+  },
+  {
+   "title": "A masterful midfield display from a midfield monster helped Manchester City see off Coventry City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T05:30:00Z"
+  },
+  {
+   "title": "With Fernandez and Bouaddi, Manchester City suddenly have so many midfield options",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T04:23:06Z"
+  },
+  {
+   "title": "Enzo Maresca has unlocked a frightening new Man City partnership",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T04:00:00Z"
+  },
   {
    "title": "Haaland trifft auch gegen Aufsteiger | Manchester City - Coventry City | Highlights - Premier League",
    "img": null,
    "video": null,
    "time": "2026-09-05T23:16:15Z"
-  },
-  {
-   "title": "Premier League - Manchester City 1 - 0 Coventry City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T23:16:13Z"
   },
   {
    "title": "Manchester City 1-0 Coventry City: MOTD pundit Rob Edwards analyses Erling Haaland's goal",
@@ -21,10 +51,10 @@
    "time": "2026-09-05T23:02:15Z"
   },
   {
-   "title": "Midfielder keen on Man Utd move as INEOS ‘complete’ Man City raid",
+   "title": "Haaland hails Manchester City's new signings following win over Coventry",
    "img": null,
    "video": null,
-   "time": "2026-09-05T22:08:46Z"
+   "time": "2026-09-05T22:32:00Z"
   },
   {
    "title": "City 1-0 Coventry City: 8-minute highlights",
@@ -39,52 +69,22 @@
    "time": "2026-09-05T21:35:21Z"
   },
   {
-   "title": "'Amazing to see'! - Erling Haaland hails Man City's new signings Enzo Fernandez and Iliman Ndiaye but admits Arsenal have the edge",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T20:59:27Z"
-  },
-  {
-   "title": "Maresca: ‘These players all need time’",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T19:53:12Z"
-  },
-  {
    "title": "Manchester City analysis: Elliot Anderson the pass master",
    "img": null,
    "video": null,
    "time": "2026-09-05T19:52:09Z"
-  },
-  {
-   "title": "Premier League round-up: Erling Haaland’s goal secures points for Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T19:37:05Z"
-  },
-  {
-   "title": "Frank Lampard highlights 'difference' between Arsenal and Man City after Coventry defeat",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T19:32:00Z"
-  },
-  {
-   "title": "Manchester City beat Coventry in Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-05T19:30:41Z"
   }
  ],
  "ticker": [
+  "'We suffered together' - Maresca hails Man City's 'ugly' win over Coventry",
+  "Enzo Maresca fires Premier League title warning to Arsenal after record-breaking £458m Man City transfer spree",
+  "The Manchester City keeper was crucial to his team’s win over Coventry although he did provide a scare",
+  "A masterful midfield display from a midfield monster helped Manchester City see off Coventry City",
+  "With Fernandez and Bouaddi, Manchester City suddenly have so many midfield options",
+  "Enzo Maresca has unlocked a frightening new Man City partnership",
   "Haaland trifft auch gegen Aufsteiger | Manchester City - Coventry City | Highlights - Premier League",
-  "Premier League - Manchester City 1 - 0 Coventry City",
   "Manchester City 1-0 Coventry City: MOTD pundit Rob Edwards analyses Erling Haaland's goal",
-  "Midfielder keen on Man Utd move as INEOS ‘complete’ Man City raid",
-  "City 1-0 Coventry City: 8-minute highlights",
-  "Manchester City Extend Win Streak to Three Matches to Claim Premier League Summit - Fana News -",
-  "'Amazing to see'! - Erling Haaland hails Man City's new signings Enzo Fernandez and Iliman Ndiaye but admits Arsenal have the edge",
-  "Maresca: ‘These players all need time’",
-  "Manchester City analysis: Elliot Anderson the pass master",
-  "Premier League round-up: Erling Haaland’s goal secures points for Manchester City"
+  "Haaland hails Manchester City's new signings following win over Coventry",
+  "City 1-0 Coventry City: 8-minute highlights"
  ]
 }
