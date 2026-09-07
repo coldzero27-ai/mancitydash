@@ -1,20 +1,55 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-07T17:12:30Z",
+  "updated": "2026-09-07T20:10:16Z",
   "posts": [
     {
-      "text": "What's so funny, @rayan_cherki? 😅",
-      "url": "https://x.com/ManCity/status/2096999463734693989",
-      "time": "2026-09-07T16:30:07Z",
+      "text": "Dan Burn's son stole the show from the stands on Saturday 🫶",
+      "url": "https://x.com/premierleague/status/2097052284291088881",
+      "time": "2026-09-07T20:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Matheus 💬 We understood right away, when we saw in the meetings, what we will face tomorrow. A very well-prepared and excellent team and we have to be at our best level otherwise, we will not get a good result.",
+      "url": "https://x.com/ManCity/status/2097049511306596762",
+      "time": "2026-09-07T19:48:59Z",
       "account": "Man City",
       "handle": "ManCity"
     },
     {
-      "text": "UCL mode 🔛",
-      "url": "https://x.com/ManCity/status/2096998215757246759",
-      "time": "2026-09-07T16:25:09Z",
+      "text": "Matheus 💬 (On Erling Haaland) He is very important. He is the second captain and one of the players who has been here the longest - he has won everything for the Club. He is a figure, his voice is always heard and he is a top guy. I am happy his leadership has been growing because he deserves it.",
+      "url": "https://x.com/ManCity/status/2097048186074312847",
+      "time": "2026-09-07T19:43:43Z",
       "account": "Man City",
       "handle": "ManCity"
+    },
+    {
+      "text": "Matheus 💬 He [Enzo Maresca] has such a good energy. He knows the Club and the standards.",
+      "url": "https://x.com/ManCity/status/2097046966672748861",
+      "time": "2026-09-07T19:38:52Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Matheus 💬 I am good, 100% now. It was my ankle the day before Arsenal. I had a tackle and it was sore for a while but now I am fine.",
+      "url": "https://x.com/ManCity/status/2097045899180384594",
+      "time": "2026-09-07T19:34:38Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Matheus 💬  Sometimes players go and new players come in and we have to pass on the DNA and identity of the Club. They are happy to be here and it’s part of the process.",
+      "url": "https://x.com/ManCity/status/2097045629566407162",
+      "time": "2026-09-07T19:33:33Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "The sweetest of strikes from Vitaly Janelt 🍬",
+      "url": "https://x.com/premierleague/status/2097034922116432237",
+      "time": "2026-09-07T18:51:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
     },
     {
       "text": "Time to have your say in the Premier League Official Fan Team of the Week 👀\n\nMatchweek 3 brought debut goals and London Derby drama... but who makes the final team?\n\nVote now 👉 https://preml.ge/hcg1k02x",
@@ -22,13 +57,6 @@
       "time": "2026-09-07T16:15:02Z",
       "account": "Premier League",
       "handle": "premierleague"
-    },
-    {
-      "text": "The travelling squad for our trip to Porto has been confirmed 📝✈️\n\nMore info ℹ️ https://mancity.co/PortoTravellingSquad…",
-      "url": "https://x.com/ManCity/status/2096991927753179487",
-      "time": "2026-09-07T16:00:10Z",
-      "account": "Man City",
-      "handle": "ManCity"
     },
     {
       "text": "3 Gunners 🔴\n2 Tigers 🐯\n1 Eagle 🦅\n\nAlan Shearer's Team of the Week for Matchweek 3 is here 👉 https://preml.ge/f2m1q4z9",
@@ -43,34 +71,6 @@
       "time": "2026-09-07T15:00:03Z",
       "account": "Premier League",
       "handle": "premierleague"
-    },
-    {
-      "text": "#TogetherAgainstSuicide",
-      "url": "https://x.com/premierleague/status/2096976799750074712",
-      "time": "2026-09-07T15:00:03Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Fans put their knowledge to the test by ordering these iconic Premier League signings 📝\n\nTalking Transfers, presented by @Barclays",
-      "url": "https://x.com/premierleague/status/2096965745464746294",
-      "time": "2026-09-07T14:16:08Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Join us for the first-ever Matchday Live Derby Day screening, live from the brand-new City Hall, with Shaun Wright-Phillips 🩵\n\nThey don’t get much bigger than this! 👀\n\nSecure your place now 👉 https://mancity.co/CityHall",
-      "url": "https://x.com/ManCity/status/2096954284818485411",
-      "time": "2026-09-07T13:30:35Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "An all-action performance 🏃\n\n🤝 @eAndUAE",
-      "url": "https://x.com/ManCity/status/2096939520935469148",
-      "time": "2026-09-07T12:31:55Z",
-      "account": "Man City",
-      "handle": "ManCity"
     }
   ]
 }
