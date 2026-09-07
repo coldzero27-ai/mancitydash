@@ -1,7 +1,14 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first, max ~8 posts. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-06T23:15:00Z",
+  "updated": "2026-09-07T08:11:36Z",
   "posts": [
+    {
+      "text": "Matchweek 3 ✅",
+      "url": "https://x.com/premierleague/status/2096840893177188416",
+      "time": "2026-09-07T06:00:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "A special save by David Raya 🙌",
       "url": "https://x.com/premierleague/status/2096735197580443983",
@@ -78,13 +85,6 @@
       "time": "2026-09-06T18:25:21Z",
       "account": "Man City",
       "handle": "ManCity"
-    },
-    {
-      "text": "Arsenal have won their last five Premier League home games against Chelsea ✋",
-      "url": "https://x.com/premierleague/status/2096665554731888882",
-      "time": "2026-09-06T18:23:17Z",
-      "account": "Premier League",
-      "handle": "premierleague"
     }
   ]
 }
