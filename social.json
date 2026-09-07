@@ -1,7 +1,28 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first, max ~8 posts. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-07T08:11:36Z",
+  "updated": "2026-09-07T11:10:00Z",
   "posts": [
+    {
+      "text": "✈️ The @ChampionsLeague league phase begins\n💪 Our first Manchester derby of the season\n🛣️ Hitting the road in the @BarclaysWSL\n\nEverything you need to know about our week ahead ⤵️\n\n✍️ https://mancity.co/MondayMarker7Sep…",
+      "url": "https://x.com/ManCity/status/2096901319269155054",
+      "time": "2026-09-07T10:00:07Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Cool as you like from Mohammed Kudus 😮‍💨",
+      "url": "https://x.com/premierleague/status/2096899009939931604",
+      "time": "2026-09-07T09:50:57Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Our @ChampionsLeague campaign begins with a trip to Porto! 🤝🌍",
+      "url": "https://x.com/ManCity/status/2096878654353514965",
+      "time": "2026-09-07T08:30:03Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
     {
       "text": "Matchweek 3 ✅",
       "url": "https://x.com/premierleague/status/2096840893177188416",
@@ -64,27 +85,6 @@
       "time": "2026-09-06T19:15:02Z",
       "account": "Premier League",
       "handle": "premierleague"
-    },
-    {
-      "text": "Chelsea continue to start fast under Xabi Alonso ⚡️",
-      "url": "https://x.com/premierleague/status/2096673945034326019",
-      "time": "2026-09-06T18:56:37Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Sunday with Skip! 🫡",
-      "url": "https://x.com/ManCity/status/2096667286966882507",
-      "time": "2026-09-06T18:30:10Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Recharging ahead of our @ChampionsLeague opener 🔋",
-      "url": "https://x.com/ManCity/status/2096666078034166147",
-      "time": "2026-09-06T18:25:21Z",
-      "account": "Man City",
-      "handle": "ManCity"
     }
   ]
 }
