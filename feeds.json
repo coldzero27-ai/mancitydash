@@ -1,24 +1,18 @@
 {
- "updated": "2026-09-07T00:44:49Z",
+ "updated": "2026-09-07T05:47:49Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Women’s Super League: Shaw doubles up to give Manchester City winning start",
+   "title": "Man City eventually click into gear",
    "img": null,
    "video": null,
-   "time": "2026-09-06T22:29:00Z"
+   "time": "2026-09-07T05:31:20Z"
   },
   {
-   "title": "Enzo Fernández has found with Maresca what Real Madrid denied him",
+   "title": "Porto vs Manchester City Prediction, Lineups & Team News",
    "img": null,
    "video": null,
-   "time": "2026-09-06T21:44:37Z"
-  },
-  {
-   "title": "Man City: Iliman Ndiaye says 'you don't say no' when City want you",
-   "img": null,
-   "video": null,
-   "time": "2026-09-06T21:30:03Z"
+   "time": "2026-09-07T03:03:00Z"
   },
   {
    "title": "When Man City call you don't say no - Ndiaye",
@@ -27,19 +21,13 @@
    "time": "2026-09-06T21:30:03Z"
   },
   {
+   "title": "Maresca on Man City rotation dilemma ahead of Champions League clash",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T21:30:00Z"
+  },
+  {
    "title": "Haaland will need to rest sometimes, says Maresca",
-   "img": null,
-   "video": null,
-   "time": "2026-09-06T21:30:00Z"
-  },
-  {
-   "title": "Watch the second half of Maresca's post-Coventry press conference",
-   "img": null,
-   "video": null,
-   "time": "2026-09-06T21:30:00Z"
-  },
-  {
-   "title": "Iliman Ndiaye explains why he turned down Tottenham for Man City",
    "img": null,
    "video": null,
    "time": "2026-09-06T21:30:00Z"
@@ -51,40 +39,52 @@
    "time": "2026-09-06T21:14:00Z"
   },
   {
-   "title": "FC Porto-Manchester City: Froholdt leaves midfield spot, three in frame",
-   "img": null,
-   "video": null,
-   "time": "2026-09-06T20:45:05Z"
-  },
-  {
    "title": "The signs were there from a Manchester City winger in his debut",
    "img": null,
    "video": null,
-   "time": "2026-09-06T20:40:00Z"
+   "time": "2026-09-06T20:38:14Z"
   },
   {
-   "title": "Garry Bridges was elected as the new leader of Manchester City Council this week.",
+   "title": "Watch the second half of Maresca's post-Coventry press conference",
    "img": null,
    "video": null,
-   "time": "2026-09-06T20:31:11Z"
+   "time": "2026-09-06T20:30:00Z"
   },
   {
-   "title": "Arsenal's next five fixtures compared to Man City, Man Utd, Liverpool and Chelsea",
+   "title": "Man City 1-0 Coventry: Erling Haaland ensures perfect Premier League record is preserved under Enzo Maresca",
    "img": null,
    "video": null,
-   "time": "2026-09-06T20:28:10Z"
+   "time": "2026-09-06T20:14:28Z"
+  },
+  {
+   "title": "Champions Manchester City start with victory over newly-promoted Birmingham City - WSL Full-Time",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T19:40:54Z"
+  },
+  {
+   "title": "Strangeways could leave Manchester city centre forever",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T19:15:37Z"
+  },
+  {
+   "title": "Arsenal told which side they should fear in Premier League title race – and it’s not Man City or Man Utd",
+   "img": null,
+   "video": null,
+   "time": "2026-09-06T19:05:28Z"
   }
  ],
  "ticker": [
-  "Women’s Super League: Shaw doubles up to give Manchester City winning start",
-  "Enzo Fernández has found with Maresca what Real Madrid denied him",
-  "Man City: Iliman Ndiaye says 'you don't say no' when City want you",
+  "Man City eventually click into gear",
+  "Porto vs Manchester City Prediction, Lineups & Team News",
   "When Man City call you don't say no - Ndiaye",
+  "Maresca on Man City rotation dilemma ahead of Champions League clash",
   "Haaland will need to rest sometimes, says Maresca",
-  "Watch the second half of Maresca's post-Coventry press conference",
-  "Iliman Ndiaye explains why he turned down Tottenham for Man City",
   "Arsenal's next five fixtures compared to Man City after Premier League title race statement",
-  "FC Porto-Manchester City: Froholdt leaves midfield spot, three in frame",
-  "The signs were there from a Manchester City winger in his debut"
+  "The signs were there from a Manchester City winger in his debut",
+  "Watch the second half of Maresca's post-Coventry press conference",
+  "Man City 1-0 Coventry: Erling Haaland ensures perfect Premier League record is preserved under Enzo Maresca",
+  "Champions Manchester City start with victory over newly-promoted Birmingham City - WSL Full-Time"
  ]
 }
