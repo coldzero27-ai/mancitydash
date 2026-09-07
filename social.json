@@ -1,7 +1,21 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-07T16:30:00Z",
+  "updated": "2026-09-07T17:12:30Z",
   "posts": [
+    {
+      "text": "What's so funny, @rayan_cherki? 😅",
+      "url": "https://x.com/ManCity/status/2096999463734693989",
+      "time": "2026-09-07T16:30:07Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "UCL mode 🔛",
+      "url": "https://x.com/ManCity/status/2096998215757246759",
+      "time": "2026-09-07T16:25:09Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
     {
       "text": "Time to have your say in the Premier League Official Fan Team of the Week 👀\n\nMatchweek 3 brought debut goals and London Derby drama... but who makes the final team?\n\nVote now 👉 https://preml.ge/hcg1k02x",
       "url": "https://x.com/premierleague/status/2096995667218514103",
@@ -55,20 +69,6 @@
       "text": "An all-action performance 🏃\n\n🤝 @eAndUAE",
       "url": "https://x.com/ManCity/status/2096939520935469148",
       "time": "2026-09-07T12:31:55Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Tune in to live training as we prepare to take on Porto in the @ChampionsLeague 💪\n\n🔗 https://mancity.co/PortoLiveTraining…",
-      "url": "https://x.com/ManCity/status/2096918951020073074",
-      "time": "2026-09-07T11:10:11Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Securing all three points 💥\n\n🤝 @Sure",
-      "url": "https://x.com/ManCity/status/2096909003213201521",
-      "time": "2026-09-07T10:30:39Z",
       "account": "Man City",
       "handle": "ManCity"
     }
