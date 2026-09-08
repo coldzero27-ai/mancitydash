@@ -1,7 +1,21 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-07T23:12:00Z",
+  "updated": "2026-09-08T08:10:00Z",
   "posts": [
+    {
+      "text": "It's time to get to work in the @ChampionsLeague 💪",
+      "url": "https://x.com/ManCity/status/2097233496011931744",
+      "time": "2026-09-08T08:00:04Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Different hair, same @Erling 🌟",
+      "url": "https://x.com/premierleague/status/2097225928015254010",
+      "time": "2026-09-08T07:30:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "Ready for tomorrow night under the lights ✨",
       "url": "https://x.com/ManCity/status/2097075982930760180",
@@ -38,13 +52,6 @@
       "handle": "premierleague"
     },
     {
-      "text": "Matheus 💬 We understood right away, when we saw in the meetings, what we will face tomorrow. A very well-prepared and excellent team and we have to be at our best level otherwise, we will not get a good result.",
-      "url": "https://x.com/ManCity/status/2097049511306596762",
-      "time": "2026-09-07T19:48:59Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
       "text": "The sweetest of strikes from Vitaly Janelt 🍬",
       "url": "https://x.com/premierleague/status/2097034922116432237",
       "time": "2026-09-07T18:51:01Z",
@@ -62,13 +69,6 @@
       "text": "3 Gunners 🔴\n2 Tigers 🐯\n1 Eagle 🦅\n\nAlan Shearer's Team of the Week for Matchweek 3 is here 👉 https://preml.ge/f2m1q4z9",
       "url": "https://x.com/premierleague/status/2096988008595480718",
       "time": "2026-09-07T15:44:36Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "One in four people will experience suicidal thoughts in their lifetime.\n\nIt’s never too late to ask for help. Alongside @samaritans, the Premier League and its clubs are raising awareness of the support available for those who need it most.\n\n➡️ https://preml.ge/gjkqq6vc",
-      "url": "https://x.com/premierleague/status/2096976798999367833",
-      "time": "2026-09-07T15:00:03Z",
       "account": "Premier League",
       "handle": "premierleague"
     }
