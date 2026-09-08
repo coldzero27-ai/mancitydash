@@ -583,6 +583,38 @@ var BAKEDRES={
 var APIRES=liveGet("res")||{}, ESPNRES=liveGet("res2")||{}, VERRES={};
 /* API-Football (via server-written football.json - the key never touches this page) */
 var FBALL=liveGet("fb")||{};
+function fetchTransfersJson(){
+ /* transfers.json sits next to the board and overrides the baked TRANSFERS.
+    Shape: {"updated":"ISO","ins":["Name",...],"outs":[...],"targets":[...],
+            "lastWindow":"text"}  - names may also be {"n":"Name"} objects.
+    Cowork updates this monthly; the board picks it up within ~5 minutes. */
+ fetch("transfers.json?t="+Date.now())
+  .then(function(r){return r.ok?r.json():null;})
+  .then(function(j){
+   if(!j)return;
+   function norm(a){
+    if(!a||!a.length)return null;
+    var out=[];
+    for(var i=0;i<a.length;i++){
+     var v=a[i];
+     var nm=(typeof v==="string")?v:(v&&v.n)?v.n:"";
+     nm=String(nm).trim();
+     if(nm)out.push({n:nm});
+    }
+    return out;
+   }
+   var ins=norm(j.ins),outs=norm(j.outs),tg=norm(j.targets);
+   if(!ins&&!outs&&!tg&&!j.lastWindow)return; /* nothing usable: keep baked list */
+   if(ins)TRANSFERS.ins=ins;
+   if(outs)TRANSFERS.outs=outs;
+   TRANSFERS.targets=tg||[];
+   if(j.lastWindow)TRANSFERS.lastWindow=String(j.lastWindow);
+   TRANSFERS.src="transfers.json"+(j.updated?(" "+String(j.updated).slice(0,10)):"");
+   try{console.log("[transfers] loaded transfers.json ("+
+    ((ins&&ins.length)||0)+" in, "+((outs&&outs.length)||0)+" out)");}catch(e){}
+   renderSpot();
+  }).catch(function(){});
+}
 function fetchFootballJson(){
  fetch("football.json?t="+Date.now())
   .then(function(r){return r.ok?r.json():null;})
@@ -763,28 +795,37 @@ var WINDOWS = [
    Agreed-but-not-announced as of 24 Aug (kept OFF the wall): Savinho->Spurs £85m (medical),
    Marmoush->Spurs (advanced), Bouaddi<-Lille EUR100m ("here we go"), Allan<-Palmeiras.
    Final sweep due 2 Sep after deadline day. */
-/* verified 26 Aug 2026 - teamtalk done-deals / readmancity / si.com. Window closes
-   1 Sep 23:00 UK. NOT baked (unconfirmed): Marmoush->Spurs loan (one tracker only),
-   Allan<-Palmeiras (terms agreed). Final sweep due 2 Sep. */
+/* FINAL - window CLOSED 1 Sep 2026 23:00 BST. Verified 7 Sep 2026 against
+   readmancity.com transfer tracker (updated 2 Sep, "definitive record"),
+   footballtransfers.com deadline-day list, footballtoday.com and Yahoo/Heavy
+   summaries. Deadline day: Enzo Fernández £125m from Chelsea (equals British
+   record) + Iliman Ndiaye £65m from Everton; Grealish returned to Everton on
+   another season-long loan; Marmoush to Spurs on loan with an obligation to buy.
+   Bernardo Silva and John Stones left on contract expiry.
+   Next window: January 2027. */
 var TRANSFERS = {
  ins: [
+  {n:"Enzo Fernández"},
+  {n:"Iliman Ndiaye"},
   {n:"Elliot Anderson"},
   {n:"Ayyoub Bouaddi"},
+  {n:"Allan"},
   {n:"Gerónimo Rulli"}
  ],
  outs: [
   {n:"Rodri"},
   {n:"Savinho"},
+  {n:"Omar Marmoush"},
+  {n:"Jack Grealish"},
   {n:"Nico González"},
   {n:"Tijjani Reijnders"},
   {n:"Bernardo Silva"},
   {n:"Manuel Akanji"},
   {n:"Nathan Aké"},
-  {n:"John Stones"},
-  {n:"James Trafford"}
+  {n:"John Stones"}
  ],
- targets: [{n:"Allan"}],
- lastWindow: "Jan 26: Semenyo £64m · Guéhi £20m in"
+ targets: [],
+ lastWindow: "Summer 26 closed: Fernández £125m in · Rodri to Barcelona"
 };
 
 /* ---------- helpers ---------- */
@@ -799,12 +840,22 @@ function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").repl
 var CRESTS={"MCI": "assets/crests/mci.svg", "GIR": "assets/crests/gir.svg", "PAL": "assets/crests/pal.svg", "MEL": "assets/crests/mel.svg", "BAH": "assets/crests/bah.svg", "NYC": "assets/crests/nyc.png", "TRO": "assets/crests/tro.png", "LOM": "assets/crests/lom.png", "TOR": "assets/crests/tor.png", "SHE": "assets/crests/she.png", "CFG": "assets/crests/cfg.png", "arsenal": "assets/crests/arsenal.png", "tottenham": "assets/crests/tottenham.png", "chelsea": "assets/crests/chelsea.png", "fulham": "assets/crests/fulham.png", "newcastle": "assets/crests/newcastle.png", "brighton": "assets/crests/brighton.png", "aston_villa": "assets/crests/aston_villa.png", "liverpool": "assets/crests/liverpool.png", "everton": "assets/crests/everton.png", "crystal_palace": "assets/crests/crystal_palace.png", "bournemouth": "assets/crests/bournemouth.png", "leeds": "assets/crests/leeds.png", "sunderland": "assets/crests/sunderland.png", "forest": "assets/crests/forest.png", "brentford": "assets/crests/brentford.png", "man_utd": "assets/crests/man_utd.png", "coventry": "assets/crests/coventry.svg", "hull": "assets/crests/hull.svg", "ipswich": "assets/crests/ipswich.svg", "acmilan": "assets/crests/acmilan.png", "alaves": "assets/crests/alaves.png", "angers": "assets/crests/angers.png", "atalanta": "assets/crests/atalanta.png", "athletic": "assets/crests/athletic.png", "atletico": "assets/crests/atletico.png", "auxerre": "assets/crests/auxerre.png", "barcelona": "assets/crests/barcelona.png", "betis": "assets/crests/betis.png", "bologna": "assets/crests/bologna.png", "brest": "assets/crests/brest.png", "cagliari": "assets/crests/cagliari.png", "celta": "assets/crests/celta.png", "como": "assets/crests/como.png", "empoli": "assets/crests/empoli.png", "espanyol": "assets/crests/espanyol.png", "fiorentina": "assets/crests/fiorentina.png", "genoa": "assets/crests/genoa.png", "getafe": "assets/crests/getafe.png", "inter": "assets/crests/inter.png", "juventus": "assets/crests/juventus.png", "laspalmas": "assets/crests/laspalmas.png", "lazio": "assets/crests/lazio.png", "lecce": "assets/crests/lecce.png", "leganes": "assets/crests/leganes.png", "lehavre": "assets/crests/lehavre.png", "lens": "assets/crests/lens.png", "lille": "assets/crests/lille.png", "lorient": "assets/crests/lorient.png", "lyon": "assets/crests/lyon.png", "mallorca": "assets/crests/mallorca.png", "marseille": "assets/crests/marseille.png", "metz": "assets/crests/metz.png", "monaco": "assets/crests/monaco.png", "monza": "assets/crests/monza.png", "nantes": "assets/crests/nantes.png", "napoli": "assets/crests/napoli.png", "nice": "assets/crests/nice.png", "osasuna": "assets/crests/osasuna.png", "parisfc": "assets/crests/parisfc.png", "parma": "assets/crests/parma.png", "psg": "assets/crests/psg.png", "rayo": "assets/crests/rayo.png", "realmadrid": "assets/crests/realmadrid.png", "rennes": "assets/crests/rennes.png", "roma": "assets/crests/roma.png", "sevilla": "assets/crests/sevilla.png", "sociedad": "assets/crests/sociedad.png", "strasbourg": "assets/crests/strasbourg.png", "torino": "assets/crests/torino.png", "toulouse": "assets/crests/toulouse.png", "udinese": "assets/crests/udinese.png", "valencia": "assets/crests/valencia.png", "valladolid": "assets/crests/valladolid.png", "venezia": "assets/crests/venezia.png", "verona": "assets/crests/verona.png", "villarreal": "assets/crests/villarreal.png"};
 var FACES={"aitnouri": "assets/faces/aitnouri.png", "akanji": "assets/faces/akanji.png", "alleyne": "assets/faces/alleyne.png", "anderson": "assets/faces/anderson.png", "bettinelli": "assets/faces/bettinelli.png", "burns": "assets/faces/burns.png", "cherki": "assets/faces/cherki.png", "dias": "assets/faces/dias.png", "doku": "assets/faces/doku.png", "donnarumma": "assets/faces/donnarumma.png", "echeverri": "assets/faces/echeverri.png", "foden": "assets/faces/foden.png", "gonzalez": "assets/faces/gonzalez.png", "grealish": "assets/faces/grealish.png", "guehi": "assets/faces/guehi.png", "gvardiol": "assets/faces/gvardiol.png", "haaland": "assets/faces/haaland.png", "kabore": "assets/faces/kabore.png", "khusanov": "assets/faces/khusanov.png", "kovacic": "assets/faces/kovacic.png", "lewis": "assets/faces/lewis.png", "marmoush": "assets/faces/marmoush.png", "nunes": "assets/faces/nunes.png", "oreilly": "assets/faces/oreilly.png", "reijnders": "assets/faces/reijnders.png", "rodri": "assets/faces/rodri.png", "savinho": "assets/faces/savinho.png", "semenyo": "assets/faces/semenyo.png", "stones": "assets/faces/stones.png", "trafford": "assets/faces/trafford.png", "wilsonesbrand": "assets/faces/wilsonesbrand.png"};
 function crestEl(club,size,ring){
- if(CRESTS[club.code]){
+ var src=CRESTS[club.code]||null;
+ if(!src&&club.autoCrest)src=club.autoCrest; /* derived assets/crests/<name>.png */
+ if(src){
   var img=document.createElement("img");
   img.className="crestimg";
-  img.src=CRESTS[club.code];
+  img.src=src;
   img.alt=club.code;
   img.style.width=size+"px";img.style.height=size+"px";
+  if(!CRESTS[club.code]){
+   /* derived file may not exist yet: swap in the initials circle if it 404s */
+   img.onerror=function(){
+    img.onerror=null;
+    var f=crestEl({code:club.code,c1:club.c1||"#37474F",c2:club.c2||"#90A4AE"},size,ring);
+    if(img.parentNode)img.parentNode.replaceChild(f,img);
+   };
+  }
   return img;
  }
  var d=document.createElement("div");
@@ -892,7 +943,11 @@ function clubByName(n){
  for(var i=0;i<OPPMAP.length;i++){
   if(ln.indexOf(OPPMAP[i][0])!==-1) return {code:OPPMAP[i][1]};
  }
- return {code:n.split(/\s+/).map(function(w){return w[0];}).join("").slice(0,3).toUpperCase(),c1:"#37474F",c2:"#90A4AE"};
+ var k=String(n).toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+ if(k)try{console.log("[crest] auto: '"+n+"' -> assets/crests/"+k+".png");}catch(e){}
+ return {code:n.split(/\s+/).map(function(w){return w[0];}).join("").slice(0,3).toUpperCase(),
+         c1:"#37474F",c2:"#90A4AE",
+         autoCrest:k?("assets/crests/"+k+".png"):null};
 }
 
 /* ---------- stage scaling ---------- */
@@ -1840,6 +1895,7 @@ setInterval(fetchFormAPI,6*60*60*1000);
 setInterval(fetchResultsESPN,6*60*60*1000);
 setInterval(fetchLeadersESPN,6*60*60*1000);
 setInterval(fetchFootballJson,30*60*1000); /* local file: cheap to poll */
+setInterval(fetchTransfersJson,30*60*1000);
 setInterval(fetchSocial,15*60*1000);
 setInterval(function(){fetchCityNews();
  getLatestVideo().then(function(v){
@@ -1913,7 +1969,7 @@ function buildMCHeader(){
 })();
 
 /* ---------- footer freshness line (updates every minute) ---------- */
-var BOARD_BUILD="b44";
+var BOARD_BUILD="b46";
 try{console.log("[board] build "+BOARD_BUILD);}catch(e){}
 function freshLine(){
  return; /* boss mode: freshness ages hidden from the wall; build id in console */
@@ -2010,7 +2066,7 @@ document.getElementById("btnTint").addEventListener("click",function(){
 function tickSecond(){clock();renderNext();}
 scale();clock();buildMCHeader();buildCoverflow();buildTicker();renderNext();renderHero();renderSpot();renderFxCal();
 setInterval(tickSecond,1000);
-fetchResults();fetchFootballJson();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchLeadersESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
+fetchResults();fetchTransfersJson();fetchFootballJson();fetchNews();fetchFixturesAPI();fetchClubsAPI();fetchTableAPI();fetchFormAPI();fetchResultsESPN();fetchLeadersESPN();fetchCityNews();fetchLatestVideo();fetchSocial();renderNewsCard();renderTable();recomputeVerified();
 </script>
 </body>
 </html>
