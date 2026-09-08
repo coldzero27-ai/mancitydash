@@ -1,15 +1,90 @@
 {
- "updated": "2026-09-08T01:19:32Z",
+ "updated": "2026-09-08T06:21:14Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester City",
+   "title": "Porto vs Manchester City: UEFA Champions League stats & head-to-head",
    "img": null,
    "video": null,
-   "time": "2026-09-07T15:20:00Z"
+   "time": "2026-09-08T06:20:03Z"
+  },
+  {
+   "title": "Is Porto v Man City on TV? How to watch Champions League fixture",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T06:07:00Z"
+  },
+  {
+   "title": "An intriguing signing could be in line to debut for Manchester City against FC Porto",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T06:04:28Z"
+  },
+  {
+   "title": "Man City transfer rumours: Alex Baena",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T05:52:12Z"
+  },
+  {
+   "title": "Porto vs Manchester City – Match preview and team news",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T05:40:00Z"
+  },
+  {
+   "title": "The influence of a key Manchester City figure continues to grow but he must be managed through the season",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T05:40:00Z"
+  },
+  {
+   "title": "Manchester City XI vs Porto – Predicted lineup and team news",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T05:40:00Z"
+  },
+  {
+   "title": "Manchester City vs FC Porto: Latest City injury news and predicted City starting eleven",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T05:20:00Z"
+  },
+  {
+   "title": "How Enzo Fernandez has already made a big impact on Man City squad",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T05:00:00Z"
+  },
+  {
+   "title": "Porto v Manchester City Betting Analysis & Best Bet",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T04:45:11Z"
+  },
+  {
+   "title": "Enzo Maresca explains surprising Man City training change - 'Can work better'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T04:00:00Z"
+  },
+  {
+   "title": "FC Porto vs Manchester City: Date, Time and Everything You Need to Know About the UEFA Champions League Matchday 1 Clash",
+   "img": null,
+   "video": null,
+   "time": "2026-09-08T03:23:00Z"
   }
  ],
  "ticker": [
-  "Manchester City"
+  "Porto vs Manchester City: UEFA Champions League stats & head-to-head",
+  "Is Porto v Man City on TV? How to watch Champions League fixture",
+  "An intriguing signing could be in line to debut for Manchester City against FC Porto",
+  "Man City transfer rumours: Alex Baena",
+  "Porto vs Manchester City – Match preview and team news",
+  "The influence of a key Manchester City figure continues to grow but he must be managed through the season",
+  "Manchester City XI vs Porto – Predicted lineup and team news",
+  "Manchester City vs FC Porto: Latest City injury news and predicted City starting eleven",
+  "How Enzo Fernandez has already made a big impact on Man City squad",
+  "Porto v Manchester City Betting Analysis & Best Bet"
  ]
 }
