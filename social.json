@@ -1,7 +1,35 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-08T11:11:26Z",
+  "updated": "2026-09-08T14:10:05Z",
   "posts": [
+    {
+      "text": "Pure midfield magic 🪄\n\n@Arsenal Captain Martin Odegaard is your Player of the Matchweek for his unstoppable performance v Chelsea ⚽️",
+      "url": "https://x.com/premierleague/status/2097324074942779540",
+      "time": "2026-09-08T14:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Making the difference in August 👏\n\n🤝 @LucozadeSport",
+      "url": "https://x.com/ManCity/status/2097320533490647044",
+      "time": "2026-09-08T13:45:56Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Guess who 👀",
+      "url": "https://x.com/premierleague/status/2097310233299161201",
+      "time": "2026-09-08T13:05:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "💫 @BouaddiAyyoub has been nominated for the 2026 @ballondor Men's Young Talent of the Year award.\n\nCongratulations, Ayyoub! 🩵",
+      "url": "https://x.com/ManCity/status/2097301774029770962",
+      "time": "2026-09-08T12:31:23Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
     {
       "text": "Nilson Angulo’s control of the ball 😮‍💨",
       "url": "https://x.com/premierleague/status/2097280146793234894",
@@ -41,34 +69,6 @@
       "text": "🔥 Fire and Ice. 🥶",
       "url": "https://x.com/premierleague/status/2097245807925666040",
       "time": "2026-09-08T08:49:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "It's time to get to work in the @ChampionsLeague 💪",
-      "url": "https://x.com/ManCity/status/2097233496011931744",
-      "time": "2026-09-08T08:00:04Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Different hair, same @Erling 🌟",
-      "url": "https://x.com/premierleague/status/2097225928015254010",
-      "time": "2026-09-08T07:30:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Ready for tomorrow night under the lights ✨",
-      "url": "https://x.com/ManCity/status/2097075982930760180",
-      "time": "2026-09-07T21:34:10Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Dan Burn's son stole the show from the stands on Saturday 🫶",
-      "url": "https://x.com/premierleague/status/2097052284291088881",
-      "time": "2026-09-07T20:00:00Z",
       "account": "Premier League",
       "handle": "premierleague"
     }
