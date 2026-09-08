@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-08T17:54:14Z",
+ "updated": "2026-09-08T22:37:53Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-09-08T19:00:00Z",
-   "comp": "UCL",
-   "home": "FC Porto",
-   "away": "Manchester City",
-   "venue": ""
-  },
   {
    "utc": "2026-09-13T15:30:00Z",
    "comp": "PL",
@@ -141,6 +134,13 @@
    "home": "Manchester City",
    "away": "Hull City",
    "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2026-12-26T15:00:00Z",
+   "comp": "PL",
+   "home": "Newcastle",
+   "away": "Manchester City",
+   "venue": "St. James' Park"
   }
  ],
  "results": {
@@ -178,6 +178,11 @@
    "score": "3-1",
    "res": "W",
    "fr": true
+  },
+  "2026-09-08": {
+   "score": "0-2",
+   "res": "W",
+   "fr": false
   }
  },
  "topScorer": "Haaland - 3",
