@@ -1,12 +1,54 @@
 {
- "updated": "2026-09-09T00:28:23Z",
+ "updated": "2026-09-09T05:05:30Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "FC Porto 0-2 Manchester City: Erling Haaland earns Enzo Maresca a first Champions League win as City head coach but English side fail to impress",
    "img": null,
    "video": null,
-   "time": "2026-09-09T00:28:04Z"
+   "time": "2026-09-09T04:37:11Z"
+  },
+  {
+   "title": "'It was a difficult fight!' - Erling Haaland hails Man City resilience as record-equalling double downs Porto",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T04:12:55Z"
+  },
+  {
+   "title": "Ayyoub Bouaddi announces himself as a Manchester City star in the making",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T04:05:59Z"
+  },
+  {
+   "title": "Watch Compacto | UEFA Champions League: Porto vs. Manchester City (3 min)",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T04:05:49Z"
+  },
+  {
+   "title": "Erling Haaland strikes after half-time bust-up as Manchester City survive tricky trip to Porto",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T03:53:00Z"
+  },
+  {
+   "title": "Enzo Maresca thanks Man City bosses for crucial transfer decision - 'he is different'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T03:00:00Z"
+  },
+  {
+   "title": "Haaland double gives Manchester City ideal Champions League start in Porto",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T01:30:00Z"
+  },
+  {
+   "title": "FC Porto 0-2 Man City (Sep 8, 2026) Game Analysis",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T00:05:35Z"
   },
   {
    "title": "Bouaddi Shines on First Manchester City Start",
@@ -15,16 +57,10 @@
    "time": "2026-09-09T00:00:30Z"
   },
   {
-   "title": "FC Porto open Champions campaign with 0-2 defeat to Manchester City",
+   "title": "Champions League - Porto 0-2 Manchester City - Enzo Maresca speaks highly about Ayyoub Bouaddi",
    "img": null,
    "video": null,
-   "time": "2026-09-08T23:52:06Z"
-  },
-  {
-   "title": "Haaland double gives Manchester City ideal Champions League start in Porto",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T23:41:00Z"
+   "time": "2026-09-08T23:28:34Z"
   },
   {
    "title": "Haaland shows angry streak after reaching milestone as Guehi escapes red",
@@ -33,58 +69,22 @@
    "time": "2026-09-08T23:14:00Z"
   },
   {
-   "title": "FC Porto start Champions League with 0-2 defeat to Manchester City",
+   "title": "How Real Madrid beat Inter, Erling Haaland goals sealed Manchester City win as the Champions League returned",
    "img": null,
    "video": null,
-   "time": "2026-09-08T22:51:36Z"
-  },
-  {
-   "title": "Maresca: First we recover then we prepare for Sunday",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:50:00Z"
-  },
-  {
-   "title": "Bouaddi: 'Patience was key to beating Porto'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:10:00Z"
-  },
-  {
-   "title": "Ayyoub Bouaddi: Man City midfielder impresses on first start for the club",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:09:47Z"
-  },
-  {
-   "title": "Maresca delighted with complete performance at Porto",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:05:00Z"
-  },
-  {
-   "title": "Haaland sings the praises of Ayoub Bouaddi: Manchester City have a real gem",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:03:59Z"
-  },
-  {
-   "title": "'Calm' Bouaddi impressing Maresca",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:00:00Z"
+   "time": "2026-09-08T22:59:17Z"
   }
  ],
  "ticker": [
   "FC Porto 0-2 Manchester City: Erling Haaland earns Enzo Maresca a first Champions League win as City head coach but English side fail to impress",
-  "Bouaddi Shines on First Manchester City Start",
-  "FC Porto open Champions campaign with 0-2 defeat to Manchester City",
+  "'It was a difficult fight!' - Erling Haaland hails Man City resilience as record-equalling double downs Porto",
+  "Ayyoub Bouaddi announces himself as a Manchester City star in the making",
+  "Watch Compacto | UEFA Champions League: Porto vs. Manchester City (3 min)",
+  "Erling Haaland strikes after half-time bust-up as Manchester City survive tricky trip to Porto",
+  "Enzo Maresca thanks Man City bosses for crucial transfer decision - 'he is different'",
   "Haaland double gives Manchester City ideal Champions League start in Porto",
-  "Haaland shows angry streak after reaching milestone as Guehi escapes red",
-  "FC Porto start Champions League with 0-2 defeat to Manchester City",
-  "Maresca: First we recover then we prepare for Sunday",
-  "Bouaddi: 'Patience was key to beating Porto'",
-  "Ayyoub Bouaddi: Man City midfielder impresses on first start for the club",
-  "Maresca delighted with complete performance at Porto"
+  "FC Porto 0-2 Man City (Sep 8, 2026) Game Analysis",
+  "Bouaddi Shines on First Manchester City Start",
+  "Champions League - Porto 0-2 Manchester City - Enzo Maresca speaks highly about Ayyoub Bouaddi"
  ]
 }
