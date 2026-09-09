@@ -1,90 +1,90 @@
 {
- "updated": "2026-09-09T05:05:30Z",
+ "updated": "2026-09-09T10:01:24Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City: Charlie Adams thinks Erling Haaland can become the greatest ever goalscorer",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T09:36:18Z"
+  },
+  {
+   "title": "We Have to Deliver on the Biggest Stage, Says Haaland in UCL Message to Man City Squad",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T09:31:48Z"
+  },
   {
    "title": "FC Porto 0-2 Manchester City: Erling Haaland earns Enzo Maresca a first Champions League win as City head coach but English side fail to impress",
    "img": null,
    "video": null,
-   "time": "2026-09-09T04:37:11Z"
+   "time": "2026-09-09T09:28:02Z"
   },
   {
-   "title": "'It was a difficult fight!' - Erling Haaland hails Man City resilience as record-equalling double downs Porto",
+   "title": "FC Porto lose 0-2 to Manchester City in the Champions League",
    "img": null,
    "video": null,
-   "time": "2026-09-09T04:12:55Z"
+   "time": "2026-09-09T09:07:50Z"
   },
   {
-   "title": "Ayyoub Bouaddi announces himself as a Manchester City star in the making",
+   "title": "Erling Haaland: Jamie Carragher believes Manchester City striker will be greatest goalscorer of all time",
    "img": null,
    "video": null,
-   "time": "2026-09-09T04:05:59Z"
+   "time": "2026-09-09T09:00:14Z"
   },
   {
-   "title": "Watch Compacto | UEFA Champions League: Porto vs. Manchester City (3 min)",
+   "title": "Make a Night of It: Champions League hospitality now available!",
    "img": null,
    "video": null,
-   "time": "2026-09-09T04:05:49Z"
+   "time": "2026-09-09T09:00:00Z"
   },
   {
-   "title": "Erling Haaland strikes after half-time bust-up as Manchester City survive tricky trip to Porto",
+   "title": "Bovis sticks with Northspring in move to Manchester city centre",
    "img": null,
    "video": null,
-   "time": "2026-09-09T03:53:00Z"
+   "time": "2026-09-09T08:54:53Z"
   },
   {
-   "title": "Enzo Maresca thanks Man City bosses for crucial transfer decision - 'he is different'",
+   "title": "Maresca feels City deserved winning start in Europe",
    "img": null,
    "video": null,
-   "time": "2026-09-09T03:00:00Z"
+   "time": "2026-09-09T08:50:00Z"
   },
   {
-   "title": "Haaland double gives Manchester City ideal Champions League start in Porto",
+   "title": "Jamie Carragher tips Erling Haaland to achieve historic milestone after Champions League double",
    "img": null,
    "video": null,
-   "time": "2026-09-09T01:30:00Z"
+   "time": "2026-09-09T08:50:00Z"
   },
   {
-   "title": "FC Porto 0-2 Man City (Sep 8, 2026) Game Analysis",
+   "title": "Man City news: Enzo Fernandez analysis from Nedum Onuoha",
    "img": null,
    "video": null,
-   "time": "2026-09-09T00:05:35Z"
+   "time": "2026-09-09T08:45:02Z"
   },
   {
-   "title": "Bouaddi Shines on First Manchester City Start",
+   "title": "Haaland: ‘We have had a great start to the season’",
    "img": null,
    "video": null,
-   "time": "2026-09-09T00:00:30Z"
+   "time": "2026-09-09T08:40:00Z"
   },
   {
-   "title": "Champions League - Porto 0-2 Manchester City - Enzo Maresca speaks highly about Ayyoub Bouaddi",
+   "title": "Apiary move marks return to Manchester city centre for North West law firm",
    "img": null,
    "video": null,
-   "time": "2026-09-08T23:28:34Z"
-  },
-  {
-   "title": "Haaland shows angry streak after reaching milestone as Guehi escapes red",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T23:14:00Z"
-  },
-  {
-   "title": "How Real Madrid beat Inter, Erling Haaland goals sealed Manchester City win as the Champions League returned",
-   "img": null,
-   "video": null,
-   "time": "2026-09-08T22:59:17Z"
+   "time": "2026-09-09T08:35:05Z"
   }
  ],
  "ticker": [
+  "Manchester City: Charlie Adams thinks Erling Haaland can become the greatest ever goalscorer",
+  "We Have to Deliver on the Biggest Stage, Says Haaland in UCL Message to Man City Squad",
   "FC Porto 0-2 Manchester City: Erling Haaland earns Enzo Maresca a first Champions League win as City head coach but English side fail to impress",
-  "'It was a difficult fight!' - Erling Haaland hails Man City resilience as record-equalling double downs Porto",
-  "Ayyoub Bouaddi announces himself as a Manchester City star in the making",
-  "Watch Compacto | UEFA Champions League: Porto vs. Manchester City (3 min)",
-  "Erling Haaland strikes after half-time bust-up as Manchester City survive tricky trip to Porto",
-  "Enzo Maresca thanks Man City bosses for crucial transfer decision - 'he is different'",
-  "Haaland double gives Manchester City ideal Champions League start in Porto",
-  "FC Porto 0-2 Man City (Sep 8, 2026) Game Analysis",
-  "Bouaddi Shines on First Manchester City Start",
-  "Champions League - Porto 0-2 Manchester City - Enzo Maresca speaks highly about Ayyoub Bouaddi"
+  "FC Porto lose 0-2 to Manchester City in the Champions League",
+  "Erling Haaland: Jamie Carragher believes Manchester City striker will be greatest goalscorer of all time",
+  "Make a Night of It: Champions League hospitality now available!",
+  "Bovis sticks with Northspring in move to Manchester city centre",
+  "Maresca feels City deserved winning start in Europe",
+  "Jamie Carragher tips Erling Haaland to achieve historic milestone after Champions League double",
+  "Man City news: Enzo Fernandez analysis from Nedum Onuoha"
  ]
 }
