@@ -1,12 +1,30 @@
 {
- "updated": "2026-09-09T21:05:30Z",
+ "updated": "2026-09-09T23:26:55Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "A major weapon for Manchester City wiped out FC Porto",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T21:40:00Z"
+  },
+  {
+   "title": "I’m hungry for more goals – Haaland",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T21:30:00Z"
+  },
+  {
+   "title": "Champions League highlights - Porto 0-2 Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T21:00:12Z"
+  },
   {
    "title": "When the heat rose against FC Porto, a Manchester City midfielder rose to meet it",
    "img": null,
    "video": null,
-   "time": "2026-09-09T20:50:00Z"
+   "time": "2026-09-09T20:46:39Z"
   },
   {
    "title": "Update On Manchester City And Their Pursuit Of This Crystal Palace Star: Good Decision For Maresca?",
@@ -19,12 +37,6 @@
    "img": null,
    "video": null,
    "time": "2026-09-09T20:15:39Z"
-  },
-  {
-   "title": "\"When Man City Come Through, You Don't Say No!\" - Ndiaye on Late Tottenham Snub",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T20:15:15Z"
   },
   {
    "title": "Manchester City Opens WSL Title Defense with 3-1 Win Over Birmingham",
@@ -57,34 +69,22 @@
    "time": "2026-09-09T18:33:00Z"
   },
   {
-   "title": "Man City Officials Assess Enzo Maresca's Squad For Potential Premier League and UEFA Champions League Success",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T18:15:38Z"
-  },
-  {
    "title": "The Fernández-Haaland Duo Generates Expectations at Manchester City",
    "img": null,
    "video": null,
    "time": "2026-09-09T17:58:54Z"
-  },
-  {
-   "title": "Man City star told Man United icon Ryan Giggs to 'leave him alone' on golf course",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T17:53:00Z"
   }
  ],
  "ticker": [
+  "A major weapon for Manchester City wiped out FC Porto",
+  "I’m hungry for more goals – Haaland",
+  "Champions League highlights - Porto 0-2 Manchester City",
   "When the heat rose against FC Porto, a Manchester City midfielder rose to meet it",
   "Update On Manchester City And Their Pursuit Of This Crystal Palace Star: Good Decision For Maresca?",
   "Enzo Maresca got a complete team performance from his Manchester City side against FC Porto",
-  "\"When Man City Come Through, You Don't Say No!\" - Ndiaye on Late Tottenham Snub",
   "Manchester City Opens WSL Title Defense with 3-1 Win Over Birmingham",
   "Amad Diallo Injured for Sabah and Man City as Man Utd Return Timeline Revealed",
   "Gallery: Making waves in Europe!",
-  "Rooney Impressed by Bouaddi’s Maturity in Manchester City Win Over Porto",
-  "Erling Haaland accuses Porto star of grabbing his BUM in feisty clash during Champions League match",
-  "Man City Officials Assess Enzo Maresca's Squad For Potential Premier League and UEFA Champions League Success"
+  "Rooney Impressed by Bouaddi’s Maturity in Manchester City Win Over Porto"
  ]
 }
