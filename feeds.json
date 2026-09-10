@@ -1,90 +1,90 @@
 {
- "updated": "2026-09-10T21:46:24Z",
+ "updated": "2026-09-10T23:49:48Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Martinez and Dorgu share their delight",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T23:10:04Z"
+  },
+  {
+   "title": "Champions League Matchday 1 Thursday highlights and round-up: Winning starts for Bayern, Como, Man Utd",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T23:03:45Z"
+  },
   {
    "title": "Man Utd vs Man City tickets: Where to buy them and how much do they cost for mega Manchester derby?",
    "img": null,
    "video": null,
-   "time": "2026-09-10T21:13:17Z"
+   "time": "2026-09-10T22:43:17Z"
   },
   {
-   "title": "Man United take steps to mitigate Man City derby advantage",
+   "title": "Benjamin Sesko can help Manchester United find top form after two goals in two games",
    "img": null,
    "video": null,
-   "time": "2026-09-10T21:07:26Z"
+   "time": "2026-09-10T22:41:17Z"
   },
   {
    "title": "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
    "img": null,
    "video": null,
-   "time": "2026-09-10T21:00:58Z"
+   "time": "2026-09-10T22:32:14Z"
+  },
+  {
+   "title": "\"He Beat Me 3-0!\" - Gianluigi Donnarumma Hails Enzo Maresca and Reflects on Life at Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T22:14:49Z"
+  },
+  {
+   "title": "City's Ayyoub Bouaddi addresses upcoming Manchester derby after impressive Champions League showing",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:41:09Z"
+  },
+  {
+   "title": "Burnage by-election LIVE: Polls CLOSED as Labour battling to hold on to mayor Bev Craig's former Manchester City Council seat",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:24:50Z"
+  },
+  {
+   "title": "Two Manchester City players look to be built to thrive in the hostile reception that awaits at Old Trafford",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:14:03Z"
+  },
+  {
+   "title": "Man United have two players to take on Man City's £326m midfield after Sabah win",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:11:21Z"
   },
   {
    "title": "Man Utd 4-0 Sabah: Red Devils hit four against Sabah FK on Champions League return",
    "img": null,
    "video": null,
-   "time": "2026-09-10T20:58:00Z"
+   "time": "2026-09-10T21:09:42Z"
   },
   {
-   "title": "Owen Hargreaves claims Man Utd star can become 'best in the world' after Sabah win",
+   "title": "Man United injury, suspension list and return dates vs. Man City: Carlos Baleba, Luke Shaw, Amad Diallo, Matthijs de Ligt latest",
    "img": null,
    "video": null,
-   "time": "2026-09-10T20:55:00Z"
-  },
-  {
-   "title": "The signs are trending upwards for one Manchester City player but one moment may spark the fuse",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T20:42:56Z"
-  },
-  {
-   "title": "Premier League plan for £550m boost opposed by 'Big Six' clubs in new financial dispute",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T18:18:00Z"
-  },
-  {
-   "title": "Man Utd vs Man City | Premier League offer: Get £30 in free bets with Midnite",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T18:01:00Z"
-  },
-  {
-   "title": "Popular City fan died in Spanish hotel after consuming cocaine, inquest told",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T17:36:00Z"
-  },
-  {
-   "title": "Man City goalkeeper Donnarumma bound and hit in flat, court told",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T17:20:53Z"
-  },
-  {
-   "title": "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T17:17:00Z"
-  },
-  {
-   "title": "Pundit says Bayern Munich among top UCL contenders to challenge PSG with FC Barcelona, Real Madrid, Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T17:07:00Z"
+   "time": "2026-09-10T21:08:00Z"
   }
  ],
  "ticker": [
+  "Martinez and Dorgu share their delight",
+  "Champions League Matchday 1 Thursday highlights and round-up: Winning starts for Bayern, Como, Man Utd",
   "Man Utd vs Man City tickets: Where to buy them and how much do they cost for mega Manchester derby?",
-  "Man United take steps to mitigate Man City derby advantage",
+  "Benjamin Sesko can help Manchester United find top form after two goals in two games",
   "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
-  "Man Utd 4-0 Sabah: Red Devils hit four against Sabah FK on Champions League return",
-  "Owen Hargreaves claims Man Utd star can become 'best in the world' after Sabah win",
-  "The signs are trending upwards for one Manchester City player but one moment may spark the fuse",
-  "Premier League plan for £550m boost opposed by 'Big Six' clubs in new financial dispute",
-  "Man Utd vs Man City | Premier League offer: Get £30 in free bets with Midnite",
-  "Popular City fan died in Spanish hotel after consuming cocaine, inquest told",
-  "Man City goalkeeper Donnarumma bound and hit in flat, court told"
+  "\"He Beat Me 3-0!\" - Gianluigi Donnarumma Hails Enzo Maresca and Reflects on Life at Manchester City",
+  "City's Ayyoub Bouaddi addresses upcoming Manchester derby after impressive Champions League showing",
+  "Burnage by-election LIVE: Polls CLOSED as Labour battling to hold on to mayor Bev Craig's former Manchester City Council seat",
+  "Two Manchester City players look to be built to thrive in the hostile reception that awaits at Old Trafford",
+  "Man United have two players to take on Man City's £326m midfield after Sabah win"
  ]
 }
