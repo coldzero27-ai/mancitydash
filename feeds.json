@@ -1,7 +1,49 @@
 {
- "updated": "2026-09-10T16:01:04Z",
+ "updated": "2026-09-10T19:11:38Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Popular City fan died in Spanish hotel after consuming cocaine, inquest told",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T17:36:00Z"
+  },
+  {
+   "title": "Man City goalkeeper Donnarumma bound and hit in flat, court told",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T17:20:53Z"
+  },
+  {
+   "title": "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T17:17:00Z"
+  },
+  {
+   "title": "Pundit says Bayern Munich among top UCL contenders to challenge PSG with FC Barcelona, Real Madrid, Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T17:07:00Z"
+  },
+  {
+   "title": "Watch: 90 minutes of Manchester derby goals",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T17:00:00Z"
+  },
+  {
+   "title": "Lampard sends warning to Albion as Coventry bid to get up and running",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T16:31:27Z"
+  },
+  {
+   "title": "Ayyoub Bouaddi sends Manchester United message to Man City fans - 'Who I am'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T16:00:00Z"
+  },
   {
    "title": "Frank Lampard press conference: Coventry City vs Brighton",
    "img": null,
@@ -15,76 +57,34 @@
    "time": "2026-09-10T15:31:39Z"
   },
   {
-   "title": "Premier League returns to traditional Boxing Day fixtures for 2026-27 as festive schedule announced",
+   "title": "Scout Selection: Best Fantasy team for Gameweek 4",
    "img": null,
    "video": null,
-   "time": "2026-09-10T15:21:21Z"
+   "time": "2026-09-10T15:29:57Z"
   },
   {
-   "title": "Frank Lampard happy with the positive step Coventry had made after Manchester City game.",
+   "title": "Premier League released festive football schedule",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T15:14:28Z"
+  },
+  {
+   "title": "Coventry City: Frank Lampard happy with positive step after Manchester City loss",
    "img": null,
    "video": null,
    "time": "2026-09-10T15:09:28Z"
-  },
-  {
-   "title": "One moment in time: Benjani's derby debut delight",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T15:00:00Z"
-  },
-  {
-   "title": "£466m later, did Manchester City get worse?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:40:22Z"
-  },
-  {
-   "title": "Pundit says Bayern Munich among top UCL contenders to challenge PSG with FC Barcelona, Real Madrid, Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:30:00Z"
-  },
-  {
-   "title": "Premier League Boxing Day kick-off times revealed including dreaded 8pm start as title chasers face nightmare journey",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:19:00Z"
-  },
-  {
-   "title": "Sink your teeth in to Manchester's best restaurants",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:11:23Z"
-  },
-  {
-   "title": "Man City discover Christmas schedule as Manchester United get wish from Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:10:00Z"
-  },
-  {
-   "title": "'They're terrible' - Former Man City ace Rodri forced into grovelling apology after being caught on camera blasting club",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:02:00Z"
-  },
-  {
-   "title": "Christmas and New Year fixtures confirmed",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T14:00:00Z"
   }
  ],
  "ticker": [
+  "Popular City fan died in Spanish hotel after consuming cocaine, inquest told",
+  "Man City goalkeeper Donnarumma bound and hit in flat, court told",
+  "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
+  "Pundit says Bayern Munich among top UCL contenders to challenge PSG with FC Barcelona, Real Madrid, Manchester City",
+  "Watch: 90 minutes of Manchester derby goals",
+  "Lampard sends warning to Albion as Coventry bid to get up and running",
+  "Ayyoub Bouaddi sends Manchester United message to Man City fans - 'Who I am'",
   "Frank Lampard press conference: Coventry City vs Brighton",
   "Manchester City vs. Manchester United - September 12, 2026",
-  "Premier League returns to traditional Boxing Day fixtures for 2026-27 as festive schedule announced",
-  "Frank Lampard happy with the positive step Coventry had made after Manchester City game.",
-  "One moment in time: Benjani's derby debut delight",
-  "£466m later, did Manchester City get worse?",
-  "Pundit says Bayern Munich among top UCL contenders to challenge PSG with FC Barcelona, Real Madrid, Manchester City",
-  "Premier League Boxing Day kick-off times revealed including dreaded 8pm start as title chasers face nightmare journey",
-  "Sink your teeth in to Manchester's best restaurants",
-  "Man City discover Christmas schedule as Manchester United get wish from Premier League"
+  "Scout Selection: Best Fantasy team for Gameweek 4"
  ]
 }
