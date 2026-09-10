@@ -1,7 +1,13 @@
 {
- "updated": "2026-09-09T23:26:55Z",
+ "updated": "2026-09-10T01:22:27Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Rosario ‘grabbed my bottom’ during Manchester City’s win at Porto, claims Haaland",
+   "img": null,
+   "video": null,
+   "time": "2026-09-09T23:11:00Z"
+  },
   {
    "title": "A major weapon for Manchester City wiped out FC Porto",
    "img": null,
@@ -67,15 +73,10 @@
    "img": null,
    "video": null,
    "time": "2026-09-09T18:33:00Z"
-  },
-  {
-   "title": "The Fernández-Haaland Duo Generates Expectations at Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T17:58:54Z"
   }
  ],
  "ticker": [
+  "Rosario ‘grabbed my bottom’ during Manchester City’s win at Porto, claims Haaland",
   "A major weapon for Manchester City wiped out FC Porto",
   "I’m hungry for more goals – Haaland",
   "Champions League highlights - Porto 0-2 Manchester City",
@@ -84,7 +85,6 @@
   "Enzo Maresca got a complete team performance from his Manchester City side against FC Porto",
   "Manchester City Opens WSL Title Defense with 3-1 Win Over Birmingham",
   "Amad Diallo Injured for Sabah and Man City as Man Utd Return Timeline Revealed",
-  "Gallery: Making waves in Europe!",
-  "Rooney Impressed by Bouaddi’s Maturity in Manchester City Win Over Porto"
+  "Gallery: Making waves in Europe!"
  ]
 }
