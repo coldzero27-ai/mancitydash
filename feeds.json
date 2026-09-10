@@ -1,12 +1,60 @@
 {
- "updated": "2026-09-10T01:22:27Z",
+ "updated": "2026-09-10T06:26:28Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City transfer rumours: Alex Baena",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T06:03:12Z"
+  },
+  {
+   "title": "Man City Eye January Arsenal Battle for Chelsea Forward After Failed Summer Pursuit",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T05:35:42Z"
+  },
+  {
+   "title": "The form of two leaders for Manchester City has been impossible to ignore",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T05:30:00Z"
+  },
+  {
+   "title": "Etihad plan part of £100m 'floating walkways' scheme",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T05:23:40Z"
+  },
+  {
+   "title": "‘I would take him tomorrow’: Pep Guardiola once disclosed the one current Man Utd player he’d have signed at City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T05:19:54Z"
+  },
+  {
+   "title": "Ryan Giggs reveals huge Pep Guardiola admiration for Man Utd ace",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T05:04:21Z"
+  },
+  {
+   "title": "Arsenal news: Mikel Arteta punishes striker after wonderkid publicly humiliated",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T03:00:00Z"
+  },
   {
    "title": "Rosario ‘grabbed my bottom’ during Manchester City’s win at Porto, claims Haaland",
    "img": null,
    "video": null,
-   "time": "2026-09-09T23:11:00Z"
+   "time": "2026-09-10T01:31:00Z"
+  },
+  {
+   "title": "Erling Haaland: Jamie Carragher believes Manchester City striker will be greatest goalscorer of all time",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T01:27:33Z"
   },
   {
    "title": "A major weapon for Manchester City wiped out FC Porto",
@@ -25,66 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-09T21:00:12Z"
-  },
-  {
-   "title": "When the heat rose against FC Porto, a Manchester City midfielder rose to meet it",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T20:46:39Z"
-  },
-  {
-   "title": "Update On Manchester City And Their Pursuit Of This Crystal Palace Star: Good Decision For Maresca?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T20:35:00Z"
-  },
-  {
-   "title": "Enzo Maresca got a complete team performance from his Manchester City side against FC Porto",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T20:15:39Z"
-  },
-  {
-   "title": "Manchester City Opens WSL Title Defense with 3-1 Win Over Birmingham",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T20:09:27Z"
-  },
-  {
-   "title": "Amad Diallo Injured for Sabah and Man City as Man Utd Return Timeline Revealed",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T19:45:12Z"
-  },
-  {
-   "title": "Gallery: Making waves in Europe!",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T19:10:00Z"
-  },
-  {
-   "title": "Rooney Impressed by Bouaddi’s Maturity in Manchester City Win Over Porto",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T18:34:04Z"
-  },
-  {
-   "title": "Erling Haaland accuses Porto star of grabbing his BUM in feisty clash during Champions League match",
-   "img": null,
-   "video": null,
-   "time": "2026-09-09T18:33:00Z"
   }
  ],
  "ticker": [
+  "Man City transfer rumours: Alex Baena",
+  "Man City Eye January Arsenal Battle for Chelsea Forward After Failed Summer Pursuit",
+  "The form of two leaders for Manchester City has been impossible to ignore",
+  "Etihad plan part of £100m 'floating walkways' scheme",
+  "‘I would take him tomorrow’: Pep Guardiola once disclosed the one current Man Utd player he’d have signed at City",
+  "Ryan Giggs reveals huge Pep Guardiola admiration for Man Utd ace",
+  "Arsenal news: Mikel Arteta punishes striker after wonderkid publicly humiliated",
   "Rosario ‘grabbed my bottom’ during Manchester City’s win at Porto, claims Haaland",
-  "A major weapon for Manchester City wiped out FC Porto",
-  "I’m hungry for more goals – Haaland",
-  "Champions League highlights - Porto 0-2 Manchester City",
-  "When the heat rose against FC Porto, a Manchester City midfielder rose to meet it",
-  "Update On Manchester City And Their Pursuit Of This Crystal Palace Star: Good Decision For Maresca?",
-  "Enzo Maresca got a complete team performance from his Manchester City side against FC Porto",
-  "Manchester City Opens WSL Title Defense with 3-1 Win Over Birmingham",
-  "Amad Diallo Injured for Sabah and Man City as Man Utd Return Timeline Revealed",
-  "Gallery: Making waves in Europe!"
+  "Erling Haaland: Jamie Carragher believes Manchester City striker will be greatest goalscorer of all time",
+  "A major weapon for Manchester City wiped out FC Porto"
  ]
 }
