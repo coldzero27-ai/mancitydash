@@ -1,7 +1,55 @@
 {
- "updated": "2026-09-10T19:11:38Z",
+ "updated": "2026-09-10T21:46:24Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man Utd vs Man City tickets: Where to buy them and how much do they cost for mega Manchester derby?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:13:17Z"
+  },
+  {
+   "title": "Man United take steps to mitigate Man City derby advantage",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:07:26Z"
+  },
+  {
+   "title": "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T21:00:58Z"
+  },
+  {
+   "title": "Man Utd 4-0 Sabah: Red Devils hit four against Sabah FK on Champions League return",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T20:58:00Z"
+  },
+  {
+   "title": "Owen Hargreaves claims Man Utd star can become 'best in the world' after Sabah win",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T20:55:00Z"
+  },
+  {
+   "title": "The signs are trending upwards for one Manchester City player but one moment may spark the fuse",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T20:42:56Z"
+  },
+  {
+   "title": "Premier League plan for £550m boost opposed by 'Big Six' clubs in new financial dispute",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T18:18:00Z"
+  },
+  {
+   "title": "Man Utd vs Man City | Premier League offer: Get £30 in free bets with Midnite",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T18:01:00Z"
+  },
   {
    "title": "Popular City fan died in Spanish hotel after consuming cocaine, inquest told",
    "img": null,
@@ -25,66 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-10T17:07:00Z"
-  },
-  {
-   "title": "Watch: 90 minutes of Manchester derby goals",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T17:00:00Z"
-  },
-  {
-   "title": "Lampard sends warning to Albion as Coventry bid to get up and running",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T16:31:27Z"
-  },
-  {
-   "title": "Ayyoub Bouaddi sends Manchester United message to Man City fans - 'Who I am'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T16:00:00Z"
-  },
-  {
-   "title": "Frank Lampard press conference: Coventry City vs Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T15:41:35Z"
-  },
-  {
-   "title": "Manchester City vs. Manchester United - September 12, 2026",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T15:31:39Z"
-  },
-  {
-   "title": "Scout Selection: Best Fantasy team for Gameweek 4",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T15:29:57Z"
-  },
-  {
-   "title": "Premier League released festive football schedule",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T15:14:28Z"
-  },
-  {
-   "title": "Coventry City: Frank Lampard happy with positive step after Manchester City loss",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T15:09:28Z"
   }
  ],
  "ticker": [
+  "Man Utd vs Man City tickets: Where to buy them and how much do they cost for mega Manchester derby?",
+  "Man United take steps to mitigate Man City derby advantage",
+  "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
+  "Man Utd 4-0 Sabah: Red Devils hit four against Sabah FK on Champions League return",
+  "Owen Hargreaves claims Man Utd star can become 'best in the world' after Sabah win",
+  "The signs are trending upwards for one Manchester City player but one moment may spark the fuse",
+  "Premier League plan for £550m boost opposed by 'Big Six' clubs in new financial dispute",
+  "Man Utd vs Man City | Premier League offer: Get £30 in free bets with Midnite",
   "Popular City fan died in Spanish hotel after consuming cocaine, inquest told",
-  "Man City goalkeeper Donnarumma bound and hit in flat, court told",
-  "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
-  "Pundit says Bayern Munich among top UCL contenders to challenge PSG with FC Barcelona, Real Madrid, Manchester City",
-  "Watch: 90 minutes of Manchester derby goals",
-  "Lampard sends warning to Albion as Coventry bid to get up and running",
-  "Ayyoub Bouaddi sends Manchester United message to Man City fans - 'Who I am'",
-  "Frank Lampard press conference: Coventry City vs Brighton",
-  "Manchester City vs. Manchester United - September 12, 2026",
-  "Scout Selection: Best Fantasy team for Gameweek 4"
+  "Man City goalkeeper Donnarumma bound and hit in flat, court told"
  ]
 }
