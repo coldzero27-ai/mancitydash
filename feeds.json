@@ -1,12 +1,48 @@
 {
- "updated": "2026-09-10T23:49:48Z",
+ "updated": "2026-09-11T03:37:30Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Martinez and Dorgu share their delight",
+   "title": "Burnage by-election LIVE: Polls CLOSED as Labour battling to hold on to mayor Bev Craig's former Manchester City Council seat",
    "img": null,
    "video": null,
-   "time": "2026-09-10T23:10:04Z"
+   "time": "2026-09-11T03:15:40Z"
+  },
+  {
+   "title": "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
+   "img": null,
+   "video": null,
+   "time": "2026-09-11T03:15:17Z"
+  },
+  {
+   "title": "Man United's Carrick pleased with Sesko's return to form ahead of City derby",
+   "img": null,
+   "video": null,
+   "time": "2026-09-11T03:08:00Z"
+  },
+  {
+   "title": "Carrick explains Tielemans change amid Man Utd team news hint for Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-11T01:24:01Z"
+  },
+  {
+   "title": "Arsenal turn an early shock into a warning for Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-11T01:06:18Z"
+  },
+  {
+   "title": "This is Guy Bradshaw, a popular Manchester City fan with an undiagnosed heart condition who died during a Champions League away trip to Spain 💔 The father-of-one from Wythenshawe, was found dead in his room in Hotel Placidia in Benidorm on October",
+   "img": null,
+   "video": null,
+   "time": "2026-09-11T00:04:19Z"
+  },
+  {
+   "title": "\"He Beat Me 3-0!\" - Gianluigi Donnarumma Hails Enzo Maresca and Reflects on Life at Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-10T23:03:45Z"
   },
   {
    "title": "Champions League Matchday 1 Thursday highlights and round-up: Winning starts for Bayern, Como, Man Utd",
@@ -15,10 +51,10 @@
    "time": "2026-09-10T23:03:45Z"
   },
   {
-   "title": "Man Utd vs Man City tickets: Where to buy them and how much do they cost for mega Manchester derby?",
+   "title": "Donnarumma 'bound & hit' during flat raid… as 'catastrophic' trial suspended",
    "img": null,
    "video": null,
-   "time": "2026-09-10T22:43:17Z"
+   "time": "2026-09-10T22:59:00Z"
   },
   {
    "title": "Benjamin Sesko can help Manchester United find top form after two goals in two games",
@@ -27,64 +63,28 @@
    "time": "2026-09-10T22:41:17Z"
   },
   {
-   "title": "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
+   "title": "Ten KEY questions for Matchweek 4's fixtures",
    "img": null,
    "video": null,
-   "time": "2026-09-10T22:32:14Z"
-  },
-  {
-   "title": "\"He Beat Me 3-0!\" - Gianluigi Donnarumma Hails Enzo Maresca and Reflects on Life at Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T22:14:49Z"
-  },
-  {
-   "title": "City's Ayyoub Bouaddi addresses upcoming Manchester derby after impressive Champions League showing",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T21:41:09Z"
-  },
-  {
-   "title": "Burnage by-election LIVE: Polls CLOSED as Labour battling to hold on to mayor Bev Craig's former Manchester City Council seat",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T21:24:50Z"
+   "time": "2026-09-10T21:22:12Z"
   },
   {
    "title": "Two Manchester City players look to be built to thrive in the hostile reception that awaits at Old Trafford",
    "img": null,
    "video": null,
    "time": "2026-09-10T21:14:03Z"
-  },
-  {
-   "title": "Man United have two players to take on Man City's £326m midfield after Sabah win",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T21:11:21Z"
-  },
-  {
-   "title": "Man Utd 4-0 Sabah: Red Devils hit four against Sabah FK on Champions League return",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T21:09:42Z"
-  },
-  {
-   "title": "Man United injury, suspension list and return dates vs. Man City: Carlos Baleba, Luke Shaw, Amad Diallo, Matthijs de Ligt latest",
-   "img": null,
-   "video": null,
-   "time": "2026-09-10T21:08:00Z"
   }
  ],
  "ticker": [
-  "Martinez and Dorgu share their delight",
-  "Champions League Matchday 1 Thursday highlights and round-up: Winning starts for Bayern, Como, Man Utd",
-  "Man Utd vs Man City tickets: Where to buy them and how much do they cost for mega Manchester derby?",
-  "Benjamin Sesko can help Manchester United find top form after two goals in two games",
-  "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
-  "\"He Beat Me 3-0!\" - Gianluigi Donnarumma Hails Enzo Maresca and Reflects on Life at Manchester City",
-  "City's Ayyoub Bouaddi addresses upcoming Manchester derby after impressive Champions League showing",
   "Burnage by-election LIVE: Polls CLOSED as Labour battling to hold on to mayor Bev Craig's former Manchester City Council seat",
-  "Two Manchester City players look to be built to thrive in the hostile reception that awaits at Old Trafford",
-  "Man United have two players to take on Man City's £326m midfield after Sabah win"
+  "Man Utd 4-0 Sabah: Winning return to Champions League as Benjamin Sesko scores again for Michael Carrick's side",
+  "Man United's Carrick pleased with Sesko's return to form ahead of City derby",
+  "Carrick explains Tielemans change amid Man Utd team news hint for Man City",
+  "Arsenal turn an early shock into a warning for Manchester City",
+  "This is Guy Bradshaw, a popular Manchester City fan with an undiagnosed heart condition who died during a Champions League away trip to Spain 💔 The father-of-one from Wythenshawe, was found dead in his room in Hotel Placidia in Benidorm on October",
+  "\"He Beat Me 3-0!\" - Gianluigi Donnarumma Hails Enzo Maresca and Reflects on Life at Manchester City",
+  "Champions League Matchday 1 Thursday highlights and round-up: Winning starts for Bayern, Como, Man Utd",
+  "Donnarumma 'bound & hit' during flat raid… as 'catastrophic' trial suspended",
+  "Benjamin Sesko can help Manchester United find top form after two goals in two games"
  ]
 }
