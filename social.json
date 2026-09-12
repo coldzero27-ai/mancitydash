@@ -1,7 +1,21 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-12T10:56:59Z",
+  "updated": "2026-09-12T11:12:25Z",
   "posts": [
+    {
+      "text": "We are LIVE on CITY+ 🤩\n\nWatch as we take on Sunderland in the #U18PL 💪\n\n🔗 https://mancity.co/SunU18PL",
+      "url": "https://x.com/ManCity/status/2098728582092583421",
+      "time": "2026-09-12T11:01:01Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Every 90 minutes, someone in the UK takes their own life. But suicide can be prevented.\n\nAs part of our work alongside @Samaritans to help fans who need it most, all 20 Premier League clubs will deliver bespoke suicide support on home matchdays.",
+      "url": "https://x.com/premierleague/status/2098728329029292459",
+      "time": "2026-09-12T11:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "These matchday fans took on a game of Transfer Box 📦\n\nHow good is their knowledge? 🧠\n\nTalking Transfers, presented by @Barclays",
       "url": "https://x.com/premierleague/status/2098724552138457387",
@@ -57,20 +71,6 @@
       "time": "2026-09-11T19:20:00Z",
       "account": "Man City",
       "handle": "ManCity"
-    },
-    {
-      "text": "Derby day focus 🔎",
-      "url": "https://x.com/ManCity/status/2098490509543301367",
-      "time": "2026-09-11T19:15:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Who makes YOUR combined @ManUtd and @ManCity team? ❤️🩵\n\nPick here ➡️ https://preml.ge/re0tsd2u",
-      "url": "https://x.com/premierleague/status/2098464087243964497",
-      "time": "2026-09-11T17:30:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
     }
   ]
 }
