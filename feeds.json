@@ -1,18 +1,54 @@
 {
- "updated": "2026-09-12T00:29:08Z",
+ "updated": "2026-09-12T04:56:23Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester United news: Ruben Amorim takes a swipe at the club's former players now working in the media - Paper Talk",
+   "title": "Enzo Maresca claims Manchester derby isn't the most intense he's faced despite backing Elliot Anderson's 'Kings of Manchester' dig",
    "img": null,
    "video": null,
-   "time": "2026-09-11T22:41:02Z"
+   "time": "2026-09-12T04:54:29Z"
   },
   {
-   "title": "Man City XI vs Man Utd: Confirmed team news and predicted lineup",
+   "title": "Manchester is back – and wants the world to know it",
    "img": null,
    "video": null,
-   "time": "2026-09-11T21:40:29Z"
+   "time": "2026-09-12T04:13:02Z"
+  },
+  {
+   "title": "Iliman Ndiaye, from £100 a week to a £65m footballer: ‘This lad’s another level’",
+   "img": null,
+   "video": null,
+   "time": "2026-09-12T04:12:13Z"
+  },
+  {
+   "title": "Man Utd vs Man City: Ayyoub Bouaddi, Elliot Anderson and Enzo Fernandez are the perfect answer to Rodri's summer exit",
+   "img": null,
+   "video": null,
+   "time": "2026-09-12T04:07:36Z"
+  },
+  {
+   "title": "Manchester Derby fans warned as facial recognition cameras return to Old Trafford",
+   "img": null,
+   "video": null,
+   "time": "2026-09-12T04:00:00Z"
+  },
+  {
+   "title": "US Open tennis finals, the Manchester derby and Solheim Cup – follow with us",
+   "img": null,
+   "video": null,
+   "time": "2026-09-12T03:21:00Z"
+  },
+  {
+   "title": "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
+   "img": null,
+   "video": null,
+   "time": "2026-09-12T02:29:27Z"
+  },
+  {
+   "title": "Manchester United vs Manchester City Predictions, Picks & Odds – 13/09/2026",
+   "img": null,
+   "video": null,
+   "time": "2026-09-12T01:20:08Z"
   },
   {
    "title": "Premier League clubs are frustrated to be left in the dark over Man City charges - and it could cost them £100m",
@@ -27,12 +63,6 @@
    "time": "2026-09-11T20:53:56Z"
   },
   {
-   "title": "Manchester United vs Manchester City Betting Preview",
-   "img": null,
-   "video": null,
-   "time": "2026-09-11T20:47:59Z"
-  },
-  {
    "title": "Man Utd vs Man City: Get 50/1 for Erling Haaland to have 1+ shot with Sky Bet",
    "img": null,
    "video": null,
@@ -43,48 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-11T20:16:00Z"
-  },
-  {
-   "title": "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby",
-   "img": null,
-   "video": null,
-   "time": "2026-09-11T19:41:12Z"
-  },
-  {
-   "title": "Training: All eyes on the 199th Manchester derby",
-   "img": null,
-   "video": null,
-   "time": "2026-09-11T19:15:00Z"
-  },
-  {
-   "title": "Team news for the Manchester derby",
-   "img": null,
-   "video": null,
-   "time": "2026-09-11T18:54:53Z"
-  },
-  {
-   "title": "Can Manchester United derail Manchester City's perfect start",
-   "img": null,
-   "video": null,
-   "time": "2026-09-11T18:00:31Z"
-  },
-  {
-   "title": "Gallery: Friday fun at the CFA!",
-   "img": null,
-   "video": null,
-   "time": "2026-09-11T18:00:00Z"
   }
  ],
  "ticker": [
-  "Manchester United news: Ruben Amorim takes a swipe at the club's former players now working in the media - Paper Talk",
-  "Man City XI vs Man Utd: Confirmed team news and predicted lineup",
+  "Enzo Maresca claims Manchester derby isn't the most intense he's faced despite backing Elliot Anderson's 'Kings of Manchester' dig",
+  "Manchester is back – and wants the world to know it",
+  "Iliman Ndiaye, from £100 a week to a £65m footballer: ‘This lad’s another level’",
+  "Man Utd vs Man City: Ayyoub Bouaddi, Elliot Anderson and Enzo Fernandez are the perfect answer to Rodri's summer exit",
+  "Manchester Derby fans warned as facial recognition cameras return to Old Trafford",
+  "US Open tennis finals, the Manchester derby and Solheim Cup – follow with us",
+  "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
+  "Manchester United vs Manchester City Predictions, Picks & Odds – 13/09/2026",
   "Premier League clubs are frustrated to be left in the dark over Man City charges - and it could cost them £100m",
-  "Pick your Man Utd v Man City COMBINED line-up",
-  "Manchester United vs Manchester City Betting Preview",
-  "Man Utd vs Man City: Get 50/1 for Erling Haaland to have 1+ shot with Sky Bet",
-  "Four Man Utd stars get into my combined XI with two £100m Man City stars snubbed",
-  "City boss Enzo Maresca says spotlight not on him ahead of Manchester derby",
-  "Training: All eyes on the 199th Manchester derby",
-  "Team news for the Manchester derby"
+  "Pick your Man Utd v Man City COMBINED line-up"
  ]
 }
