@@ -1,7 +1,42 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-12T11:12:25Z",
+  "updated": "2026-09-12T14:15:22Z",
   "posts": [
+    {
+      "text": "Another fast start from @ChelseaFC ⚡️\n\nMorgan Rogers finds the net inside seven minutes for his third league goal of the campaign 🥶",
+      "url": "https://x.com/premierleague/status/2098776239448219909",
+      "time": "2026-09-12T14:10:23Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Kick-off is approaching ⏳\n\n@AstonVilla v @NFFC \n@afcbournemouth v @BrentfordFC \n@ChelseaFC v @HullCity \n@CPFC v @IpswichTown \n@LFC v @FulhamFC \n\nFollow the action 👉 https://preml.ge/bdz1ocej",
+      "url": "https://x.com/premierleague/status/2098772158956687672",
+      "time": "2026-09-12T13:54:10Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Matchweek 4 is almost under way! \n\nTeam news is in for the opening five fixtures 👉 https://preml.ge/bdz1ocej",
+      "url": "https://x.com/premierleague/status/2098755670493348089",
+      "time": "2026-09-12T12:48:39Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Marlow Barrett heads home 👏\n\nWatch our #U18PL clash with Sunderland LIVE on CITY+ 📺\n\n🔗 https://mancity.co/SunU18PL",
+      "url": "https://x.com/ManCity/status/2098749720378171789",
+      "time": "2026-09-12T12:25:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Always elegant, Martin Odegaard 🌟",
+      "url": "https://x.com/premierleague/status/2098743427672244245",
+      "time": "2026-09-12T12:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "We are LIVE on CITY+ 🤩\n\nWatch as we take on Sunderland in the #U18PL 💪\n\n🔗 https://mancity.co/SunU18PL",
       "url": "https://x.com/ManCity/status/2098728582092583421",
@@ -17,39 +52,11 @@
       "handle": "premierleague"
     },
     {
-      "text": "These matchday fans took on a game of Transfer Box 📦\n\nHow good is their knowledge? 🧠\n\nTalking Transfers, presented by @Barclays",
-      "url": "https://x.com/premierleague/status/2098724552138457387",
-      "time": "2026-09-12T10:45:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "88' _________ 👀\n\nCan you remember who scored the late winner between Liverpool and Fulham in 2023? 🤔\n\nWatch extended highlights 👉 https://preml.ge/rbh9ezst",
-      "url": "https://x.com/premierleague/status/2098720780943085584",
-      "time": "2026-09-12T10:30:01Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "An action-packed Saturday is coming up 🍿",
-      "url": "https://x.com/premierleague/status/2098720504337093087",
-      "time": "2026-09-12T10:28:55Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
       "text": "Watch our Under-18s look to make it five wins from five in the #U18PL 📺🩵\n\nLIVE on CITY+ from 12:00 (UK) 🍿\n\n▶️ https://mancity.co/SunU18PL",
       "url": "https://x.com/ManCity/status/2098698140081906167",
       "time": "2026-09-12T09:00:03Z",
       "account": "Man City",
       "handle": "ManCity"
-    },
-    {
-      "text": "Left foot ✅\nRight foot ✅\nHeader ✅\n\nKevin Schade's perfect hat-trick 🎩",
-      "url": "https://x.com/premierleague/status/2098554683178537128",
-      "time": "2026-09-11T23:30:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
     },
     {
       "text": "Derby next 👊",
@@ -62,13 +69,6 @@
       "text": "🧘‍♂️ @donnarumma \n\ncc: @Erling",
       "url": "https://x.com/ManCity/status/2098493026125443119",
       "time": "2026-09-11T19:25:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "🥶",
-      "url": "https://x.com/ManCity/status/2098491767750562021",
-      "time": "2026-09-11T19:20:00Z",
       "account": "Man City",
       "handle": "ManCity"
     }
