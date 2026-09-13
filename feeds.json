@@ -1,18 +1,54 @@
 {
- "updated": "2026-09-13T19:13:45Z",
+ "updated": "2026-09-13T21:34:58Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester United 0-1 Manchester City: Premier League – as it happened",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T20:57:08Z"
+  },
   {
    "title": "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
    "img": null,
    "video": null,
-   "time": "2026-09-13T19:05:11Z"
+   "time": "2026-09-13T20:53:03Z"
   },
   {
-   "title": "Manchester United 0-1 Manchester City: Haaland scores controversial winner for 10-man visitors",
+   "title": "Aston Villa vs Manchester City | WSL Highlights",
    "img": null,
    "video": null,
-   "time": "2026-09-13T18:49:13Z"
+   "time": "2026-09-13T19:35:57Z"
+  },
+  {
+   "title": "We believed we could win even with 10 men – Enzo",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T19:30:00Z"
+  },
+  {
+   "title": "City maintain winning WSL start with imperious Villa victory",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T19:30:00Z"
+  },
+  {
+   "title": "Match of the Day - Manchester United v Manchester City Highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T19:27:41Z"
+  },
+  {
+   "title": "Aston Villa 1-4 Man City: Champions ease to victory at Villa Park",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T19:21:00Z"
+  },
+  {
+   "title": "Manchester United 0-1 City: Two-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T19:15:00Z"
   },
   {
    "title": "Manchester City",
@@ -27,64 +63,28 @@
    "time": "2026-09-13T18:25:00Z"
   },
   {
+   "title": "Noel Gallagher pictured enjoying Manchester City win at Old Trafford ahead of Oasis tour announcement",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T18:23:00Z"
+  },
+  {
    "title": "Manchester United 0-1 Manchester City: Michael Carrick 'baffled' by controversial Haaland goal",
    "img": null,
    "video": null,
    "time": "2026-09-13T18:13:04Z"
-  },
-  {
-   "title": "Manchester United 0-1 Manchester City | Premier League highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T18:11:40Z"
-  },
-  {
-   "title": "WSL LIVE: Aston Villa vs Manchester City live text, stats and score updates",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T18:00:58Z"
-  },
-  {
-   "title": "Haaland proud of personality and character in Manchester derby win",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T18:00:00Z"
-  },
-  {
-   "title": "Haaland becomes top scorer in Manchester derbies in Premier League era",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T18:00:00Z"
-  },
-  {
-   "title": "Manchester United vs Man City LIVE highlights and reaction as Haaland wins it after Foden red card",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T17:57:48Z"
-  },
-  {
-   "title": "Haaland strike wins 199th Manchester derby for resolute 10-man City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T17:30:00Z"
-  },
-  {
-   "title": "Phil Foden sees red but Erling Haaland scores winner - Manchester Utd v City player ratings",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T17:27:07Z"
   }
  ],
  "ticker": [
+  "Manchester United 0-1 Manchester City: Premier League – as it happened",
   "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
-  "Manchester United 0-1 Manchester City: Haaland scores controversial winner for 10-man visitors",
+  "Aston Villa vs Manchester City | WSL Highlights",
+  "We believed we could win even with 10 men – Enzo",
+  "City maintain winning WSL start with imperious Villa victory",
+  "Match of the Day - Manchester United v Manchester City Highlights",
+  "Aston Villa 1-4 Man City: Champions ease to victory at Villa Park",
+  "Manchester United 0-1 City: Two-minute highlights",
   "Manchester City",
-  "Man United 0-1 Man City: Erling Haaland scores winner in VAR-dominated derby",
-  "Manchester United 0-1 Manchester City: Michael Carrick 'baffled' by controversial Haaland goal",
-  "Manchester United 0-1 Manchester City | Premier League highlights",
-  "WSL LIVE: Aston Villa vs Manchester City live text, stats and score updates",
-  "Haaland proud of personality and character in Manchester derby win",
-  "Haaland becomes top scorer in Manchester derbies in Premier League era",
-  "Manchester United vs Man City LIVE highlights and reaction as Haaland wins it after Foden red card"
+  "Man United 0-1 Man City: Erling Haaland scores winner in VAR-dominated derby"
  ]
 }
