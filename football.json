@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-13T13:17:28Z",
+ "updated": "2026-09-13T17:23:49Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-09-13T15:30:00Z",
-   "comp": "PL",
-   "home": "Manchester United",
-   "away": "Manchester City",
-   "venue": "Old Trafford"
-  },
   {
    "utc": "2026-09-17T18:30:00Z",
    "comp": "EFL",
@@ -141,6 +134,13 @@
    "home": "Newcastle",
    "away": "Manchester City",
    "venue": "St. James' Park"
+  },
+  {
+   "utc": "2026-12-30T20:00:00Z",
+   "comp": "PL",
+   "home": "Everton",
+   "away": "Manchester City",
+   "venue": "Hill Dickinson Stadium"
   }
  ],
  "results": {
