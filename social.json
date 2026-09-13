@@ -1,7 +1,21 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-12T23:14:39Z",
+  "updated": "2026-09-13T02:21:08Z",
   "posts": [
+    {
+      "text": "Two minutes and one second of pure DRAMA 😱\n\n🔴 @Arsenal",
+      "url": "https://x.com/premierleague/status/2098933740403597349",
+      "time": "2026-09-13T00:36:14Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Now this is how you celebrate a screamer 🙌\n\n🔴 @Arsenal",
+      "url": "https://x.com/premierleague/status/2098919651270873256",
+      "time": "2026-09-12T23:40:15Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "🥶🥶🥶\n\n@ChelseaFC's attacking trio already has FOURTEEN goal involvements combined this season!",
       "url": "https://x.com/premierleague/status/2098910781538468280",
@@ -20,20 +34,6 @@
       "text": "Savio v Everton ✨ @SpursOfficial",
       "url": "https://x.com/premierleague/status/2098906102549119208",
       "time": "2026-09-12T22:46:25Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Jeremy Jacquet v Fulham 👊 @LFC",
-      "url": "https://x.com/premierleague/status/2098900550922191293",
-      "time": "2026-09-12T22:24:21Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Top of the league ✅\nNINE wins in a row ✅\n\n@Arsenal have picked up right where they left off last season!",
-      "url": "https://x.com/premierleague/status/2098899454904455369",
-      "time": "2026-09-12T22:20:00Z",
       "account": "Premier League",
       "handle": "premierleague"
     },
