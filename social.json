@@ -1,7 +1,28 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-13T02:21:08Z",
+  "updated": "2026-09-13T08:13:08Z",
   "posts": [
+    {
+      "text": "It’s Derby Day! 😤",
+      "url": "https://x.com/ManCity/status/2099045625945800929",
+      "time": "2026-09-13T08:00:50Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "David Silva with a special assist 😮‍💨",
+      "url": "https://x.com/premierleague/status/2099045418810110347",
+      "time": "2026-09-13T08:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Jordan Pickford has earned clean sheet number 1️⃣0️⃣0️⃣ in the Premier League 👏\n\nThat's the second-most among current Premier League goalkeepers!",
+      "url": "https://x.com/premierleague/status/2099039128797012427",
+      "time": "2026-09-13T07:35:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "Two minutes and one second of pure DRAMA 😱\n\n🔴 @Arsenal",
       "url": "https://x.com/premierleague/status/2098933740403597349",
@@ -17,23 +38,9 @@
       "handle": "premierleague"
     },
     {
-      "text": "🥶🥶🥶\n\n@ChelseaFC's attacking trio already has FOURTEEN goal involvements combined this season!",
-      "url": "https://x.com/premierleague/status/2098910781538468280",
-      "time": "2026-09-12T23:05:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Xabi Alonso LOVED Joao Pedro's equaliser for @ChelseaFC 💙",
-      "url": "https://x.com/premierleague/status/2098907029905514933",
-      "time": "2026-09-12T22:50:06Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Savio v Everton ✨ @SpursOfficial",
-      "url": "https://x.com/premierleague/status/2098906102549119208",
-      "time": "2026-09-12T22:46:25Z",
+      "text": "The Gunners are on 🔝",
+      "url": "https://x.com/premierleague/status/2098882998909174187",
+      "time": "2026-09-12T21:14:36Z",
       "account": "Premier League",
       "handle": "premierleague"
     },
@@ -62,13 +69,6 @@
       "text": "\"I think we can go there and put on a big performance.\" 💬\n\nThe Matchday Live team preview the first Manchester derby of the season 👊\n\nWatch our special City Hall MDL broadcast on Sunday from 14:55 (UK) 📺",
       "url": "https://x.com/ManCity/status/2098784951218979038",
       "time": "2026-09-12T14:45:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Marlow Barrett heads home 👏\n\nWatch our #U18PL clash with Sunderland LIVE on CITY+ 📺\n\n🔗 mancity.co/SunU18PL",
-      "url": "https://x.com/ManCity/status/2098749720378171789",
-      "time": "2026-09-12T12:25:00Z",
       "account": "Man City",
       "handle": "ManCity"
     }
