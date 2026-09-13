@@ -1,48 +1,55 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-13T08:13:08Z",
+  "updated": "2026-09-13T11:10:26Z",
   "posts": [
+    {
+      "text": "Kevin Schade makes it look easy 🌟",
+      "url": "https://x.com/premierleague/status/2099090714583806431",
+      "time": "2026-09-13T11:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Quick feet 💨",
+      "url": "https://x.com/premierleague/status/2099083166132605161",
+      "time": "2026-09-13T10:30:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "It's time for your derby day predictions! 🫵🔢\n\n#Ad | 18+ https://gambleaware.org",
+      "url": "https://x.com/ManCity/status/2099083164933300581",
+      "time": "2026-09-13T10:30:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Iconic.",
+      "url": "https://x.com/premierleague/status/2099075618600063054",
+      "time": "2026-09-13T10:00:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "The best of the Manchester derby ⚔️\n\nRe-live every moment 👉 https://preml.ge/7lxavwnz",
+      "url": "https://x.com/premierleague/status/2099060522335494607",
+      "time": "2026-09-13T09:00:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "🌲 @NFFC were not letting the ball cross their goalline!",
+      "url": "https://x.com/premierleague/status/2099055485160722463",
+      "time": "2026-09-13T08:40:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "It’s Derby Day! 😤",
       "url": "https://x.com/ManCity/status/2099045625945800929",
       "time": "2026-09-13T08:00:50Z",
       "account": "Man City",
       "handle": "ManCity"
-    },
-    {
-      "text": "David Silva with a special assist 😮‍💨",
-      "url": "https://x.com/premierleague/status/2099045418810110347",
-      "time": "2026-09-13T08:00:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Jordan Pickford has earned clean sheet number 1️⃣0️⃣0️⃣ in the Premier League 👏\n\nThat's the second-most among current Premier League goalkeepers!",
-      "url": "https://x.com/premierleague/status/2099039128797012427",
-      "time": "2026-09-13T07:35:01Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Two minutes and one second of pure DRAMA 😱\n\n🔴 @Arsenal",
-      "url": "https://x.com/premierleague/status/2098933740403597349",
-      "time": "2026-09-13T00:36:14Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Now this is how you celebrate a screamer 🙌\n\n🔴 @Arsenal",
-      "url": "https://x.com/premierleague/status/2098919651270873256",
-      "time": "2026-09-12T23:40:15Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "The Gunners are on 🔝",
-      "url": "https://x.com/premierleague/status/2098882998909174187",
-      "time": "2026-09-12T21:14:36Z",
-      "account": "Premier League",
-      "handle": "premierleague"
     },
     {
       "text": "Preparations complete ✅\n\n🤝 @Revolut",
@@ -59,16 +66,9 @@
       "handle": "ManCity"
     },
     {
-      "text": "Ayyoub Bouaddi vs Porto 🇲🇦✨",
-      "url": "https://x.com/ManCity/status/2098818926234743059",
-      "time": "2026-09-12T17:00:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "\"I think we can go there and put on a big performance.\" 💬\n\nThe Matchday Live team preview the first Manchester derby of the season 👊\n\nWatch our special City Hall MDL broadcast on Sunday from 14:55 (UK) 📺",
-      "url": "https://x.com/ManCity/status/2098784951218979038",
-      "time": "2026-09-12T14:45:00Z",
+      "text": "Tomorrow. ⏳🩵",
+      "url": "https://x.com/ManCity/status/2098826474531045667",
+      "time": "2026-09-12T17:30:00Z",
       "account": "Man City",
       "handle": "ManCity"
     }
