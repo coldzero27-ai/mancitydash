@@ -1,90 +1,90 @@
 {
- "updated": "2026-09-14T04:09:36Z",
+ "updated": "2026-09-14T10:03:27Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Transfer news LIVE: Arsenal get Vinicius update; new Man Utd target",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T09:56:51Z"
+  },
+  {
+   "title": "Erling Haaland's goal for Man City against Man Utd was a mistake- but why did it happen?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T09:45:00Z"
+  },
   {
    "title": "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
    "img": null,
    "video": null,
-   "time": "2026-09-14T04:05:11Z"
+   "time": "2026-09-14T09:01:50Z"
   },
   {
-   "title": "Manchester City recover from Foden red card as Haaland wins derby at United",
+   "title": "City v Norwich: Kick-off time and TV information",
    "img": null,
    "video": null,
-   "time": "2026-09-14T01:30:00Z"
+   "time": "2026-09-14T09:00:00Z"
   },
   {
-   "title": "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
+   "title": "Manchester derby: Haaland goal controversy & should Foden have been sent off?",
    "img": null,
    "video": null,
-   "time": "2026-09-14T01:30:00Z"
+   "time": "2026-09-14T08:57:48Z"
   },
   {
-   "title": "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
+   "title": "Carrick told '2/10' Man Utd star should 'never' play again after Man City loss - 'the worst'",
    "img": null,
    "video": null,
-   "time": "2026-09-13T23:34:35Z"
+   "time": "2026-09-14T08:26:04Z"
   },
   {
-   "title": "Manchester United 0-1 City: Eight-minute highlights",
+   "title": "Manchester City goal vs Manchester United should not have been given admit Pro Ref",
    "img": null,
    "video": null,
-   "time": "2026-09-13T23:00:00Z"
+   "time": "2026-09-14T07:32:23Z"
   },
   {
-   "title": "Goal that led to Man Utd's derby defeat by City was VAR 'error', referees admit",
+   "title": "Watch: Jeglertz's pre-Aston Villa team talk",
    "img": null,
    "video": null,
-   "time": "2026-09-13T22:20:56Z"
+   "time": "2026-09-14T07:30:00Z"
   },
   {
-   "title": "Danny Murphy column: 'Their intelligence and resilience was key' - how Man City earned 'statement win'",
+   "title": "Quiz! Can you name Manchester City's 50 most expensive signings ever?",
    "img": null,
    "video": null,
-   "time": "2026-09-13T22:20:42Z"
+   "time": "2026-09-14T07:00:00Z"
   },
   {
-   "title": "Gary Neville admits he disagrees with Bruno Fernandes' Manchester derby actions",
+   "title": "Erling Haaland’s next match for Man City, goals and career stats",
    "img": null,
    "video": null,
-   "time": "2026-09-13T22:19:58Z"
+   "time": "2026-09-14T07:00:00Z"
   },
   {
-   "title": "Manchester City wrongly awarded Haaland goal by VAR at United: Refs’ body",
+   "title": "Monday Marker: Your guide to City's week ahead",
    "img": null,
    "video": null,
-   "time": "2026-09-13T22:00:40Z"
+   "time": "2026-09-14T07:00:00Z"
   },
   {
-   "title": "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref",
+   "title": "Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-09-13T21:41:14Z"
-  },
-  {
-   "title": "Jeglertz delighted by City’s second half patience",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T21:30:00Z"
-  },
-  {
-   "title": "Pro Ref make statement on controversial Man City goal vs Man United after Erling Haaland row",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T21:11:00Z"
+   "time": "2026-09-14T06:30:00Z"
   }
  ],
  "ticker": [
+  "Transfer news LIVE: Arsenal get Vinicius update; new Man Utd target",
+  "Erling Haaland's goal for Man City against Man Utd was a mistake- but why did it happen?",
   "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
-  "Manchester City recover from Foden red card as Haaland wins derby at United",
-  "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
-  "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
-  "Manchester United 0-1 City: Eight-minute highlights",
-  "Goal that led to Man Utd's derby defeat by City was VAR 'error', referees admit",
-  "Danny Murphy column: 'Their intelligence and resilience was key' - how Man City earned 'statement win'",
-  "Gary Neville admits he disagrees with Bruno Fernandes' Manchester derby actions",
-  "Manchester City wrongly awarded Haaland goal by VAR at United: Refs’ body",
-  "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref"
+  "City v Norwich: Kick-off time and TV information",
+  "Manchester derby: Haaland goal controversy & should Foden have been sent off?",
+  "Carrick told '2/10' Man Utd star should 'never' play again after Man City loss - 'the worst'",
+  "Manchester City goal vs Manchester United should not have been given admit Pro Ref",
+  "Watch: Jeglertz's pre-Aston Villa team talk",
+  "Quiz! Can you name Manchester City's 50 most expensive signings ever?",
+  "Erling Haaland’s next match for Man City, goals and career stats"
  ]
 }
