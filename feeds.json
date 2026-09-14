@@ -1,18 +1,30 @@
 {
- "updated": "2026-09-13T23:55:45Z",
+ "updated": "2026-09-14T04:09:36Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
    "img": null,
    "video": null,
-   "time": "2026-09-13T23:35:11Z"
+   "time": "2026-09-14T04:05:11Z"
   },
   {
-   "title": "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref",
+   "title": "Manchester City recover from Foden red card as Haaland wins derby at United",
    "img": null,
    "video": null,
-   "time": "2026-09-13T23:23:52Z"
+   "time": "2026-09-14T01:30:00Z"
+  },
+  {
+   "title": "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T01:30:00Z"
+  },
+  {
+   "title": "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T23:34:35Z"
   },
   {
    "title": "Manchester United 0-1 City: Eight-minute highlights",
@@ -21,22 +33,34 @@
    "time": "2026-09-13T23:00:00Z"
   },
   {
-   "title": "Manchester City recover from Foden red card as Haaland wins derby at United",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T22:51:00Z"
-  },
-  {
    "title": "Goal that led to Man Utd's derby defeat by City was VAR 'error', referees admit",
    "img": null,
    "video": null,
    "time": "2026-09-13T22:20:56Z"
   },
   {
-   "title": "'Their intelligence & resilience was key' - how Man City earned 'statement win'",
+   "title": "Danny Murphy column: 'Their intelligence and resilience was key' - how Man City earned 'statement win'",
    "img": null,
    "video": null,
    "time": "2026-09-13T22:20:42Z"
+  },
+  {
+   "title": "Gary Neville admits he disagrees with Bruno Fernandes' Manchester derby actions",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T22:19:58Z"
+  },
+  {
+   "title": "Manchester City wrongly awarded Haaland goal by VAR at United: Refs’ body",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T22:00:40Z"
+  },
+  {
+   "title": "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref",
+   "img": null,
+   "video": null,
+   "time": "2026-09-13T21:41:14Z"
   },
   {
    "title": "Jeglertz delighted by City’s second half patience",
@@ -45,46 +69,22 @@
    "time": "2026-09-13T21:30:00Z"
   },
   {
-   "title": "Premier League referees' body apologizes to Man United after derby offside controversy",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T20:48:00Z"
-  },
-  {
    "title": "Pro Ref make statement on controversial Man City goal vs Man United after Erling Haaland row",
    "img": null,
    "video": null,
-   "time": "2026-09-13T20:38:00Z"
-  },
-  {
-   "title": "Fowler: I’m enjoying my football",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T20:15:00Z"
-  },
-  {
-   "title": "Aston Villa vs Manchester City | WSL Highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T19:35:46Z"
-  },
-  {
-   "title": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
-   "img": null,
-   "video": null,
-   "time": "2026-09-13T19:35:00Z"
+   "time": "2026-09-13T21:11:00Z"
   }
  ],
  "ticker": [
   "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
-  "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref",
-  "Manchester United 0-1 City: Eight-minute highlights",
   "Manchester City recover from Foden red card as Haaland wins derby at United",
+  "Enzo Fernández’s fortitude shows Maresca was right to crave City reunion | Will Unwin",
+  "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
+  "Manchester United 0-1 City: Eight-minute highlights",
   "Goal that led to Man Utd's derby defeat by City was VAR 'error', referees admit",
-  "'Their intelligence & resilience was key' - how Man City earned 'statement win'",
-  "Jeglertz delighted by City’s second half patience",
-  "Premier League referees' body apologizes to Man United after derby offside controversy",
-  "Pro Ref make statement on controversial Man City goal vs Man United after Erling Haaland row",
-  "Fowler: I’m enjoying my football"
+  "Danny Murphy column: 'Their intelligence and resilience was key' - how Man City earned 'statement win'",
+  "Gary Neville admits he disagrees with Bruno Fernandes' Manchester derby actions",
+  "Manchester City wrongly awarded Haaland goal by VAR at United: Refs’ body",
+  "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref"
  ]
 }
