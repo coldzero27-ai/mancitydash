@@ -1,90 +1,90 @@
 {
- "updated": "2026-09-14T16:28:01Z",
+ "updated": "2026-09-14T20:27:15Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Oasis to stage record-breaking 11-show Etihad Stadium residency",
+   "title": "Enzo Maresca has quickly shown why Manchester City were so eager for him to succeed Pep Guardiola",
    "img": null,
    "video": null,
-   "time": "2026-09-14T16:00:00Z"
-  },
-  {
-   "title": "VARs who wrongly allowed Haaland’s goal at Manchester United are stood down",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T15:52:00Z"
+   "time": "2026-09-14T20:20:00Z"
   },
   {
    "title": "'You can buy a donkey for £200m!' - Thomas Meunier slams 'senseless' transfer market after former team-mate Ayyoub Bouaddi joins Manchester City for €100m",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:38:01Z"
+   "time": "2026-09-14T20:08:11Z"
   },
   {
-   "title": "Manchester derby VAR officials stood down from duty after ‘error of judgement’ on Erling Haaland goal",
+   "title": "What’s the VAR mistake controversy in Haaland’s Man City goal vs United?",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:31:32Z"
+   "time": "2026-09-14T19:49:08Z"
   },
   {
-   "title": "Both Manchester United and Manchester City named as teams with the least amount of local fans",
+   "title": "VARs who wrongly confirmed Haaland’s goal at Manchester United are stood down",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:25:05Z"
+   "time": "2026-09-14T19:18:00Z"
+  },
+  {
+   "title": "What happened in the City dressing room? Exciting behind-the-scenes details after beating United",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T19:01:34Z"
+  },
+  {
+   "title": "Manchester United 0-1 Manchester City | Premier League highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T18:42:29Z"
   },
   {
    "title": "Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:25:00Z"
+   "time": "2026-09-14T18:35:00Z"
   },
   {
-   "title": "'Man City have been transformed by late £250m spending spree - but I still think Arsenal are better'",
+   "title": "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:10:40Z"
+   "time": "2026-09-14T18:22:30Z"
+  },
+  {
+   "title": "Staff Takeaways: Manchester United 0-1 Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T18:07:25Z"
   },
   {
    "title": "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:04:32Z"
+   "time": "2026-09-14T18:04:35Z"
   },
   {
-   "title": "In Manchester, Premier League superiority is now separated by Haaland’s cutting edge",
+   "title": "Gary Neville picks between Arsenal and Man City after summer transfer moves",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:01:00Z"
+   "time": "2026-09-14T18:01:00Z"
   },
   {
-   "title": "Manchester United Handed Unwanted Old Trafford Record by Rivals Manchester City After 199th Derby Day Clash",
+   "title": "Manchester City star could trigger blockbuster €70m Liverpool deal",
    "img": null,
    "video": null,
-   "time": "2026-09-14T15:00:04Z"
-  },
-  {
-   "title": "Tielemans criticises Manchester United's performance: we were sluggish in the derby",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T14:55:24Z"
-  },
-  {
-   "title": "Tielemans criticises Manchester United's performance: we were lax in the derby",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T14:53:45Z"
+   "time": "2026-09-14T18:00:10Z"
   }
  ],
  "ticker": [
-  "Oasis to stage record-breaking 11-show Etihad Stadium residency",
-  "VARs who wrongly allowed Haaland’s goal at Manchester United are stood down",
+  "Enzo Maresca has quickly shown why Manchester City were so eager for him to succeed Pep Guardiola",
   "'You can buy a donkey for £200m!' - Thomas Meunier slams 'senseless' transfer market after former team-mate Ayyoub Bouaddi joins Manchester City for €100m",
-  "Manchester derby VAR officials stood down from duty after ‘error of judgement’ on Erling Haaland goal",
-  "Both Manchester United and Manchester City named as teams with the least amount of local fans",
+  "What’s the VAR mistake controversy in Haaland’s Man City goal vs United?",
+  "VARs who wrongly confirmed Haaland’s goal at Manchester United are stood down",
+  "What happened in the City dressing room? Exciting behind-the-scenes details after beating United",
+  "Manchester United 0-1 Manchester City | Premier League highlights",
   "Manchester City",
-  "'Man City have been transformed by late £250m spending spree - but I still think Arsenal are better'",
-  "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
-  "In Manchester, Premier League superiority is now separated by Haaland’s cutting edge",
-  "Manchester United Handed Unwanted Old Trafford Record by Rivals Manchester City After 199th Derby Day Clash"
+  "Erling Haaland’s Man City goal decision vs Man Utd an ‘error of judgement', says Pro Ref",
+  "Staff Takeaways: Manchester United 0-1 Manchester City",
+  "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby"
  ]
 }
