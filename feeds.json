@@ -1,7 +1,43 @@
 {
- "updated": "2026-09-15T20:58:31Z",
+ "updated": "2026-09-15T23:29:47Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "We never lost our style of play, says Reiss",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T21:40:00Z"
+  },
+  {
+   "title": "Man City XI vs Norwich: Confirmed team news and predicted lineup",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T21:38:13Z"
+  },
+  {
+   "title": "Spireites win comfortably over Manchester City U21",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T21:24:26Z"
+  },
+  {
+   "title": "With the security blankets removed, this Manchester City side is finding new solutions",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T21:02:40Z"
+  },
+  {
+   "title": "Referees chief Webb 'really disappointed' over VAR error in Manchester derby",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T20:54:00Z"
+  },
+  {
+   "title": "Bunny Shaw scores and creates as Manchester City crush Villa",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T20:26:20Z"
+  },
   {
    "title": "The performance of a quiet achiever in Sunday’s derby was crucial for Manchester City",
    "img": null,
@@ -21,6 +57,12 @@
    "time": "2026-09-15T20:00:00Z"
   },
   {
+   "title": "Ranking the 10 best Man City signings in Premier League history: De Bruyne 2nd, Haaland 8th...",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T19:39:42Z"
+  },
+  {
    "title": "Chesterfield vs Manchester City U21: EFL Trophy stats & head-to-head",
    "img": null,
    "video": null,
@@ -31,60 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-15T19:00:00Z"
-  },
-  {
-   "title": "Manchester City vs Norwich City Predictions, Picks & Odds – 17/09/2026",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:46:58Z"
-  },
-  {
-   "title": "Police update after three injured in Manchester city centre crash involving car and bus",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:45:00Z"
-  },
-  {
-   "title": "Allan, Ndiaye And Ait-Nouri To Start | 4-2-3-1 Manchester City Predicted Lineup Vs Norwich City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:45:00Z"
-  },
-  {
-   "title": "PREVIEW | Manchester City vs Norwich City: team news, lineups, predictions (League Cup 17/09)",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:35:00Z"
-  },
-  {
-   "title": "Loss to Manchester City exposes Manchester United's stagnant attack under Michael Carrick",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:08:40Z"
-  },
-  {
-   "title": "Inside City: Episode 529",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:00:00Z"
-  },
-  {
-   "title": "Chesterfield vs Manchester City Academy: TV channel, live stream and kick-off time | Goal.com UK",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T18:00:00Z"
   }
  ],
  "ticker": [
+  "We never lost our style of play, says Reiss",
+  "Man City XI vs Norwich: Confirmed team news and predicted lineup",
+  "Spireites win comfortably over Manchester City U21",
+  "With the security blankets removed, this Manchester City side is finding new solutions",
+  "Referees chief Webb 'really disappointed' over VAR error in Manchester derby",
+  "Bunny Shaw scores and creates as Manchester City crush Villa",
   "The performance of a quiet achiever in Sunday’s derby was crucial for Manchester City",
   "City EDS suffer defeat in end-to-end EFL Trophy clash",
   "Fantastic five for Chesterfield in entertaining EFL Trophy tussle with Manchester City U21s",
-  "Chesterfield vs Manchester City U21: EFL Trophy stats & head-to-head",
-  "How can I watch City v Liverpool on TV?",
-  "Manchester City vs Norwich City Predictions, Picks & Odds – 17/09/2026",
-  "Police update after three injured in Manchester city centre crash involving car and bus",
-  "Allan, Ndiaye And Ait-Nouri To Start | 4-2-3-1 Manchester City Predicted Lineup Vs Norwich City",
-  "PREVIEW | Manchester City vs Norwich City: team news, lineups, predictions (League Cup 17/09)",
-  "Loss to Manchester City exposes Manchester United's stagnant attack under Michael Carrick"
+  "Ranking the 10 best Man City signings in Premier League history: De Bruyne 2nd, Haaland 8th..."
  ]
 }
