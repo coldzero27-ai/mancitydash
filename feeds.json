@@ -1,12 +1,36 @@
 {
- "updated": "2026-09-14T23:21:36Z",
+ "updated": "2026-09-15T01:45:34Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Howard Webb to go public imminently after Man United apology and Erling Haaland blunder",
+   "title": "United furious as 10-man City steals victory",
    "img": null,
    "video": null,
-   "time": "2026-09-14T22:12:00Z"
+   "time": "2026-09-15T01:08:55Z"
+  },
+  {
+   "title": "Tactical Analysis: This sure ain’t Pep’s Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T00:53:00Z"
+  },
+  {
+   "title": "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
+   "img": null,
+   "video": null,
+   "time": "2026-09-15T00:09:02Z"
+  },
+  {
+   "title": "In Manchester, Premier League superiority is now separated by Haaland’s cutting edge",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T22:47:00Z"
+  },
+  {
+   "title": "VARs who wrongly confirmed Haaland’s goal at Manchester United are stood down",
+   "img": null,
+   "video": null,
+   "time": "2026-09-14T22:36:00Z"
   },
   {
    "title": "'You can buy a donkey for £200m!' - Thomas Meunier slams 'senseless' transfer market after former team-mate Ayyoub Bouaddi joins Manchester City for €100m",
@@ -39,12 +63,6 @@
    "time": "2026-09-14T21:09:07Z"
   },
   {
-   "title": "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T21:06:54Z"
-  },
-  {
    "title": "Alan Shearer: Bruno Fernandes is pathetic",
    "img": null,
    "video": null,
@@ -55,36 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-14T21:04:14Z"
-  },
-  {
-   "title": "Enzo Maresca has quickly shown why Manchester City were so eager for him to succeed Pep Guardiola",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T20:20:00Z"
-  },
-  {
-   "title": "What’s the VAR mistake controversy in Haaland’s Man City goal vs United?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T19:49:08Z"
-  },
-  {
-   "title": "Freddie Ljungberg names Premier League title favourites after Man City beat Man Utd",
-   "img": null,
-   "video": null,
-   "time": "2026-09-14T19:31:00Z"
   }
  ],
  "ticker": [
-  "Howard Webb to go public imminently after Man United apology and Erling Haaland blunder",
+  "United furious as 10-man City steals victory",
+  "Tactical Analysis: This sure ain’t Pep’s Manchester City",
+  "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
+  "In Manchester, Premier League superiority is now separated by Haaland’s cutting edge",
+  "VARs who wrongly confirmed Haaland’s goal at Manchester United are stood down",
   "'You can buy a donkey for £200m!' - Thomas Meunier slams 'senseless' transfer market after former team-mate Ayyoub Bouaddi joins Manchester City for €100m",
   "Patriot Platform blackshirts launch ‘anti-migrant patrols’ in Manchester city centre",
   "Haaland: I'm proud to have broken the Premier League derby goalscoring record",
   "What once went around came back around as Manchester City beat Manchester United",
-  "Three talking points from Manchester City's 1-0 win over Manchester United",
-  "Man Utd 0-1 Man City: Erling Haaland's controversial winner follows Phil Foden's contentious red card in dramatic Manchester derby",
-  "Alan Shearer: Bruno Fernandes is pathetic",
-  "Manchester derby VAR officials stood down from weekend Premier League games",
-  "Enzo Maresca has quickly shown why Manchester City were so eager for him to succeed Pep Guardiola"
+  "Three talking points from Manchester City's 1-0 win over Manchester United"
  ]
 }
