@@ -1,11 +1,39 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-16T11:14:10Z",
+  "updated": "2026-09-16T14:12:47Z",
   "posts": [
     {
-      "text": "Andy Robertson back at Anfield 🥹\n\nAfter nine seasons with @LFC, he received a brilliant reception on his return in the EFL Cup last night!",
-      "url": "https://x.com/premierleague/status/2100162788832288779",
-      "time": "2026-09-16T10:00:02Z",
+      "text": "The votes are in... 🗳️\n\nFind out who made your Fan Team of the Week 👉 https://preml.ge/3plrxbzj",
+      "url": "https://x.com/premierleague/status/2100223299066216644",
+      "time": "2026-09-16T14:00:29Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Trickery on show in Matchweek 4 🪄\n\nPresented by @AdobeExpress",
+      "url": "https://x.com/premierleague/status/2100215888431460553",
+      "time": "2026-09-16T13:31:02Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Active in the air. 💪🔵",
+      "url": "https://x.com/premierleague/status/2100208080101216559",
+      "time": "2026-09-16T13:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Threading the needle 🪡",
+      "url": "https://x.com/premierleague/status/2100200529859109229",
+      "time": "2026-09-16T12:30:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Defiant between the sticks 🧤\n\n@Arsenal's David Raya is your Player of the Matchweek for his flawless performance against Sunderland 🙌",
+      "url": "https://x.com/premierleague/status/2100194090792980509",
+      "time": "2026-09-16T12:04:25Z",
       "account": "Premier League",
       "handle": "premierleague"
     },
@@ -31,13 +59,6 @@
       "handle": "ManCity"
     },
     {
-      "text": "Eight points on the board and unbeaten 👏\n\n@HullCity have made a flying start to life back in the Premier League 🐯",
-      "url": "https://x.com/premierleague/status/2100155276292739363",
-      "time": "2026-09-16T09:30:11Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
       "text": "Press conference:\n \n🆚 Norwich (H)\n🏆 Carabao Cup\n🎙️ Enzo Maresca\n▶️ Watch live 👉 https://mancity.co/NorwichMP",
       "url": "https://x.com/ManCity/status/2100154401889321123",
       "time": "2026-09-16T09:26:43Z",
@@ -45,32 +66,11 @@
       "handle": "ManCity"
     },
     {
-      "text": "Bukayo Saka. 😤",
-      "url": "https://x.com/premierleague/status/2100147683470021102",
-      "time": "2026-09-16T09:00:01Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "@BHAFC break new ground as the first team to field 15 outfield players of different nationalities in a Premier League match 😯",
-      "url": "https://x.com/premierleague/status/2100140140945412535",
-      "time": "2026-09-16T08:30:02Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
       "text": "Our Carabao Cup campaign gets started tomorrow! 🏆\n \nDon’t miss out on seeing the action live 🤩\n\n🎟️ https://mancity.co/NorwichCC",
       "url": "https://x.com/ManCity/status/2100132720311504984",
       "time": "2026-09-16T08:00:33Z",
       "account": "Man City",
       "handle": "ManCity"
-    },
-    {
-      "text": "A touch of class 🥶",
-      "url": "https://x.com/premierleague/status/2100132582230839312",
-      "time": "2026-09-16T08:00:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
     }
   ]
 }
