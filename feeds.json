@@ -1,18 +1,24 @@
 {
- "updated": "2026-09-15T23:29:47Z",
+ "updated": "2026-09-16T01:36:06Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City vs Norwich City Predictions, Picks & Odds – 17/09/2026",
+   "img": null,
+   "video": null,
+   "time": "2026-09-16T00:34:51Z"
+  },
+  {
+   "title": "WSL Power Rankings: Manchester City remain at the top, Chelsea bounce back and Manchester United slip",
+   "img": null,
+   "video": null,
+   "time": "2026-09-16T00:22:09Z"
+  },
   {
    "title": "We never lost our style of play, says Reiss",
    "img": null,
    "video": null,
    "time": "2026-09-15T21:40:00Z"
-  },
-  {
-   "title": "Man City XI vs Norwich: Confirmed team news and predicted lineup",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T21:38:13Z"
   },
   {
    "title": "Spireites win comfortably over Manchester City U21",
@@ -67,24 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-15T19:31:23Z"
-  },
-  {
-   "title": "How can I watch City v Liverpool on TV?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-15T19:00:00Z"
   }
  ],
  "ticker": [
+  "Manchester City vs Norwich City Predictions, Picks & Odds – 17/09/2026",
+  "WSL Power Rankings: Manchester City remain at the top, Chelsea bounce back and Manchester United slip",
   "We never lost our style of play, says Reiss",
-  "Man City XI vs Norwich: Confirmed team news and predicted lineup",
   "Spireites win comfortably over Manchester City U21",
   "With the security blankets removed, this Manchester City side is finding new solutions",
   "Referees chief Webb 'really disappointed' over VAR error in Manchester derby",
   "Bunny Shaw scores and creates as Manchester City crush Villa",
   "The performance of a quiet achiever in Sunday’s derby was crucial for Manchester City",
   "City EDS suffer defeat in end-to-end EFL Trophy clash",
-  "Fantastic five for Chesterfield in entertaining EFL Trophy tussle with Manchester City U21s",
-  "Ranking the 10 best Man City signings in Premier League history: De Bruyne 2nd, Haaland 8th..."
+  "Fantastic five for Chesterfield in entertaining EFL Trophy tussle with Manchester City U21s"
  ]
 }
