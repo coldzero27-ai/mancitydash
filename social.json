@@ -1,7 +1,21 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-16T05:13:06Z",
+  "updated": "2026-09-16T08:11:24Z",
   "posts": [
+    {
+      "text": "Our Carabao Cup campaign gets started tomorrow! 🏆\n \nDon’t miss out on seeing the action live 🤩\n\n🎟️ https://mancity.co/NorwichCC",
+      "url": "https://x.com/ManCity/status/2100132720311504984",
+      "time": "2026-09-16T08:00:33Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "A touch of class 🥶",
+      "url": "https://x.com/premierleague/status/2100132582230839312",
+      "time": "2026-09-16T08:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "Putting the work in 🏋",
       "url": "https://x.com/ManCity/status/2099977809817145584",
@@ -52,23 +66,9 @@
       "handle": "ManCity"
     },
     {
-      "text": "👊 @EnzoFe17 👊",
-      "url": "https://x.com/ManCity/status/2099946898954088911",
-      "time": "2026-09-15T19:42:10Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
       "text": "Elliot Anderson dominated the Manchester derby 💪",
       "url": "https://x.com/premierleague/status/2099936538004226450",
       "time": "2026-09-15T19:01:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Kobbie Mainoo is calm under pressure 😮‍💨\n\n🔴 @ManUtd",
-      "url": "https://x.com/premierleague/status/2099924963822113037",
-      "time": "2026-09-15T18:15:00Z",
       "account": "Premier League",
       "handle": "premierleague"
     }
