@@ -1,7 +1,42 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-16T20:05:00Z",
+  "updated": "2026-09-16T23:15:00Z",
   "posts": [
+    {
+      "text": "The draw has been made for the fourth round of the EFL Cup 🏆\n\nFind out who the remaining Premier League sides will face 👉 https://preml.ge/a9qtztjl",
+      "url": "https://x.com/premierleague/status/2100339697947935100",
+      "time": "2026-09-16T21:43:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Should we progress to the fourth round of the @Carabao_Cup, we will face Brighton at home.",
+      "url": "https://x.com/ManCity/status/2100336823599792613",
+      "time": "2026-09-16T21:31:35Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "A winning return to European football for Sunderland 🙌\n\nEnzo Le Fee’s second-half penalty earned the Black Cats victory over AZ Alkmaar",
+      "url": "https://x.com/premierleague/status/2100331918105391537",
+      "time": "2026-09-16T21:12:06Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Brighton come from 2-0 down to beat Man Utd 3-2 in the EFL Cup, while Everton and Aston Villa book their places in the next round 🏆",
+      "url": "https://x.com/premierleague/status/2100328642484052395",
+      "time": "2026-09-16T20:59:05Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "No words needed 😮‍💨",
+      "url": "https://x.com/ManCity/status/2100324387098652928",
+      "time": "2026-09-16T20:42:10Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
     {
       "text": "@SunderlandAFC are back on the European stage for the first time in 53 years 🔴⚪️",
       "url": "https://x.com/premierleague/status/2100302584623870138",
@@ -10,7 +45,7 @@
       "handle": "premierleague"
     },
     {
-      "text": "🎶 HE'S IN YOUR HEAD! 🎶 \n\nEnzo reacts to his new chant! 🩵⚽",
+      "text": "🎶 HE'S IN YOUR HEAD! 🎶 \n\nEnzo reacts to his new chant! 🫵⚽",
       "url": "https://x.com/ManCity/status/2100301798460277066",
       "time": "2026-09-16T19:12:25Z",
       "account": "Man City",
@@ -34,41 +69,6 @@
       "text": "NEW angle of Bruno's screamer has just dropped! 😮‍💨",
       "url": "https://x.com/premierleague/status/2100283575178256489",
       "time": "2026-09-16T18:00:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Dominik Szoboszlai stood over a free-kick, you know the rest 🎯\n\n@LFC",
-      "url": "https://x.com/premierleague/status/2100276025045512526",
-      "time": "2026-09-16T17:30:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "#TOTW is back 👏\n\nPlay #FC27 from the 18 September via Early Access 👉 https://x.ea.com/89743 \n\n@EASPORTSFC 🎮",
-      "url": "https://x.com/premierleague/status/2100268476401090699",
-      "time": "2026-09-16T17:00:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "\"We believe that Fernández, Bouaddi and Anderson can be as important as Rodri and Bernardo [were] in the past\" - Hugo Viana 🗣️\n \nFull interview 🔗 https://mancity.co/VianaInterviewPartOne…",
-      "url": "https://x.com/ManCity/status/2100265958531039543",
-      "time": "2026-09-16T16:50:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "\"We are all confident he [Enzo Maresca] will do really well\" - Hugo Viana 💪\n \nFull interview 🔗 https://mancity.co/VianaInterviewPartOne…",
-      "url": "https://x.com/ManCity/status/2100262195061723314",
-      "time": "2026-09-16T16:35:02Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "The second goal of Leeds' 4-1 win over Newcastle in the Premier League has been accredited to Dominic Calvert-Lewin after an appeal by the club.\n\n👉 https://preml.ge/rs63bv12",
-      "url": "https://x.com/premierleague/status/2100261304451711419",
-      "time": "2026-09-16T16:31:30Z",
       "account": "Premier League",
       "handle": "premierleague"
     }
