@@ -1,30 +1,30 @@
 {
- "updated": "2026-09-16T23:44:21Z",
+ "updated": "2026-09-17T03:58:50Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City signing to make debut vs Norwich as Enzo Maresca rests stars",
+   "img": null,
+   "video": null,
+   "time": "2026-09-17T03:00:00Z"
+  },
   {
    "title": "Maresca says Manchester City still waiting for apology after disputed 2023 derby goal",
    "img": null,
    "video": null,
-   "time": "2026-09-16T22:54:00Z"
+   "time": "2026-09-17T01:30:00Z"
   },
   {
-   "title": "De Cuyper and Brighton pile on pain for Manchester United with comeback",
+   "title": "Manchester City vs. Hull City: Live game updates, stats, play-by-play",
    "img": null,
    "video": null,
-   "time": "2026-09-16T22:45:00Z"
+   "time": "2026-09-17T00:58:09Z"
   },
   {
-   "title": "Carabao Cup 4th round draw LIVE: Arsenal land DREAM clash, Chelsea's HUGE tie",
+   "title": "Man United player accused of 'hiding' in 50-year low Carabao Cup collapse",
    "img": null,
    "video": null,
-   "time": "2026-09-16T22:37:00Z"
-  },
-  {
-   "title": "Arsenal eye shock move for Ngumoha, Gabriel could join City - Paper Round",
-   "img": null,
-   "video": null,
-   "time": "2026-09-16T22:26:00Z"
+   "time": "2026-09-16T22:36:11Z"
   },
   {
    "title": "Liverpool vs. Manchester City: Live game updates, stats, play-by-play",
@@ -33,16 +33,16 @@
    "time": "2026-09-16T22:17:30Z"
   },
   {
-   "title": "Manchester City Transactions",
-   "img": null,
-   "video": null,
-   "time": "2026-09-16T22:10:22Z"
-  },
-  {
    "title": "Aston Villa vs. Manchester City: Live game updates, stats, play-by-play",
    "img": null,
    "video": null,
    "time": "2026-09-16T22:10:07Z"
+  },
+  {
+   "title": "Manchester United fear teenage sensation JJ Gabriel may sign for Manchester City after asking to leave - Paper Talk",
+   "img": null,
+   "video": null,
+   "time": "2026-09-16T22:06:03Z"
   },
   {
    "title": "Carabao Cup draw in full as Man City handed all-Premier League tie in possible fourth round clash",
@@ -57,7 +57,7 @@
    "time": "2026-09-16T21:30:00Z"
   },
   {
-   "title": "City spirit stronger than ever after derby win, says Maresca",
+   "title": "City or Norwich to face Brighton in Carabao Cup fourth round",
    "img": null,
    "video": null,
    "time": "2026-09-16T21:30:00Z"
@@ -76,15 +76,15 @@
   }
  ],
  "ticker": [
+  "Man City signing to make debut vs Norwich as Enzo Maresca rests stars",
   "Maresca says Manchester City still waiting for apology after disputed 2023 derby goal",
-  "De Cuyper and Brighton pile on pain for Manchester United with comeback",
-  "Carabao Cup 4th round draw LIVE: Arsenal land DREAM clash, Chelsea's HUGE tie",
-  "Arsenal eye shock move for Ngumoha, Gabriel could join City - Paper Round",
+  "Manchester City vs. Hull City: Live game updates, stats, play-by-play",
+  "Man United player accused of 'hiding' in 50-year low Carabao Cup collapse",
   "Liverpool vs. Manchester City: Live game updates, stats, play-by-play",
-  "Manchester City Transactions",
   "Aston Villa vs. Manchester City: Live game updates, stats, play-by-play",
+  "Manchester United fear teenage sensation JJ Gabriel may sign for Manchester City after asking to leave - Paper Talk",
   "Carabao Cup draw in full as Man City handed all-Premier League tie in possible fourth round clash",
   "Manchester City",
-  "City spirit stronger than ever after derby win, says Maresca"
+  "City or Norwich to face Brighton in Carabao Cup fourth round"
  ]
 }
