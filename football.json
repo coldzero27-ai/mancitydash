@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T07:22:25Z",
+ "updated": "2026-09-18T12:56:34Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -43,6 +43,13 @@
    "home": "Aston Villa",
    "away": "Manchester City",
    "venue": "Villa Park"
+  },
+  {
+   "utc": "2026-10-28T19:45:00Z",
+   "comp": "EFL",
+   "home": "Manchester City",
+   "away": "Brighton",
+   "venue": "Etihad Stadium"
   },
   {
    "utc": "2026-10-31T15:00:00Z",
@@ -134,13 +141,6 @@
    "home": "Everton",
    "away": "Manchester City",
    "venue": "Hill Dickinson Stadium"
-  },
-  {
-   "utc": "2027-01-02T15:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Tottenham",
-   "venue": "Etihad Stadium"
   }
  ],
  "results": {
