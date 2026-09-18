@@ -1,7 +1,56 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-18T02:15:04Z",
+  "updated": "2026-09-18T11:11:27Z",
   "posts": [
+    {
+      "text": "Nothing but respect for a strike like that 👏",
+      "url": "https://x.com/premierleague/status/2100902687529226343",
+      "time": "2026-09-18T11:00:08Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Elliot Anderson, Marc Guéhi and Nico O'Reilly have been named in Thomas Tuchel's @England squad for their upcoming Nations League fixtures! 🦁\n\nCongratulations, lads 🩵",
+      "url": "https://x.com/ManCity/status/2100896663262957658",
+      "time": "2026-09-18T10:36:11Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "All 8 Premier League teams have won their European games so far this season 🙌",
+      "url": "https://x.com/premierleague/status/2100894948367204363",
+      "time": "2026-09-18T10:29:23Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "The action continues in Matchweek 5 🍿",
+      "url": "https://x.com/premierleague/status/2100887564102082708",
+      "time": "2026-09-18T10:00:02Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Édouard Mendy just didn’t stop 🧤",
+      "url": "https://x.com/premierleague/status/2100880041924002299",
+      "time": "2026-09-18T09:30:09Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Here's your chance to win a shirt signed by last night's Man of the Match, Floyd Samba! ✨\n\nEnter now 👉 https://mancity.co/SambaMOTM",
+      "url": "https://x.com/ManCity/status/2100872492172681412",
+      "time": "2026-09-18T09:00:09Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "The fans said “SHOOT”…\n\nLiam Delap listened. 🫡",
+      "url": "https://x.com/premierleague/status/2100872458538807782",
+      "time": "2026-09-18T09:00:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "Nico ➡️ Rico ➡️ Ryan\n \nA goal straight out of our Academy! 🩵",
       "url": "https://x.com/ManCity/status/2100723976502645158",
@@ -22,55 +71,6 @@
       "time": "2026-09-17T23:00:00Z",
       "account": "Man City",
       "handle": "ManCity"
-    },
-    {
-      "text": "A double on debut for Floyd! 🤩",
-      "url": "https://x.com/ManCity/status/2100702605315846202",
-      "time": "2026-09-17T21:45:04Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Tricky feet 😮‍💨\n\nAllan opens his City account! 👏",
-      "url": "https://x.com/ManCity/status/2100701367216046504",
-      "time": "2026-09-17T21:40:09Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "From the midfield to the touchline 🔀\n\n@ChelseaFC's trip to @BrentfordFC will reunite Xabi Alonso with a familiar foe 👀",
-      "url": "https://x.com/premierleague/status/2100700073130647967",
-      "time": "2026-09-17T21:35:01Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "History made in San Sebastian 🙌\n\n@AFCBournemouth win their first-ever match in a European competition 🤩",
-      "url": "https://x.com/premierleague/status/2100691115867361623",
-      "time": "2026-09-17T20:59:25Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "🩵  @ManCity's debutants shine in a 5-0 win against Norwich 👊\n\nThe holders book their place in the next round of the EFL Cup 👏",
-      "url": "https://x.com/premierleague/status/2100686137002013030",
-      "time": "2026-09-17T20:39:38Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "How many can you name? 👇\n\nFormer Premier League players whose sons are now at Premier League Clubs ⚡️",
-      "url": "https://x.com/premierleague/status/2100670427861320025",
-      "time": "2026-09-17T19:37:13Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "A dream debut 🌟\n\n17-year-old Floyd Samba scores @ManCity's opener against Norwich in the EFL Cup less than 30 minutes into his senior career 👏",
-      "url": "https://x.com/premierleague/status/2100663645801754736",
-      "time": "2026-09-17T19:10:16Z",
-      "account": "Premier League",
-      "handle": "premierleague"
     }
   ]
 }
