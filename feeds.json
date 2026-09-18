@@ -1,18 +1,66 @@
 {
- "updated": "2026-09-17T23:58:30Z",
+ "updated": "2026-09-18T04:29:29Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Floyd Samba’s debut double lifts Manchester City to Carabao Cup win over Norwich",
+   "title": "Floyd Samba lifts lid on Enzo Maresca chat ahead of 'dream' Man City debut",
    "img": null,
    "video": null,
-   "time": "2026-09-17T23:22:00Z"
+   "time": "2026-09-18T04:00:00Z"
   },
   {
-   "title": "8-minute highlights: City 5-0 Norwich",
+   "title": "Night of the substitutes: Manchester City demolish Norwich with five goals",
    "img": null,
    "video": null,
-   "time": "2026-09-17T22:59:00Z"
+   "time": "2026-09-18T03:54:53Z"
+  },
+  {
+   "title": "Arsenal and Manchester City predicted to win in the Premier League — The National",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T03:39:28Z"
+  },
+  {
+   "title": "Teenage Sensation Floyd Samba Shines with Brace on Manchester City Debut",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T03:28:21Z"
+  },
+  {
+   "title": "Watch: Allan Elias scores breathtaking solo goal on Manchester City debut",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T03:17:50Z"
+  },
+  {
+   "title": "Floyd Samba's Stellar Debut Ignites Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T02:56:59Z"
+  },
+  {
+   "title": "EFL Cup — 17-year-old Samba stars as Manchester City thrashes Norwich City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T02:11:10Z"
+  },
+  {
+   "title": "17-year-old Floyd Samba scores a brace on Manchester City debut — Dawn",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T00:22:38Z"
+  },
+  {
+   "title": "Like father, like son! Christopher Samba’s 17-year-old son Floyd scores twice on Man City professional debut in 5-0 Carabao Cup win over Norwich City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T00:17:36Z"
+  },
+  {
+   "title": "EFL Cup 3rd Round LIVE: Manchester City vs Norwich City - live text updates, score & radio commentary",
+   "img": null,
+   "video": null,
+   "time": "2026-09-17T22:56:10Z"
   },
   {
    "title": "Floyd Samba stars on debut in Manchester City rout of Norwich in League Cup",
@@ -25,66 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-17T22:18:49Z"
-  },
-  {
-   "title": "Bouaddi Provides Assist in Manchester City’s 5-0 Win Over Norwich",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T22:05:11Z"
-  },
-  {
-   "title": "'Just the beginning' - Samba, 17, steals Man City show",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T22:00:18Z"
-  },
-  {
-   "title": "Maresca delighted with Samba debut",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T21:41:00Z"
-  },
-  {
-   "title": "Enzo Maresca gives Allan verdict after Man City debut - 'A bit different'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T21:40:00Z"
-  },
-  {
-   "title": "Watch: Allan Elias scores breathtaking solo goal on Manchester City debut",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T21:30:08Z"
-  },
-  {
-   "title": "Manchester City vs Norwich stats and analysis: The Citizens youngsters stake their claim",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T21:18:22Z"
-  },
-  {
-   "title": "Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T21:05:00Z"
-  },
-  {
-   "title": "Samba overjoyed after 'mind-blowing' debut",
-   "img": null,
-   "video": null,
-   "time": "2026-09-17T21:00:00Z"
   }
  ],
  "ticker": [
-  "Floyd Samba’s debut double lifts Manchester City to Carabao Cup win over Norwich",
-  "8-minute highlights: City 5-0 Norwich",
-  "Floyd Samba stars on debut in Manchester City rout of Norwich in League Cup",
-  "Forgotten Aussie’s screamer haunts old club in dream return as Socceroo denied PL milestone",
-  "Bouaddi Provides Assist in Manchester City’s 5-0 Win Over Norwich",
-  "'Just the beginning' - Samba, 17, steals Man City show",
-  "Maresca delighted with Samba debut",
-  "Enzo Maresca gives Allan verdict after Man City debut - 'A bit different'",
+  "Floyd Samba lifts lid on Enzo Maresca chat ahead of 'dream' Man City debut",
+  "Night of the substitutes: Manchester City demolish Norwich with five goals",
+  "Arsenal and Manchester City predicted to win in the Premier League — The National",
+  "Teenage Sensation Floyd Samba Shines with Brace on Manchester City Debut",
   "Watch: Allan Elias scores breathtaking solo goal on Manchester City debut",
-  "Manchester City vs Norwich stats and analysis: The Citizens youngsters stake their claim"
+  "Floyd Samba's Stellar Debut Ignites Manchester City",
+  "EFL Cup — 17-year-old Samba stars as Manchester City thrashes Norwich City",
+  "17-year-old Floyd Samba scores a brace on Manchester City debut — Dawn",
+  "Like father, like son! Christopher Samba’s 17-year-old son Floyd scores twice on Man City professional debut in 5-0 Carabao Cup win over Norwich City",
+  "EFL Cup 3rd Round LIVE: Manchester City vs Norwich City - live text updates, score & radio commentary"
  ]
 }
