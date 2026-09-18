@@ -1,7 +1,35 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-18T11:11:27Z",
+  "updated": "2026-09-18T14:12:13Z",
   "posts": [
+    {
+      "text": "Emphatic.\n\n🤝 @Revolut",
+      "url": "https://x.com/ManCity/status/2100949022294806974",
+      "time": "2026-09-18T14:04:15Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Enzo on his start to life as City manager 🗣️",
+      "url": "https://x.com/ManCity/status/2100926570244325795",
+      "time": "2026-09-18T12:35:02Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Enzo 💬 (On facing Sunderland) I have the feeling that Sunderland game will be the toughest game since we started the season.\n\nI watched them already in the last two days, three or four games. I know them already. I know how strong they are, and I have the feeling that on Sunday we need a top performance to beat them, and we need to be 100% to win the game.",
+      "url": "https://x.com/ManCity/status/2100925847238574321",
+      "time": "2026-09-18T12:32:09Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Enzo 💬 (On Jérémy Doku's fitness) Probably he can be available for Sunderland.",
+      "url": "https://x.com/ManCity/status/2100925631886250446",
+      "time": "2026-09-18T12:31:18Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
     {
       "text": "Nothing but respect for a strike like that 👏",
       "url": "https://x.com/premierleague/status/2100902687529226343",
@@ -38,39 +66,11 @@
       "handle": "premierleague"
     },
     {
-      "text": "Here's your chance to win a shirt signed by last night's Man of the Match, Floyd Samba! ✨\n\nEnter now 👉 https://mancity.co/SambaMOTM",
-      "url": "https://x.com/ManCity/status/2100872492172681412",
-      "time": "2026-09-18T09:00:09Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
       "text": "The fans said “SHOOT”…\n\nLiam Delap listened. 🫡",
       "url": "https://x.com/premierleague/status/2100872458538807782",
       "time": "2026-09-18T09:00:01Z",
       "account": "Premier League",
       "handle": "premierleague"
-    },
-    {
-      "text": "Nico ➡️ Rico ➡️ Ryan\n \nA goal straight out of our Academy! 🩵",
-      "url": "https://x.com/ManCity/status/2100723976502645158",
-      "time": "2026-09-17T23:10:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Composure 💯",
-      "url": "https://x.com/ManCity/status/2100722718618312934",
-      "time": "2026-09-17T23:05:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Highlights from our five-star performance in the League Cup 🤩🏆",
-      "url": "https://x.com/ManCity/status/2100721463074640072",
-      "time": "2026-09-17T23:00:00Z",
-      "account": "Man City",
-      "handle": "ManCity"
     }
   ]
 }
