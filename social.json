@@ -1,7 +1,14 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-17T23:16:00Z",
+  "updated": "2026-09-18T02:15:04Z",
   "posts": [
+    {
+      "text": "Nico ➡️ Rico ➡️ Ryan\n \nA goal straight out of our Academy! 🩵",
+      "url": "https://x.com/ManCity/status/2100723976502645158",
+      "time": "2026-09-17T23:10:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
     {
       "text": "Composure 💯",
       "url": "https://x.com/ManCity/status/2100722718618312934",
@@ -27,13 +34,6 @@
       "text": "Tricky feet 😮‍💨\n\nAllan opens his City account! 👏",
       "url": "https://x.com/ManCity/status/2100701367216046504",
       "time": "2026-09-17T21:40:09Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Allan 🤝 Samba\n\nOur debutants link up to open the scoring ✨",
-      "url": "https://x.com/ManCity/status/2100700089614237733",
-      "time": "2026-09-17T21:35:05Z",
       "account": "Man City",
       "handle": "ManCity"
     },
