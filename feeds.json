@@ -1,90 +1,90 @@
 {
- "updated": "2026-09-18T13:45:13Z",
+ "updated": "2026-09-18T17:34:25Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Analysing Sunderland ahead of Sunday’s Premier League clash",
+   "title": "WSL: First-placed Man City host Liverpool",
    "img": null,
    "video": null,
-   "time": "2026-09-18T13:30:00Z"
+   "time": "2026-09-18T17:32:18Z"
   },
   {
-   "title": "'A disaster' if Man City do not win says Maresca after flawless start",
+   "title": "Confirmed LFC Women line-up v Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-09-18T13:12:12Z"
+   "time": "2026-09-18T17:03:45Z"
   },
   {
-   "title": "Stunning Man City revelation in JJ Gabriel exit plan emerges as 'in shock' Man Utd plan fresh talks",
+   "title": "Mead set for 200th WSL appearance",
    "img": null,
    "video": null,
-   "time": "2026-09-18T13:02:02Z"
+   "time": "2026-09-18T17:00:00Z"
   },
   {
-   "title": "Gallery: Guibarros joins Man City Esports",
+   "title": "Nico O’Reilly – Origins: Watch now on CITY+",
    "img": null,
    "video": null,
-   "time": "2026-09-18T13:00:00Z"
-  },
-  {
-   "title": "Man City Esports secure GuiBarros’ signature",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T13:00:00Z"
-  },
-  {
-   "title": "Enzo Maresca press conference: Man City vs Sunderland",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T12:34:15Z"
-  },
-  {
-   "title": "Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T12:31:00Z"
-  },
-  {
-   "title": "Enzo Maresca shares stance on succeeding Pep Guardiola at Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T12:30:00Z"
-  },
-  {
-   "title": "Sunderland test will be ‘toughest of the season’ so far, says Maresca",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T12:30:00Z"
-  },
-  {
-   "title": "Maresca: Opening day win was important for current form",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T12:30:00Z"
+   "time": "2026-09-18T17:00:00Z"
   },
   {
    "title": "Enzo Maresca reveals tactical experiment behind Floyd Samba's stunning Manchester City debut",
    "img": null,
    "video": null,
-   "time": "2026-09-18T12:23:57Z"
+   "time": "2026-09-18T16:53:57Z"
   },
   {
-   "title": "Double header of games available live on CITY+ this Saturday",
+   "title": "Training gallery: That Friday feeling!",
    "img": null,
    "video": null,
-   "time": "2026-09-18T12:15:00Z"
+   "time": "2026-09-18T16:30:00Z"
+  },
+  {
+   "title": "Double Winners Bookazine available at Liverpool clash",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T16:00:00Z"
+  },
+  {
+   "title": "Date and kick-off time for Brighton Carabao Cup clash confirmed",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T16:00:00Z"
+  },
+  {
+   "title": "'Wow, I think you exaggerate' - Mario Balotelli fires back at James Milner after ex-Man City mate's dressing room dig",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T15:33:00Z"
+  },
+  {
+   "title": "Regis le Bris press conference: Man City vs Sunderland",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T15:13:43Z"
+  },
+  {
+   "title": "Manchester City 5- 0 Norwich: Canaries have their wings clipped",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T15:09:12Z"
+  },
+  {
+   "title": "MLS market values: Man City prospect hits another level - SKC record signing André Luiz up",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T15:03:08Z"
   }
  ],
  "ticker": [
-  "Analysing Sunderland ahead of Sunday’s Premier League clash",
-  "'A disaster' if Man City do not win says Maresca after flawless start",
-  "Stunning Man City revelation in JJ Gabriel exit plan emerges as 'in shock' Man Utd plan fresh talks",
-  "Gallery: Guibarros joins Man City Esports",
-  "Man City Esports secure GuiBarros’ signature",
-  "Enzo Maresca press conference: Man City vs Sunderland",
-  "Manchester City",
-  "Enzo Maresca shares stance on succeeding Pep Guardiola at Man City",
-  "Sunderland test will be ‘toughest of the season’ so far, says Maresca",
-  "Maresca: Opening day win was important for current form"
+  "WSL: First-placed Man City host Liverpool",
+  "Confirmed LFC Women line-up v Manchester City",
+  "Mead set for 200th WSL appearance",
+  "Nico O’Reilly – Origins: Watch now on CITY+",
+  "Enzo Maresca reveals tactical experiment behind Floyd Samba's stunning Manchester City debut",
+  "Training gallery: That Friday feeling!",
+  "Double Winners Bookazine available at Liverpool clash",
+  "Date and kick-off time for Brighton Carabao Cup clash confirmed",
+  "'Wow, I think you exaggerate' - Mario Balotelli fires back at James Milner after ex-Man City mate's dressing room dig",
+  "Regis le Bris press conference: Man City vs Sunderland"
  ]
 }
