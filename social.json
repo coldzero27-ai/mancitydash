@@ -1,7 +1,49 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-19T08:12:05Z",
+  "updated": "2026-09-19T11:12:01Z",
   "posts": [
+    {
+      "text": "Five Saturday fixtures coming up 👊",
+      "url": "https://x.com/premierleague/status/2101256518330921219",
+      "time": "2026-09-19T10:26:08Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "An early lead courtesy of Dexter Oliver 💪\n\nWatch us in #U18PL action LIVE on CITY+ 📺\n\n▶️ mancity.co/EVE-U18PL",
+      "url": "https://x.com/ManCity/status/2101255549534785752",
+      "time": "2026-09-19T10:22:17Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "We are LIVE on CITY+ 📺\n\nWatch as we take on Everton in the #U18PL 💪\n\n▶️ mancity.co/EVE-U18PL",
+      "url": "https://x.com/ManCity/status/2101249471396847713",
+      "time": "2026-09-19T09:58:07Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "A comeback that never gets old 🍿\n\nRelive @afcbournemouth and @LFC's seven-goal thriller in 2016 📺",
+      "url": "https://x.com/premierleague/status/2101248715881115997",
+      "time": "2026-09-19T09:55:07Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "We've got a @ManCityAcademy double-header coming your way! 🤩\n\nWatch our #U18PL trip to Everton at 11:00 (UK), then tune in as our EDS take on Spurs in the #PL2 at 13:00 (UK) 👊\n\nStream both games LIVE on CITY+ ⤵️\n\n▶️ mancity.co/AcademyDoubleH…",
+      "url": "https://x.com/ManCity/status/2101236206289698986",
+      "time": "2026-09-19T09:05:25Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Topping the charts in creativity 🎨\n\nPascal Gross and Martin Odegaard go head-to-head when @BHAFC face @Arsenal at 15:00 BST 🤝",
+      "url": "https://x.com/premierleague/status/2101234844835430603",
+      "time": "2026-09-19T09:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "A beautiful moment between Igor Thiago and this lucky @BrentfordFC fan 🥹",
       "url": "https://x.com/premierleague/status/2101090139233468916",
@@ -17,27 +59,6 @@
       "handle": "premierleague"
     },
     {
-      "text": "Thumbs up if you're still unbeaten in the Premier League 👍",
-      "url": "https://x.com/premierleague/status/2101062536267219307",
-      "time": "2026-09-18T21:35:19Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "History made by @ChelseaFC's Mahdi Nicoll-Jazuli ⭐️\n\n🔵 The Blues' youngest-ever Premier League player, aged 16 years and 225 days. A record which was previously held by Jody Morris\n\n📅 First player born in 2010 to play in the Premier League",
-      "url": "https://x.com/premierleague/status/2101059735214584104",
-      "time": "2026-09-18T21:24:11Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "@BrentfordFC are up to third and their unbeaten start to the Premier League season continues! 👏",
-      "url": "https://x.com/premierleague/status/2101055488301343113",
-      "time": "2026-09-18T21:07:18Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
       "text": "Safe hands 🧤🇦🇷",
       "url": "https://x.com/ManCity/status/2101036204108001368",
       "time": "2026-09-18T19:50:41Z",
@@ -48,27 +69,6 @@
       "text": "In good spirits 🩵",
       "url": "https://x.com/ManCity/status/2101031363348463705",
       "time": "2026-09-18T19:31:26Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Recharging after a solid win 🔋",
-      "url": "https://x.com/ManCity/status/2101027627267932660",
-      "time": "2026-09-18T19:16:36Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Welcoming the Black Cats to the Etihad! 👋\n\n🤝 #AsahiSuperDry",
-      "url": "https://x.com/ManCity/status/2101000885530722657",
-      "time": "2026-09-18T17:30:20Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Smile if you scored on your debut 😆",
-      "url": "https://x.com/ManCity/status/2100987014610837970",
-      "time": "2026-09-18T16:35:13Z",
       "account": "Man City",
       "handle": "ManCity"
     }
