@@ -1,7 +1,37 @@
 {
- "updated": "2026-09-19T01:26:37Z",
+ "updated": "2026-09-19T06:26:57Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City 4-2 Liverpool: Lauren Hemp double bookends victory as WSL champions maintain 100 per cent record",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T06:15:03Z"
+  },
+  {
+   "title": "Floyd Samba interview: Man City youngster on family and his future - 'have to wait'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T05:00:00Z"
+  },
+  {
+   "title": "Arsenal latest: Mikel Arteta feud reignited as Enzo Maresca fires Man City title race dig",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T04:02:54Z"
+  },
+  {
+   "title": "Matheus Nunes has extra Man City motivation for Sunderland - 'P*** him off'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T03:00:00Z"
+  },
+  {
+   "title": "Sunderland vs Manchester City Premier League Prediction, Odds, Pick",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T01:21:00Z"
+  },
   {
    "title": "Women's Super League",
    "img": null,
@@ -9,28 +39,22 @@
    "time": "2026-09-19T00:22:30Z"
   },
   {
-   "title": "Man City 4-2 Liverpool: Lauren Hemp double bookends victory as WSL champions maintain 100 per cent record",
+   "title": "This team never stops believing, says Jeglertz",
    "img": null,
    "video": null,
-   "time": "2026-09-19T00:15:01Z"
+   "time": "2026-09-18T23:00:00Z"
   },
   {
    "title": "City 4-2 Liverpool: 8-minute highlights",
    "img": null,
    "video": null,
-   "time": "2026-09-19T00:00:00Z"
-  },
-  {
-   "title": "Women’s Super League: Lauren Hemp hits double as Manchester City see off lively Liverpool",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T23:14:00Z"
-  },
-  {
-   "title": "This team never stops believing, says Jeglertz",
-   "img": null,
-   "video": null,
    "time": "2026-09-18T23:00:00Z"
+  },
+  {
+   "title": "Manchester City 4-2 Liverpool: Late own goal & Lauren Hemp strike extend hosts' 100% start",
+   "img": null,
+   "video": null,
+   "time": "2026-09-18T22:24:59Z"
   },
   {
    "title": "Highlights - WSL: Manchester City 4-2 Liverpool",
@@ -49,42 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-18T21:45:00Z"
-  },
-  {
-   "title": "Manchester City 4-2 Liverpool: City edge six goal thriller",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T21:43:09Z"
-  },
-  {
-   "title": "Enzo Maresca reveals tactical experiment behind Floyd Samba's stunning Manchester City debut",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T21:23:36Z"
-  },
-  {
-   "title": "Every time a young defender plays for Manchester City, he just oozes class and composure",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T21:17:28Z"
-  },
-  {
-   "title": "'Disappointing, but we were us' - Gareth Taylor on Man City 4-2 Liverpool",
-   "img": null,
-   "video": null,
-   "time": "2026-09-18T21:17:20Z"
   }
  ],
  "ticker": [
-  "Women's Super League",
   "Man City 4-2 Liverpool: Lauren Hemp double bookends victory as WSL champions maintain 100 per cent record",
-  "City 4-2 Liverpool: 8-minute highlights",
-  "Women’s Super League: Lauren Hemp hits double as Manchester City see off lively Liverpool",
+  "Floyd Samba interview: Man City youngster on family and his future - 'have to wait'",
+  "Arsenal latest: Mikel Arteta feud reignited as Enzo Maresca fires Man City title race dig",
+  "Matheus Nunes has extra Man City motivation for Sunderland - 'P*** him off'",
+  "Sunderland vs Manchester City Premier League Prediction, Odds, Pick",
+  "Women's Super League",
   "This team never stops believing, says Jeglertz",
-  "Highlights - WSL: Manchester City 4-2 Liverpool",
-  "The first glimpse of a Brazilian winger for Manchester City was full of promise",
-  "Another attacking option revealed itself for Manchester City against Norwich City",
-  "Manchester City 4-2 Liverpool: City edge six goal thriller",
-  "Enzo Maresca reveals tactical experiment behind Floyd Samba's stunning Manchester City debut"
+  "City 4-2 Liverpool: 8-minute highlights",
+  "Manchester City 4-2 Liverpool: Late own goal & Lauren Hemp strike extend hosts' 100% start",
+  "Highlights - WSL: Manchester City 4-2 Liverpool"
  ]
 }
