@@ -1,7 +1,14 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-18T23:16:22Z",
+  "updated": "2026-09-19T08:12:05Z",
   "posts": [
+    {
+      "text": "A beautiful moment between Igor Thiago and this lucky @BrentfordFC fan 🥹",
+      "url": "https://x.com/premierleague/status/2101090139233468916",
+      "time": "2026-09-18T23:25:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "Keith Andrews LOVED @BrentfordFC's 3-0 win against Chelsea! ❤️",
       "url": "https://x.com/premierleague/status/2101084099855241436",
@@ -27,13 +34,6 @@
       "text": "@BrentfordFC are up to third and their unbeaten start to the Premier League season continues! 👏",
       "url": "https://x.com/premierleague/status/2101055488301343113",
       "time": "2026-09-18T21:07:18Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Three goals. Three points. Still unbeaten. \n\nA big win under the lights for @BrentfordFC 👏",
-      "url": "https://x.com/premierleague/status/2101052620852892154",
-      "time": "2026-09-18T20:55:55Z",
       "account": "Premier League",
       "handle": "premierleague"
     },
