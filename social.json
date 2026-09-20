@@ -1,76 +1,17 @@
 {
-        "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-        "updated": "2026-09-20T17:16:00Z",
-        "posts": [
-                    {
-                                    "text": "Enzo 💬 It was very difficult but we found a way to win the game.\n\nThe good thing also is that these seven official games have all been different. We've experienced different things.\n\nThe last one [versus United] with 10 players, today it was a complicated one. We have a chance to learn from the game.",
-                                    "url": "https://x.com/ManCity/status/2101716960601924012",
-                                    "time": "2026-09-20T16:55:00Z",
-                                    "account": "Man City",
-                                    "handle": "ManCity"
-                    },
-                    {
-                                    "text": "Breakthrough at Craven Cottage!\n\nLammens saves Bassey's effort, but the rebound ricochets off Martinez and goes over the line",
-                                    "url": "https://x.com/premierleague/status/2101716978155036913",
-                                    "time": "2026-09-20T16:55:00Z",
-                                    "account": "Premier League",
-                                    "handle": "premierleague"
-                    },
-                    {
-                                    "text": "😄👍",
-                                    "url": "https://x.com/ManCity/status/2101716561413263844",
-                                    "time": "2026-09-20T16:54:00Z",
-                                    "account": "Man City",
-                                    "handle": "ManCity"
-                    },
-                    {
-                                    "text": "One of those days in front of goal.",
-                                    "url": "https://x.com/premierleague/status/2101712845658362160",
-                                    "time": "2026-09-20T16:39:00Z",
-                                    "account": "Premier League",
-                                    "handle": "premierleague"
-                    },
-                    {
-                                    "text": "The perfect start 👌",
-                                    "url": "https://x.com/ManCity/status/2101709102179074448",
-                                    "time": "2026-09-20T16:24:00Z",
-                                    "account": "Man City",
-                                    "handle": "ManCity"
-                    },
-                    {
-                                    "text": "Bernd Leno and Senne Lammens on top 🧤\n\n26 shots attempted, the most in the first half of a Premier League match this season",
-                                    "url": "https://x.com/premierleague/status/2101706969748828472",
-                                    "time": "2026-09-20T16:16:00Z",
-                                    "account": "Premier League",
-                                    "handle": "premierleague"
-                    },
-                    {
-                                    "text": "In three words? 🤔\n\n@okx 🤝",
-                                    "url": "https://x.com/ManCity/status/2101702949210640437",
-                                    "time": "2026-09-20T16:00:00Z",
-                                    "account": "Man City",
-                                    "handle": "ManCity"
-                    },
-                    {
-                                    "text": "Inches away 🤏\n\nBruno Fernandes hits the post for @ManUtd!",
-                                    "url": "https://x.com/premierleague/status/2101703035781021899",
-                                    "time": "2026-09-20T16:00:00Z",
-                                    "account": "Premier League",
-                                    "handle": "premierleague"
-                    },
-                    {
-                                    "text": "An action-packed afternoon for @antoinesemenyo 🔥",
-                                    "url": "https://x.com/ManCity/status/2101699226082193430",
-                                    "time": "2026-09-20T15:45:00Z",
-                                    "account": "Man City",
-                                    "handle": "ManCity"
-                    },
-                    {
-                                    "text": "📍 Craven Cottage\n\nIt's @FulhamFC v @ManUtd in west London ➡️ preml.ge/nxweeldv",
-                                    "url": "https://x.com/premierleague/status/2101694678915534935",
-                                    "time": "2026-09-20T15:27:00Z",
-                                    "account": "Premier League",
-                                    "handle": "premierleague"
-                    }
-        ]
+          "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+          "updated": "2026-09-20T20:16:00Z",
+          "posts": [
+                  { "text": "Get everything you need to know from the weekend in our Matchweek 5 Wrap 👉 preml.ge/vg7pjbsp", "url": "https://x.com/premierleague/status/2101756638763917718", "time": "2026-09-20T19:33:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "Who was your standout player on Sunday? 🤩", "url": "https://x.com/premierleague/status/2101741545720336754", "time": "2026-09-20T18:33:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "5/38", "url": "https://x.com/premierleague/status/2101727580747370717", "time": "2026-09-20T17:37:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "Two moments that meant the points were shared.\n\n@FulhamFC ⚖️ @ManUtd", "url": "https://x.com/premierleague/status/2101726713277223219", "time": "2026-09-20T17:34:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "Thank you for your incredible support throughout the opening weeks of the season! 🙌\n\nWe'll look forward to seeing you again after the international break 🩵", "url": "https://x.com/ManCity/status/2101725684997431574", "time": "2026-09-20T17:30:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Man Utd rescue a late point to deny Fulham their first Premier League win of the campaign.", "url": "https://x.com/premierleague/status/2101722954002211119", "time": "2026-09-20T17:19:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "Enzo 💬 It was very difficult but we found a way to win the game.\n\nThe good thing also is that these seven official games have all been different. We've experienced different things.\n\nThe last one [versus United] with 10 players, today it was a complicated one. We have a chance to learn from the game.", "url": "https://x.com/ManCity/status/2101716960601924012", "time": "2026-09-20T16:55:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "😄👍", "url": "https://x.com/ManCity/status/2101716561413263844", "time": "2026-09-20T16:54:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "The perfect start 👌", "url": "https://x.com/ManCity/status/2101709102179074448", "time": "2026-09-20T16:24:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "In three words? 🤔\n\n@okx 🤝", "url": "https://x.com/ManCity/status/2101702949210640437", "time": "2026-09-20T16:00:00Z", "account": "Man City", "handle": "ManCity" }
+
+          ]
 }
