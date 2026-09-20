@@ -1,7 +1,35 @@
 {
   "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-09-19T23:10:14Z",
+  "updated": "2026-09-20T08:12:00Z",
   "posts": [
+    {
+      "text": "🏡 @premierleague action at the Etihad! 🩵\n\n🤝 @Revolut",
+      "url": "https://x.com/ManCity/status/2101582137061240962",
+      "time": "2026-09-20T08:00:01Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Will Erling Haaland complete the set when he faces Sunderland today? 👀",
+      "url": "https://x.com/premierleague/status/2101582132824940584",
+      "time": "2026-09-20T08:00:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Which Emi Buendia goal against Spurs was better? 🤔",
+      "url": "https://x.com/premierleague/status/2101570806597943677",
+      "time": "2026-09-20T07:15:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Nicolas Jackson enjoys playing at the Tottenham Hotspur Stadium ⚽️",
+      "url": "https://x.com/premierleague/status/2101555706939994476",
+      "time": "2026-09-20T06:15:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
     {
       "text": "When Emi Buendia scores, it usually causes reactions like this 💫",
       "url": "https://x.com/premierleague/status/2101442460715241706",
@@ -13,27 +41,6 @@
       "text": "Harvey Barnes continues to impress for @NUFC this season ⚫️ ⚪️",
       "url": "https://x.com/premierleague/status/2101438689050009982",
       "time": "2026-09-19T22:30:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Improvisation levels 💯\n\nWait for Thierno Barry's celebration!",
-      "url": "https://x.com/premierleague/status/2101434910892577264",
-      "time": "2026-09-19T22:15:00Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "Johan Manzambi with a midfield masterclass for @AstonVilla.",
-      "url": "https://x.com/premierleague/status/2101431147364221278",
-      "time": "2026-09-19T22:00:02Z",
-      "account": "Premier League",
-      "handle": "premierleague"
-    },
-    {
-      "text": "That first touch and finish from Jay Dasilva is 🤩\n\n@coventrycityfc 🩵",
-      "url": "https://x.com/premierleague/status/2101427361178673236",
-      "time": "2026-09-19T21:45:00Z",
       "account": "Premier League",
       "handle": "premierleague"
     },
@@ -62,13 +69,6 @@
       "text": "Cityzens, it's time to submit your score predictions ahead of tomorrow's clash with Sunderland! 💪\n\nPredict now 👉 https://mancity.co/Sunderland-Predictor…",
       "url": "https://x.com/ManCity/status/2101314205613732126",
       "time": "2026-09-19T14:15:21Z",
-      "account": "Man City",
-      "handle": "ManCity"
-    },
-    {
-      "text": "Making his mark ✨",
-      "url": "https://x.com/ManCity/status/2101302793378365735",
-      "time": "2026-09-19T13:30:00Z",
       "account": "Man City",
       "handle": "ManCity"
     }
