@@ -1,18 +1,18 @@
 {
- "updated": "2026-09-20T20:29:08Z",
+ "updated": "2026-09-20T22:40:00Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T21:40:01Z"
+  },
   {
    "title": "Man City serve up pure chaos under Enzo Maresca as Cody Gakpo shines for Liverpool - Premier League hits and misses",
    "img": null,
    "video": null,
    "time": "2026-09-20T19:51:47Z"
-  },
-  {
-   "title": "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:50:07Z"
   },
   {
    "title": "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
@@ -33,13 +33,19 @@
    "time": "2026-09-20T19:15:53Z"
   },
   {
+   "title": "Premier League: Leaders Manchester City 5-4 for title but pressure increases on Michael Carrick",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T19:00:49Z"
+  },
+  {
    "title": "Highlights - Premier League - Manchester City 5-3 Sunderland",
    "img": null,
    "video": null,
    "time": "2026-09-20T19:00:25Z"
   },
   {
-   "title": "European soccer recap: Man City win a thriller, Man United draw Fulham, more",
+   "title": "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu",
    "img": null,
    "video": null,
    "time": "2026-09-20T19:00:00Z"
@@ -57,34 +63,28 @@
    "time": "2026-09-20T18:39:49Z"
   },
   {
-   "title": "Manchester City beat Sunderland 5-3 in 8-goal thriller to stay on top of Premier League",
+   "title": "Manchester City beat Sunderland 5-3 in 8-goal thriller to stay on top of Premier League - Anadolu Ajansı",
    "img": null,
    "video": null,
    "time": "2026-09-20T18:29:55Z"
   },
   {
-   "title": "Premier League: Leaders Manchester City 5-4 for title but pressure increases on Michael Carrick",
+   "title": "Manchester City Outgun Sunderland Despite Brian Brobbey's Hat-Trick, Manchester United Rescue Fulham Draw",
    "img": null,
    "video": null,
-   "time": "2026-09-20T18:21:09Z"
-  },
-  {
-   "title": "What to know as two arrested in terrorism probe in Manchester city centre",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T18:05:00Z"
+   "time": "2026-09-20T18:07:18Z"
   }
  ],
  "ticker": [
-  "Man City serve up pure chaos under Enzo Maresca as Cody Gakpo shines for Liverpool - Premier League hits and misses",
   "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
+  "Man City serve up pure chaos under Enzo Maresca as Cody Gakpo shines for Liverpool - Premier League hits and misses",
   "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
   "5 chapters of Premier League madness: Manchester City soar alone as crises hit the big clubs",
   "Match of the Day",
+  "Premier League: Leaders Manchester City 5-4 for title but pressure increases on Michael Carrick",
   "Highlights - Premier League - Manchester City 5-3 Sunderland",
-  "European soccer recap: Man City win a thriller, Man United draw Fulham, more",
+  "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu",
   "Manchester City: Delight at Premier League win against Sunderland",
-  "Two men arrested in Manchester city centre in counter terrorism operation | News - undefined",
-  "Manchester City beat Sunderland 5-3 in 8-goal thriller to stay on top of Premier League"
+  "Two men arrested in Manchester city centre in counter terrorism operation | News - undefined"
  ]
 }
