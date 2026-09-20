@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-20T13:01:53Z",
+ "updated": "2026-09-20T17:27:16Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-09-20T13:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Sunderland",
-   "venue": "Etihad Stadium"
-  },
   {
    "utc": "2026-10-11T15:30:00Z",
    "comp": "PL",
@@ -141,6 +134,13 @@
    "home": "Everton",
    "away": "Manchester City",
    "venue": "Hill Dickinson Stadium"
+  },
+  {
+   "utc": "2027-01-02T15:00:00Z",
+   "comp": "PL",
+   "home": "Manchester City",
+   "away": "Tottenham",
+   "venue": "Etihad Stadium"
   }
  ],
  "results": {
@@ -166,6 +166,11 @@
   },
   "2026-09-13": {
    "score": "0-1",
+   "res": "W",
+   "fr": false
+  },
+  "2026-09-20": {
+   "score": "5-3",
    "res": "W",
    "fr": false
   },
