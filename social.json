@@ -1,17 +1,76 @@
 {
-          "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-          "updated": "2026-09-20T20:16:00Z",
-          "posts": [
-                  { "text": "Get everything you need to know from the weekend in our Matchweek 5 Wrap 👉 preml.ge/vg7pjbsp", "url": "https://x.com/premierleague/status/2101756638763917718", "time": "2026-09-20T19:33:00Z", "account": "Premier League", "handle": "premierleague" },
-                  { "text": "Who was your standout player on Sunday? 🤩", "url": "https://x.com/premierleague/status/2101741545720336754", "time": "2026-09-20T18:33:00Z", "account": "Premier League", "handle": "premierleague" },
-                  { "text": "5/38", "url": "https://x.com/premierleague/status/2101727580747370717", "time": "2026-09-20T17:37:00Z", "account": "Premier League", "handle": "premierleague" },
-                  { "text": "Two moments that meant the points were shared.\n\n@FulhamFC ⚖️ @ManUtd", "url": "https://x.com/premierleague/status/2101726713277223219", "time": "2026-09-20T17:34:00Z", "account": "Premier League", "handle": "premierleague" },
-                  { "text": "Thank you for your incredible support throughout the opening weeks of the season! 🙌\n\nWe'll look forward to seeing you again after the international break 🩵", "url": "https://x.com/ManCity/status/2101725684997431574", "time": "2026-09-20T17:30:00Z", "account": "Man City", "handle": "ManCity" },
-                  { "text": "Man Utd rescue a late point to deny Fulham their first Premier League win of the campaign.", "url": "https://x.com/premierleague/status/2101722954002211119", "time": "2026-09-20T17:19:00Z", "account": "Premier League", "handle": "premierleague" },
-                  { "text": "Enzo 💬 It was very difficult but we found a way to win the game.\n\nThe good thing also is that these seven official games have all been different. We've experienced different things.\n\nThe last one [versus United] with 10 players, today it was a complicated one. We have a chance to learn from the game.", "url": "https://x.com/ManCity/status/2101716960601924012", "time": "2026-09-20T16:55:00Z", "account": "Man City", "handle": "ManCity" },
-                  { "text": "😄👍", "url": "https://x.com/ManCity/status/2101716561413263844", "time": "2026-09-20T16:54:00Z", "account": "Man City", "handle": "ManCity" },
-                  { "text": "The perfect start 👌", "url": "https://x.com/ManCity/status/2101709102179074448", "time": "2026-09-20T16:24:00Z", "account": "Man City", "handle": "ManCity" },
-                  { "text": "In three words? 🤔\n\n@okx 🤝", "url": "https://x.com/ManCity/status/2101702949210640437", "time": "2026-09-20T16:00:00Z", "account": "Man City", "handle": "ManCity" }
-
-          ]
+  "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+  "updated": "2026-09-20T23:10:25Z",
+  "posts": [
+    {
+      "text": "Alexander Isak has scored 4⃣ of @LFC's 7⃣ goals this season, including the winner against Bournemouth 👍",
+      "url": "https://x.com/premierleague/status/2101807365301649579",
+      "time": "2026-09-20T22:55:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Bernd Leno at his brilliant best for @FulhamFC 🧤",
+      "url": "https://x.com/premierleague/status/2101800822023639327",
+      "time": "2026-09-20T22:29:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Brian Brobbey hit the first hat-trick against Man City at the Etihad since Jamie Vardy for Leicester in 2020\n\nAnd it's only the sixth time in Premier League history a player has scored a treble for a losing side 😯",
+      "url": "https://x.com/premierleague/status/2101798557154189457",
+      "time": "2026-09-20T22:20:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Enzo Fernandez has tried to catch the 'keeper out with a free-kick before...\n\nWhat a way to score your first @ManCity goal! 👏",
+      "url": "https://x.com/premierleague/status/2101794531058356715",
+      "time": "2026-09-20T22:04:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Alisson somehow claws Evanilson's shot away 😮\n\n⛔️ @LFC",
+      "url": "https://x.com/premierleague/status/2101788994199806011",
+      "time": "2026-09-20T21:42:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Off the line 😮‍💨\n\n💫 @rubendias",
+      "url": "https://x.com/ManCity/status/2101784715992649884",
+      "time": "2026-09-20T21:25:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Born to score goals 🤖\n\n🤍 @Erling",
+      "url": "https://x.com/ManCity/status/2101783457684967874",
+      "time": "2026-09-20T21:20:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Changing the game 🫡\n\n✨ @antoinesemenyo",
+      "url": "https://x.com/ManCity/status/2101782199422832882",
+      "time": "2026-09-20T21:15:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Magic feet 🪄\n\n🌟 @rayan_cherki",
+      "url": "https://x.com/ManCity/status/2101780941249433921",
+      "time": "2026-09-20T21:10:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "What a way to score your first City goal 🥶",
+      "url": "https://x.com/ManCity/status/2101779683268333860",
+      "time": "2026-09-20T21:05:00Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    }
+  ]
 }
