@@ -1,15 +1,33 @@
 {
- "updated": "2026-09-19T22:24:51Z",
+ "updated": "2026-09-20T00:16:37Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Michael Carrick warns Man Utd must not let VAR error affect rest of season",
+   "title": "Man City vs. Sunderland: Preview, Predictions and Lineups",
    "img": null,
    "video": null,
-   "time": "2026-09-19T21:32:10Z"
+   "time": "2026-09-20T00:14:47Z"
+  },
+  {
+   "title": "Girl, 13, missing for eight days found 'safe and well' by police in Manchester city centre",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T22:31:28Z"
+  },
+  {
+   "title": "Brighton beat Arsenal 3-0 as Man City top Premier League without playing",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T21:58:03Z"
   },
   {
    "title": "Josko Gvardiol: How Man City defender is returning to best at left-back",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T21:31:17Z"
+  },
+  {
+   "title": "Gvardiol signals return to best at left-back for Man City",
    "img": null,
    "video": null,
    "time": "2026-09-19T21:31:17Z"
@@ -27,6 +45,12 @@
    "time": "2026-09-19T21:30:11Z"
   },
   {
+   "title": "Michael Carrick warns Man Utd must not let VAR error affect rest of season",
+   "img": null,
+   "video": null,
+   "time": "2026-09-19T21:30:04Z"
+  },
+  {
    "title": "He’s a truly, truly special person – Donnarumma on Maresca",
    "img": null,
    "video": null,
@@ -39,52 +63,28 @@
    "time": "2026-09-19T21:22:03Z"
   },
   {
-   "title": "Girl, 13, missing for eight days found 'safe and well' by police in Manchester city centre",
+   "title": "Missing Lillia, 13, found 'safe and well' in Manchester eight days after disappearance",
    "img": null,
    "video": null,
-   "time": "2026-09-19T21:06:54Z"
+   "time": "2026-09-19T21:08:26Z"
   },
   {
    "title": "Missing Lillia, 13, found in Manchester safe and well by police after eight days",
    "img": null,
    "video": null,
    "time": "2026-09-19T20:36:00Z"
-  },
-  {
-   "title": "Man City vs Sunderland prediction, tips and odds | Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-19T18:45:34Z"
-  },
-  {
-   "title": "Enzo Maresca reveals tactical experiment behind Floyd Samba's stunning Manchester City debut",
-   "img": null,
-   "video": null,
-   "time": "2026-09-19T17:04:12Z"
-  },
-  {
-   "title": "Man City v Sunderland: Prediction, team news, lineups and odds",
-   "img": null,
-   "video": null,
-   "time": "2026-09-19T17:04:06Z"
-  },
-  {
-   "title": "Amid Saudi interest: Manchester City star intends to leave in the winter transfer window",
-   "img": null,
-   "video": null,
-   "time": "2026-09-19T17:03:32Z"
   }
  ],
  "ticker": [
-  "Michael Carrick warns Man Utd must not let VAR error affect rest of season",
+  "Man City vs. Sunderland: Preview, Predictions and Lineups",
+  "Girl, 13, missing for eight days found 'safe and well' by police in Manchester city centre",
+  "Brighton beat Arsenal 3-0 as Man City top Premier League without playing",
   "Josko Gvardiol: How Man City defender is returning to best at left-back",
+  "Gvardiol signals return to best at left-back for Man City",
   "Man Utd: Michael Carrick has faith in VAR despite derby blunder",
   "Women's Super League: Manchester City vs Liverpool - Lauren Hemp scores a goal",
+  "Michael Carrick warns Man Utd must not let VAR error affect rest of season",
   "He’s a truly, truly special person – Donnarumma on Maresca",
-  "Missing 13-year-old Lillia found Manchester city centre after eight days",
-  "Girl, 13, missing for eight days found 'safe and well' by police in Manchester city centre",
-  "Missing Lillia, 13, found in Manchester safe and well by police after eight days",
-  "Man City vs Sunderland prediction, tips and odds | Premier League",
-  "Enzo Maresca reveals tactical experiment behind Floyd Samba's stunning Manchester City debut"
+  "Missing 13-year-old Lillia found Manchester city centre after eight days"
  ]
 }
