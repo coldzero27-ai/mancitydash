@@ -1,18 +1,60 @@
 {
- "updated": "2026-09-21T00:54:18Z",
+ "updated": "2026-09-21T05:58:44Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester City Maintain Perfect Start with 5-3 Win over Sunderland",
+   "title": "Allan sale to Manchester City could still earn Palmeiras, see",
    "img": null,
    "video": null,
-   "time": "2026-09-20T23:01:47Z"
+   "time": "2026-09-21T05:38:43Z"
   },
   {
-   "title": "City 5-3 Sunderland: Eight-minute highlights",
+   "title": "Matchday Musings: Sunderland Fall Short In An Eight-Goal Etihad Thriller",
    "img": null,
    "video": null,
-   "time": "2026-09-20T23:00:00Z"
+   "time": "2026-09-21T05:00:00Z"
+  },
+  {
+   "title": "2 Up, 2 Down: Sunderland And Man City Play Out A High-Scoring Classic",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T05:00:00Z"
+  },
+  {
+   "title": "Editorial: Rollercoaster Of A Week For Sunderland Should Fill Us With Pride",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T05:00:00Z"
+  },
+  {
+   "title": "Antoine Semenyo Sends Complacency Warning to Manchester City Teammates After Sunderland Thriller",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T04:30:00Z"
+  },
+  {
+   "title": "Manchester City keep entertaining. Maresca is learning to love the chaos",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T04:19:20Z"
+  },
+  {
+   "title": "Manchester City 5-3 Sunderland Stats: Brobbey Hat-Trick Proves Fruitless in Eight-Goal Extravaganza",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T03:36:57Z"
+  },
+  {
+   "title": "Watch Compacto | Premier League: Manchester City vs. Sunderland (3 min)",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T03:04:24Z"
+  },
+  {
+   "title": "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T01:30:00Z"
   },
   {
    "title": "Manchester City thrash Sunderland 5-3",
@@ -21,70 +63,28 @@
    "time": "2026-09-20T22:45:00Z"
   },
   {
-   "title": "🚨 These are the latest images from Manchester city centre this afternoon as a cordon is in place. There is a heavy police presence at the scene on Newton Street. The Manchester Evening News understands this is a Metropolitan Police-led incident.",
+   "title": "City 5-3 Sunderland: Eight-minute highlights",
    "img": null,
    "video": null,
-   "time": "2026-09-20T22:43:35Z"
-  },
-  {
-   "title": "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T22:22:00Z"
-  },
-  {
-   "title": "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T21:40:01Z"
+   "time": "2026-09-20T22:00:00Z"
   },
   {
    "title": "Man City serve up pure chaos under Enzo Maresca as Cody Gakpo shines for Liverpool - Premier League hits and misses",
    "img": null,
    "video": null,
    "time": "2026-09-20T19:51:47Z"
-  },
-  {
-   "title": "5 chapters of Premier League madness: Manchester City soar alone as crises hit the big clubs",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:37:55Z"
-  },
-  {
-   "title": "Manchester City: Delight at Premier League win against Sunderland",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:34:47Z"
-  },
-  {
-   "title": "Match of the Day",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:15:53Z"
-  },
-  {
-   "title": "Premier League: Leaders Manchester City 5-4 for title but pressure increases on Michael Carrick",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:00:49Z"
-  },
-  {
-   "title": "Highlights - Premier League - Manchester City 5-3 Sunderland",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:00:25Z"
   }
  ],
  "ticker": [
-  "Manchester City Maintain Perfect Start with 5-3 Win over Sunderland",
-  "City 5-3 Sunderland: Eight-minute highlights",
-  "Manchester City thrash Sunderland 5-3",
-  "🚨 These are the latest images from Manchester city centre this afternoon as a cordon is in place. There is a heavy police presence at the scene on Newton Street. The Manchester Evening News understands this is a Metropolitan Police-led incident.",
+  "Allan sale to Manchester City could still earn Palmeiras, see",
+  "Matchday Musings: Sunderland Fall Short In An Eight-Goal Etihad Thriller",
+  "2 Up, 2 Down: Sunderland And Man City Play Out A High-Scoring Classic",
+  "Editorial: Rollercoaster Of A Week For Sunderland Should Fill Us With Pride",
+  "Antoine Semenyo Sends Complacency Warning to Manchester City Teammates After Sunderland Thriller",
+  "Manchester City keep entertaining. Maresca is learning to love the chaos",
+  "Manchester City 5-3 Sunderland Stats: Brobbey Hat-Trick Proves Fruitless in Eight-Goal Extravaganza",
+  "Watch Compacto | Premier League: Manchester City vs. Sunderland (3 min)",
   "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
-  "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
-  "Man City serve up pure chaos under Enzo Maresca as Cody Gakpo shines for Liverpool - Premier League hits and misses",
-  "5 chapters of Premier League madness: Manchester City soar alone as crises hit the big clubs",
-  "Manchester City: Delight at Premier League win against Sunderland",
-  "Match of the Day"
+  "Manchester City thrash Sunderland 5-3"
  ]
 }
