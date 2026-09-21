@@ -1,7 +1,37 @@
 {
- "updated": "2026-09-20T22:40:00Z",
+ "updated": "2026-09-21T00:54:18Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City Maintain Perfect Start with 5-3 Win over Sunderland",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T23:01:47Z"
+  },
+  {
+   "title": "City 5-3 Sunderland: Eight-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T23:00:00Z"
+  },
+  {
+   "title": "Manchester City thrash Sunderland 5-3",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T22:45:00Z"
+  },
+  {
+   "title": "🚨 These are the latest images from Manchester city centre this afternoon as a cordon is in place. There is a heavy police presence at the scene on Newton Street. The Manchester Evening News understands this is a Metropolitan Police-led incident.",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T22:43:35Z"
+  },
+  {
+   "title": "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T22:22:00Z"
+  },
   {
    "title": "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
    "img": null,
@@ -15,16 +45,16 @@
    "time": "2026-09-20T19:51:47Z"
   },
   {
-   "title": "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:49:00Z"
-  },
-  {
    "title": "5 chapters of Premier League madness: Manchester City soar alone as crises hit the big clubs",
    "img": null,
    "video": null,
    "time": "2026-09-20T19:37:55Z"
+  },
+  {
+   "title": "Manchester City: Delight at Premier League win against Sunderland",
+   "img": null,
+   "video": null,
+   "time": "2026-09-20T19:34:47Z"
   },
   {
    "title": "Match of the Day",
@@ -43,48 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-20T19:00:25Z"
-  },
-  {
-   "title": "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T19:00:00Z"
-  },
-  {
-   "title": "Manchester City: Delight at Premier League win against Sunderland",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T18:52:44Z"
-  },
-  {
-   "title": "Two men arrested in Manchester city centre in counter terrorism operation | News - undefined",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T18:39:49Z"
-  },
-  {
-   "title": "Manchester City beat Sunderland 5-3 in 8-goal thriller to stay on top of Premier League - Anadolu Ajansı",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T18:29:55Z"
-  },
-  {
-   "title": "Manchester City Outgun Sunderland Despite Brian Brobbey's Hat-Trick, Manchester United Rescue Fulham Draw",
-   "img": null,
-   "video": null,
-   "time": "2026-09-20T18:07:18Z"
   }
  ],
  "ticker": [
+  "Manchester City Maintain Perfect Start with 5-3 Win over Sunderland",
+  "City 5-3 Sunderland: Eight-minute highlights",
+  "Manchester City thrash Sunderland 5-3",
+  "🚨 These are the latest images from Manchester city centre this afternoon as a cordon is in place. There is a heavy police presence at the scene on Newton Street. The Manchester Evening News understands this is a Metropolitan Police-led incident.",
+  "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
   "🚨 BREAKING: Manchester city centre incident LIVE as cordon in place - updates",
   "Man City serve up pure chaos under Enzo Maresca as Cody Gakpo shines for Liverpool - Premier League hits and misses",
-  "Maresca dismisses title talk as ‘too early’ after Manchester City take over at the top",
   "5 chapters of Premier League madness: Manchester City soar alone as crises hit the big clubs",
-  "Match of the Day",
-  "Premier League: Leaders Manchester City 5-4 for title but pressure increases on Michael Carrick",
-  "Highlights - Premier League - Manchester City 5-3 Sunderland",
-  "Transfer rumors, news: Liverpool, Man City eye Real Sociedad's Aramburu",
   "Manchester City: Delight at Premier League win against Sunderland",
-  "Two men arrested in Manchester city centre in counter terrorism operation | News - undefined"
+  "Match of the Day"
  ]
 }
