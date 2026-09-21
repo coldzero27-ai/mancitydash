@@ -1,16 +1,16 @@
 {
-      "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-      "updated": "2026-09-21T11:14:37Z",
-      "posts": [
-              { "text": "🥶", "url": "https://x.com/premierleague/status/2101974720862457921", "time": "2026-09-21T10:00:00Z", "account": "Premier League", "handle": "premierleague" },
-              { "text": "One night. One huge Champions League clash. A game you won't want to miss! 🤩\n\n🆚 City v PSG\n📆 Wed 14 Oct\n⏰ 20:00 (UK) \n🎟️ Tickets on sale to eligible members now!\n👉 https://mancity.co/PSG2526", "url": "https://x.com/ManCity/status/2101959626300301806", "time": "2026-09-21T09:00:02Z", "account": "Man City", "handle": "ManCity" },
-              { "text": "Silky 👌", "url": "https://x.com/ManCity/status/2101954099843362905", "time": "2026-09-21T08:38:04Z", "account": "Man City", "handle": "ManCity" },
-              { "text": "Timed to perfection 🤌\n\n@NUFC", "url": "https://x.com/premierleague/status/2101951375286386828", "time": "2026-09-21T08:27:14Z", "account": "Premier League", "handle": "premierleague" },
-              { "text": "Happy Birthday, Dunney 🎉🩵", "url": "https://x.com/ManCity/status/2101944521680646179", "time": "2026-09-21T08:00:00Z", "account": "Man City", "handle": "ManCity" },
-              { "text": "Bradley Barcola 🤩\n\n🔴 @LFC", "url": "https://x.com/premierleague/status/2101929671298617360", "time": "2026-09-21T07:01:00Z", "account": "Premier League", "handle": "premierleague" },
-              { "text": "Do you see your team? 👀", "url": "https://x.com/premierleague/status/2101914823386923377", "time": "2026-09-21T06:02:00Z", "account": "Premier League", "handle": "premierleague" },
-              { "text": "Alexander Isak has scored 4️⃣ of @LFC's 7️⃣ goals this season, including the winner against Bournemouth 👍", "url": "https://x.com/premierleague/status/2101807365301649579", "time": "2026-09-20T22:55:00Z", "account": "Premier League", "handle": "premierleague" },
-              { "text": "Off the line 😮‍💨\n\n💫 @rubendias", "url": "https://x.com/ManCity/status/2101784715992649884", "time": "2026-09-20T21:25:00Z", "account": "Man City", "handle": "ManCity" },
-              { "text": "Born to score goals 🤖\n\n🩵 @Erling", "url": "https://x.com/ManCity/status/2101783457684967874", "time": "2026-09-20T21:20:00Z", "account": "Man City", "handle": "ManCity" }
-      ]
+        "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+        "updated": "2026-09-21T14:13:15Z",
+        "posts": [
+                  { "text": "Arsenal v Man City and Everton v Liverpool are among the confirmed live TV broadcast selections for November 👀\n\nSee which fixtures have been amended here 👉 https://preml.ge/w4ldeymt", "url": "https://x.com/premierleague/status/2102036038243831954", "time": "2026-09-21T14:03:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "The theme is, art 🖼️\n\n✨ @EnzoFe17", "url": "https://x.com/ManCity/status/2102035267733324228", "time": "2026-09-21T14:00:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "It's time to decide your Player of the Matchweek! 👀\n\nVote now 👉 https://preml.ge/7rauw92s", "url": "https://x.com/premierleague/status/2102020029004791982", "time": "2026-09-21T13:00:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "For the third season in a row, @BHAFC have defeated the reigning Premier League champions at the Amex 👊", "url": "https://x.com/premierleague/status/2102004979019977057", "time": "2026-09-21T12:00:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "The third-youngest player to reach 3️⃣0️⃣0️⃣ Premier League starts 👏\n\nDeclan Rice ⭐️", "url": "https://x.com/premierleague/status/2101993594118656012", "time": "2026-09-21T11:15:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "🥶", "url": "https://x.com/premierleague/status/2101974720862457921", "time": "2026-09-21T10:00:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "One night. One huge Champions League clash. A game you won't want to miss! 🤩\n\n🆚 City v PSG\n📆 Wed 14 Oct\n⏰ 20:00 (UK)\n🎟️ Tickets on sale to eligible members now!\n👉 https://mancity.co/PSG2526", "url": "https://x.com/ManCity/status/2101959626300301806", "time": "2026-09-21T09:00:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Silky 👌", "url": "https://x.com/ManCity/status/2101954099843362905", "time": "2026-09-21T08:38:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Happy Birthday, Dunney 🎉🩵", "url": "https://x.com/ManCity/status/2101944521680646179", "time": "2026-09-21T08:00:00Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Off the line 😮‍💨\n\n💫 @rubendias", "url": "https://x.com/ManCity/status/2101784715992649884", "time": "2026-09-20T21:25:00Z", "account": "Man City", "handle": "ManCity" }
+        ]
 }
