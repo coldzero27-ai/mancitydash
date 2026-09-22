@@ -1,7 +1,49 @@
 {
- "updated": "2026-09-22T01:05:15Z",
+ "updated": "2026-09-22T06:37:44Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Emile Heskey on the reality of raising professional footballers: ‘It’s not my career, it’s theirs’",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T06:05:00Z"
+  },
+  {
+   "title": "Man City transfer rumours: Givairo Read",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T06:03:29Z"
+  },
+  {
+   "title": "Sunderland Stand Tall Against A Soulless Club",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T05:00:00Z"
+  },
+  {
+   "title": "Why Sunderland Fans Shouldn’t Be Worried Just Yet",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T05:00:00Z"
+  },
+  {
+   "title": "Antoine Semenyo sums up Man City unknowns under Enzo Maresca",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T04:00:00Z"
+  },
+  {
+   "title": "Bayern Munich W - Manchester City W",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T03:52:32Z"
+  },
+  {
+   "title": "Manchester City are back after a season away, and the Women’s Champions League opens with Real Madrid against PSG",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T02:01:41Z"
+  },
   {
    "title": "UWCL Preview: Bayern Munich vs. Manchester City",
    "img": null,
@@ -9,28 +51,10 @@
    "time": "2026-09-21T23:30:00Z"
   },
   {
-   "title": "Bayern Munich W - Manchester City W",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T21:50:54Z"
-  },
-  {
    "title": "There is a weapon in the Manchester City arsenal that their rivals do not have",
    "img": null,
    "video": null,
    "time": "2026-09-21T21:50:00Z"
-  },
-  {
-   "title": "Maresca after Manchester City's 5-3 win over Sunderland: ‘I prefer to win 1-0 than 5-3’",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T21:47:15Z"
-  },
-  {
-   "title": "Man City boss confirms injury blow ahead of Bayern Munich bout",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T21:16:07Z"
   },
   {
    "title": "Louis Saha Makes Manchester City Title Prediction After Arsenal’s Shock Brighton Defeat",
@@ -45,46 +69,22 @@
    "time": "2026-09-21T21:05:00Z"
   },
   {
-   "title": "Ex-Man Utd star names Man City as Premier League title favourites over Arsenal",
+   "title": "Liverpool join Arsenal and Man City in race to sign Dutch defender - Shoot | The Voice of Football",
    "img": null,
    "video": null,
-   "time": "2026-09-21T20:26:20Z"
-  },
-  {
-   "title": "Tuesday's football tips: Go for first-half goals at 11/10 as Bayern Munich Women host Manchester City in the Champions League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T20:22:03Z"
-  },
-  {
-   "title": "Despite an unsettled defensive display, Manchester City overcame Sunderland",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T20:20:00Z"
-  },
-  {
-   "title": "Parking tickets given to volunteers feeding the homeless in Manchester city centre cancelled after backlash",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T19:35:00Z"
-  },
-  {
-   "title": "Crunch tie in their new home: FCB Women host Manchester City in clash of the champions",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T19:06:33Z"
+   "time": "2026-09-21T20:39:00Z"
   }
  ],
  "ticker": [
-  "UWCL Preview: Bayern Munich vs. Manchester City",
+  "Emile Heskey on the reality of raising professional footballers: ‘It’s not my career, it’s theirs’",
+  "Man City transfer rumours: Givairo Read",
+  "Sunderland Stand Tall Against A Soulless Club",
+  "Why Sunderland Fans Shouldn’t Be Worried Just Yet",
+  "Antoine Semenyo sums up Man City unknowns under Enzo Maresca",
   "Bayern Munich W - Manchester City W",
+  "Manchester City are back after a season away, and the Women’s Champions League opens with Real Madrid against PSG",
+  "UWCL Preview: Bayern Munich vs. Manchester City",
   "There is a weapon in the Manchester City arsenal that their rivals do not have",
-  "Maresca after Manchester City's 5-3 win over Sunderland: ‘I prefer to win 1-0 than 5-3’",
-  "Man City boss confirms injury blow ahead of Bayern Munich bout",
-  "Louis Saha Makes Manchester City Title Prediction After Arsenal’s Shock Brighton Defeat",
-  "Manchester City Are Set To Rival Liverpool For This La Liga Full-Back: What Will He Add To Maresca’s Side?",
-  "Ex-Man Utd star names Man City as Premier League title favourites over Arsenal",
-  "Tuesday's football tips: Go for first-half goals at 11/10 as Bayern Munich Women host Manchester City in the Champions League",
-  "Despite an unsettled defensive display, Manchester City overcame Sunderland"
+  "Louis Saha Makes Manchester City Title Prediction After Arsenal’s Shock Brighton Defeat"
  ]
 }
