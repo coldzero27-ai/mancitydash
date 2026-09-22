@@ -1,7 +1,19 @@
 {
- "updated": "2026-09-21T22:29:45Z",
+ "updated": "2026-09-22T01:05:15Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "UWCL Preview: Bayern Munich vs. Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T23:30:00Z"
+  },
+  {
+   "title": "Bayern Munich W - Manchester City W",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T21:50:54Z"
+  },
   {
    "title": "There is a weapon in the Manchester City arsenal that their rivals do not have",
    "img": null,
@@ -13,6 +25,12 @@
    "img": null,
    "video": null,
    "time": "2026-09-21T21:47:15Z"
+  },
+  {
+   "title": "Man City boss confirms injury blow ahead of Bayern Munich bout",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T21:16:07Z"
   },
   {
    "title": "Louis Saha Makes Manchester City Title Prediction After Arsenal’s Shock Brighton Defeat",
@@ -33,6 +51,12 @@
    "time": "2026-09-21T20:26:20Z"
   },
   {
+   "title": "Tuesday's football tips: Go for first-half goals at 11/10 as Bayern Munich Women host Manchester City in the Champions League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-21T20:22:03Z"
+  },
+  {
    "title": "Despite an unsettled defensive display, Manchester City overcame Sunderland",
    "img": null,
    "video": null,
@@ -49,42 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-21T19:06:33Z"
-  },
-  {
-   "title": "FC Bayern Munich vs City: Kick off time, team news and TV information",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T19:00:00Z"
-  },
-  {
-   "title": "Jeglertz: We have the quality to get a result",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T19:00:00Z"
-  },
-  {
-   "title": "Greenwood: We’re hungry for Champions League success",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T19:00:00Z"
-  },
-  {
-   "title": "Premier League report cards: From A to F - the grades are in after five games",
-   "img": null,
-   "video": null,
-   "time": "2026-09-21T18:04:00Z"
   }
  ],
  "ticker": [
+  "UWCL Preview: Bayern Munich vs. Manchester City",
+  "Bayern Munich W - Manchester City W",
   "There is a weapon in the Manchester City arsenal that their rivals do not have",
   "Maresca after Manchester City's 5-3 win over Sunderland: ‘I prefer to win 1-0 than 5-3’",
+  "Man City boss confirms injury blow ahead of Bayern Munich bout",
   "Louis Saha Makes Manchester City Title Prediction After Arsenal’s Shock Brighton Defeat",
   "Manchester City Are Set To Rival Liverpool For This La Liga Full-Back: What Will He Add To Maresca’s Side?",
   "Ex-Man Utd star names Man City as Premier League title favourites over Arsenal",
-  "Despite an unsettled defensive display, Manchester City overcame Sunderland",
-  "Parking tickets given to volunteers feeding the homeless in Manchester city centre cancelled after backlash",
-  "Crunch tie in their new home: FCB Women host Manchester City in clash of the champions",
-  "FC Bayern Munich vs City: Kick off time, team news and TV information",
-  "Jeglertz: We have the quality to get a result"
+  "Tuesday's football tips: Go for first-half goals at 11/10 as Bayern Munich Women host Manchester City in the Champions League",
+  "Despite an unsettled defensive display, Manchester City overcame Sunderland"
  ]
 }
