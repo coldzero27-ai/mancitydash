@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T22:55:10Z",
+ "updated": "2026-09-23T07:43:09Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -59,14 +59,14 @@
    "venue": "Red Bull Arena"
   },
   {
-   "utc": "2026-11-07T15:00:00Z",
+   "utc": "2026-11-07T17:30:00Z",
    "comp": "PL",
    "home": "Nottingham Forest",
    "away": "Manchester City",
    "venue": "City Ground"
   },
   {
-   "utc": "2026-11-21T15:00:00Z",
+   "utc": "2026-11-21T12:30:00Z",
    "comp": "PL",
    "home": "Manchester City",
    "away": "Fulham",
@@ -80,7 +80,7 @@
    "venue": "Etihad Stadium"
   },
   {
-   "utc": "2026-11-28T15:00:00Z",
+   "utc": "2026-11-29T16:30:00Z",
    "comp": "PL",
    "home": "Arsenal",
    "away": "Manchester City",
@@ -122,21 +122,21 @@
    "venue": "Etihad Stadium"
   },
   {
-   "utc": "2026-12-26T15:00:00Z",
+   "utc": "2026-12-26T20:00:00Z",
    "comp": "PL",
    "home": "Newcastle",
    "away": "Manchester City",
    "venue": "St. James' Park"
   },
   {
-   "utc": "2026-12-30T20:00:00Z",
+   "utc": "2026-12-29T20:15:00Z",
    "comp": "PL",
    "home": "Everton",
    "away": "Manchester City",
    "venue": "Hill Dickinson Stadium"
   },
   {
-   "utc": "2027-01-02T15:00:00Z",
+   "utc": "2027-01-03T16:30:00Z",
    "comp": "PL",
    "home": "Manchester City",
    "away": "Tottenham",
