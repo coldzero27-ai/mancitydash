@@ -1,12 +1,66 @@
 {
- "updated": "2026-09-23T12:58:36Z",
+ "updated": "2026-09-23T17:48:45Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Enzo Maresca's plan for Manchester City stars not called up by national teams",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T16:43:20Z"
+  },
+  {
+   "title": "Carragher Urges Iraola to Drop Wirtz for Man City Match",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T16:00:00Z"
+  },
+  {
+   "title": "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T15:30:00Z"
+  },
+  {
+   "title": "Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T15:05:00Z"
+  },
+  {
+   "title": "Win a trip to Manchester with Cityzens!",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T15:00:00Z"
+  },
+  {
+   "title": "Man Utd still £1bn in debt with £63.5m spent on new stadium",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T14:10:21Z"
+  },
+  {
+   "title": "Bonanno and Jafonso extend stay at Man City Esports",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T14:00:00Z"
+  },
+  {
+   "title": "Man City news: Phil Foden red card in derby supported by panel",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T13:55:00Z"
+  },
   {
    "title": "Brilliance cancelled out: What FCB Women take away from UWCL opener against City",
    "img": null,
    "video": null,
    "time": "2026-09-23T12:38:36Z"
+  },
+  {
+   "title": "Arsenal, Chelsea and Tottenham in limbo over Man City 115 charges saga after CEO admission",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T12:31:07Z"
   },
   {
    "title": "Sunderland's Brobbey voted Player of the Matchweek",
@@ -15,76 +69,22 @@
    "time": "2026-09-23T12:25:23Z"
   },
   {
-   "title": "Enzo Maresca and Hugo Viana confirmed for live Q&As at charity Gala Dinner",
+   "title": "Thousands of pounds seized and four arrested in Manchester city centre raids",
    "img": null,
    "video": null,
-   "time": "2026-09-23T12:00:00Z"
-  },
-  {
-   "title": "Women's Champions League: Man City draw 2-2 with Bayern Munich",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T11:24:44Z"
-  },
-  {
-   "title": "Manchester United expects higher fiscal 2027 revenue on Champions League boost",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T11:20:16Z"
-  },
-  {
-   "title": "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T11:00:00Z"
-  },
-  {
-   "title": "Manchester to host world leaders at the 2027 G20 Summit",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T10:56:38Z"
-  },
-  {
-   "title": "What Happens When You Win Your First Five Premier League Games: Manchester City, Arsenal, Liverpool",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T10:55:19Z"
-  },
-  {
-   "title": "Premier League panel unanimously rules VAR wrongly awarded Haaland Manchester derby winner",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T10:45:00Z"
-  },
-  {
-   "title": "Arsenal hot prospect Mishel Nduka, 16, completes Man City transfer after rejecting scholarship deal at Gunners",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T10:15:00Z"
-  },
-  {
-   "title": "Manchester City Council appoints new Deputy Leader",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T09:59:42Z"
-  },
-  {
-   "title": "Old Trafford: Manchester United’s stadium capacity, location, facts and video tour",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T09:27:11Z"
+   "time": "2026-09-23T12:24:00Z"
   }
  ],
  "ticker": [
-  "Brilliance cancelled out: What FCB Women take away from UWCL opener against City",
-  "Sunderland's Brobbey voted Player of the Matchweek",
-  "Enzo Maresca and Hugo Viana confirmed for live Q&As at charity Gala Dinner",
-  "Women's Champions League: Man City draw 2-2 with Bayern Munich",
-  "Manchester United expects higher fiscal 2027 revenue on Champions League boost",
+  "Enzo Maresca's plan for Manchester City stars not called up by national teams",
+  "Carragher Urges Iraola to Drop Wirtz for Man City Match",
   "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
-  "Manchester to host world leaders at the 2027 G20 Summit",
-  "What Happens When You Win Your First Five Premier League Games: Manchester City, Arsenal, Liverpool",
-  "Premier League panel unanimously rules VAR wrongly awarded Haaland Manchester derby winner",
-  "Arsenal hot prospect Mishel Nduka, 16, completes Man City transfer after rejecting scholarship deal at Gunners"
+  "Manchester City",
+  "Win a trip to Manchester with Cityzens!",
+  "Man Utd still £1bn in debt with £63.5m spent on new stadium",
+  "Bonanno and Jafonso extend stay at Man City Esports",
+  "Man City news: Phil Foden red card in derby supported by panel",
+  "Brilliance cancelled out: What FCB Women take away from UWCL opener against City",
+  "Arsenal, Chelsea and Tottenham in limbo over Man City 115 charges saga after CEO admission"
  ]
 }
