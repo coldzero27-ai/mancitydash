@@ -1,18 +1,42 @@
 {
- "updated": "2026-09-23T21:14:52Z",
+ "updated": "2026-09-23T23:53:05Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Two pieces of the Manchester City midfield haven’t yet come together out of possession",
+   "title": "Manchester City Council seeks consultancy team to provide Strategic Regeneration Framework for Northern Powerhouse Rail",
    "img": null,
    "video": null,
-   "time": "2026-09-23T20:35:45Z"
+   "time": "2026-09-23T23:02:58Z"
+  },
+  {
+   "title": "Manchester City Star Erling Haaland Sends 3-Word Tease Ahead of Norway Return",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T21:35:59Z"
+  },
+  {
+   "title": "The 25 Best Man City Players of All Time—Ranked",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T21:30:00Z"
   },
   {
    "title": "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
    "img": null,
    "video": null,
-   "time": "2026-09-23T20:22:00Z"
+   "time": "2026-09-23T21:22:00Z"
+  },
+  {
+   "title": "With another dynamic attacking option back, Manchester City should be even more dangerous in the final third",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T21:19:42Z"
+  },
+  {
+   "title": "Two pieces of the Manchester City midfield haven’t yet come together out of possession",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T20:35:45Z"
   },
   {
    "title": "Manchester City Are In The Running To Land This Eredvisie Full-Back: Should Maresca Snap Him Up?",
@@ -21,22 +45,10 @@
    "time": "2026-09-23T20:20:00Z"
   },
   {
-   "title": "“It’s money for generations”- Tijjani Reijnders makes extremely honest admission about why he left Man City for Saudi",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T20:05:34Z"
-  },
-  {
    "title": "Man City Claws Back to Earn 2-2 UWCL Draw with Bayern Munich",
    "img": null,
    "video": null,
    "time": "2026-09-23T19:28:44Z"
-  },
-  {
-   "title": "Man City transfer news, rumours and gossip: Live updates and latest on deals, signings, loans and contracts",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T18:37:15Z"
   },
   {
    "title": "Ait-Nouri targeted by Juventus after Manchester City struggle",
@@ -45,46 +57,34 @@
    "time": "2026-09-23T18:30:00Z"
   },
   {
-   "title": "Medlock Square - everything at Manchester's new £300million entertainment district next to Etihad Stadium",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T18:14:00Z"
-  },
-  {
-   "title": "Premier League Panel Issue 64-Word Verdict on Erling Haaland Man City Goal vs Man Utd",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T17:15:12Z"
-  },
-  {
    "title": "Enzo Maresca's plan for Manchester City stars not called up by national teams",
    "img": null,
    "video": null,
    "time": "2026-09-23T16:43:20Z"
   },
   {
-   "title": "Carragher Urges Iraola to Drop Wirtz for Man City Match",
+   "title": "Jamie Carragher Urges Iraola to Drop Florian Wirtz for Man City Clash",
    "img": null,
    "video": null,
    "time": "2026-09-23T16:00:00Z"
   },
   {
-   "title": "Watch: Jeglertz's pre-Bayern Munich team talk",
+   "title": "Arsenal teenager joins Premier League rival just a year after poaching him from EFL club",
    "img": null,
    "video": null,
-   "time": "2026-09-23T15:45:00Z"
+   "time": "2026-09-23T15:39:14Z"
   }
  ],
  "ticker": [
-  "Two pieces of the Manchester City midfield haven’t yet come together out of possession",
+  "Manchester City Council seeks consultancy team to provide Strategic Regeneration Framework for Northern Powerhouse Rail",
+  "Manchester City Star Erling Haaland Sends 3-Word Tease Ahead of Norway Return",
+  "The 25 Best Man City Players of All Time—Ranked",
   "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
+  "With another dynamic attacking option back, Manchester City should be even more dangerous in the final third",
+  "Two pieces of the Manchester City midfield haven’t yet come together out of possession",
   "Manchester City Are In The Running To Land This Eredvisie Full-Back: Should Maresca Snap Him Up?",
-  "“It’s money for generations”- Tijjani Reijnders makes extremely honest admission about why he left Man City for Saudi",
   "Man City Claws Back to Earn 2-2 UWCL Draw with Bayern Munich",
-  "Man City transfer news, rumours and gossip: Live updates and latest on deals, signings, loans and contracts",
   "Ait-Nouri targeted by Juventus after Manchester City struggle",
-  "Medlock Square - everything at Manchester's new £300million entertainment district next to Etihad Stadium",
-  "Premier League Panel Issue 64-Word Verdict on Erling Haaland Man City Goal vs Man Utd",
   "Enzo Maresca's plan for Manchester City stars not called up by national teams"
  ]
 }
