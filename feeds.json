@@ -1,12 +1,42 @@
 {
- "updated": "2026-09-22T23:10:38Z",
+ "updated": "2026-09-23T01:40:44Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Radisson targets Manchester sports fans with new hotel",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T01:09:51Z"
+  },
+  {
+   "title": "Women's Champions League: Arsenal win with late penalty; Man City rescue draw at Bayern Munich",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T00:13:40Z"
+  },
+  {
+   "title": "Wamser rescues point for Manchester City in WCL fightback at Bayern Munich",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T22:20:00Z"
+  },
+  {
+   "title": "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T22:00:15Z"
+  },
   {
    "title": "Bayern Munich 2-2 City: Highlights",
    "img": null,
    "video": null,
    "time": "2026-09-22T22:00:00Z"
+  },
+  {
+   "title": "Bayern Munich W - Manchester City W 2-2",
+   "img": null,
+   "video": null,
+   "time": "2026-09-22T21:59:49Z"
   },
   {
    "title": "Bayern Munich 2-2 Manchester City: Visitors recover on Women's Champions League return",
@@ -43,48 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-22T20:45:00Z"
-  },
-  {
-   "title": "There looks to be an area of concern with the form of a Manchester City left-back",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:40:00Z"
-  },
-  {
-   "title": "Jeglertz delighted to see Mead and Wamser score first City goals",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:30:00Z"
-  },
-  {
-   "title": "Manchester City Are Keeping Tabs On This Gifted Midfielder: A Star In The Making?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:20:00Z"
-  },
-  {
-   "title": "Don't miss City's Real Madrid and PSG home clashes!",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:15:00Z"
-  },
-  {
-   "title": "After seven games, Manchester City have built themselves a platform to launch from",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:09:04Z"
   }
  ],
  "ticker": [
+  "Radisson targets Manchester sports fans with new hotel",
+  "Women's Champions League: Arsenal win with late penalty; Man City rescue draw at Bayern Munich",
+  "Wamser rescues point for Manchester City in WCL fightback at Bayern Munich",
+  "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
   "Bayern Munich 2-2 City: Highlights",
+  "Bayern Munich W - Manchester City W 2-2",
   "Bayern Munich 2-2 Manchester City: Visitors recover on Women's Champions League return",
   "Bayern Munich Frauen suffer second half collapse in 2-2 draw with Manchester City",
   "Manchester City retain unbeaten record with UWCL draw against Bayern",
-  "Mead: Second half display showed what we’re about in Europe",
-  "Just as a Manchester City winger hits goal-scoring form, he is withdrawn from international duty",
-  "Gallery: Champions League nights are back!",
-  "There looks to be an area of concern with the form of a Manchester City left-back",
-  "Jeglertz delighted to see Mead and Wamser score first City goals",
-  "Manchester City Are Keeping Tabs On This Gifted Midfielder: A Star In The Making?"
+  "Mead: Second half display showed what we’re about in Europe"
  ]
 }
