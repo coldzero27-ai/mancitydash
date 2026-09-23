@@ -1,7 +1,55 @@
 {
- "updated": "2026-09-23T01:40:44Z",
+ "updated": "2026-09-23T07:29:54Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Women's Champions League: Arsenal win with late penalty; Man City rescue draw at Bayern Munich",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T06:13:40Z"
+  },
+  {
+   "title": "Pep Loves Him: Tottenham Must Hire 'Incredible' English Manager if De Zerbi Leaves",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T05:16:12Z"
+  },
+  {
+   "title": "‘Sunderland 1.5’ — A Lads Team In Transition?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T05:00:00Z"
+  },
+  {
+   "title": "Is Enzo Fernandez already answering the doubts that surrounded his Man City move?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T04:10:18Z"
+  },
+  {
+   "title": "Man City have unlocked a difference-maker after sliding doors transfer moment",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T04:00:00Z"
+  },
+  {
+   "title": "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T04:00:00Z"
+  },
+  {
+   "title": "Manchester City retain unbeaten record with UWCL draw against Bayern",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T02:45:00Z"
+  },
+  {
+   "title": "Manchester City were two down after 28 minutes in Munich, and a full-back they signed from Leverkusen got them level",
+   "img": null,
+   "video": null,
+   "time": "2026-09-23T02:05:27Z"
+  },
   {
    "title": "Radisson targets Manchester sports fans with new hotel",
    "img": null,
@@ -9,82 +57,34 @@
    "time": "2026-09-23T01:09:51Z"
   },
   {
-   "title": "Women's Champions League: Arsenal win with late penalty; Man City rescue draw at Bayern Munich",
+   "title": "Manchester City U21 vs Manchester United U21: Premier League 2 stats & head-to-head",
    "img": null,
    "video": null,
-   "time": "2026-09-23T00:13:40Z"
+   "time": "2026-09-23T00:11:37Z"
   },
   {
-   "title": "Wamser rescues point for Manchester City in WCL fightback at Bayern Munich",
+   "title": "Women's Champions League Matchday 1 Tuesday highlights and round-up: Arsenal leave it late, Man City deny Bayern, Real Madrid and Paris SG draw, Inter and Benfica win",
    "img": null,
    "video": null,
-   "time": "2026-09-22T22:20:00Z"
+   "time": "2026-09-22T23:41:04Z"
   },
   {
-   "title": "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
+   "title": "Manchester City goal in Women’s Champions League allowed to stand despite flare on pitch",
    "img": null,
    "video": null,
-   "time": "2026-09-22T22:00:15Z"
-  },
-  {
-   "title": "Bayern Munich 2-2 City: Highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T22:00:00Z"
-  },
-  {
-   "title": "Bayern Munich W - Manchester City W 2-2",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T21:59:49Z"
-  },
-  {
-   "title": "Bayern Munich 2-2 Manchester City: Visitors recover on Women's Champions League return",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T21:30:45Z"
-  },
-  {
-   "title": "Bayern Munich Frauen suffer second half collapse in 2-2 draw with Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T21:30:00Z"
-  },
-  {
-   "title": "Manchester City retain unbeaten record with UWCL draw against Bayern",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T21:07:15Z"
-  },
-  {
-   "title": "Mead: Second half display showed what we’re about in Europe",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T21:00:00Z"
-  },
-  {
-   "title": "Just as a Manchester City winger hits goal-scoring form, he is withdrawn from international duty",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:55:44Z"
-  },
-  {
-   "title": "Gallery: Champions League nights are back!",
-   "img": null,
-   "video": null,
-   "time": "2026-09-22T20:45:00Z"
+   "time": "2026-09-22T22:13:58Z"
   }
  ],
  "ticker": [
-  "Radisson targets Manchester sports fans with new hotel",
   "Women's Champions League: Arsenal win with late penalty; Man City rescue draw at Bayern Munich",
-  "Wamser rescues point for Manchester City in WCL fightback at Bayern Munich",
-  "Brian Brobbey credits video analysis after Manchester City hat-trick and Netherlands call-up",
-  "Bayern Munich 2-2 City: Highlights",
-  "Bayern Munich W - Manchester City W 2-2",
-  "Bayern Munich 2-2 Manchester City: Visitors recover on Women's Champions League return",
-  "Bayern Munich Frauen suffer second half collapse in 2-2 draw with Manchester City",
+  "Pep Loves Him: Tottenham Must Hire 'Incredible' English Manager if De Zerbi Leaves",
+  "‘Sunderland 1.5’ — A Lads Team In Transition?",
+  "Is Enzo Fernandez already answering the doubts that surrounded his Man City move?",
+  "Man City have unlocked a difference-maker after sliding doors transfer moment",
+  "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
   "Manchester City retain unbeaten record with UWCL draw against Bayern",
-  "Mead: Second half display showed what we’re about in Europe"
+  "Manchester City were two down after 28 minutes in Munich, and a full-back they signed from Leverkusen got them level",
+  "Radisson targets Manchester sports fans with new hotel",
+  "Manchester City U21 vs Manchester United U21: Premier League 2 stats & head-to-head"
  ]
 }
