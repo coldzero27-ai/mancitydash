@@ -1,18 +1,66 @@
 {
- "updated": "2026-09-24T03:43:41Z",
+ "updated": "2026-09-24T09:05:28Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City Have Five Wins From Five, But History Is Not On Their Side",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T09:03:25Z"
+  },
+  {
+   "title": "Karim Cassim, 17, completes Manchester United move from Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T08:47:33Z"
+  },
+  {
+   "title": "Save 20% on CAWFC wear this Saturday",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T08:27:29Z"
+  },
+  {
+   "title": "Henry Durand: A Tale of Two Norwich Cities",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T08:05:57Z"
+  },
+  {
+   "title": "Transfer value tiers: Which club has the most players worth £100M-plus?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T07:25:00Z"
+  },
+  {
+   "title": "🚨 EXCL: Premier League clubs monitoring Manchester City star facing uncertain future - the Daily Briefing | Substack",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T06:39:31Z"
+  },
+  {
+   "title": "Man Utd put chunks of Old Trafford up for sale",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T05:30:20Z"
+  },
+  {
+   "title": "A Dutch international has explained why he left Manchester City and his explanation shows why he didn’t fit",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T05:20:00Z"
+  },
+  {
+   "title": "International Break Reflections: How Have Sunderland Started 2026/2027?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T05:00:00Z"
+  },
   {
    "title": "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
    "img": null,
    "video": null,
-   "time": "2026-09-24T00:15:00Z"
-  },
-  {
-   "title": "Manchester City Council seeks consultancy team to provide Strategic Regeneration Framework for Northern Powerhouse Rail",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T23:02:58Z"
+   "time": "2026-09-24T03:30:00Z"
   },
   {
    "title": "Enzo Fernandez transfer statement made as Man City warning issued to Premier League rivals",
@@ -25,66 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-23T21:35:59Z"
-  },
-  {
-   "title": "With another dynamic attacking option back, Manchester City should be even more dangerous in the final third",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T21:06:01Z"
-  },
-  {
-   "title": "Two pieces of the Manchester City midfield haven’t yet come together out of possession",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T20:35:45Z"
-  },
-  {
-   "title": "Manchester City Are In The Running To Land This Eredvisie Full-Back: Should Maresca Snap Him Up?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T20:20:00Z"
-  },
-  {
-   "title": "Man City Claws Back to Earn 2-2 UWCL Draw with Bayern Munich",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T19:28:29Z"
-  },
-  {
-   "title": "Ait-Nouri targeted by Juventus after Manchester City struggle",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T18:30:00Z"
-  },
-  {
-   "title": "Enzo Maresca's plan for Manchester City stars not called up by national teams",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T16:43:20Z"
-  },
-  {
-   "title": "Jamie Carragher Urges Iraola to Drop Florian Wirtz for Man City Clash",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T16:00:00Z"
-  },
-  {
-   "title": "Arsenal teenager joins Premier League rival just a year after poaching him from EFL club",
-   "img": null,
-   "video": null,
-   "time": "2026-09-23T15:39:14Z"
   }
  ],
  "ticker": [
-  "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?",
-  "Manchester City Council seeks consultancy team to provide Strategic Regeneration Framework for Northern Powerhouse Rail",
-  "Enzo Fernandez transfer statement made as Man City warning issued to Premier League rivals",
-  "Manchester City Star Erling Haaland Sends 3-Word Tease Ahead of Norway Return",
-  "With another dynamic attacking option back, Manchester City should be even more dangerous in the final third",
-  "Two pieces of the Manchester City midfield haven’t yet come together out of possession",
-  "Manchester City Are In The Running To Land This Eredvisie Full-Back: Should Maresca Snap Him Up?",
-  "Man City Claws Back to Earn 2-2 UWCL Draw with Bayern Munich",
-  "Ait-Nouri targeted by Juventus after Manchester City struggle",
-  "Enzo Maresca's plan for Manchester City stars not called up by national teams"
+  "Manchester City Have Five Wins From Five, But History Is Not On Their Side",
+  "Karim Cassim, 17, completes Manchester United move from Manchester City",
+  "Save 20% on CAWFC wear this Saturday",
+  "Henry Durand: A Tale of Two Norwich Cities",
+  "Transfer value tiers: Which club has the most players worth £100M-plus?",
+  "🚨 EXCL: Premier League clubs monitoring Manchester City star facing uncertain future - the Daily Briefing | Substack",
+  "Man Utd put chunks of Old Trafford up for sale",
+  "A Dutch international has explained why he left Manchester City and his explanation shows why he didn’t fit",
+  "International Break Reflections: How Have Sunderland Started 2026/2027?",
+  "Bayern Munich News: A plan to get Manchester City’s Erling Haaland?"
  ]
 }
