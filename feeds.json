@@ -1,7 +1,55 @@
 {
- "updated": "2026-09-24T18:35:11Z",
+ "updated": "2026-09-24T22:04:51Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City striker Erling Haaland surpasses Ronaldo and Ibrahimovic with match-winning brace for Norway",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T21:05:21Z"
+  },
+  {
+   "title": "Manchester United sign youth midfielders Karim Cassim and Isaac Konde",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T21:02:30Z"
+  },
+  {
+   "title": "International roundup: Haaland brace secures Norway victory",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T21:00:00Z"
+  },
+  {
+   "title": "A future Manchester City diamond is made of the right stuff to succeed",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T20:55:41Z"
+  },
+  {
+   "title": "Football gossip: Scott, Olmo, Bellingham, Alisson, Khusanov",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T20:16:58Z"
+  },
+  {
+   "title": "Manchester City footballer Joško Gvardiol drives a very different car to your typical Premier League footballer's Ferrari or Lamborghini",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T20:06:00Z"
+  },
+  {
+   "title": "Manchester City's Antoine Semenyo forced to withdraw from Ghana squad",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T19:33:48Z"
+  },
+  {
+   "title": "Ranking the 10 WORST Man City signings of the Premier League era: Mangala 2nd, Bravo 7th...",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T18:16:07Z"
+  },
   {
    "title": "Rodri explains Real Madrid push before choosing Barcelona after emotional Manchester City exit",
    "img": null,
@@ -15,18 +63,6 @@
    "time": "2026-09-24T17:00:00Z"
   },
   {
-   "title": "Every WSL game live on Sky this weekend including London City vs Brighton, the Merseyside derby and Chelsea vs Arsenal",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T16:40:41Z"
-  },
-  {
-   "title": "Enzo Fernandez Form: How He Has Transformed Maresca’s New-Look Manchester City Midfield",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T16:11:20Z"
-  },
-  {
    "title": "A massive new £300 million entertainment hub, Medlock Square, has officially opened next to Manchester City's Etihad Stadium, bringing a wave of new restaurants, bars, a hotel, and major attractions to the city #NewsForYou",
    "img": null,
    "video": null,
@@ -37,54 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-24T16:00:00Z"
-  },
-  {
-   "title": "Most surprising stats of the Premier League so far - Are Man Utd better than we think?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T15:54:00Z"
-  },
-  {
-   "title": "Man Utd news: How do you rate United's start to season? Have your say",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T15:45:25Z"
-  },
-  {
-   "title": "Manchester to launch new urban sports, music and arts festival MCR Drop in 2027 - Manchester’s Finest",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T15:41:02Z"
-  },
-  {
-   "title": "Manchester City fan Liam Gallagher almost ended up with Arsenal tribute at new home",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T15:00:11Z"
-  },
-  {
-   "title": "Chelsea want future ‘best centre-back in the world’ in January from PL rivals Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T14:30:24Z"
-  },
-  {
-   "title": "How do you feel about Man City's start and life under Maresca?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T14:23:46Z"
   }
  ],
  "ticker": [
+  "Manchester City striker Erling Haaland surpasses Ronaldo and Ibrahimovic with match-winning brace for Norway",
+  "Manchester United sign youth midfielders Karim Cassim and Isaac Konde",
+  "International roundup: Haaland brace secures Norway victory",
+  "A future Manchester City diamond is made of the right stuff to succeed",
+  "Football gossip: Scott, Olmo, Bellingham, Alisson, Khusanov",
+  "Manchester City footballer Joško Gvardiol drives a very different car to your typical Premier League footballer's Ferrari or Lamborghini",
+  "Manchester City's Antoine Semenyo forced to withdraw from Ghana squad",
+  "Ranking the 10 WORST Man City signings of the Premier League era: Mangala 2nd, Bravo 7th...",
   "Rodri explains Real Madrid push before choosing Barcelona after emotional Manchester City exit",
-  "Watch: City stars react to FC 27!",
-  "Every WSL game live on Sky this weekend including London City vs Brighton, the Merseyside derby and Chelsea vs Arsenal",
-  "Enzo Fernandez Form: How He Has Transformed Maresca’s New-Look Manchester City Midfield",
-  "A massive new £300 million entertainment hub, Medlock Square, has officially opened next to Manchester City's Etihad Stadium, bringing a wave of new restaurants, bars, a hotel, and major attractions to the city #NewsForYou",
-  "Hemp: When we are at our best, we are unstoppable",
-  "Most surprising stats of the Premier League so far - Are Man Utd better than we think?",
-  "Man Utd news: How do you rate United's start to season? Have your say",
-  "Manchester to launch new urban sports, music and arts festival MCR Drop in 2027 - Manchester’s Finest",
-  "Manchester City fan Liam Gallagher almost ended up with Arsenal tribute at new home"
+  "Watch: City stars react to FC 27!"
  ]
 }
