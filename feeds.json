@@ -1,19 +1,7 @@
 {
- "updated": "2026-09-24T22:04:51Z",
+ "updated": "2026-09-25T00:41:34Z",
  "source": "bbc + google news (server-side)",
  "news": [
-  {
-   "title": "Manchester City striker Erling Haaland surpasses Ronaldo and Ibrahimovic with match-winning brace for Norway",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T21:05:21Z"
-  },
-  {
-   "title": "Manchester United sign youth midfielders Karim Cassim and Isaac Konde",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T21:02:30Z"
-  },
   {
    "title": "International roundup: Haaland brace secures Norway victory",
    "img": null,
@@ -27,6 +15,12 @@
    "time": "2026-09-24T20:55:41Z"
   },
   {
+   "title": "Manchester City striker Erling Haaland surpasses Ronaldo and Ibrahimovic with match-winning brace for Norway",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T20:43:28Z"
+  },
+  {
    "title": "Football gossip: Scott, Olmo, Bellingham, Alisson, Khusanov",
    "img": null,
    "video": null,
@@ -37,6 +31,18 @@
    "img": null,
    "video": null,
    "time": "2026-09-24T20:06:00Z"
+  },
+  {
+   "title": "Man United sign Liverpool youngster as clubs in talks over transfer fee after Man City deal",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T19:53:00Z"
+  },
+  {
+   "title": "Manchester City star suffers swollen leg ahead of Liverpool game",
+   "img": null,
+   "video": null,
+   "time": "2026-09-24T19:41:37Z"
   },
   {
    "title": "Manchester City's Antoine Semenyo forced to withdraw from Ghana squad",
@@ -57,34 +63,28 @@
    "time": "2026-09-24T18:10:30Z"
   },
   {
-   "title": "Watch: City stars react to FC 27!",
+   "title": "Enzo Fernandez Form: How He Has Transformed Maresca’s New-Look Manchester City Midfield",
    "img": null,
    "video": null,
-   "time": "2026-09-24T17:00:00Z"
+   "time": "2026-09-24T16:11:20Z"
   },
   {
    "title": "A massive new £300 million entertainment hub, Medlock Square, has officially opened next to Manchester City's Etihad Stadium, bringing a wave of new restaurants, bars, a hotel, and major attractions to the city #NewsForYou",
    "img": null,
    "video": null,
    "time": "2026-09-24T16:09:48Z"
-  },
-  {
-   "title": "Hemp: When we are at our best, we are unstoppable",
-   "img": null,
-   "video": null,
-   "time": "2026-09-24T16:00:00Z"
   }
  ],
  "ticker": [
-  "Manchester City striker Erling Haaland surpasses Ronaldo and Ibrahimovic with match-winning brace for Norway",
-  "Manchester United sign youth midfielders Karim Cassim and Isaac Konde",
   "International roundup: Haaland brace secures Norway victory",
   "A future Manchester City diamond is made of the right stuff to succeed",
+  "Manchester City striker Erling Haaland surpasses Ronaldo and Ibrahimovic with match-winning brace for Norway",
   "Football gossip: Scott, Olmo, Bellingham, Alisson, Khusanov",
   "Manchester City footballer Joško Gvardiol drives a very different car to your typical Premier League footballer's Ferrari or Lamborghini",
+  "Man United sign Liverpool youngster as clubs in talks over transfer fee after Man City deal",
+  "Manchester City star suffers swollen leg ahead of Liverpool game",
   "Manchester City's Antoine Semenyo forced to withdraw from Ghana squad",
   "Ranking the 10 WORST Man City signings of the Premier League era: Mangala 2nd, Bravo 7th...",
-  "Rodri explains Real Madrid push before choosing Barcelona after emotional Manchester City exit",
-  "Watch: City stars react to FC 27!"
+  "Rodri explains Real Madrid push before choosing Barcelona after emotional Manchester City exit"
  ]
 }
