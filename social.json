@@ -1,7 +1,35 @@
 {
 "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-"updated": "2026-09-26T11:47:34Z",
+"updated": "2026-09-26T14:48:09Z",
 "posts": [
+{
+"text": "🔴😮‍💨",
+"url": "https://x.com/premierleague/status/2103847063121523104",
+"time": "2026-09-26T14:00:00Z",
+"account": "Premier League",
+"handle": "premierleague"
+},
+{
+"text": "A letter from the Chairman.\n\n🔗 mancity.co/ChairmanLetter",
+"url": "https://x.com/ManCity/status/2103846390946234749",
+"time": "2026-09-26T13:57:00Z",
+"account": "Man City",
+"handle": "ManCity"
+},
+{
+"text": "Rivals in red 👉 Bonding in blue & yellow\n\nAlexander Isak and Viktor Gyokeres scored a goal each during Sweden's 2-1 victory over Romania 💪",
+"url": "https://x.com/premierleague/status/2103835731621822593",
+"time": "2026-09-26T13:15:00Z",
+"account": "Premier League",
+"handle": "premierleague"
+},
+{
+"text": "Only Erling! 🤯",
+"url": "https://x.com/ManCity/status/2103832088890028313",
+"time": "2026-09-26T13:00:00Z",
+"account": "Man City",
+"handle": "ManCity"
+},
 {
 "text": "19 years old. Running the show for @BHAFC 🌟\n\nLuka Vuskovic 🍿",
 "url": "https://x.com/premierleague/status/2103809307892478380",
@@ -41,34 +69,6 @@
 "text": "Jeremy Jacquet was born for the big stage 💪",
 "url": "https://x.com/premierleague/status/2103552616126877778",
 "time": "2026-09-25T18:30:00Z",
-"account": "Premier League",
-"handle": "premierleague"
-},
-{
-"text": "That Jurgen Klopp passion 🤩",
-"url": "https://x.com/premierleague/status/2103529968256856563",
-"time": "2026-09-25T17:00:00Z",
-"account": "Premier League",
-"handle": "premierleague"
-},
-{
-"text": "Say hello to Little Beast, another addition to @MedlockSQ's restaurant collection! 🍽️\n\nThe menu evolves with the seasons, reflecting the changing produce, flavours and stories each full moon brings and is open every day 8:00-20:00 (UK) 🌙\n\nℹ️ mancity.co/LittleBeast",
-"url": "https://x.com/ManCity/status/2103522418820354213",
-"time": "2026-09-25T16:30:00Z",
-"account": "Man City",
-"handle": "ManCity"
-},
-{
-"text": "Four appearances. Five goals. 🤖\n\n@Erling is your @etihad Player of the Month for September! 🩵\n\nWin a signed shirt 👉 mancity.co/POTMSep26",
-"url": "https://x.com/ManCity/status/2103514891550101861",
-"time": "2026-09-25T16:00:06Z",
-"account": "Man City",
-"handle": "ManCity"
-},
-{
-"text": "Even this Sunderland fan had to appreciate Bruno Guimaraes' strike 😮‍💨",
-"url": "https://x.com/premierleague/status/2103511160930677208",
-"time": "2026-09-25T15:45:16Z",
 "account": "Premier League",
 "handle": "premierleague"
 }
