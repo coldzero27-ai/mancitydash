@@ -1,90 +1,90 @@
 {
- "updated": "2026-09-27T17:10:42Z",
+ "updated": "2026-09-27T20:19:32Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "The real lesson from the Man City affair",
+   "title": "📸 CCTV image released after man attacked in Manchester city centre whilst trying to get into a taxi Greater Manchester Police have released an image of a man who they wish to speak to in connection to the incident",
    "img": null,
    "video": null,
-   "time": "2026-09-27T16:58:00Z"
+   "time": "2026-09-27T19:16:08Z"
   },
   {
-   "title": "Manchester City verdict leaves major questions for club, Premier League",
+   "title": "Manchester City versus the Premier League: After the day that shocked football, what next?",
    "img": null,
    "video": null,
-   "time": "2026-09-27T16:32:34Z"
+   "time": "2026-09-27T18:48:06Z"
   },
   {
-   "title": "What if the potential Manchester City sanctions push Erling Haaland to PSG, Real Madrid, or FC Barcelona?",
+   "title": "Tebas sends a fiery message to Manchester City: I warned you!",
    "img": null,
    "video": null,
-   "time": "2026-09-27T16:30:00Z"
+   "time": "2026-09-27T18:46:51Z"
+  },
+  {
+   "title": "Former Manchester City chairman warns 'something must affect their league status' after rule breaches",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T18:39:04Z"
   },
   {
    "title": "The Guardian view on Manchester City: a strange kind of glory | Editorial",
    "img": null,
    "video": null,
-   "time": "2026-09-27T16:25:00Z"
+   "time": "2026-09-27T18:33:00Z"
   },
   {
-   "title": "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
+   "title": "Rui Pinto, the whistleblower whose leaks prompted investigations into Man City",
    "img": null,
    "video": null,
-   "time": "2026-09-27T15:16:00Z"
+   "time": "2026-09-27T18:16:20Z"
   },
   {
-   "title": "Will they be relegated? A new prediction for Manchester City's punishment",
+   "title": "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
    "img": null,
    "video": null,
-   "time": "2026-09-27T15:13:48Z"
+   "time": "2026-09-27T18:01:00Z"
   },
   {
-   "title": "Seven huge questions that will linger for Man City fans after 115 charges guilty verdicts",
+   "title": "What Could Man City’s Charges Mean for Erling Haaland?",
    "img": null,
    "video": null,
-   "time": "2026-09-27T15:00:00Z"
+   "time": "2026-09-27T18:00:00Z"
   },
   {
-   "title": "The surprise problem leaving Man City players staring into an abyss",
+   "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
    "img": null,
    "video": null,
-   "time": "2026-09-27T14:45:00Z"
+   "time": "2026-09-27T17:46:00Z"
   },
   {
-   "title": "Roy Keane is ruthless towards Manchester City's 'cheats'",
+   "title": "'Not my problem' - Roberto Mancini distances himself from Manchester City's financial charges and contract claims",
    "img": null,
    "video": null,
-   "time": "2026-09-27T14:38:09Z"
+   "time": "2026-09-27T17:45:26Z"
   },
   {
-   "title": "'I love football; I’m not interested in politics' - Manchester City midfielder Rayan Cherki on dreaming to win the Ballon d’Or",
+   "title": "Liam Gallagher has issued a warning to those trying to \"destroy\" Manchester City after the football club was found guilty of 114 breaches of Premier League financial rules 👀 As reported on Friday, they now wait potential punishment, which could be significant",
    "img": null,
    "video": null,
-   "time": "2026-09-27T14:32:56Z"
+   "time": "2026-09-27T17:33:02Z"
   },
   {
-   "title": "Manchester City charges: What punishment could club face after Premier League verdict and will they appeal?",
+   "title": "Conviction is not the end: 4 scenarios that threaten the Premier League after Manchester City's disaster",
    "img": null,
    "video": null,
-   "time": "2026-09-27T14:24:46Z"
-  },
-  {
-   "title": "Manchester City Chairman Calls on Fans to Support Club Following Reports of Charges - صحيفة مال",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T13:17:30Z"
+   "time": "2026-09-27T17:25:15Z"
   }
  ],
  "ticker": [
-  "The real lesson from the Man City affair",
-  "Manchester City verdict leaves major questions for club, Premier League",
-  "What if the potential Manchester City sanctions push Erling Haaland to PSG, Real Madrid, or FC Barcelona?",
+  "📸 CCTV image released after man attacked in Manchester city centre whilst trying to get into a taxi Greater Manchester Police have released an image of a man who they wish to speak to in connection to the incident",
+  "Manchester City versus the Premier League: After the day that shocked football, what next?",
+  "Tebas sends a fiery message to Manchester City: I warned you!",
+  "Former Manchester City chairman warns 'something must affect their league status' after rule breaches",
   "The Guardian view on Manchester City: a strange kind of glory | Editorial",
-  "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
-  "Will they be relegated? A new prediction for Manchester City's punishment",
-  "Seven huge questions that will linger for Man City fans after 115 charges guilty verdicts",
-  "The surprise problem leaving Man City players staring into an abyss",
-  "Roy Keane is ruthless towards Manchester City's 'cheats'",
-  "'I love football; I’m not interested in politics' - Manchester City midfielder Rayan Cherki on dreaming to win the Ballon d’Or"
+  "Rui Pinto, the whistleblower whose leaks prompted investigations into Man City",
+  "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
+  "What Could Man City’s Charges Mean for Erling Haaland?",
+  "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
+  "'Not my problem' - Roberto Mancini distances himself from Manchester City's financial charges and contract claims"
  ]
 }
