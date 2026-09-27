@@ -1,18 +1,42 @@
 {
- "updated": "2026-09-26T22:28:36Z",
+ "updated": "2026-09-27T00:49:20Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Stripped titles? Compensating rivals? How the Manchester City cheating scandal could play out",
+   "img": null,
+   "video": null,
+   "time": "2026-09-26T23:49:46Z"
+  },
+  {
+   "title": "Thomas Tuchel denies England players were distracted by Manchester City verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-09-26T23:08:00Z"
+  },
+  {
+   "title": "The hammer seemingly falls on Manchester City as the ‘115’ charges case reaches a verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-09-26T22:50:00Z"
+  },
+  {
+   "title": "England 2-3 Spain: Thomas Tuchel rues 'big mistakes' - did Man City charges have impact?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-26T22:47:10Z"
+  },
+  {
+   "title": "England player ratings: Bellingham impresses but defence disintegrates",
+   "img": null,
+   "video": null,
+   "time": "2026-09-26T22:45:58Z"
+  },
   {
    "title": "De Gea Sends Enigmatic Message to Manchester City",
    "img": null,
    "video": null,
    "time": "2026-09-26T22:09:24Z"
-  },
-  {
-   "title": "Finance expert assesses Manchester City's plight",
-   "img": null,
-   "video": null,
-   "time": "2026-09-26T21:58:00Z"
   },
   {
    "title": "Erling Haaland’s Manchester City contract release clause clarified amid transfer speculation - Paper Round",
@@ -27,10 +51,10 @@
    "time": "2026-09-26T21:19:09Z"
   },
   {
-   "title": "United legend mocks Manchester City",
+   "title": "The damage of the Manchester City verdict runs deep. An era of Premier League history is tainted - The Athletic",
    "img": null,
    "video": null,
-   "time": "2026-09-26T20:57:19Z"
+   "time": "2026-09-26T21:11:13Z"
   },
   {
    "title": "City trio feature for England in Nations League defeat to Spain",
@@ -39,52 +63,28 @@
    "time": "2026-09-26T20:45:00Z"
   },
   {
+   "title": "Could Manchester City lose some of its trophies?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-26T20:36:51Z"
+  },
+  {
    "title": "More than a billion pounds and 76 deals: Manchester City's huge spending during the sanction period",
    "img": null,
    "video": null,
    "time": "2026-09-26T20:26:53Z"
-  },
-  {
-   "title": "Roy Keane tells 'cheating' Manchester City to 'take their medicine' following guilty verdict on Premier League charges",
-   "img": null,
-   "video": null,
-   "time": "2026-09-26T20:25:30Z"
-  },
-  {
-   "title": "Charlton Athletic 0-1 City: 8-minute highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-09-26T18:30:00Z"
-  },
-  {
-   "title": "Manchester City found guilty in Premier League case - Watch Saturday's Evening News",
-   "img": null,
-   "video": null,
-   "time": "2026-09-26T17:30:00Z"
-  },
-  {
-   "title": "What punishment could Manchester City face over 114 financial breaches?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-26T17:15:04Z"
-  },
-  {
-   "title": "WSL roundup: Putellas scores first London City goal, Manchester City maintain perfect start",
-   "img": null,
-   "video": null,
-   "time": "2026-09-26T17:00:00Z"
   }
  ],
  "ticker": [
+  "Stripped titles? Compensating rivals? How the Manchester City cheating scandal could play out",
+  "Thomas Tuchel denies England players were distracted by Manchester City verdict",
+  "The hammer seemingly falls on Manchester City as the ‘115’ charges case reaches a verdict",
+  "England 2-3 Spain: Thomas Tuchel rues 'big mistakes' - did Man City charges have impact?",
+  "England player ratings: Bellingham impresses but defence disintegrates",
   "De Gea Sends Enigmatic Message to Manchester City",
-  "Finance expert assesses Manchester City's plight",
   "Erling Haaland’s Manchester City contract release clause clarified amid transfer speculation - Paper Round",
   "Manchester City apology demanded after Premier League charges verdict",
-  "United legend mocks Manchester City",
-  "City trio feature for England in Nations League defeat to Spain",
-  "More than a billion pounds and 76 deals: Manchester City's huge spending during the sanction period",
-  "Roy Keane tells 'cheating' Manchester City to 'take their medicine' following guilty verdict on Premier League charges",
-  "Charlton Athletic 0-1 City: 8-minute highlights",
-  "Manchester City found guilty in Premier League case - Watch Saturday's Evening News"
+  "The damage of the Manchester City verdict runs deep. An era of Premier League history is tainted - The Athletic",
+  "City trio feature for England in Nations League defeat to Spain"
  ]
 }
