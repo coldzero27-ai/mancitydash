@@ -1,12 +1,42 @@
 {
- "updated": "2026-09-27T20:19:32Z",
+ "updated": "2026-09-27T23:17:46Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City Council appoints new deputy leader",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T21:59:00Z"
+  },
+  {
+   "title": "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T21:17:00Z"
+  },
+  {
+   "title": "Haaland on target but Dias’s Portugal see off Norway",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T20:49:00Z"
+  },
+  {
+   "title": "Real & Barca circle Haaland in shock transfer raid amid Man City relegation fear",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T20:23:00Z"
+  },
   {
    "title": "📸 CCTV image released after man attacked in Manchester city centre whilst trying to get into a taxi Greater Manchester Police have released an image of a man who they wish to speak to in connection to the incident",
    "img": null,
    "video": null,
    "time": "2026-09-27T19:16:08Z"
+  },
+  {
+   "title": "Tebas sends a fiery message to Manchester City: I warned you!",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T18:48:33Z"
   },
   {
    "title": "Manchester City versus the Premier League: After the day that shocked football, what next?",
@@ -15,10 +45,10 @@
    "time": "2026-09-27T18:48:06Z"
   },
   {
-   "title": "Tebas sends a fiery message to Manchester City: I warned you!",
+   "title": "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
    "img": null,
    "video": null,
-   "time": "2026-09-27T18:46:51Z"
+   "time": "2026-09-27T18:42:00Z"
   },
   {
    "title": "Former Manchester City chairman warns 'something must affect their league status' after rule breaches",
@@ -39,52 +69,22 @@
    "time": "2026-09-27T18:16:20Z"
   },
   {
-   "title": "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
+   "title": "Manchester City versus the Premier League: The key people involved",
    "img": null,
    "video": null,
-   "time": "2026-09-27T18:01:00Z"
-  },
-  {
-   "title": "What Could Man City’s Charges Mean for Erling Haaland?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:00:00Z"
-  },
-  {
-   "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T17:46:00Z"
-  },
-  {
-   "title": "'Not my problem' - Roberto Mancini distances himself from Manchester City's financial charges and contract claims",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T17:45:26Z"
-  },
-  {
-   "title": "Liam Gallagher has issued a warning to those trying to \"destroy\" Manchester City after the football club was found guilty of 114 breaches of Premier League financial rules 👀 As reported on Friday, they now wait potential punishment, which could be significant",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T17:33:02Z"
-  },
-  {
-   "title": "Conviction is not the end: 4 scenarios that threaten the Premier League after Manchester City's disaster",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T17:25:15Z"
+   "time": "2026-09-27T18:15:28Z"
   }
  ],
  "ticker": [
+  "Manchester City Council appoints new deputy leader",
+  "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
+  "Haaland on target but Dias’s Portugal see off Norway",
+  "Real & Barca circle Haaland in shock transfer raid amid Man City relegation fear",
   "📸 CCTV image released after man attacked in Manchester city centre whilst trying to get into a taxi Greater Manchester Police have released an image of a man who they wish to speak to in connection to the incident",
-  "Manchester City versus the Premier League: After the day that shocked football, what next?",
   "Tebas sends a fiery message to Manchester City: I warned you!",
+  "Manchester City versus the Premier League: After the day that shocked football, what next?",
+  "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
   "Former Manchester City chairman warns 'something must affect their league status' after rule breaches",
-  "The Guardian view on Manchester City: a strange kind of glory | Editorial",
-  "Rui Pinto, the whistleblower whose leaks prompted investigations into Man City",
-  "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
-  "What Could Man City’s Charges Mean for Erling Haaland?",
-  "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
-  "'Not my problem' - Roberto Mancini distances himself from Manchester City's financial charges and contract claims"
+  "The Guardian view on Manchester City: a strange kind of glory | Editorial"
  ]
 }
