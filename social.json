@@ -1,76 +1,76 @@
 {
     "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-    "updated": "2026-09-27T11:49:46Z",
+    "updated": "2026-09-27T14:45:10Z",
     "posts": [
-          {
-                  "text": "The latest report from Premier League stars on international duty is in 🛬\n\nFind out what's happening 👉premierleague.app.link/e/08ZnRPfZL6b",
-                  "url": "https://x.com/premierleague/status/2104165891256803434",
-                  "time": "2026-09-27T11:06:00Z",
-                  "account": "Premier League",
-                  "handle": "premierleague"
-          },
-          {
-                  "text": "You can WIN a Team Photo Experience plus two tickets to watch us face Ipswich when you join the City in the Community Club from just £5 a month! 🎁🩵\n\n🔗 mancity.com/citcclub",
-                  "url": "https://x.com/ManCity/status/2104149115554988161",
-                  "time": "2026-09-27T10:00:00Z",
-                  "account": "Man City",
-                  "handle": "ManCity"
-          },
-          {
-                  "text": "Bruno 🪄🇵🇹",
-                  "url": "https://x.com/premierleague/status/2104141069763981454",
-                  "time": "2026-09-27T09:28:00Z",
-                  "account": "Premier League",
-                  "handle": "premierleague"
-          },
-          {
-                  "text": "Teamwork 🔑",
-                  "url": "https://x.com/ManCity/status/2104139027825770517",
-                  "time": "2026-09-27T09:20:00Z",
-                  "account": "Man City",
-                  "handle": "ManCity"
-          },
-          {
-                  "text": "A winning start in the Nations League 💪🇭🇷",
-                  "url": "https://x.com/ManCity/status/2104136502821425215",
-                  "time": "2026-09-27T09:10:00Z",
-                  "account": "Man City",
-                  "handle": "ManCity"
-          },
-          {
-                  "text": "Saturday's international round-up 🌍🔗",
-                  "url": "https://x.com/ManCity/status/2104136505828515942",
-                  "time": "2026-09-27T09:10:00Z",
-                  "account": "Man City",
-                  "handle": "ManCity"
-          },
-          {
-                  "text": "🔴😮‍💨",
-                  "url": "https://x.com/premierleague/status/2103847063121523104",
-                  "time": "2026-09-26T14:00:00Z",
-                  "account": "Premier League",
-                  "handle": "premierleague"
-          },
-          {
-                  "text": "A letter from the Chairman.\n\n🔗 mancity.co/ChairmanLetter",
-                  "url": "https://x.com/ManCity/status/2103846390946234749",
-                  "time": "2026-09-26T13:57:00Z",
-                  "account": "Man City",
-                  "handle": "ManCity"
-          },
-          {
-                  "text": "Rivals in red 👉 Bonding in blue & yellow\n\nAlexander Isak and Viktor Gyokeres scored a goal each during Sweden's 2-1 victory over Romania 💪",
-                  "url": "https://x.com/premierleague/status/2103835731621822593",
-                  "time": "2026-09-26T13:15:00Z",
-                  "account": "Premier League",
-                  "handle": "premierleague"
-          },
-          {
-                  "text": "19 years old. Running the show for @BHAFC 🌟\n\nLuka Vuskovic 🍿",
-                  "url": "https://x.com/premierleague/status/2103809307892478380",
-                  "time": "2026-09-26T11:30:00Z",
-                  "account": "Premier League",
-                  "handle": "premierleague"
-          }
+        {
+            "text": "Cole Palmer 🔗 Joao Pedro",
+            "url": "https://x.com/premierleague/status/2104194345448493095",
+            "time": "2026-09-27T13:00:00Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
+        {
+            "text": "The latest report from Premier League stars on international duty is in 🛬\n\nFind out what's happening 👉https://premierleague.app.link/e/08ZnRPfZL6b",
+            "url": "https://x.com/premierleague/status/2104165891256803434",
+            "time": "2026-09-27T11:06:56Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
+        {
+            "text": "You can WIN a Team Photo Experience plus two tickets to watch us face Ipswich when you join the City in the Community Club from just £5 a month! 🎁🩵\n\n🔗 https://mancity.com/citcclub",
+            "url": "https://x.com/ManCity/status/2104149115554988161",
+            "time": "2026-09-27T10:00:17Z",
+            "account": "Man City",
+            "handle": "ManCity"
+        },
+        {
+            "text": "Bruno 🪄🇵🇹",
+            "url": "https://x.com/premierleague/status/2104141069763981454",
+            "time": "2026-09-27T09:28:18Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
+        {
+            "text": "Teamwork 🔑",
+            "url": "https://x.com/ManCity/status/2104139027825770517",
+            "time": "2026-09-27T09:20:11Z",
+            "account": "Man City",
+            "handle": "ManCity"
+        },
+        {
+            "text": "Saturday's international round-up 🌍🔗",
+            "url": "https://x.com/ManCity/status/2104136505828515942",
+            "time": "2026-09-27T09:10:10Z",
+            "account": "Man City",
+            "handle": "ManCity"
+        },
+        {
+            "text": "A winning start in the Nations League 💪🇭🇷",
+            "url": "https://x.com/ManCity/status/2104136502821425215",
+            "time": "2026-09-27T09:10:09Z",
+            "account": "Man City",
+            "handle": "ManCity"
+        },
+        {
+            "text": "🔴😮‍💨",
+            "url": "https://x.com/premierleague/status/2103847063121523104",
+            "time": "2026-09-26T14:00:02Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
+        {
+            "text": "A letter from the Chairman.\n\n🔗 https://mancity.co/ChairmanLetter",
+            "url": "https://x.com/ManCity/status/2103846390946234749",
+            "time": "2026-09-26T13:57:21Z",
+            "account": "Man City",
+            "handle": "ManCity"
+        },
+        {
+            "text": "Rivals in red 👉 Bonding in blue & yellow\n\nAlexander Isak and Viktor Gyokeres scored a goal each during Sweden's 2-1 victory over Romania 💪",
+            "url": "https://x.com/premierleague/status/2103835731621822593",
+            "time": "2026-09-26T13:15:00Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        }
     ]
 }
