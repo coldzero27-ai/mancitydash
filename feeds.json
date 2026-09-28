@@ -1,90 +1,15 @@
 {
- "updated": "2026-09-28T01:54:00Z",
+ "updated": "2026-09-28T08:23:06Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
+   "title": "Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-09-28T01:30:00Z"
-  },
-  {
-   "title": "Liam Gallagher leaks Man City punishment after secret talks with 'someone in very high position'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T23:26:44Z"
-  },
-  {
-   "title": "'Not my concern': Ex-Man City boss Mancini brushes off guilty reports",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T23:04:00Z"
-  },
-  {
-   "title": "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T21:20:00Z"
-  },
-  {
-   "title": "Haaland on target but Dias’s Portugal see off Norway",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T20:49:00Z"
-  },
-  {
-   "title": "Manchester City versus the Premier League: After the day that shocked football, what next?",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:48:00Z"
-  },
-  {
-   "title": "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:42:00Z"
-  },
-  {
-   "title": "The Guardian view on Manchester City: a strange kind of glory | Editorial",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:33:00Z"
-  },
-  {
-   "title": "Rui Pinto, the whistleblower whose leaks prompted investigations into Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:16:20Z"
-  },
-  {
-   "title": "Manchester City versus the Premier League: The key people involved",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:15:00Z"
-  },
-  {
-   "title": "Man City triple punishment predicted after guilty verdict as club's 'best hope' named",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T17:49:00Z"
-  },
-  {
-   "title": "Manchester City verdict leaves major questions for club, Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T17:27:04Z"
+   "time": "2026-09-27T11:48:00Z"
   }
  ],
  "ticker": [
-  "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
-  "Liam Gallagher leaks Man City punishment after secret talks with 'someone in very high position'",
-  "'Not my concern': Ex-Man City boss Mancini brushes off guilty reports",
-  "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
-  "Haaland on target but Dias’s Portugal see off Norway",
-  "Manchester City versus the Premier League: After the day that shocked football, what next?",
-  "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
-  "The Guardian view on Manchester City: a strange kind of glory | Editorial",
-  "Rui Pinto, the whistleblower whose leaks prompted investigations into Man City",
-  "Manchester City versus the Premier League: The key people involved"
+  "Manchester City"
  ]
 }
