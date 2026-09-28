@@ -1,15 +1,90 @@
 {
- "updated": "2026-09-28T08:23:06Z",
+ "updated": "2026-09-28T16:55:45Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "How the Manchester City scandal could play out",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:54:00Z"
+  },
+  {
+   "title": "Manchester City Ruling Tests a Relationship Worth Billions",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:23:53Z"
+  },
+  {
+   "title": "Manchester City appeal process predicted to take years",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:19:49Z"
+  },
+  {
+   "title": "Manchester City legacy faces pushback after guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:18:53Z"
+  },
+  {
+   "title": "Mancini refers to ‘double’ Manchester City contract and says it ‘isn’t my problem’",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:05:00Z"
+  },
+  {
+   "title": "Villa's Summer, Manchester City and the Premier League's Potential Big Short",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:04:53Z"
+  },
   {
    "title": "Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-09-27T11:48:00Z"
+   "time": "2026-09-28T16:02:00Z"
+  },
+  {
+   "title": "Ticket information: Spurs, Everton, Austria Wien and United",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T16:00:00Z"
+  },
+  {
+   "title": "Man City news: Nigel Gleghron and fans reaction to guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T15:54:01Z"
+  },
+  {
+   "title": "How Manchester City's 114 charges could affect West Brom",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T15:00:00Z"
+  },
+  {
+   "title": "Co-op Live sponsors The Neighbourhood Festival in Manchester City Centre - Co-op Live",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T14:44:54Z"
+  },
+  {
+   "title": "Manchester City charges: How does Cas work and why can't Man City appeal to it?",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T14:43:05Z"
   }
  ],
  "ticker": [
-  "Manchester City"
+  "How the Manchester City scandal could play out",
+  "Manchester City Ruling Tests a Relationship Worth Billions",
+  "Manchester City appeal process predicted to take years",
+  "Manchester City legacy faces pushback after guilty verdict",
+  "Mancini refers to ‘double’ Manchester City contract and says it ‘isn’t my problem’",
+  "Villa's Summer, Manchester City and the Premier League's Potential Big Short",
+  "Manchester City",
+  "Ticket information: Spurs, Everton, Austria Wien and United",
+  "Man City news: Nigel Gleghron and fans reaction to guilty verdict",
+  "How Manchester City's 114 charges could affect West Brom"
  ]
 }
