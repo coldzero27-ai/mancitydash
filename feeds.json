@@ -1,18 +1,30 @@
 {
- "updated": "2026-09-27T23:17:46Z",
+ "updated": "2026-09-28T01:54:00Z",
  "source": "bbc + google news (server-side)",
  "news": [
-  {
-   "title": "Manchester City Council appoints new deputy leader",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T21:59:00Z"
-  },
   {
    "title": "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
    "img": null,
    "video": null,
-   "time": "2026-09-27T21:17:00Z"
+   "time": "2026-09-28T01:30:00Z"
+  },
+  {
+   "title": "Liam Gallagher leaks Man City punishment after secret talks with 'someone in very high position'",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T23:26:44Z"
+  },
+  {
+   "title": "'Not my concern': Ex-Man City boss Mancini brushes off guilty reports",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T23:04:00Z"
+  },
+  {
+   "title": "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T21:20:00Z"
   },
   {
    "title": "Haaland on target but Dias’s Portugal see off Norway",
@@ -21,40 +33,16 @@
    "time": "2026-09-27T20:49:00Z"
   },
   {
-   "title": "Real & Barca circle Haaland in shock transfer raid amid Man City relegation fear",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T20:23:00Z"
-  },
-  {
-   "title": "📸 CCTV image released after man attacked in Manchester city centre whilst trying to get into a taxi Greater Manchester Police have released an image of a man who they wish to speak to in connection to the incident",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T19:16:08Z"
-  },
-  {
-   "title": "Tebas sends a fiery message to Manchester City: I warned you!",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:48:33Z"
-  },
-  {
    "title": "Manchester City versus the Premier League: After the day that shocked football, what next?",
    "img": null,
    "video": null,
-   "time": "2026-09-27T18:48:06Z"
+   "time": "2026-09-27T18:48:00Z"
   },
   {
    "title": "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
    "img": null,
    "video": null,
    "time": "2026-09-27T18:42:00Z"
-  },
-  {
-   "title": "Former Manchester City chairman warns 'something must affect their league status' after rule breaches",
-   "img": null,
-   "video": null,
-   "time": "2026-09-27T18:39:04Z"
   },
   {
    "title": "The Guardian view on Manchester City: a strange kind of glory | Editorial",
@@ -72,19 +60,31 @@
    "title": "Manchester City versus the Premier League: The key people involved",
    "img": null,
    "video": null,
-   "time": "2026-09-27T18:15:28Z"
+   "time": "2026-09-27T18:15:00Z"
+  },
+  {
+   "title": "Man City triple punishment predicted after guilty verdict as club's 'best hope' named",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T17:49:00Z"
+  },
+  {
+   "title": "Manchester City verdict leaves major questions for club, Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-27T17:27:04Z"
   }
  ],
  "ticker": [
-  "Manchester City Council appoints new deputy leader",
   "Tony Pulis says he and Stoke were ‘cheated’ in 2011 FA Cup final after Manchester City verdict",
+  "Liam Gallagher leaks Man City punishment after secret talks with 'someone in very high position'",
+  "'Not my concern': Ex-Man City boss Mancini brushes off guilty reports",
+  "Gateshead’s fruitless trip south offers hint of Manchester City’s doomsday future",
   "Haaland on target but Dias’s Portugal see off Norway",
-  "Real & Barca circle Haaland in shock transfer raid amid Man City relegation fear",
-  "📸 CCTV image released after man attacked in Manchester city centre whilst trying to get into a taxi Greater Manchester Police have released an image of a man who they wish to speak to in connection to the incident",
-  "Tebas sends a fiery message to Manchester City: I warned you!",
   "Manchester City versus the Premier League: After the day that shocked football, what next?",
   "Liam Gallagher names Man City's punishment after he's 'told by someone in a high position'",
-  "Former Manchester City chairman warns 'something must affect their league status' after rule breaches",
-  "The Guardian view on Manchester City: a strange kind of glory | Editorial"
+  "The Guardian view on Manchester City: a strange kind of glory | Editorial",
+  "Rui Pinto, the whistleblower whose leaks prompted investigations into Man City",
+  "Manchester City versus the Premier League: The key people involved"
  ]
 }
