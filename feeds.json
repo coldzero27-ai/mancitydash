@@ -1,12 +1,24 @@
 {
- "updated": "2026-09-28T22:27:04Z",
+ "updated": "2026-09-29T02:13:43Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester City conviction detonates the bomb: Al-Khelaifi's big week turns into a nightmare",
+   "title": "Pochettino says no punishment can repair Manchester City damage",
    "img": null,
    "video": null,
-   "time": "2026-09-28T21:20:48Z"
+   "time": "2026-09-28T23:40:00Z"
+  },
+  {
+   "title": "Manchester City chief maintains club’s innocence as rivals push for verdict to be published",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T22:16:00Z"
+  },
+  {
+   "title": "Man City told to hand titles over to Liverpool amid Premier League recommendation decision",
+   "img": null,
+   "video": null,
+   "time": "2026-09-28T21:14:00Z"
   },
   {
    "title": "Man City CEO Ferran Soriano says fight against Premier League could take years to conclude amid reports of decision in 115 charges case",
@@ -15,19 +27,7 @@
    "time": "2026-09-28T21:09:00Z"
   },
   {
-   "title": "Scale of City’s punishment is the only story but Premier League must bear some responsibility | Barney Ronay",
-   "img": null,
-   "video": null,
-   "time": "2026-09-28T20:59:00Z"
-  },
-  {
-   "title": "Manchester City chief maintains club’s innocence as rivals push for verdict to be published",
-   "img": null,
-   "video": null,
-   "time": "2026-09-28T20:59:00Z"
-  },
-  {
-   "title": "Donnarumma helps Italy to Nations League win, Cherki tees up France victory",
+   "title": "Donnarumma helps Italy to Nations League win and Cherki tees up France victory",
    "img": null,
    "video": null,
    "time": "2026-09-28T20:50:00Z"
@@ -39,10 +39,10 @@
    "time": "2026-09-28T20:50:00Z"
   },
   {
-   "title": "What if… Manchester City have their trophies taken away from them? - The Athletic",
+   "title": "Manchester City boss says fight against Premier League could take years to conclude, Sky News understands",
    "img": null,
    "video": null,
-   "time": "2026-09-28T20:11:46Z"
+   "time": "2026-09-28T20:23:40Z"
   },
   {
    "title": "'This is far from over!' - Manchester City chief Ferran Soriano vows to fight Premier League charges as club prepares to appeal verdict",
@@ -57,34 +57,34 @@
    "time": "2026-09-28T19:50:24Z"
   },
   {
-   "title": "Manchester City appeal process predicted to take years",
+   "title": "Liverpool youngster ready for Man City start",
    "img": null,
    "video": null,
-   "time": "2026-09-28T19:05:42Z"
+   "time": "2026-09-28T19:30:00Z"
   },
   {
-   "title": "Man City charges: CEO Ferran Soriano issues defiant message to European club bosses",
+   "title": "Scale of City’s punishment is the only story but Premier League must bear some responsibility | Barney Ronay",
    "img": null,
    "video": null,
-   "time": "2026-09-28T18:53:30Z"
+   "time": "2026-09-28T19:30:00Z"
   },
   {
-   "title": "Man City chief 'stuns rivals' with unexpected comment at secret meeting after charges verdict",
+   "title": "Hart trusts Man City chair Al Mubarak over ruling",
    "img": null,
    "video": null,
-   "time": "2026-09-28T18:29:00Z"
+   "time": "2026-09-28T19:24:40Z"
   }
  ],
  "ticker": [
-  "Manchester City conviction detonates the bomb: Al-Khelaifi's big week turns into a nightmare",
-  "Man City CEO Ferran Soriano says fight against Premier League could take years to conclude amid reports of decision in 115 charges case",
-  "Scale of City’s punishment is the only story but Premier League must bear some responsibility | Barney Ronay",
+  "Pochettino says no punishment can repair Manchester City damage",
   "Manchester City chief maintains club’s innocence as rivals push for verdict to be published",
-  "Donnarumma helps Italy to Nations League win, Cherki tees up France victory",
+  "Man City told to hand titles over to Liverpool amid Premier League recommendation decision",
+  "Man City CEO Ferran Soriano says fight against Premier League could take years to conclude amid reports of decision in 115 charges case",
+  "Donnarumma helps Italy to Nations League win and Cherki tees up France victory",
   "Man City charges no different to doping, says Hull City owner",
-  "What if… Manchester City have their trophies taken away from them? - The Athletic",
+  "Manchester City boss says fight against Premier League could take years to conclude, Sky News understands",
   "'This is far from over!' - Manchester City chief Ferran Soriano vows to fight Premier League charges as club prepares to appeal verdict",
   "Manchester City chief executive Ferran Soriano refuses to answer questions",
-  "Manchester City appeal process predicted to take years"
+  "Liverpool youngster ready for Man City start"
  ]
 }
