@@ -1,7 +1,61 @@
 {
- "updated": "2026-09-30T21:17:59Z",
+ "updated": "2026-10-01T00:43:08Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Reaction as Man City found guilty of 'all serious' financial breaches",
+   "img": null,
+   "video": null,
+   "time": "2026-10-01T00:12:36Z"
+  },
+  {
+   "title": "Rival clubs feel relegating Manchester City to Championship would not be enough",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T22:42:00Z"
+  },
+  {
+   "title": "Man City Premier League charges: How 'disguised funding scheme' changed the football landscape - Between the Lines",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T22:34:12Z"
+  },
+  {
+   "title": "Building of the Pep supremacy is an era that will be defined by sham-ball",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T22:32:00Z"
+  },
+  {
+   "title": "Manchester City-Real Madrid: challenging away fixture in the Women’s Champions League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T22:24:40Z"
+  },
+  {
+   "title": "Man City guilty: Premier League rivals demanding sanctions imposed before end of season - Paper Talk",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T22:24:14Z"
+  },
+  {
+   "title": "Top Man City sponsor threatens legal action against Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T21:36:16Z"
+  },
+  {
+   "title": "Man City charges: Club sponsor Etihad Airways considering legal action against Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T21:30:18Z"
+  },
+  {
+   "title": "'Deeply concerned' - Manchester City sponsor threatens legal action against Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-09-30T21:14:55Z"
+  },
   {
    "title": "Etihad Airways warns of legal action against Premier League after Manchester City verdict",
    "img": null,
@@ -12,79 +66,25 @@
    "title": "Man City's sponsor warns of potential legal action against Premier League",
    "img": null,
    "video": null,
-   "time": "2026-09-30T21:00:00Z"
-  },
-  {
-   "title": "Manchester City could be forced to pay Premier League up to £50m in legal costs",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T20:51:00Z"
+   "time": "2026-09-30T21:01:05Z"
   },
   {
    "title": "‘I am here more than ever’: Guardiola backs Manchester City owners over guilty verdicts",
    "img": null,
    "video": null,
    "time": "2026-09-30T20:33:00Z"
-  },
-  {
-   "title": "Building of the Pep supremacy is an era that will be defined by sham-ball",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T20:32:00Z"
-  },
-  {
-   "title": "Man City sponsor Etihad Airways considering legal action against Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T20:08:40Z"
-  },
-  {
-   "title": "Guardiola says he’s staying ‘behind my club’ Manchester City despite bombshell charges",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T19:52:27Z"
-  },
-  {
-   "title": "Manchester City vs Real Madrid: UEFA Women's Champions League stats & head-to-head",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T19:48:00Z"
-  },
-  {
-   "title": "Andy Burnham admits to ‘concern’ if Manchester City lose their owners after guilty verdicts",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T19:44:00Z"
-  },
-  {
-   "title": "Manchester City whistleblower Rui Pinto no longer a protected witness in Portugal",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T19:40:00Z"
-  },
-  {
-   "title": "Manchester City charges: Punishment before end of season, Premier League clubs believe",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T19:10:14Z"
-  },
-  {
-   "title": "Manchester City sponsor Etihad threatens legal action against Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-09-30T19:00:00Z"
   }
  ],
  "ticker": [
-  "Etihad Airways warns of legal action against Premier League after Manchester City verdict",
-  "Man City's sponsor warns of potential legal action against Premier League",
-  "Manchester City could be forced to pay Premier League up to £50m in legal costs",
-  "‘I am here more than ever’: Guardiola backs Manchester City owners over guilty verdicts",
+  "Reaction as Man City found guilty of 'all serious' financial breaches",
+  "Rival clubs feel relegating Manchester City to Championship would not be enough",
+  "Man City Premier League charges: How 'disguised funding scheme' changed the football landscape - Between the Lines",
   "Building of the Pep supremacy is an era that will be defined by sham-ball",
-  "Man City sponsor Etihad Airways considering legal action against Premier League",
-  "Guardiola says he’s staying ‘behind my club’ Manchester City despite bombshell charges",
-  "Manchester City vs Real Madrid: UEFA Women's Champions League stats & head-to-head",
-  "Andy Burnham admits to ‘concern’ if Manchester City lose their owners after guilty verdicts",
-  "Manchester City whistleblower Rui Pinto no longer a protected witness in Portugal"
+  "Manchester City-Real Madrid: challenging away fixture in the Women’s Champions League",
+  "Man City guilty: Premier League rivals demanding sanctions imposed before end of season - Paper Talk",
+  "Top Man City sponsor threatens legal action against Premier League",
+  "Man City charges: Club sponsor Etihad Airways considering legal action against Premier League",
+  "'Deeply concerned' - Manchester City sponsor threatens legal action against Premier League",
+  "Etihad Airways warns of legal action against Premier League after Manchester City verdict"
  ]
 }
