@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T23:11:33Z",
+ "updated": "2026-10-01T07:43:35Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -38,7 +38,7 @@
    "venue": "Villa Park"
   },
   {
-   "utc": "2026-10-28T19:45:00Z",
+   "utc": "2026-10-28T19:30:00Z",
    "comp": "EFL",
    "home": "Manchester City",
    "away": "Brighton",
