@@ -1,18 +1,66 @@
 {
- "updated": "2026-10-01T23:44:59Z",
+ "updated": "2026-10-02T04:38:45Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "What signings did Manchester City make between 2009-18 – and who had the biggest impact?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T04:08:22Z"
+  },
+  {
+   "title": "Manchester City can't take the pride and joy we felt watching Liverpool win it all",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T04:00:00Z"
+  },
+  {
+   "title": "For Manchester City 2026, see Saracens 2019",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T04:00:00Z"
+  },
+  {
+   "title": "Man City Women vs Real Madrid Women LIVE! Women's Champions League match updates, news and score",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T03:15:48Z"
+  },
+  {
+   "title": "Downing Street says no suggestion Manchester City is ‘above rules’ - Anadolu Ajansı",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T01:17:35Z"
+  },
+  {
+   "title": "Man City not 'above the rules', says No 10 after backlash to Burnham remarks",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T00:50:49Z"
+  },
+  {
+   "title": "Cody Gakpo had lucky escape as Man City 'fear' emerges before Liverpool clash",
+   "img": null,
+   "video": null,
+   "time": "2026-10-02T00:00:00Z"
+  },
+  {
+   "title": "UK authorities urged to investigate Manchester City ‘tax implications’ following guilty verdict on Premier League charges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-01T23:51:14Z"
+  },
   {
    "title": "Man City 1-1 Real Madrid: Shaw earns point for hosts",
    "img": null,
    "video": null,
-   "time": "2026-10-01T23:14:08Z"
+   "time": "2026-10-01T22:54:23Z"
   },
   {
-   "title": "Shaw secures WCL draw against Real Madrid as Manchester City show spirit after week of turmoil",
+   "title": "Man City players told they could be entitled to rip up contracts after guilty verdict in Premier League case - Paper Talk",
    "img": null,
    "video": null,
-   "time": "2026-10-01T22:51:00Z"
+   "time": "2026-10-01T22:44:11Z"
   },
   {
    "title": "Jeglertz: European games provide the opportunity to learn",
@@ -21,70 +69,22 @@
    "time": "2026-10-01T22:30:00Z"
   },
   {
-   "title": "What to know about the Man City scandal and charges against the Premier League soccer team",
+   "title": "Chris Mason: Why Andy Burnham's about-turn on Manchester City matters",
    "img": null,
    "video": null,
-   "time": "2026-10-01T22:06:16Z"
-  },
-  {
-   "title": "City 1-1 Real Madrid: Champions League highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T22:00:00Z"
-  },
-  {
-   "title": "Man City Women vs Real Madrid Women LIVE! Women's Champions League match updates, news and score",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T21:46:31Z"
-  },
-  {
-   "title": "Shaw: Positive to see City fight until the end",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T21:26:00Z"
-  },
-  {
-   "title": "Spotlight on UK-UAE ties amid Manchester City scandal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T21:20:00Z"
-  },
-  {
-   "title": "Highlights - Champions League - Manchester City 1-1 Real Madrid",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T21:11:56Z"
-  },
-  {
-   "title": "City share Champions League points in hard-fought draw with Real Madrid",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T21:00:00Z"
-  },
-  {
-   "title": "Manchester City fans are right to feel angry – now they need to direct it at the owners | Will Unwin",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T20:18:00Z"
-  },
-  {
-   "title": "Manchester City breaches need tax implication answers, UK Parliament told",
-   "img": null,
-   "video": null,
-   "time": "2026-10-01T20:13:24Z"
+   "time": "2026-10-01T22:22:43Z"
   }
  ],
  "ticker": [
-  "Man City 1-1 Real Madrid: Shaw earns point for hosts",
-  "Shaw secures WCL draw against Real Madrid as Manchester City show spirit after week of turmoil",
-  "Jeglertz: European games provide the opportunity to learn",
-  "What to know about the Man City scandal and charges against the Premier League soccer team",
-  "City 1-1 Real Madrid: Champions League highlights",
+  "What signings did Manchester City make between 2009-18 – and who had the biggest impact?",
+  "Manchester City can't take the pride and joy we felt watching Liverpool win it all",
+  "For Manchester City 2026, see Saracens 2019",
   "Man City Women vs Real Madrid Women LIVE! Women's Champions League match updates, news and score",
-  "Shaw: Positive to see City fight until the end",
-  "Spotlight on UK-UAE ties amid Manchester City scandal",
-  "Highlights - Champions League - Manchester City 1-1 Real Madrid",
-  "City share Champions League points in hard-fought draw with Real Madrid"
+  "Downing Street says no suggestion Manchester City is ‘above rules’ - Anadolu Ajansı",
+  "Man City not 'above the rules', says No 10 after backlash to Burnham remarks",
+  "Cody Gakpo had lucky escape as Man City 'fear' emerges before Liverpool clash",
+  "UK authorities urged to investigate Manchester City ‘tax implications’ following guilty verdict on Premier League charges",
+  "Man City 1-1 Real Madrid: Shaw earns point for hosts",
+  "Man City players told they could be entitled to rip up contracts after guilty verdict in Premier League case - Paper Talk"
  ]
 }
