@@ -1,7 +1,43 @@
 {
- "updated": "2026-10-03T19:04:41Z",
+ "updated": "2026-10-03T22:20:20Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T21:21:10Z"
+  },
+  {
+   "title": "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T20:35:34Z"
+  },
+  {
+   "title": "Manchester council gave City owners ‘sweetheart’ property deal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T20:30:52Z"
+  },
+  {
+   "title": "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T19:32:17Z"
+  },
+  {
+   "title": "Football regulator is dead in the water if it fails Man City test",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T19:18:17Z"
+  },
+  {
+   "title": "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T19:00:00Z"
+  },
   {
    "title": "Guéhi and Anderson help England to thumping win over Croatia",
    "img": null,
@@ -9,10 +45,10 @@
    "time": "2026-10-03T18:18:00Z"
   },
   {
-   "title": "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
+   "title": "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
    "img": null,
    "video": null,
-   "time": "2026-10-03T17:59:58Z"
+   "time": "2026-10-03T18:04:00Z"
   },
   {
    "title": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
@@ -21,70 +57,34 @@
    "time": "2026-10-03T17:37:54Z"
   },
   {
+   "title": "Man City whistleblower 'fearing for life' ready to make offer to help UK authorities",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T16:37:00Z"
+  },
+  {
+   "title": "Man City have 115 charges safety net after £1billion spend and strategy call",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T16:00:00Z"
+  },
+  {
    "title": "UAE may halt UK investments after Manchester City guilty verdict",
    "img": null,
    "video": null,
    "time": "2026-10-03T15:59:00Z"
-  },
-  {
-   "title": "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T15:09:58Z"
-  },
-  {
-   "title": "Pep Guardiola seen for first time since Man City's guilty verdict as he attends Victoria Beckham show with glam daughter",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T14:50:00Z"
-  },
-  {
-   "title": "FA breaks silence on Manchester City guilty verdict as 'integrity' concerns rock Premier League",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T14:31:14Z"
-  },
-  {
-   "title": "Opinion: Manchester City and the “115 charges” A proposal for restitution, a lower spending cap and personal accountability",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T14:18:54Z"
-  },
-  {
-   "title": "Watch City's Under-18s Premier League Cup clash away at Brentford live on CITY+",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T14:00:00Z"
-  },
-  {
-   "title": "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T13:41:00Z"
-  },
-  {
-   "title": "Should Burnham disclose dealings with Man City chiefs after backlash? VOTE NOW",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T13:39:00Z"
-  },
-  {
-   "title": "Man City latest: Damning evidence against 115 charges appeal as whistleblower goes into hiding",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T13:26:00Z"
   }
  ],
  "ticker": [
-  "Guéhi and Anderson help England to thumping win over Croatia",
   "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
-  "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
-  "UAE may halt UK investments after Manchester City guilty verdict",
   "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
-  "Pep Guardiola seen for first time since Man City's guilty verdict as he attends Victoria Beckham show with glam daughter",
-  "FA breaks silence on Manchester City guilty verdict as 'integrity' concerns rock Premier League",
-  "Opinion: Manchester City and the “115 charges” A proposal for restitution, a lower spending cap and personal accountability",
-  "Watch City's Under-18s Premier League Cup clash away at Brentford live on CITY+",
-  "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay"
+  "Manchester council gave City owners ‘sweetheart’ property deal",
+  "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
+  "Football regulator is dead in the water if it fails Man City test",
+  "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson",
+  "Guéhi and Anderson help England to thumping win over Croatia",
+  "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
+  "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
+  "Man City whistleblower 'fearing for life' ready to make offer to help UK authorities"
  ]
 }
