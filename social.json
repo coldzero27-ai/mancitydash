@@ -1,7 +1,35 @@
 {
     "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-    "updated": "2026-10-03T14:49:29Z",
+    "updated": "2026-10-03T17:45:52Z",
     "posts": [
+        {
+            "text": "Bukayo Saka. ⚽️🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "url": "https://x.com/premierleague/status/2106435206085247396",
+            "time": "2026-10-03T17:24:23Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
+        {
+            "text": "🏟️ Home advantage fading? \n🎯 Free-kicks on the rise?\n⚽️ Teams wanting less possession?\n\nWe're five Matchweeks in, and some interesting trends are already emerging 👉 https://premierleague.app.link/e/NT5neAHdW6b",
+            "url": "https://x.com/premierleague/status/2106413978557587485",
+            "time": "2026-10-03T16:00:02Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
+        {
+            "text": "🌍🩵",
+            "url": "https://x.com/ManCity/status/2106398875716399321",
+            "time": "2026-10-03T15:00:01Z",
+            "account": "Man City",
+            "handle": "ManCity"
+        },
+        {
+            "text": "The ball sticks to Joao Pedro 😮‍💨",
+            "url": "https://x.com/premierleague/status/2106398872385794233",
+            "time": "2026-10-03T15:00:00Z",
+            "account": "Premier League",
+            "handle": "premierleague"
+        },
         {
             "text": "France head coach Zinedine Zidane is full of praise for Jeremy Jacquet 🌟",
             "url": "https://x.com/premierleague/status/2106383778067186031",
@@ -24,32 +52,11 @@
             "handle": "premierleague"
         },
         {
-            "text": "Only one player has ever scored in six consecutive UEFA Nations League matches...\n\nViktor Gyokeres 🇸🇪\n\nCatch up on all the latest action 👉 https://premierleague.app.link/e/oB0ScduWV6b",
-            "url": "https://x.com/premierleague/status/2106340988704694485",
-            "time": "2026-10-03T11:10:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
             "text": "A point apiece 🤝",
             "url": "https://x.com/ManCity/status/2106339157471601055",
             "time": "2026-10-03T11:02:43Z",
             "account": "Man City",
             "handle": "ManCity"
-        },
-        {
-            "text": "Throwback to the Pogba x Zlatan era at @ManUtd 🔴",
-            "url": "https://x.com/premierleague/status/2106334445468799309",
-            "time": "2026-10-03T10:44:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
-            "text": "Watch out for James Garner 😅\n\n@Everton",
-            "url": "https://x.com/premierleague/status/2106321870878544299",
-            "time": "2026-10-03T09:54:02Z",
-            "account": "Premier League",
-            "handle": "premierleague"
         },
         {
             "text": "Join club legend Gareth Barry for our second Matchday Live screening from City Hall! 🙌\n\nFollow the Blues from @MedlockSQ as they head to Merseyside. Every adult ticket will receive a free pint or a substitute non-alcoholic drink. 🍻\n\nSecure your place now 👉  http://mancity.co/CityHall2",
@@ -62,13 +69,6 @@
             "text": "Enzo's spectacular free-kick against Sunderland is our September Goal of the Month 👏🩵 \n \nWin a ball signed by @EnzoFe17 🔗 https://mancity.co/FernandezSignedBall…",
             "url": "https://x.com/ManCity/status/2106021394085818551",
             "time": "2026-10-02T14:00:02Z",
-            "account": "Man City",
-            "handle": "ManCity"
-        },
-        {
-            "text": "Manchester City lodge appeal.\n\n🔗 https://mancity.co/ManCityAppeal",
-            "url": "https://x.com/ManCity/status/2105972881612214635",
-            "time": "2026-10-02T10:47:16Z",
             "account": "Man City",
             "handle": "ManCity"
         }
