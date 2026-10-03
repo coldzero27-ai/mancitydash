@@ -1,12 +1,42 @@
 {
- "updated": "2026-10-03T00:38:34Z",
+ "updated": "2026-10-03T06:09:01Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester City whistleblower forced into hiding after receiving 'multiple death threats'",
+   "title": "Don't let Manchester City's punishment end in a Championship trophy",
    "img": null,
    "video": null,
-   "time": "2026-10-02T23:36:37Z"
+   "time": "2026-10-03T05:00:00Z"
+  },
+  {
+   "title": "Andy Burnham facing calls to share details of meetings with Manchester City owners",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T04:05:48Z"
+  },
+  {
+   "title": "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T01:30:00Z"
+  },
+  {
+   "title": "How best to punish City? Restitution over retribution, then hand club to the fans | Jonathan Liew",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T01:30:00Z"
+  },
+  {
+   "title": "Jamie Carragher tells Manchester City owners they must SELL following guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T01:00:41Z"
+  },
+  {
+   "title": "‘Irrefutable evidence’: Man City responds to explosive verdict on cheating charges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T00:29:14Z"
   },
   {
    "title": "UAE ‘threatens to pull billions of investments from UK in rebellion against Man City ruling’",
@@ -21,24 +51,6 @@
    "time": "2026-10-02T22:30:24Z"
   },
   {
-   "title": "Man City latest: City lodge appeal in 'sham contracts' case - as No 10 says nobody 'above the rules'",
-   "img": null,
-   "video": null,
-   "time": "2026-10-02T22:17:35Z"
-  },
-  {
-   "title": "Manchester City lodge appeal against guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-02T21:55:00Z"
-  },
-  {
-   "title": "Andy Burnham told billions will be pulled out of the UK in threat over Man City charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-02T21:28:00Z"
-  },
-  {
    "title": "Man City chair met minister at Downing Street days before verdict",
    "img": null,
    "video": null,
@@ -51,22 +63,10 @@
    "time": "2026-10-02T21:14:32Z"
   },
   {
-   "title": "‘Irrefutable evidence’: Man City responds to explosive verdict on cheating charges",
+   "title": "Five City stars in action on international stage",
    "img": null,
    "video": null,
-   "time": "2026-10-02T20:55:46Z"
-  },
-  {
-   "title": "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears",
-   "img": null,
-   "video": null,
-   "time": "2026-10-02T20:40:00Z"
-  },
-  {
-   "title": "Internationals: City trio feature on Friday",
-   "img": null,
-   "video": null,
-   "time": "2026-10-02T20:40:00Z"
+   "time": "2026-10-02T20:30:00Z"
   },
   {
    "title": "Manchester City’s England players are worried about their futures, admits Tuchel",
@@ -76,15 +76,15 @@
   }
  ],
  "ticker": [
-  "Manchester City whistleblower forced into hiding after receiving 'multiple death threats'",
+  "Don't let Manchester City's punishment end in a Championship trophy",
+  "Andy Burnham facing calls to share details of meetings with Manchester City owners",
+  "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears",
+  "How best to punish City? Restitution over retribution, then hand club to the fans | Jonathan Liew",
+  "Jamie Carragher tells Manchester City owners they must SELL following guilty verdict",
+  "‘Irrefutable evidence’: Man City responds to explosive verdict on cheating charges",
   "UAE ‘threatens to pull billions of investments from UK in rebellion against Man City ruling’",
   "Which clubs did Man City's 'inflated' money flow to in transfer market?",
-  "Man City latest: City lodge appeal in 'sham contracts' case - as No 10 says nobody 'above the rules'",
-  "Manchester City lodge appeal against guilty verdict",
-  "Andy Burnham told billions will be pulled out of the UK in threat over Man City charges",
   "Man City chair met minister at Downing Street days before verdict",
-  "Football gossip: Chiesa, Haaland, Kayode, Olmo, Mitoma, Mora, Tresoldi, Guardiola",
-  "‘Irrefutable evidence’: Man City responds to explosive verdict on cheating charges",
-  "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears"
+  "Football gossip: Chiesa, Haaland, Kayode, Olmo, Mitoma, Mora, Tresoldi, Guardiola"
  ]
 }
