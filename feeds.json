@@ -1,18 +1,42 @@
 {
- "updated": "2026-10-03T15:54:13Z",
+ "updated": "2026-10-03T19:04:41Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester City Women v Arsenal Preview",
+   "title": "Guéhi and Anderson help England to thumping win over Croatia",
    "img": null,
    "video": null,
-   "time": "2026-10-03T15:30:58Z"
+   "time": "2026-10-03T18:18:00Z"
   },
   {
    "title": "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
    "img": null,
    "video": null,
-   "time": "2026-10-03T15:11:15Z"
+   "time": "2026-10-03T17:59:58Z"
+  },
+  {
+   "title": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T17:37:54Z"
+  },
+  {
+   "title": "UAE may halt UK investments after Manchester City guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T15:59:00Z"
+  },
+  {
+   "title": "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T15:09:58Z"
+  },
+  {
+   "title": "Pep Guardiola seen for first time since Man City's guilty verdict as he attends Victoria Beckham show with glam daughter",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T14:50:00Z"
   },
   {
    "title": "FA breaks silence on Manchester City guilty verdict as 'integrity' concerns rock Premier League",
@@ -21,10 +45,10 @@
    "time": "2026-10-03T14:31:14Z"
   },
   {
-   "title": "Preview: Manchester City v Arsenal Women",
+   "title": "Opinion: Manchester City and the “115 charges” A proposal for restitution, a lower spending cap and personal accountability",
    "img": null,
    "video": null,
-   "time": "2026-10-03T14:15:00Z"
+   "time": "2026-10-03T14:18:54Z"
   },
   {
    "title": "Watch City's Under-18s Premier League Cup clash away at Brentford live on CITY+",
@@ -45,46 +69,22 @@
    "time": "2026-10-03T13:39:00Z"
   },
   {
-   "title": "Everything You Need to Know About the Explosive Manchester City Scandal",
+   "title": "Man City latest: Damning evidence against 115 charges appeal as whistleblower goes into hiding",
    "img": null,
    "video": null,
-   "time": "2026-10-03T13:00:00Z"
-  },
-  {
-   "title": "UAE ‘threatens to pull billions of investments from UK in rebellion against Man City ruling’",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T13:00:00Z"
-  },
-  {
-   "title": "Arsene Wenger was right to be fuming about Man City - now football owes him an apology",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T12:33:00Z"
-  },
-  {
-   "title": "UAE may halt UK investments after Manchester City guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T12:02:00Z"
-  },
-  {
-   "title": "Erling Haaland ‘blocked’ from ripping up Man City contract as £500k-a-week salary could be slashed",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T11:38:34Z"
+   "time": "2026-10-03T13:26:00Z"
   }
  ],
  "ticker": [
-  "Manchester City Women v Arsenal Preview",
+  "Guéhi and Anderson help England to thumping win over Croatia",
   "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
+  "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
+  "UAE may halt UK investments after Manchester City guilty verdict",
+  "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
+  "Pep Guardiola seen for first time since Man City's guilty verdict as he attends Victoria Beckham show with glam daughter",
   "FA breaks silence on Manchester City guilty verdict as 'integrity' concerns rock Premier League",
-  "Preview: Manchester City v Arsenal Women",
+  "Opinion: Manchester City and the “115 charges” A proposal for restitution, a lower spending cap and personal accountability",
   "Watch City's Under-18s Premier League Cup clash away at Brentford live on CITY+",
-  "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
-  "Should Burnham disclose dealings with Man City chiefs after backlash? VOTE NOW",
-  "Everything You Need to Know About the Explosive Manchester City Scandal",
-  "UAE ‘threatens to pull billions of investments from UK in rebellion against Man City ruling’",
-  "Arsene Wenger was right to be fuming about Man City - now football owes him an apology"
+  "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay"
  ]
 }
