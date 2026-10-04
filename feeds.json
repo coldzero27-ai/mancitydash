@@ -1,90 +1,90 @@
 {
- "updated": "2026-10-04T07:54:17Z",
+ "updated": "2026-10-04T13:47:34Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Lewis called up to England squad",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T13:30:00Z"
+  },
+  {
+   "title": "Manchester City punishment mooted as 'Glazer ownership 2.0'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T13:26:46Z"
+  },
   {
    "title": "Man City appeal: Club's strategy brought into question by 2015 statement main sponsor Etihad Airways submitted to US government",
    "img": null,
    "video": null,
-   "time": "2026-10-04T07:01:32Z"
+   "time": "2026-10-04T13:01:32Z"
   },
   {
-   "title": "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
+   "title": "Chelsea, Man City and Arsenal all involved in Women's Super League LIVE! Team news, score, match updates",
    "img": null,
    "video": null,
-   "time": "2026-10-04T06:27:06Z"
-  },
-  {
-   "title": "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T04:35:37Z"
+   "time": "2026-10-04T12:04:08Z"
   },
   {
    "title": "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
    "img": null,
    "video": null,
-   "time": "2026-10-04T01:34:20Z"
+   "time": "2026-10-04T11:23:55Z"
   },
   {
-   "title": "Manchester City faces uncertain future after 114 charges upheld",
+   "title": "Sunday Supplement: Will Manchester City Women feel effects of club verdict?",
    "img": null,
    "video": null,
-   "time": "2026-10-03T23:15:00Z"
+   "time": "2026-10-04T11:13:56Z"
   },
   {
-   "title": "Manchester council gave City owners ‘sweetheart’ property deal",
+   "title": "Man City’s Abu Dhabi owners given secret 10-year ‘sweetheart deal’ & first dibs on council land over Brit firms",
    "img": null,
    "video": null,
-   "time": "2026-10-03T20:30:52Z"
+   "time": "2026-10-04T11:06:00Z"
   },
   {
-   "title": "Pep Guardiola responds to Man City verdict with message to fans",
+   "title": "Sunday papers: Manchester council gave City owners ‘sweetheart’ property deal",
    "img": null,
    "video": null,
-   "time": "2026-10-03T20:30:00Z"
+   "time": "2026-10-04T10:49:35Z"
   },
   {
-   "title": "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
+   "title": "Who is Rui Pinto? The whistleblower abandoned by Portuguese authorities over Man City leaks",
    "img": null,
    "video": null,
-   "time": "2026-10-03T19:32:17Z"
+   "time": "2026-10-04T09:16:00Z"
   },
   {
-   "title": "Football regulator is dead in the water if it fails Man City test",
+   "title": "Man City statement could give Premier League a problem after guilty verdicts",
    "img": null,
    "video": null,
-   "time": "2026-10-03T19:18:17Z"
+   "time": "2026-10-04T09:15:00Z"
   },
   {
-   "title": "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson",
+   "title": "Burnham’s former deputy says Manchester City ‘will prove innocence’",
    "img": null,
    "video": null,
-   "time": "2026-10-03T19:00:00Z"
+   "time": "2026-10-04T09:14:08Z"
   },
   {
-   "title": "Guéhi and Anderson help England to thumping win over Croatia",
+   "title": "Man City signing Sullivan becomes youngest US goalscorer",
    "img": null,
    "video": null,
-   "time": "2026-10-03T18:18:00Z"
-  },
-  {
-   "title": "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T18:04:00Z"
+   "time": "2026-10-04T08:18:31Z"
   }
  ],
  "ticker": [
+  "Lewis called up to England squad",
+  "Manchester City punishment mooted as 'Glazer ownership 2.0'",
   "Man City appeal: Club's strategy brought into question by 2015 statement main sponsor Etihad Airways submitted to US government",
-  "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
-  "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
+  "Chelsea, Man City and Arsenal all involved in Women's Super League LIVE! Team news, score, match updates",
   "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
-  "Manchester City faces uncertain future after 114 charges upheld",
-  "Manchester council gave City owners ‘sweetheart’ property deal",
-  "Pep Guardiola responds to Man City verdict with message to fans",
-  "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
-  "Football regulator is dead in the water if it fails Man City test",
-  "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson"
+  "Sunday Supplement: Will Manchester City Women feel effects of club verdict?",
+  "Man City’s Abu Dhabi owners given secret 10-year ‘sweetheart deal’ & first dibs on council land over Brit firms",
+  "Sunday papers: Manchester council gave City owners ‘sweetheart’ property deal",
+  "Who is Rui Pinto? The whistleblower abandoned by Portuguese authorities over Man City leaks",
+  "Man City statement could give Premier League a problem after guilty verdicts"
  ]
 }
