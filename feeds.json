@@ -1,30 +1,30 @@
 {
- "updated": "2026-10-04T01:52:24Z",
+ "updated": "2026-10-04T07:54:17Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
+   "title": "Man City appeal: Club's strategy brought into question by 2015 statement main sponsor Etihad Airways submitted to US government",
    "img": null,
    "video": null,
-   "time": "2026-10-04T01:34:20Z"
+   "time": "2026-10-04T07:01:32Z"
+  },
+  {
+   "title": "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T06:27:06Z"
   },
   {
    "title": "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
    "img": null,
    "video": null,
-   "time": "2026-10-04T01:03:33Z"
+   "time": "2026-10-04T04:35:37Z"
   },
   {
-   "title": "Arsenal leading race for RB Leipzig winger Antonio Nusa - Paper Talk",
+   "title": "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
    "img": null,
    "video": null,
-   "time": "2026-10-04T00:22:56Z"
-  },
-  {
-   "title": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T23:33:52Z"
+   "time": "2026-10-04T01:34:20Z"
   },
   {
    "title": "Manchester City faces uncertain future after 114 charges upheld",
@@ -43,12 +43,6 @@
    "img": null,
    "video": null,
    "time": "2026-10-03T20:30:00Z"
-  },
-  {
-   "title": "Tax chiefs 'gathering data' for probe into Man City after £900m rules breach, ex-chairman of Premier League rival claims",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T20:10:00Z"
   },
   {
    "title": "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
@@ -73,18 +67,24 @@
    "img": null,
    "video": null,
    "time": "2026-10-03T18:18:00Z"
+  },
+  {
+   "title": "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T18:04:00Z"
   }
  ],
  "ticker": [
-  "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
+  "Man City appeal: Club's strategy brought into question by 2015 statement main sponsor Etihad Airways submitted to US government",
+  "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
   "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
-  "Arsenal leading race for RB Leipzig winger Antonio Nusa - Paper Talk",
-  "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
+  "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
   "Manchester City faces uncertain future after 114 charges upheld",
   "Manchester council gave City owners ‘sweetheart’ property deal",
   "Pep Guardiola responds to Man City verdict with message to fans",
-  "Tax chiefs 'gathering data' for probe into Man City after £900m rules breach, ex-chairman of Premier League rival claims",
   "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
-  "Football regulator is dead in the water if it fails Man City test"
+  "Football regulator is dead in the water if it fails Man City test",
+  "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson"
  ]
 }
