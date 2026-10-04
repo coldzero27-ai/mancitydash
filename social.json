@@ -1,76 +1,16 @@
 {
-      "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-      "updated": "2026-10-04T11:45:45Z",
-      "posts": [
-              {
-                        "text": "The art of the slide tackle 🎨",
-                        "url": "https://x.com/premierleague/status/2106708410099994711",
-                        "time": "2026-10-04T11:30:00Z",
-                        "account": "Premier League",
-                        "handle": "premierleague"
-              },
-              {
-                        "text": "Experience 🫡\n\nIntroducing each club's outfield player with the most Premier League appearances ⚡️",
-                        "url": "https://x.com/premierleague/status/2106670664358699287",
-                        "time": "2026-10-04T09:00:01Z",
-                        "account": "Premier League",
-                        "handle": "premierleague"
-              },
-              {
-                        "text": "https://t.co/hIviqdSPnk",
-                        "url": "https://x.com/ManCity/status/2106654502401319126",
-                        "time": "2026-10-04T07:55:47Z",
-                        "account": "Man City",
-                        "handle": "ManCity"
-              },
-              {
-                        "text": "Guéhi and Anderson help England to thumping win over Croatia 💪",
-                        "url": "https://x.com/ManCity/status/2106654496055288180",
-                        "time": "2026-10-04T07:55:46Z",
-                        "account": "Man City",
-                        "handle": "ManCity"
-              },
-              {
-                        "text": "So many stunning goals already this season 🤩\n\nFrom Bruno Guimaraes to Lewis Dunk, watch the very best goals of the season so far 👇 https://premierleague.app.link/e/FqHwn4cvW6b",
-                        "url": "https://x.com/premierleague/status/2106460589002493973",
-                        "time": "2026-10-03T19:05:15Z",
-                        "account": "Premier League",
-                        "handle": "premierleague"
-              },
-              {
-                        "text": "Bukayo Saka and Morgan Rogers on target for the Three Lions 🎯\n\nA memorable night for England as they stun Croatia with a 7-0 victory 🌟",
-                        "url": "https://x.com/premierleague/status/2106448082695254084",
-                        "time": "2026-10-03T18:15:33Z",
-                        "account": "Premier League",
-                        "handle": "premierleague"
-              },
-              {
-                        "text": "Bukayo Saka. ⚽️🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                        "url": "https://x.com/premierleague/status/2106435206085247396",
-                        "time": "2026-10-03T17:24:23Z",
-                        "account": "Premier League",
-                        "handle": "premierleague"
-              },
-              {
-                        "text": "🌍🩵",
-                        "url": "https://x.com/ManCity/status/2106398875716399321",
-                        "time": "2026-10-03T15:00:01Z",
-                        "account": "Man City",
-                        "handle": "ManCity"
-              },
-              {
-                        "text": "Sergio scores FIVE! 🖐\n \nOTD in 2015, @aguerosergiokun delivered a goalscoring masterclass against Newcastle! 🤩",
-                        "url": "https://x.com/ManCity/status/2106369785458221501",
-                        "time": "2026-10-03T13:04:25Z",
-                        "account": "Man City",
-                        "handle": "ManCity"
-              },
-              {
-                        "text": "A point apiece 🤝",
-                        "url": "https://x.com/ManCity/status/2106339157471601055",
-                        "time": "2026-10-03T11:02:43Z",
-                        "account": "Man City",
-                        "handle": "ManCity"
-              }
-      ]
+        "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+        "updated": "2026-10-04T14:50:33Z",
+        "posts": [
+                  { "text": "Tune in to Matchday Live as we preview our big WSL clash with Arsenal ⚔️🩵", "url": "https://x.com/ManCity/status/2106755253840367759", "time": "2026-10-04T14:36:08Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Which Cristiano Ronaldo goal is your favourite? 👀", "url": "https://x.com/premierleague/status/2106746159515734403", "time": "2026-10-04T14:00:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "On the scoresheet for Senegal! 🇸🇳✨", "url": "https://x.com/ManCity/status/2106742230396416333", "time": "2026-10-04T13:44:23Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "In action for Argentina! 🇦🇷👍", "url": "https://x.com/ManCity/status/2106739992772952441", "time": "2026-10-04T13:35:30Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Dennis Bergkamp, poetry in motion 🤤", "url": "https://x.com/premierleague/status/2106723511876137335", "time": "2026-10-04T12:30:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "The art of the slide tackle 🎨", "url": "https://x.com/premierleague/status/2106708410099994711", "time": "2026-10-04T11:30:00Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "Experience 🫡\n\nIntroducing each club's outfield player with the most Premier League appearances ⚡️", "url": "https://x.com/premierleague/status/2106670664358699287", "time": "2026-10-04T09:00:01Z", "account": "Premier League", "handle": "premierleague" },
+                  { "text": "https://t.co/hIviqdSPnk", "url": "https://x.com/ManCity/status/2106654502401319126", "time": "2026-10-04T07:55:47Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "Guéhi and Anderson help England to thumping win over Croatia 💪", "url": "https://x.com/ManCity/status/2106654496055288180", "time": "2026-10-04T07:55:46Z", "account": "Man City", "handle": "ManCity" },
+                  { "text": "So many stunning goals already this season 🤩\n\nFrom Bruno Guimaraes to Lewis Dunk, watch the very best goals of the season so far 👇 https://premierleague.app.link/e/FqHwn4cvW6b", "url": "https://x.com/premierleague/status/2106460589002493973", "time": "2026-10-03T19:05:15Z", "account": "Premier League", "handle": "premierleague" }
+        ]
 }
