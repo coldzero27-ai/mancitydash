@@ -1,24 +1,54 @@
 {
- "updated": "2026-10-03T22:20:20Z",
+ "updated": "2026-10-04T01:52:24Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T01:34:20Z"
+  },
   {
    "title": "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
    "img": null,
    "video": null,
-   "time": "2026-10-03T21:21:10Z"
+   "time": "2026-10-04T01:03:33Z"
   },
   {
-   "title": "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
+   "title": "Arsenal leading race for RB Leipzig winger Antonio Nusa - Paper Talk",
    "img": null,
    "video": null,
-   "time": "2026-10-03T20:35:34Z"
+   "time": "2026-10-04T00:22:56Z"
+  },
+  {
+   "title": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T23:33:52Z"
+  },
+  {
+   "title": "Manchester City faces uncertain future after 114 charges upheld",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T23:15:00Z"
   },
   {
    "title": "Manchester council gave City owners ‘sweetheart’ property deal",
    "img": null,
    "video": null,
    "time": "2026-10-03T20:30:52Z"
+  },
+  {
+   "title": "Pep Guardiola responds to Man City verdict with message to fans",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T20:30:00Z"
+  },
+  {
+   "title": "Tax chiefs 'gathering data' for probe into Man City after £900m rules breach, ex-chairman of Premier League rival claims",
+   "img": null,
+   "video": null,
+   "time": "2026-10-03T20:10:00Z"
   },
   {
    "title": "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
@@ -43,48 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-03T18:18:00Z"
-  },
-  {
-   "title": "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T18:04:00Z"
-  },
-  {
-   "title": "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T17:37:54Z"
-  },
-  {
-   "title": "Man City whistleblower 'fearing for life' ready to make offer to help UK authorities",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T16:37:00Z"
-  },
-  {
-   "title": "Man City have 115 charges safety net after £1billion spend and strategy call",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T16:00:00Z"
-  },
-  {
-   "title": "UAE may halt UK investments after Manchester City guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-03T15:59:00Z"
   }
  ],
  "ticker": [
+  "Manchester City vs Arsenal: Women's Super League stats & head-to-head",
   "Who is Khaldoon Al Mubarak, Manchester City's chairman?",
-  "A very Mancunian scandal: How Man City forced Andy Burnham to face his past",
-  "Manchester council gave City owners ‘sweetheart’ property deal",
-  "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
-  "Football regulator is dead in the water if it fails Man City test",
-  "Let there be blanks instead of Manchester City’s name on trophies: there was no honour there | Jonathan Wilson",
-  "Guéhi and Anderson help England to thumping win over Croatia",
-  "The football horse that Andy Burnham rode in on is now bucking his vibe | Barney Ronay",
+  "Arsenal leading race for RB Leipzig winger Antonio Nusa - Paper Talk",
   "Manchester City have been caught in a huge storm over the Premier League financial breaches and now Andy Burnham faces a political headache over the news",
-  "Man City whistleblower 'fearing for life' ready to make offer to help UK authorities"
+  "Manchester City faces uncertain future after 114 charges upheld",
+  "Manchester council gave City owners ‘sweetheart’ property deal",
+  "Pep Guardiola responds to Man City verdict with message to fans",
+  "Tax chiefs 'gathering data' for probe into Man City after £900m rules breach, ex-chairman of Premier League rival claims",
+  "Manchester City whistleblower offers UK cooperation in exchange for protection: Report - Anadolu Ajansı",
+  "Football regulator is dead in the water if it fails Man City test"
  ]
 }
