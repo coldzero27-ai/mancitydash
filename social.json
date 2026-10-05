@@ -1,16 +1,16 @@
 {
-  "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-  "updated": "2026-10-04T23:45:08Z",
-  "posts": [
-    { "text": "Konstantinos Tzolakis's fine form continues 💪\n\nThe @HullCity goalkeeper made four saves as Greece held Germany to a 0-0 draw in the Nations League 🔒", "url": "https://x.com/premierleague/status/2106850207136632989", "time": "2026-10-04T20:53:27Z", "account": "Premier League", "handle": "premierleague" },
-    { "text": "🇵🇹🪄", "url": "https://x.com/premierleague/status/2106799006982779299", "time": "2026-10-04T17:30:00Z", "account": "Premier League", "handle": "premierleague" },
-    { "text": "What a result 🤩\n\nJoin the Matchday Live team as they break down our superb win over Arsenal ▶️", "url": "https://x.com/ManCity/status/2106798709765767612", "time": "2026-10-04T17:28:49Z", "account": "Man City", "handle": "ManCity" },
-    { "text": "Level at the break ⏸️\n\nRejoin the Matchday Live team as they analyse the first half 📺", "url": "https://x.com/ManCity/status/2106782532029010213", "time": "2026-10-04T16:24:32Z", "account": "Man City", "handle": "ManCity" },
-    { "text": "Left hanging 😅", "url": "https://x.com/premierleague/status/2106776358227460472", "time": "2026-10-04T16:00:00Z", "account": "Premier League", "handle": "premierleague" },
-    { "text": "Tune in to Matchday Live as we preview our big WSL clash with Arsenal ⚔️🩵", "url": "https://x.com/ManCity/status/2106755253840367759", "time": "2026-10-04T14:36:08Z", "account": "Man City", "handle": "ManCity" },
-    { "text": "Which Cristiano Ronaldo goal is your favourite? 👀", "url": "https://x.com/premierleague/status/2106746159515734403", "time": "2026-10-04T14:00:00Z", "account": "Premier League", "handle": "premierleague" },
-    { "text": "On the scoresheet for Senegal! 🇸🇳✨", "url": "https://x.com/ManCity/status/2106742230396416333", "time": "2026-10-04T13:44:23Z", "account": "Man City", "handle": "ManCity" },
-    { "text": "In action for Argentina! 🇦🇷👍", "url": "https://x.com/ManCity/status/2106739992772952441", "time": "2026-10-04T13:35:30Z", "account": "Man City", "handle": "ManCity" },
-    { "text": "Dennis Bergkamp, poetry in motion 🤤", "url": "https://x.com/premierleague/status/2106723511876137335", "time": "2026-10-04T12:30:00Z", "account": "Premier League", "handle": "premierleague" }
-  ]
+"_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+"updated": "2026-10-05T11:43:29Z",
+"posts": [
+{ "text": "Fernando Torres vs Nemanja Vidic was box office 🍿", "url": "https://x.com/premierleague/status/2107067064062005741", "time": "2026-10-05T11:15:10Z", "account": "Premier League", "handle": "premierleague" },
+{ "text": "aura (noun)\n\n1. A distinctive quality or atmosphere that seems to surround someone or something.", "url": "https://x.com/premierleague/status/2107053386419900599", "time": "2026-10-05T10:20:49Z", "account": "Premier League", "handle": "premierleague" },
+{ "text": "We are BACK this week.", "url": "https://x.com/premierleague/status/2107028295535538582", "time": "2026-10-05T08:41:07Z", "account": "Premier League", "handle": "premierleague" },
+{ "text": "Konstantinos Tzolakis's fine form continues 💪\n\nThe @HullCity goalkeeper made four saves as Greece held Germany to a 0-0 draw in the Nations League 🔒", "url": "https://x.com/premierleague/status/2106850207136632989", "time": "2026-10-04T20:53:27Z", "account": "Premier League", "handle": "premierleague" },
+{ "text": "🇵🇹🪄", "url": "https://x.com/premierleague/status/2106799006982779299", "time": "2026-10-04T17:30:00Z", "account": "Premier League", "handle": "premierleague" },
+{ "text": "What a result 🤩\n\nJoin the Matchday Live team as they break down our superb win over Arsenal ▶️", "url": "https://x.com/ManCity/status/2106798709765767612", "time": "2026-10-04T17:28:49Z", "account": "Man City", "handle": "ManCity" },
+{ "text": "Level at the break ⏸️\n\nRejoin the Matchday Live team as they analyse the first half 📺", "url": "https://x.com/ManCity/status/2106782532029010213", "time": "2026-10-04T16:24:32Z", "account": "Man City", "handle": "ManCity" },
+{ "text": "Tune in to Matchday Live as we preview our big WSL clash with Arsenal ⚔️🩵", "url": "https://x.com/ManCity/status/2106755253840367759", "time": "2026-10-04T14:36:08Z", "account": "Man City", "handle": "ManCity" },
+{ "text": "On the scoresheet for Senegal! 🇸🇳✨", "url": "https://x.com/ManCity/status/2106742230396416333", "time": "2026-10-04T13:44:23Z", "account": "Man City", "handle": "ManCity" },
+{ "text": "In action for Argentina! 🇦🇷👍", "url": "https://x.com/ManCity/status/2106739992772952441", "time": "2026-10-04T13:35:30Z", "account": "Man City", "handle": "ManCity" }
+]
 }
