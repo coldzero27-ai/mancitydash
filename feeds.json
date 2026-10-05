@@ -1,7 +1,61 @@
 {
- "updated": "2026-10-04T21:47:51Z",
+ "updated": "2026-10-05T00:32:19Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T00:11:15Z"
+  },
+  {
+   "title": "8 Burning Questions About the Manchester City Case",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T00:00:31Z"
+  },
+  {
+   "title": "Former Premier League manager opens fire on Manchester City: they must be relegated immediately, everyone knew about their cheating",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T23:40:02Z"
+  },
+  {
+   "title": "Manchester City must be relegated, says Canada’s ex-Leeds manager",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T23:32:55Z"
+  },
+  {
+   "title": "Manchester City Verdict: The Real Cost to Aston Villa",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T22:33:39Z"
+  },
+  {
+   "title": "Man City dealt huge injury worry as Haaland spotted limping",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T22:06:08Z"
+  },
+  {
+   "title": "Nations League roundup: Haaland limps off in Norway’s loss to Portugal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T22:00:00Z"
+  },
+  {
+   "title": "Man City charges LIVE: Premier League expulsion update, Pep Guardiola 'U-turn', appeal blow",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T21:59:28Z"
+  },
+  {
+   "title": "Highlights: Manchester City 4-2 Arsenal Women",
+   "img": null,
+   "video": null,
+   "time": "2026-10-04T21:53:18Z"
+  },
   {
    "title": "Women's Super League",
    "img": null,
@@ -15,76 +69,22 @@
    "time": "2026-10-04T21:30:00Z"
   },
   {
-   "title": "Arsenal leading race for RB Leipzig winger Antonio Nusa - Paper Talk | Football News",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:24:59Z"
-  },
-  {
    "title": "Highlights - WSL - Manchester City 4-2 Arsenal",
    "img": null,
    "video": null,
    "time": "2026-10-04T21:20:21Z"
-  },
-  {
-   "title": "Women's Super League: Manchester City 4-2 Arsenal - Kerstin Casparij scores with her first touch of the game",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:15:34Z"
-  },
-  {
-   "title": "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:11:15Z"
-  },
-  {
-   "title": "Ndiaye scores for Senegal as Dias beats Haaland in Nations League",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:00:00Z"
-  },
-  {
-   "title": "Women's Super League: Manchester City 4-2 Arsenal - Renee Slegers clapping the fans after the game",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T20:55:35Z"
-  },
-  {
-   "title": "Man City charges LIVE: Premier League teams split on punishment as club's appeal dealt blow",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T20:19:37Z"
-  },
-  {
-   "title": "Man City beat hapless Arsenal as London City Lionesses rout Spurs in statement win",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T20:05:00Z"
-  },
-  {
-   "title": "Erling Haaland: Man Utd transfer call made as FIVE Man City stars tipped for Old Trafford move",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T19:53:10Z"
-  },
-  {
-   "title": "Hemp moves third in City all-time appearance rankings",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T19:00:00Z"
   }
  ],
  "ticker": [
-  "Women's Super League",
-  "8-minute highlights: City 4-2 Arsenal",
-  "Arsenal leading race for RB Leipzig winger Antonio Nusa - Paper Talk | Football News",
-  "Highlights - WSL - Manchester City 4-2 Arsenal",
-  "Women's Super League: Manchester City 4-2 Arsenal - Kerstin Casparij scores with her first touch of the game",
   "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
-  "Ndiaye scores for Senegal as Dias beats Haaland in Nations League",
-  "Women's Super League: Manchester City 4-2 Arsenal - Renee Slegers clapping the fans after the game",
-  "Man City charges LIVE: Premier League teams split on punishment as club's appeal dealt blow",
-  "Man City beat hapless Arsenal as London City Lionesses rout Spurs in statement win"
+  "8 Burning Questions About the Manchester City Case",
+  "Former Premier League manager opens fire on Manchester City: they must be relegated immediately, everyone knew about their cheating",
+  "Manchester City must be relegated, says Canada’s ex-Leeds manager",
+  "Manchester City Verdict: The Real Cost to Aston Villa",
+  "Man City dealt huge injury worry as Haaland spotted limping",
+  "Nations League roundup: Haaland limps off in Norway’s loss to Portugal",
+  "Man City charges LIVE: Premier League expulsion update, Pep Guardiola 'U-turn', appeal blow",
+  "Highlights: Manchester City 4-2 Arsenal Women",
+  "Women's Super League"
  ]
 }
