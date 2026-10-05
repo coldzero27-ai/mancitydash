@@ -1,48 +1,66 @@
 {
- "updated": "2026-10-05T00:32:19Z",
+ "updated": "2026-10-05T06:37:32Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
+   "title": "Man City accused of 'bullying' as 'secret meetings' mooted",
    "img": null,
    "video": null,
-   "time": "2026-10-05T00:11:15Z"
+   "time": "2026-10-05T06:11:15Z"
   },
   {
    "title": "8 Burning Questions About the Manchester City Case",
    "img": null,
    "video": null,
-   "time": "2026-10-05T00:00:31Z"
+   "time": "2026-10-05T05:31:25Z"
+  },
+  {
+   "title": "Manchester City’s disgrace proves Britain is in hock to the UAE",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T05:00:00Z"
+  },
+  {
+   "title": "Monday briefing: Manchester City confirm appeal against commission verdict as FA considers action",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T04:30:51Z"
+  },
+  {
+   "title": "Manchester City, Abu Dhabi, and a conundrum for UK Prime Minister Andy Burnham",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T04:15:00Z"
+  },
+  {
+   "title": "Man City summer signing opens door to return to former club after guilty verdict - 'We will see'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T02:25:35Z"
   },
   {
    "title": "Former Premier League manager opens fire on Manchester City: they must be relegated immediately, everyone knew about their cheating",
    "img": null,
    "video": null,
-   "time": "2026-10-04T23:40:02Z"
+   "time": "2026-10-05T02:04:05Z"
   },
   {
-   "title": "Manchester City must be relegated, says Canada’s ex-Leeds manager",
+   "title": "Shaw seals thrilling win over Arsenal to extend Manchester City’s 100% WSL start",
    "img": null,
    "video": null,
-   "time": "2026-10-04T23:32:55Z"
+   "time": "2026-10-05T01:30:00Z"
   },
   {
-   "title": "Manchester City Verdict: The Real Cost to Aston Villa",
+   "title": "Erling Haaland demands to be substituted in worrying scenes during Portugal vs Norway in blow to Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T00:16:53Z"
+  },
+  {
+   "title": "The Real Cost of Manchester City’s Financial Deception to Aston Villa",
    "img": null,
    "video": null,
    "time": "2026-10-04T22:33:39Z"
-  },
-  {
-   "title": "Man City dealt huge injury worry as Haaland spotted limping",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T22:06:08Z"
-  },
-  {
-   "title": "Nations League roundup: Haaland limps off in Norway’s loss to Portugal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T22:00:00Z"
   },
   {
    "title": "Man City charges LIVE: Premier League expulsion update, Pep Guardiola 'U-turn', appeal blow",
@@ -55,36 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-04T21:53:18Z"
-  },
-  {
-   "title": "Women's Super League",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:36:16Z"
-  },
-  {
-   "title": "8-minute highlights: City 4-2 Arsenal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:30:00Z"
-  },
-  {
-   "title": "Highlights - WSL - Manchester City 4-2 Arsenal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:20:21Z"
   }
  ],
  "ticker": [
-  "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
+  "Man City accused of 'bullying' as 'secret meetings' mooted",
   "8 Burning Questions About the Manchester City Case",
+  "Manchester City’s disgrace proves Britain is in hock to the UAE",
+  "Monday briefing: Manchester City confirm appeal against commission verdict as FA considers action",
+  "Manchester City, Abu Dhabi, and a conundrum for UK Prime Minister Andy Burnham",
+  "Man City summer signing opens door to return to former club after guilty verdict - 'We will see'",
   "Former Premier League manager opens fire on Manchester City: they must be relegated immediately, everyone knew about their cheating",
-  "Manchester City must be relegated, says Canada’s ex-Leeds manager",
-  "Manchester City Verdict: The Real Cost to Aston Villa",
-  "Man City dealt huge injury worry as Haaland spotted limping",
-  "Nations League roundup: Haaland limps off in Norway’s loss to Portugal",
-  "Man City charges LIVE: Premier League expulsion update, Pep Guardiola 'U-turn', appeal blow",
-  "Highlights: Manchester City 4-2 Arsenal Women",
-  "Women's Super League"
+  "Shaw seals thrilling win over Arsenal to extend Manchester City’s 100% WSL start",
+  "Erling Haaland demands to be substituted in worrying scenes during Portugal vs Norway in blow to Manchester City",
+  "The Real Cost of Manchester City’s Financial Deception to Aston Villa"
  ]
 }
