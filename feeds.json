@@ -1,90 +1,90 @@
 {
- "updated": "2026-10-05T06:37:32Z",
+ "updated": "2026-10-05T15:39:00Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Ex-Manchester leader defends deals with Man City owners",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T15:25:06Z"
+  },
+  {
+   "title": "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T15:21:56Z"
+  },
+  {
+   "title": "Man City TV presenter's 'terrifying' stalker ordeal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T15:21:34Z"
+  },
+  {
+   "title": "Arsenal accused of Manchester City 'double standard' over FFP 'mechanisms'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T15:15:37Z"
+  },
+  {
+   "title": "Man City FFP: Ten grounds for appeal includes Chelsea, Liverpool rule breaches",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T15:15:23Z"
+  },
+  {
+   "title": "Liverpool believe new signing will be better than Man City counterpart, with Richard Hughes a genius after all",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T14:58:46Z"
+  },
+  {
+   "title": "Manchester City receive Erling Haaland injury update ahead of Liverpool clash",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T14:35:34Z"
+  },
   {
    "title": "Man City accused of 'bullying' as 'secret meetings' mooted",
    "img": null,
    "video": null,
-   "time": "2026-10-05T06:11:15Z"
+   "time": "2026-10-05T14:10:36Z"
   },
   {
-   "title": "8 Burning Questions About the Manchester City Case",
+   "title": "City in the Community opens applications for new grant programme to support more young people in Manchester",
    "img": null,
    "video": null,
-   "time": "2026-10-05T05:31:25Z"
+   "time": "2026-10-05T14:00:00Z"
   },
   {
-   "title": "Manchester City’s disgrace proves Britain is in hock to the UAE",
+   "title": "Man City charges LIVE: Premier League teams split on punishment as manager claims 'everyone knew'",
    "img": null,
    "video": null,
-   "time": "2026-10-05T05:00:00Z"
+   "time": "2026-10-05T13:37:58Z"
   },
   {
-   "title": "Monday briefing: Manchester City confirm appeal against commission verdict as FA considers action",
+   "title": "Worry for Manchester City as Erling Haaland limps off for Norway against Portugal",
    "img": null,
    "video": null,
-   "time": "2026-10-05T04:30:51Z"
+   "time": "2026-10-05T13:27:04Z"
   },
   {
-   "title": "Manchester City, Abu Dhabi, and a conundrum for UK Prime Minister Andy Burnham",
+   "title": "Could Manchester City Players Actually Walk Away From Contracts? - Original Football | David Skilling",
    "img": null,
    "video": null,
-   "time": "2026-10-05T04:15:00Z"
-  },
-  {
-   "title": "Man City summer signing opens door to return to former club after guilty verdict - 'We will see'",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T02:25:35Z"
-  },
-  {
-   "title": "Former Premier League manager opens fire on Manchester City: they must be relegated immediately, everyone knew about their cheating",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T02:04:05Z"
-  },
-  {
-   "title": "Shaw seals thrilling win over Arsenal to extend Manchester City’s 100% WSL start",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T01:30:00Z"
-  },
-  {
-   "title": "Erling Haaland demands to be substituted in worrying scenes during Portugal vs Norway in blow to Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T00:16:53Z"
-  },
-  {
-   "title": "The Real Cost of Manchester City’s Financial Deception to Aston Villa",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T22:33:39Z"
-  },
-  {
-   "title": "Man City charges LIVE: Premier League expulsion update, Pep Guardiola 'U-turn', appeal blow",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:59:28Z"
-  },
-  {
-   "title": "Highlights: Manchester City 4-2 Arsenal Women",
-   "img": null,
-   "video": null,
-   "time": "2026-10-04T21:53:18Z"
+   "time": "2026-10-05T13:08:31Z"
   }
  ],
  "ticker": [
+  "Ex-Manchester leader defends deals with Man City owners",
+  "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
+  "Man City TV presenter's 'terrifying' stalker ordeal",
+  "Arsenal accused of Manchester City 'double standard' over FFP 'mechanisms'",
+  "Man City FFP: Ten grounds for appeal includes Chelsea, Liverpool rule breaches",
+  "Liverpool believe new signing will be better than Man City counterpart, with Richard Hughes a genius after all",
+  "Manchester City receive Erling Haaland injury update ahead of Liverpool clash",
   "Man City accused of 'bullying' as 'secret meetings' mooted",
-  "8 Burning Questions About the Manchester City Case",
-  "Manchester City’s disgrace proves Britain is in hock to the UAE",
-  "Monday briefing: Manchester City confirm appeal against commission verdict as FA considers action",
-  "Manchester City, Abu Dhabi, and a conundrum for UK Prime Minister Andy Burnham",
-  "Man City summer signing opens door to return to former club after guilty verdict - 'We will see'",
-  "Former Premier League manager opens fire on Manchester City: they must be relegated immediately, everyone knew about their cheating",
-  "Shaw seals thrilling win over Arsenal to extend Manchester City’s 100% WSL start",
-  "Erling Haaland demands to be substituted in worrying scenes during Portugal vs Norway in blow to Manchester City",
-  "The Real Cost of Manchester City’s Financial Deception to Aston Villa"
+  "City in the Community opens applications for new grant programme to support more young people in Manchester",
+  "Man City charges LIVE: Premier League teams split on punishment as manager claims 'everyone knew'"
  ]
 }
