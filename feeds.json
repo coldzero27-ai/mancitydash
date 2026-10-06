@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-05T22:21:29Z",
+ "updated": "2026-10-06T02:25:28Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Man City charges: Premier League clubs do not expect City to be in Premier League next season if appeal fails",
    "img": null,
    "video": null,
-   "time": "2026-10-05T21:45:00Z"
+   "time": "2026-10-05T23:26:15Z"
+  },
+  {
+   "title": "Guardiola feels guilty after Manchester City's conviction",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T23:15:00Z"
   },
   {
    "title": "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
    "img": null,
    "video": null,
    "time": "2026-10-05T21:31:16Z"
-  },
-  {
-   "title": "Liverpool: Andoni Iraola's early impact at Anfield assessed ahead of huge Super Sunday showdown with Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T21:29:27Z"
   },
   {
    "title": "Man City FFP: Ten grounds for appeal includes Chelsea, Liverpool rule breaches",
@@ -33,6 +33,18 @@
    "time": "2026-10-05T20:46:06Z"
   },
   {
+   "title": "Man City FFP: Sheikh Mansour to sell club after being ‘disgraced’ by guilty verdict – UAE expert",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T20:46:06Z"
+  },
+  {
+   "title": "Arsenal chances of 'agreeing deal' to sign Erling Haaland revealed with decision reached",
+   "img": null,
+   "video": null,
+   "time": "2026-10-05T20:43:57Z"
+  },
+  {
    "title": "Cherki scores for France as Donnarumma sees off Turkey",
    "img": null,
    "video": null,
@@ -45,46 +57,34 @@
    "time": "2026-10-05T20:36:58Z"
   },
   {
-   "title": "How did some City fans become aggressive defenders of a nation state’s regime?",
+   "title": "How did some City fans become aggressive defenders of a nation state’s regime? | Sean Ingle",
    "img": null,
    "video": null,
    "time": "2026-10-05T20:08:00Z"
   },
   {
-   "title": "Man City shirt sponsor OKX fined £400k for links to mobsters as insiders say it 'beggars belief' club has not cut ties",
+   "title": "Enzo Maresca to address guilty verdict with Man City players before Liverpool test",
    "img": null,
    "video": null,
-   "time": "2026-10-05T20:00:00Z"
+   "time": "2026-10-05T19:20:53Z"
   },
   {
-   "title": "Guardiola feels guilty after Manchester City's conviction",
+   "title": "Manchester City’s spending and the fine margins of Premier League football | Letters",
    "img": null,
    "video": null,
-   "time": "2026-10-05T19:59:48Z"
-  },
-  {
-   "title": "10 players could miss Liverpool vs Manchester City at Anfield",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T19:20:59Z"
-  },
-  {
-   "title": "Enzo Maresca to speak with Manchester City stars for first time since guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-05T19:00:21Z"
+   "time": "2026-10-05T17:24:00Z"
   }
  ],
  "ticker": [
   "Man City charges: Premier League clubs do not expect City to be in Premier League next season if appeal fails",
+  "Guardiola feels guilty after Manchester City's conviction",
   "Man City 4-2 Arsenal: WSL champions come from behind in thriller to ramp up pressure on Renee Slegers and the Gunners",
-  "Liverpool: Andoni Iraola's early impact at Anfield assessed ahead of huge Super Sunday showdown with Man City",
   "Man City FFP: Ten grounds for appeal includes Chelsea, Liverpool rule breaches",
   "Arsenal accused of Manchester City 'double standard' over FFP 'mechanisms'",
+  "Man City FFP: Sheikh Mansour to sell club after being ‘disgraced’ by guilty verdict – UAE expert",
+  "Arsenal chances of 'agreeing deal' to sign Erling Haaland revealed with decision reached",
   "Cherki scores for France as Donnarumma sees off Turkey",
   "Erling Haaland: Norway boss issues telling injury update before Liverpool v Man City",
-  "How did some City fans become aggressive defenders of a nation state’s regime?",
-  "Man City shirt sponsor OKX fined £400k for links to mobsters as insiders say it 'beggars belief' club has not cut ties",
-  "Guardiola feels guilty after Manchester City's conviction"
+  "How did some City fans become aggressive defenders of a nation state’s regime? | Sean Ingle"
  ]
 }
