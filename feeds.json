@@ -1,7 +1,25 @@
 {
- "updated": "2026-10-06T21:08:02Z",
+ "updated": "2026-10-07T00:56:02Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "What Manchester City’s fans in business think of current events",
+   "img": null,
+   "video": null,
+   "time": "2026-10-06T23:02:12Z"
+  },
+  {
+   "title": "Man City v Brighton - 31 Oct 2026",
+   "img": null,
+   "video": null,
+   "time": "2026-10-06T21:51:36Z"
+  },
+  {
+   "title": "Man City charges LIVE: Punishment causes Premier League split as £300m 'catastrophe' looms",
+   "img": null,
+   "video": null,
+   "time": "2026-10-06T21:51:35Z"
+  },
   {
    "title": "Man City charges: Premier League clubs do not expect City to be in Premier League next season if appeal fails",
    "img": null,
@@ -13,6 +31,12 @@
    "img": null,
    "video": null,
    "time": "2026-10-06T20:45:00Z"
+  },
+  {
+   "title": "Simon Jordan fumes Premier League needs to be disbanded after Man City scandal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-06T20:09:00Z"
   },
   {
    "title": "Liverpool vs City to be refereed by official stood down over ‘worst decision ever seen’",
@@ -27,12 +51,6 @@
    "time": "2026-10-06T19:30:20Z"
   },
   {
-   "title": "\"One club for Haaland and Bounou\": artificial intelligence answers: where will Manchester City's stars go if they are relegated?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-06T19:17:41Z"
-  },
-  {
    "title": "Video: Inside the Manchester City Scandal",
    "img": null,
    "video": null,
@@ -45,46 +63,28 @@
    "time": "2026-10-06T18:50:07Z"
   },
   {
-   "title": "Too nice: do Arsenal lack the grit and tenacity to end WSL title drought?",
+   "title": "Man City Punishment Timeline: How Long Will Appeal Take, When Will This End?",
    "img": null,
    "video": null,
-   "time": "2026-10-06T18:37:00Z"
+   "time": "2026-10-06T18:00:00Z"
   },
   {
    "title": "Newcastle United star quizzed on Manchester City crisis and admits mixed emotions",
    "img": null,
    "video": null,
-   "time": "2026-10-06T18:17:41Z"
-  },
-  {
-   "title": "Manchester City’s Owners Should Be Accountable – Not Their Fans",
-   "img": null,
-   "video": null,
-   "time": "2026-10-06T17:35:12Z"
-  },
-  {
-   "title": "Manchester City charges: Features, explainers, what's next after guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-06T17:14:00Z"
-  },
-  {
-   "title": "\"From three to five years\": Carragher attacks Manchester City's owners and demands harsh penalties",
-   "img": null,
-   "video": null,
-   "time": "2026-10-06T17:07:21Z"
+   "time": "2026-10-06T17:59:00Z"
   }
  ],
  "ticker": [
+  "What Manchester City’s fans in business think of current events",
+  "Man City v Brighton - 31 Oct 2026",
+  "Man City charges LIVE: Punishment causes Premier League split as £300m 'catastrophe' looms",
   "Man City charges: Premier League clubs do not expect City to be in Premier League next season if appeal fails",
   "Anderson and Guéhi help England to comfortable Czechia win",
+  "Simon Jordan fumes Premier League needs to be disbanded after Man City scandal",
   "Liverpool vs City to be refereed by official stood down over ‘worst decision ever seen’",
   "Rival clubs want range of punishments for Man City",
-  "\"One club for Haaland and Bounou\": artificial intelligence answers: where will Manchester City's stars go if they are relegated?",
   "Video: Inside the Manchester City Scandal",
-  "Manchester City financial scandal rocks Burnham government",
-  "Too nice: do Arsenal lack the grit and tenacity to end WSL title drought?",
-  "Newcastle United star quizzed on Manchester City crisis and admits mixed emotions",
-  "Manchester City’s Owners Should Be Accountable – Not Their Fans"
+  "Manchester City financial scandal rocks Burnham government"
  ]
 }
