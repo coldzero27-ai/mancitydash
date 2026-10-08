@@ -1,7 +1,31 @@
 {
- "updated": "2026-10-07T20:27:46Z",
+ "updated": "2026-10-08T00:21:32Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Guardiola to Attend Champions League Match in Support of Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T23:10:17Z"
+  },
+  {
+   "title": "Mikel Arteta's new £80m Arsenal deal is more bad news for Man City after he left club in sliding doors moment",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T21:59:00Z"
+  },
+  {
+   "title": "Liverpool host Manchester City in huge Premier League test",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T21:43:16Z"
+  },
+  {
+   "title": "Guardiola expected to attend Manchester City vs PSG match — BBC Sport",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T20:37:16Z"
+  },
   {
    "title": "Guardiola set to attend Man City v PSG next week",
    "img": null,
@@ -15,10 +39,28 @@
    "time": "2026-10-07T20:14:24Z"
   },
   {
+   "title": "Iraola casts doubt on Isak and Gakpo facing Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T20:12:43Z"
+  },
+  {
+   "title": "Portuguese authorities took 83 days to tell Rui Pinto his witness protection was ending",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T20:03:00Z"
+  },
+  {
    "title": "Pep Guardiola to make Manchester City return amid financial rules breach fallout",
    "img": null,
    "video": null,
    "time": "2026-10-07T19:52:00Z"
+  },
+  {
+   "title": "¿Queda empañado el legado de Pep Guardiola en el Manchester City?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-07T19:44:17Z"
   },
   {
    "title": "UEFA could intervene: what is Manchester City's position on competing in the Champions League in the event of relegation?",
@@ -27,64 +69,22 @@
    "time": "2026-10-07T19:37:06Z"
   },
   {
-   "title": "Sean Dyche namechecks Rangers amid Manchester City punishment talk",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T19:35:36Z"
-  },
-  {
    "title": "Pep Guardiola expected to attend Manchester City vs. Paris Saint-Germain in Champions League",
    "img": null,
    "video": null,
-   "time": "2026-10-07T19:30:19Z"
-  },
-  {
-   "title": "Kenny Archer: Manchester City need to be reformed and the records scrubbed clean",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T19:00:00Z"
-  },
-  {
-   "title": "Pep Guardiola making surprise return to Man City to show his support after guilty verdict leaves club on brink",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T18:39:00Z"
-  },
-  {
-   "title": "Pep Guardiola will make Man City return after 115 guilty verdicts",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T18:37:00Z"
-  },
-  {
-   "title": "Kyle Walker refuses to have Manchester City's titles stripped: no one can take them away from us",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T18:33:43Z"
-  },
-  {
-   "title": "Manchester City charges: Can the Premier League afford to lose Man City?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T18:30:28Z"
-  },
-  {
-   "title": "Can the Premier League afford to lose Man City?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T18:19:19Z"
+   "time": "2026-10-07T19:36:19Z"
   }
  ],
  "ticker": [
+  "Guardiola to Attend Champions League Match in Support of Manchester City",
+  "Mikel Arteta's new £80m Arsenal deal is more bad news for Man City after he left club in sliding doors moment",
+  "Liverpool host Manchester City in huge Premier League test",
+  "Guardiola expected to attend Manchester City vs PSG match — BBC Sport",
   "Guardiola set to attend Man City v PSG next week",
   "Pep Guardiola: Former Man City manager to attend PSG Champions League tie",
+  "Iraola casts doubt on Isak and Gakpo facing Man City",
+  "Portuguese authorities took 83 days to tell Rui Pinto his witness protection was ending",
   "Pep Guardiola to make Manchester City return amid financial rules breach fallout",
-  "UEFA could intervene: what is Manchester City's position on competing in the Champions League in the event of relegation?",
-  "Sean Dyche namechecks Rangers amid Manchester City punishment talk",
-  "Pep Guardiola expected to attend Manchester City vs. Paris Saint-Germain in Champions League",
-  "Kenny Archer: Manchester City need to be reformed and the records scrubbed clean",
-  "Pep Guardiola making surprise return to Man City to show his support after guilty verdict leaves club on brink",
-  "Pep Guardiola will make Man City return after 115 guilty verdicts",
-  "Kyle Walker refuses to have Manchester City's titles stripped: no one can take them away from us"
+  "¿Queda empañado el legado de Pep Guardiola en el Manchester City?"
  ]
 }
