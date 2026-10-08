@@ -1,18 +1,66 @@
 {
- "updated": "2026-10-08T00:21:32Z",
+ "updated": "2026-10-08T06:30:18Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Mood and messaging. How do Manchester City handle a tricky few days?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T06:27:26Z"
+  },
+  {
+   "title": "Leeds United Daily News Roundup",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T06:23:20Z"
+  },
+  {
+   "title": "Liverpool injury update: Alexander Isak, Cody Gakpo, Jeremy Jacquet latest news and return dates",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T05:45:48Z"
+  },
   {
    "title": "Guardiola to Attend Champions League Match in Support of Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-10-07T23:10:17Z"
+   "time": "2026-10-08T05:26:15Z"
   },
   {
-   "title": "Mikel Arteta's new £80m Arsenal deal is more bad news for Man City after he left club in sliding doors moment",
+   "title": "Enzo Maresca could unleash his first-choice attack right when Manchester City need it",
    "img": null,
    "video": null,
-   "time": "2026-10-07T21:59:00Z"
+   "time": "2026-10-08T05:20:00Z"
+  },
+  {
+   "title": "Man City charges: Agent speaks out, punishment agreement, UEFA consider action",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T05:18:58Z"
+  },
+  {
+   "title": "Arteta 'straight on the phone' to sign elite £340m-rated Man City trio for Arsenal, pundit claims",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T04:59:02Z"
+  },
+  {
+   "title": "How will Premier League managers handle questions on Manchester City charges?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T04:24:57Z"
+  },
+  {
+   "title": "How will Premier League managers handle barrage of questions about Manchester City charges?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T04:08:00Z"
+  },
+  {
+   "title": "'Our club' - Man City matchgoing fans told how they can help each other",
+   "img": null,
+   "video": null,
+   "time": "2026-10-08T04:00:00Z"
   },
   {
    "title": "Liverpool host Manchester City in huge Premier League test",
@@ -21,70 +69,22 @@
    "time": "2026-10-07T21:43:16Z"
   },
   {
-   "title": "Guardiola expected to attend Manchester City vs PSG match — BBC Sport",
+   "title": "Donnarumma's agent reveals what Man City chiefs told stars about guilty verdict",
    "img": null,
    "video": null,
-   "time": "2026-10-07T20:37:16Z"
-  },
-  {
-   "title": "Guardiola set to attend Man City v PSG next week",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T20:14:24Z"
-  },
-  {
-   "title": "Pep Guardiola: Former Man City manager to attend PSG Champions League tie",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T20:14:24Z"
-  },
-  {
-   "title": "Iraola casts doubt on Isak and Gakpo facing Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T20:12:43Z"
-  },
-  {
-   "title": "Portuguese authorities took 83 days to tell Rui Pinto his witness protection was ending",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T20:03:00Z"
-  },
-  {
-   "title": "Pep Guardiola to make Manchester City return amid financial rules breach fallout",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T19:52:00Z"
-  },
-  {
-   "title": "¿Queda empañado el legado de Pep Guardiola en el Manchester City?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T19:44:17Z"
-  },
-  {
-   "title": "UEFA could intervene: what is Manchester City's position on competing in the Champions League in the event of relegation?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T19:37:06Z"
-  },
-  {
-   "title": "Pep Guardiola expected to attend Manchester City vs. Paris Saint-Germain in Champions League",
-   "img": null,
-   "video": null,
-   "time": "2026-10-07T19:36:19Z"
+   "time": "2026-10-07T20:48:00Z"
   }
  ],
  "ticker": [
+  "Mood and messaging. How do Manchester City handle a tricky few days?",
+  "Leeds United Daily News Roundup",
+  "Liverpool injury update: Alexander Isak, Cody Gakpo, Jeremy Jacquet latest news and return dates",
   "Guardiola to Attend Champions League Match in Support of Manchester City",
-  "Mikel Arteta's new £80m Arsenal deal is more bad news for Man City after he left club in sliding doors moment",
-  "Liverpool host Manchester City in huge Premier League test",
-  "Guardiola expected to attend Manchester City vs PSG match — BBC Sport",
-  "Guardiola set to attend Man City v PSG next week",
-  "Pep Guardiola: Former Man City manager to attend PSG Champions League tie",
-  "Iraola casts doubt on Isak and Gakpo facing Man City",
-  "Portuguese authorities took 83 days to tell Rui Pinto his witness protection was ending",
-  "Pep Guardiola to make Manchester City return amid financial rules breach fallout",
-  "¿Queda empañado el legado de Pep Guardiola en el Manchester City?"
+  "Enzo Maresca could unleash his first-choice attack right when Manchester City need it",
+  "Man City charges: Agent speaks out, punishment agreement, UEFA consider action",
+  "Arteta 'straight on the phone' to sign elite £340m-rated Man City trio for Arsenal, pundit claims",
+  "How will Premier League managers handle questions on Manchester City charges?",
+  "How will Premier League managers handle barrage of questions about Manchester City charges?",
+  "'Our club' - Man City matchgoing fans told how they can help each other"
  ]
 }
