@@ -1,24 +1,48 @@
 {
- "updated": "2026-10-10T17:40:47Z",
+ "updated": "2026-10-10T21:18:12Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Premier League predictions & Jones Knows' best bets: Liverpool vs Manchester City, Manchester United vs Tottenham and more",
+   "title": "Draw brings no respite for Manchester United and Tottenham as crises continue | John Brewin",
    "img": null,
    "video": null,
-   "time": "2026-10-10T17:23:38Z"
+   "time": "2026-10-10T20:48:00Z"
   },
   {
    "title": "Man City charges LIVE: Settlement talks with Premier League before punishments agreed",
    "img": null,
    "video": null,
-   "time": "2026-10-10T17:02:42Z"
+   "time": "2026-10-10T20:32:29Z"
   },
   {
-   "title": "Arsenal 2-1 Leeds: Riccardo Calafiori and Bruno Guimaraes on target as champions fight back to go level with Man City",
+   "title": "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year",
    "img": null,
    "video": null,
-   "time": "2026-10-10T16:52:03Z"
+   "time": "2026-10-10T20:24:23Z"
+  },
+  {
+   "title": "Man City charges: Manchester United fans take aim at rivals with return of famous ticker banner",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T18:11:33Z"
+  },
+  {
+   "title": "Manchester Utd vs Tottenham Hotspur: Mbeumo fires Red Devils ahead against dominant Spurs!",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T18:10:02Z"
+  },
+  {
+   "title": "Premier League predictions & Jones Knows' best bets: Liverpool vs Manchester City, Manchester United vs Tottenham and more",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T17:23:19Z"
+  },
+  {
+   "title": "Heskey fears Man City might 'do a Leicester' & reckons they'll be forced to sell",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T17:06:00Z"
   },
   {
    "title": "Manchester City brace for Anfield",
@@ -33,58 +57,34 @@
    "time": "2026-10-10T16:00:00Z"
   },
   {
+   "title": "Liverpool vs Man City: Premier League – teams, prediction, Haaland, charges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T15:56:12Z"
+  },
+  {
+   "title": "Liverpool vs. Manchester City prediction, lineups, odds and bet builder tips for Premier League match",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T15:30:01Z"
+  },
+  {
    "title": "Arsenal beat Leeds 2-1 in comeback win to move level with Man City at top",
    "img": null,
    "video": null,
    "time": "2026-10-10T15:04:45Z"
-  },
-  {
-   "title": "Virgil van Dijk: These are the games every player looks forward to",
-   "img": null,
-   "video": null,
-   "time": "2026-10-10T15:04:09Z"
-  },
-  {
-   "title": "Liverpool vs Manchester City predictions: Premier League bet builder, tips and odds",
-   "img": null,
-   "video": null,
-   "time": "2026-10-10T15:00:00Z"
-  },
-  {
-   "title": "Here’s how to punish Man City harshly without sending them into oblivion",
-   "img": null,
-   "video": null,
-   "time": "2026-10-10T15:00:00Z"
-  },
-  {
-   "title": "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year",
-   "img": null,
-   "video": null,
-   "time": "2026-10-10T14:55:18Z"
-  },
-  {
-   "title": "Training: Ready for the Reds",
-   "img": null,
-   "video": null,
-   "time": "2026-10-10T14:14:00Z"
-  },
-  {
-   "title": "‘There are levels of cheating’ – Cole, Keown disagree over Man City charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-10T13:53:00Z"
   }
  ],
  "ticker": [
-  "Premier League predictions & Jones Knows' best bets: Liverpool vs Manchester City, Manchester United vs Tottenham and more",
+  "Draw brings no respite for Manchester United and Tottenham as crises continue | John Brewin",
   "Man City charges LIVE: Settlement talks with Premier League before punishments agreed",
-  "Arsenal 2-1 Leeds: Riccardo Calafiori and Bruno Guimaraes on target as champions fight back to go level with Man City",
+  "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year",
+  "Man City charges: Manchester United fans take aim at rivals with return of famous ticker banner",
+  "Manchester Utd vs Tottenham Hotspur: Mbeumo fires Red Devils ahead against dominant Spurs!",
+  "Premier League predictions & Jones Knows' best bets: Liverpool vs Manchester City, Manchester United vs Tottenham and more",
+  "Heskey fears Man City might 'do a Leicester' & reckons they'll be forced to sell",
   "Manchester City brace for Anfield",
   "Man City’s ‘sham’ supremacy gave Liverpool fire — it’s time to rekindle it",
-  "Arsenal beat Leeds 2-1 in comeback win to move level with Man City at top",
-  "Virgil van Dijk: These are the games every player looks forward to",
-  "Liverpool vs Manchester City predictions: Premier League bet builder, tips and odds",
-  "Here’s how to punish Man City harshly without sending them into oblivion",
-  "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year"
+  "Liverpool vs Man City: Premier League – teams, prediction, Haaland, charges"
  ]
 }
