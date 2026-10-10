@@ -1,18 +1,66 @@
 {
- "updated": "2026-10-10T00:13:02Z",
+ "updated": "2026-10-10T06:13:21Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Liverpool v Man City: Prediction, team news, lineups and odds",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T05:57:52Z"
+  },
+  {
+   "title": "Man City titles 'absolutely not' tainted",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T05:56:59Z"
+  },
+  {
+   "title": "Mikel Arteta insists his conscience is clear over Man City rule breaches",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T05:31:00Z"
+  },
+  {
+   "title": "Emile Heskey tells Liverpool to sign 'strong' and 'explosive' £131m-rated Man City pair - 'Iraola would love it'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T05:09:12Z"
+  },
+  {
+   "title": "Man City’s disgrace means this is a sham Premier League season",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T05:00:00Z"
+  },
+  {
+   "title": "Manchester City charges, Part 3: How they spent £1.388bn on players over nine years",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T04:08:55Z"
+  },
+  {
+   "title": "Manchester City scandal pushes BDO and UK audit regime into spotlight",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T04:00:16Z"
+  },
+  {
+   "title": "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T03:54:22Z"
+  },
+  {
+   "title": "Mikel Arteta says his conscience is clear over Manchester City financial breaches",
+   "img": null,
+   "video": null,
+   "time": "2026-10-10T00:52:40Z"
+  },
   {
    "title": "More than just football: How scandal-tainted City led Manchester’s rebirth",
    "img": null,
    "video": null,
    "time": "2026-10-09T23:02:18Z"
-  },
-  {
-   "title": "Manchester City readies to face first hostile environment since financial rules verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T23:00:00Z"
   },
   {
    "title": "Man City whistleblower to remain in witness protection",
@@ -25,66 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-09T22:59:32Z"
-  },
-  {
-   "title": "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T22:49:01Z"
-  },
-  {
-   "title": "A major Manchester City weapon is ready for Liverpool but doubt remains over the fitness of two players",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T22:38:00Z"
-  },
-  {
-   "title": "Enzo Maresca has backed his club when faced with the tough questions surrounding Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T22:13:12Z"
-  },
-  {
-   "title": "Man City charges: Clubs agree on punishments, £55m loan, appeal warning delivered",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T21:51:03Z"
-  },
-  {
-   "title": "Premier League coaches react to Manchester City judgment, possible sanctions",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T21:43:27Z"
-  },
-  {
-   "title": "Maresca refuses to confirm he will stay at Manchester City if club lose appeal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T21:40:00Z"
-  },
-  {
-   "title": "Arteta's conscience clear over Man City charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T21:30:52Z"
-  },
-  {
-   "title": "Mikel Arteta: Arsenal boss has clear conscience over Man City charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-09T21:30:52Z"
   }
  ],
  "ticker": [
-  "More than just football: How scandal-tainted City led Manchester’s rebirth",
-  "Manchester City readies to face first hostile environment since financial rules verdict",
-  "Man City whistleblower to remain in witness protection",
-  "Manchester City whistleblower Rui Pinto to remain under witness protection",
+  "Liverpool v Man City: Prediction, team news, lineups and odds",
+  "Man City titles 'absolutely not' tainted",
+  "Mikel Arteta insists his conscience is clear over Man City rule breaches",
+  "Emile Heskey tells Liverpool to sign 'strong' and 'explosive' £131m-rated Man City pair - 'Iraola would love it'",
+  "Man City’s disgrace means this is a sham Premier League season",
+  "Manchester City charges, Part 3: How they spent £1.388bn on players over nine years",
+  "Manchester City scandal pushes BDO and UK audit regime into spotlight",
   "Man City latest: Maresca asked about relegation - as Carragher says club won't be in PL next year",
-  "A major Manchester City weapon is ready for Liverpool but doubt remains over the fitness of two players",
-  "Enzo Maresca has backed his club when faced with the tough questions surrounding Manchester City",
-  "Man City charges: Clubs agree on punishments, £55m loan, appeal warning delivered",
-  "Premier League coaches react to Manchester City judgment, possible sanctions",
-  "Maresca refuses to confirm he will stay at Manchester City if club lose appeal"
+  "Mikel Arteta says his conscience is clear over Manchester City financial breaches",
+  "More than just football: How scandal-tainted City led Manchester’s rebirth"
  ]
 }
