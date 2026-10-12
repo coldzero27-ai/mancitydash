@@ -1,12 +1,60 @@
 {
- "updated": "2026-10-11T22:18:00Z",
+ "updated": "2026-10-12T01:34:43Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
    "img": null,
    "video": null,
-   "time": "2026-10-11T22:09:24Z"
+   "time": "2026-10-12T01:09:26Z"
+  },
+  {
+   "title": "Andy Burnham to publish all dealings with Man City during his time as Manchester mayor",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T00:20:06Z"
+  },
+  {
+   "title": "Manchester City block out the noise to defeat Liverpool at Anfield",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T23:35:05Z"
+  },
+  {
+   "title": "Match of the Day - Toby Alderweireld and Wayne Rooney talking about the Manchester City charges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T23:25:25Z"
+  },
+  {
+   "title": "'It's a bad situation'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T23:23:03Z"
+  },
+  {
+   "title": "Rooney gives verdict on Gravenberch red card",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T23:00:33Z"
+  },
+  {
+   "title": "Liverpool 0-3 City: Extended highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T22:59:00Z"
+  },
+  {
+   "title": "Tension, ‘cheat’ banners and inflatable bananas: Manchester City’s welcome to Anfield",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T21:55:00Z"
+  },
+  {
+   "title": "Impervious City shrug off chaos and controversy to silence Anfield | Andy Hunter",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T21:40:00Z"
   },
   {
    "title": "Andy Burnham pledges full transparency over Manchester City meetings",
@@ -15,76 +63,28 @@
    "time": "2026-10-11T21:28:00Z"
   },
   {
+   "title": "UK’s Burnham Vows to Release Details of Manchester City Meetings",
+   "img": null,
+   "video": null,
+   "time": "2026-10-11T21:27:39Z"
+  },
+  {
    "title": "Reaction: Andoni Iraola's press conference after Liverpool's loss to Man City",
    "img": null,
    "video": null,
    "time": "2026-10-11T21:21:35Z"
-  },
-  {
-   "title": "'I needed that'",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T21:10:48Z"
-  },
-  {
-   "title": "UK Prime Minister Andy Burnham promises to publish details of Manchester City-related meetings",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T21:03:43Z"
-  },
-  {
-   "title": "'I don't care' - Enzo Maresca shrugs off Manchester City guilty verdict after Anfield win",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:50:06Z"
-  },
-  {
-   "title": "Andy Burnham to publish all details of his dealings with Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:30:00Z"
-  },
-  {
-   "title": "‘Shamchester’: PL cheating ‘farce’ deepens in ugly scenes; bizarre call over young Aussie — Wrap",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:25:31Z"
-  },
-  {
-   "title": "Manchester City latest: Enzo Maresca's side booed at Anfield as players get hostile reception after club's guilty verdicts",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:24:24Z"
-  },
-  {
-   "title": "Dark past: Why Manchester City fans took out bananas in Liverpool",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:18:07Z"
-  },
-  {
-   "title": "Bananas, boos and bus routes - How City's first game since guilty verdict unfolded",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:13:00Z"
-  },
-  {
-   "title": "U.K. Prime Minister Vows Transparency Over His Manchester City Meetings",
-   "img": null,
-   "video": null,
-   "time": "2026-10-11T20:11:51Z"
   }
  ],
  "ticker": [
   "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
-  "Andy Burnham pledges full transparency over Manchester City meetings",
-  "Reaction: Andoni Iraola's press conference after Liverpool's loss to Man City",
-  "'I needed that'",
-  "UK Prime Minister Andy Burnham promises to publish details of Manchester City-related meetings",
-  "'I don't care' - Enzo Maresca shrugs off Manchester City guilty verdict after Anfield win",
-  "Andy Burnham to publish all details of his dealings with Manchester City",
-  "‘Shamchester’: PL cheating ‘farce’ deepens in ugly scenes; bizarre call over young Aussie — Wrap",
-  "Manchester City latest: Enzo Maresca's side booed at Anfield as players get hostile reception after club's guilty verdicts",
-  "Dark past: Why Manchester City fans took out bananas in Liverpool"
+  "Andy Burnham to publish all dealings with Man City during his time as Manchester mayor",
+  "Manchester City block out the noise to defeat Liverpool at Anfield",
+  "Match of the Day - Toby Alderweireld and Wayne Rooney talking about the Manchester City charges",
+  "'It's a bad situation'",
+  "Rooney gives verdict on Gravenberch red card",
+  "Liverpool 0-3 City: Extended highlights",
+  "Tension, ‘cheat’ banners and inflatable bananas: Manchester City’s welcome to Anfield",
+  "Impervious City shrug off chaos and controversy to silence Anfield | Andy Hunter",
+  "Andy Burnham pledges full transparency over Manchester City meetings"
  ]
 }
