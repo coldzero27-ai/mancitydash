@@ -1,30 +1,60 @@
 {
- "updated": "2026-10-12T18:42:58Z",
+ "updated": "2026-10-13T01:08:38Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Burnham’s meeting with Manchester City chair and other contacts with club disclosed",
+   "title": "Andy Burnham’s dealings with Man City owners revealed amid scandal over 114 charges",
    "img": null,
    "video": null,
-   "time": "2026-10-12T18:28:00Z"
+   "time": "2026-10-12T22:02:14Z"
+  },
+  {
+   "title": "Man City charges LIVE: Prem bosses' texts, four punishments proposed, Haaland transfer addressed",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T22:00:52Z"
+  },
+  {
+   "title": "Virgil van Dijk warns Manchester City players to get used to hostile atmospheres",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T21:30:00Z"
+  },
+  {
+   "title": "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T21:13:53Z"
+  },
+  {
+   "title": "Man City stars used to flog £3bn Abu Dhabi housing development for club's owners despite fury over cheating scandal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T21:00:00Z"
+  },
+  {
+   "title": "Burnham’s meeting with City’s al-Mubarak and other contact with club disclosed",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T19:42:00Z"
+  },
+  {
+   "title": "Cahair O’Kane: Sky’s Manchester City debate shows why punditry sometimes needs a Horncastle or a Harris",
+   "img": null,
+   "video": null,
+   "time": "2026-10-12T19:00:00Z"
   },
   {
    "title": "UK PM Andy Burnham met Man City chairman during time as Manchester mayor",
    "img": null,
    "video": null,
-   "time": "2026-10-12T18:22:30Z"
+   "time": "2026-10-12T18:39:09Z"
   },
   {
    "title": "Burnham’s Manchester City meetings disclosed after calls for transparency",
    "img": null,
    "video": null,
    "time": "2026-10-12T18:17:23Z"
-  },
-  {
-   "title": "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-10-12T18:12:04Z"
   },
   {
    "title": "UCL supercomputer: Man City leapfrog Bayern, PSG three-peat chances slip",
@@ -43,48 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-12T17:57:10Z"
-  },
-  {
-   "title": "Virgil van Dijk warns Manchester City players to get used to hostile atmospheres",
-   "img": null,
-   "video": null,
-   "time": "2026-10-12T17:54:00Z"
-  },
-  {
-   "title": "Andy Burnham met Manchester City chair twice as mayor",
-   "img": null,
-   "video": null,
-   "time": "2026-10-12T17:50:32Z"
-  },
-  {
-   "title": "How Manchester City fallout tests Gulf’s global investment model - Al-Monitor",
-   "img": null,
-   "video": null,
-   "time": "2026-10-12T17:21:16Z"
-  },
-  {
-   "title": "Burnham had formal meeting with Man City chair while mayor",
-   "img": null,
-   "video": null,
-   "time": "2026-10-12T17:09:30Z"
-  },
-  {
-   "title": "Winning is not enough for Manchester City to move on from this crisis | Jonathan Wilson",
-   "img": null,
-   "video": null,
-   "time": "2026-10-12T17:01:00Z"
   }
  ],
  "ticker": [
-  "Burnham’s meeting with Manchester City chair and other contacts with club disclosed",
+  "Andy Burnham’s dealings with Man City owners revealed amid scandal over 114 charges",
+  "Man City charges LIVE: Prem bosses' texts, four punishments proposed, Haaland transfer addressed",
+  "Virgil van Dijk warns Manchester City players to get used to hostile atmospheres",
+  "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
+  "Man City stars used to flog £3bn Abu Dhabi housing development for club's owners despite fury over cheating scandal",
+  "Burnham’s meeting with City’s al-Mubarak and other contact with club disclosed",
+  "Cahair O’Kane: Sky’s Manchester City debate shows why punditry sometimes needs a Horncastle or a Harris",
   "UK PM Andy Burnham met Man City chairman during time as Manchester mayor",
   "Burnham’s Manchester City meetings disclosed after calls for transparency",
-  "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
-  "UCL supercomputer: Man City leapfrog Bayern, PSG three-peat chances slip",
-  "Man City bananas 'brought fun back', says Varadi",
-  "Man City fans' bananas 'brought a lot of fun back', says former striker Imre Varadi",
-  "Virgil van Dijk warns Manchester City players to get used to hostile atmospheres",
-  "Andy Burnham met Manchester City chair twice as mayor",
-  "How Manchester City fallout tests Gulf’s global investment model - Al-Monitor"
+  "UCL supercomputer: Man City leapfrog Bayern, PSG three-peat chances slip"
  ]
 }
