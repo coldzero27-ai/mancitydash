@@ -1,90 +1,90 @@
 {
- "updated": "2026-10-13T16:16:19Z",
+ "updated": "2026-10-13T21:25:28Z",
  "source": "bbc + google news (server-side)",
  "news": [
-  {
-   "title": "Independent regulator waiting for Man City appeal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T16:14:23Z"
-  },
   {
    "title": "Man City charges LIVE: Four punishments named as Premier League execs send texts",
    "img": null,
    "video": null,
-   "time": "2026-10-13T16:05:40Z"
-  },
-  {
-   "title": "Football regulator chair insists he will resign if politically pressured over Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T16:01:00Z"
-  },
-  {
-   "title": "Regulator would quit over Man City interference",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T16:00:18Z"
-  },
-  {
-   "title": "Prime Minister Andy Burnham issued with Man City threat by Football Regulator",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T16:00:00Z"
-  },
-  {
-   "title": "Football regulator warns Burnham: I’ll quit if ministers meddle in Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T16:00:00Z"
-  },
-  {
-   "title": "Jamie Carragher's 'cheating' confession comes back to haunt him after Man City demand",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T15:58:03Z"
+   "time": "2026-10-13T20:55:54Z"
   },
   {
    "title": "Man City charges LIVE: £9m hotshot lawyer signs up as 'severe' punishment demand made",
    "img": null,
    "video": null,
-   "time": "2026-10-13T15:45:44Z"
+   "time": "2026-10-13T20:28:36Z"
   },
   {
-   "title": "How to get tickets for RB Leipzig vs. Manchester City",
+   "title": "MLS won’t investigate NYCFC after Manchester City guilty decision, says commissioner",
    "img": null,
    "video": null,
-   "time": "2026-10-13T15:39:05Z"
+   "time": "2026-10-13T20:06:10Z"
   },
   {
-   "title": "Man City add £9m 'super silk' lawyer who worked for Roman Abramovich and Elton John in bid to fight guilty verdict",
+   "title": "Manchester City v PSG: Luis Enrique says City 'deserve' trophies",
    "img": null,
    "video": null,
-   "time": "2026-10-13T15:14:00Z"
+   "time": "2026-10-13T20:03:06Z"
   },
   {
-   "title": "'People don't love us winning and we love to win'",
+   "title": "Man City deserve trophies says PSG boss Enrique",
    "img": null,
    "video": null,
-   "time": "2026-10-13T15:10:38Z"
+   "time": "2026-10-13T19:58:14Z"
   },
   {
-   "title": "Manchester City vs Paris Saint-Germain Prediction, Tips and Odds | Champions League",
+   "title": "Manchester City deserved trophies, says PSG’s Luis Enrique: ‘I hope they avoid sanctions’",
    "img": null,
    "video": null,
-   "time": "2026-10-13T15:01:20Z"
+   "time": "2026-10-13T19:42:58Z"
+  },
+  {
+   "title": "Manchester City have the ideal captain to navigate through the storm as his words and actions illustrate",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T19:35:18Z"
+  },
+  {
+   "title": "Regulator 'will resign' if any political interference in Man City case",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T18:57:58Z"
+  },
+  {
+   "title": "Maresca says he would describe Manchester City as ‘cheats’ if he were a United fan",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T18:05:00Z"
+  },
+  {
+   "title": "Football regulator chair says he will resign if there is political pressure in Manchester City case",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T18:01:08Z"
+  },
+  {
+   "title": "Football regulator chair insists he will resign if politically pressured over Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T17:41:00Z"
+  },
+  {
+   "title": "PSG's Luis Enrique hopes Man City avoid sanctions",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T17:33:33Z"
   }
  ],
  "ticker": [
-  "Independent regulator waiting for Man City appeal",
   "Man City charges LIVE: Four punishments named as Premier League execs send texts",
-  "Football regulator chair insists he will resign if politically pressured over Manchester City",
-  "Regulator would quit over Man City interference",
-  "Prime Minister Andy Burnham issued with Man City threat by Football Regulator",
-  "Football regulator warns Burnham: I’ll quit if ministers meddle in Manchester City",
-  "Jamie Carragher's 'cheating' confession comes back to haunt him after Man City demand",
   "Man City charges LIVE: £9m hotshot lawyer signs up as 'severe' punishment demand made",
-  "How to get tickets for RB Leipzig vs. Manchester City",
-  "Man City add £9m 'super silk' lawyer who worked for Roman Abramovich and Elton John in bid to fight guilty verdict"
+  "MLS won’t investigate NYCFC after Manchester City guilty decision, says commissioner",
+  "Manchester City v PSG: Luis Enrique says City 'deserve' trophies",
+  "Man City deserve trophies says PSG boss Enrique",
+  "Manchester City deserved trophies, says PSG’s Luis Enrique: ‘I hope they avoid sanctions’",
+  "Manchester City have the ideal captain to navigate through the storm as his words and actions illustrate",
+  "Regulator 'will resign' if any political interference in Man City case",
+  "Maresca says he would describe Manchester City as ‘cheats’ if he were a United fan",
+  "Football regulator chair says he will resign if there is political pressure in Manchester City case"
  ]
 }
