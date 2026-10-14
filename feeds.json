@@ -1,12 +1,24 @@
 {
- "updated": "2026-10-14T00:29:48Z",
+ "updated": "2026-10-14T05:18:09Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City charges LIVE: Four punishments named as Premier League execs send texts",
+   "title": "The £3m payment from Man City owners now being probed by local council",
    "img": null,
    "video": null,
-   "time": "2026-10-13T22:27:53Z"
+   "time": "2026-10-14T05:00:00Z"
+  },
+  {
+   "title": "Manchester City vs PSG: Date, Time and Everything You Need to Know About This Champions League's Match",
+   "img": null,
+   "video": null,
+   "time": "2026-10-14T02:11:00Z"
+  },
+  {
+   "title": "Manchester City vs Paris Saint-Germain: UEFA Champions League stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-13T23:01:05Z"
   },
   {
    "title": "Man City vs PSG: Champions League – teams, predictions, line ups",
@@ -15,28 +27,28 @@
    "time": "2026-10-13T22:20:45Z"
   },
   {
-   "title": "Luis Enrique : “Manchester City a mérité tous ses trophées”",
+   "title": "Manchester City have punched a hole in the Premier League’s ball game. It needs fixing, fast",
    "img": null,
    "video": null,
-   "time": "2026-10-13T21:49:40Z"
+   "time": "2026-10-13T21:26:00Z"
   },
   {
-   "title": "Man City charges LIVE: £9m hotshot lawyer signs up as 'severe' punishment demand made",
+   "title": "PM accused of covering up Man City links after Sun finds he had freebie dinners",
    "img": null,
    "video": null,
-   "time": "2026-10-13T21:49:21Z"
+   "time": "2026-10-13T21:00:00Z"
   },
   {
-   "title": "Keith Andrews Calls for Resolution to Manchester City Case",
+   "title": "Man City FFP: Luis Enrique names the one sanction he ‘hopes’ City swerve",
    "img": null,
    "video": null,
-   "time": "2026-10-13T21:35:14Z"
+   "time": "2026-10-13T20:34:22Z"
   },
   {
-   "title": "Luis Enrique delivers clear Man City punishment wish ahead of Champions League clash",
+   "title": "Beney scores for Switzerland as four City stars help England see off Greece",
    "img": null,
    "video": null,
-   "time": "2026-10-13T20:55:00Z"
+   "time": "2026-10-13T20:30:00Z"
   },
   {
    "title": "MLS won’t investigate NYCFC after Manchester City guilty decision, says commissioner",
@@ -57,34 +69,22 @@
    "time": "2026-10-13T19:58:14Z"
   },
   {
-   "title": "Manchester City have the ideal captain to navigate through the storm as his words and actions illustrate",
+   "title": "Man City charges LIVE: Four punishments named as Premier League execs send texts",
    "img": null,
    "video": null,
-   "time": "2026-10-13T19:35:18Z"
-  },
-  {
-   "title": "Training: All set for PSG",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T19:00:00Z"
-  },
-  {
-   "title": "Man City charges: Ahead of PSG, Dias defends celebrations at Liverpool",
-   "img": null,
-   "video": null,
-   "time": "2026-10-13T18:25:47Z"
+   "time": "2026-10-13T19:58:06Z"
   }
  ],
  "ticker": [
-  "Man City charges LIVE: Four punishments named as Premier League execs send texts",
+  "The £3m payment from Man City owners now being probed by local council",
+  "Manchester City vs PSG: Date, Time and Everything You Need to Know About This Champions League's Match",
+  "Manchester City vs Paris Saint-Germain: UEFA Champions League stats & head-to-head",
   "Man City vs PSG: Champions League – teams, predictions, line ups",
-  "Luis Enrique : “Manchester City a mérité tous ses trophées”",
-  "Man City charges LIVE: £9m hotshot lawyer signs up as 'severe' punishment demand made",
-  "Keith Andrews Calls for Resolution to Manchester City Case",
-  "Luis Enrique delivers clear Man City punishment wish ahead of Champions League clash",
+  "Manchester City have punched a hole in the Premier League’s ball game. It needs fixing, fast",
+  "PM accused of covering up Man City links after Sun finds he had freebie dinners",
+  "Man City FFP: Luis Enrique names the one sanction he ‘hopes’ City swerve",
+  "Beney scores for Switzerland as four City stars help England see off Greece",
   "MLS won’t investigate NYCFC after Manchester City guilty decision, says commissioner",
-  "Man City deserve trophies says PSG boss Enrique",
-  "Manchester City v PSG: Luis Enrique says City 'deserve' trophies",
-  "Manchester City have the ideal captain to navigate through the storm as his words and actions illustrate"
+  "Man City deserve trophies says PSG boss Enrique"
  ]
 }
