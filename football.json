@@ -1,14 +1,7 @@
 {
- "updated": "2026-10-14T18:33:40Z",
+ "updated": "2026-10-14T23:11:11Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-10-14T19:00:00Z",
-   "comp": "UCL",
-   "home": "Manchester City",
-   "away": "Paris Saint Germain",
-   "venue": "Etihad Stadium"
-  },
   {
    "utc": "2026-10-17T14:00:00Z",
    "comp": "PL",
@@ -141,6 +134,13 @@
    "home": "Leeds",
    "away": "Manchester City",
    "venue": "Elland Road"
+  },
+  {
+   "utc": "2027-01-16T15:00:00Z",
+   "comp": "PL",
+   "home": "Manchester City",
+   "away": "Nottingham Forest",
+   "venue": "Etihad Stadium"
   }
  ],
  "results": {
@@ -202,6 +202,11 @@
   "2026-09-08": {
    "score": "0-2",
    "res": "W",
+   "fr": false
+  },
+  "2026-10-14": {
+   "score": "2-4",
+   "res": "L",
    "fr": false
   }
  },
