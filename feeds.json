@@ -1,18 +1,60 @@
 {
- "updated": "2026-10-15T01:41:27Z",
+ "updated": "2026-10-15T07:06:38Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City fan encouraged by 'insane football'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T06:52:29Z"
+  },
+  {
+   "title": "Man City suffer as PSG masterclass sets up Champions League win",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T06:03:07Z"
+  },
+  {
+   "title": "Football regulator’s reputation rests on its handling of Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T06:00:00Z"
+  },
+  {
+   "title": "Sports - PSG put on a show with win at Manchester City in Champions League thriller",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T05:45:36Z"
+  },
+  {
+   "title": "Pep Guardiola’s Manchester City return did not go to plan – but he made his point",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T04:40:05Z"
+  },
+  {
+   "title": "How might Man City Women be affected by the Premier League’s case against the club? - The Athletic",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T04:16:37Z"
+  },
+  {
+   "title": "UK Government issues Man City charges promise as Premier League fear comes to light",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T04:00:00Z"
+  },
+  {
+   "title": "The multi-million figure Blackburn Rovers missed out on after Man City charges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T04:00:00Z"
+  },
   {
    "title": "Burnham had two hospitality dinners with Man City chairman, deleted records show",
    "img": null,
    "video": null,
    "time": "2026-10-15T01:07:59Z"
-  },
-  {
-   "title": "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T01:02:03Z"
   },
   {
    "title": "PSG holds off Manchester City in Champions League clash",
@@ -21,70 +63,28 @@
    "time": "2026-10-15T01:01:00Z"
   },
   {
-   "title": "Enzo Maresca felt Manchester City deserved something from Paris St Germain loss",
+   "title": "Man City vs PSG LIVE! Champions League score updates, news, prediction and line-ups",
    "img": null,
    "video": null,
-   "time": "2026-10-15T00:51:08Z"
+   "time": "2026-10-14T23:42:28Z"
   },
   {
-   "title": "Vitinha élu homme du match de Manchester City-PSG",
+   "title": "Manchester City vs PSG: Enzo Maresca says City deserved more from the second half",
    "img": null,
    "video": null,
-   "time": "2026-10-15T00:48:02Z"
-  },
-  {
-   "title": "GMCA statement omitted Burnham’s two lunches with Manchester City chairman — Anadolu Agency",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T23:50:30Z"
-  },
-  {
-   "title": "Manchester City are suddenly box-office in age of charge-rage and mega defiance | Barney Ronay",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T23:09:00Z"
-  },
-  {
-   "title": "Perfect PSG - can anybody stop the defending champions?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T23:07:16Z"
-  },
-  {
-   "title": "Prime ministers, billions in UAE investment: the Manchester City cheating scandal turns political",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T23:03:51Z"
-  },
-  {
-   "title": "Defiance or denial? Inside Manchester City’s bubble, decked with inflatable bananas",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T22:59:16Z"
-  },
-  {
-   "title": "Enzo Maresca insists Manchester City are ‘close’ to PSG despite home defeat",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T22:58:00Z"
-  },
-  {
-   "title": "Guardiola's return, Man City's defiance",
-   "img": null,
-   "video": null,
-   "time": "2026-10-14T22:57:23Z"
+   "time": "2026-10-14T23:22:18Z"
   }
  ],
  "ticker": [
+  "Man City fan encouraged by 'insane football'",
+  "Man City suffer as PSG masterclass sets up Champions League win",
+  "Football regulator’s reputation rests on its handling of Manchester City",
+  "Sports - PSG put on a show with win at Manchester City in Champions League thriller",
+  "Pep Guardiola’s Manchester City return did not go to plan – but he made his point",
+  "How might Man City Women be affected by the Premier League’s case against the club? - The Athletic",
+  "UK Government issues Man City charges promise as Premier League fear comes to light",
+  "The multi-million figure Blackburn Rovers missed out on after Man City charges",
   "Burnham had two hospitality dinners with Man City chairman, deleted records show",
-  "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
-  "PSG holds off Manchester City in Champions League clash",
-  "Enzo Maresca felt Manchester City deserved something from Paris St Germain loss",
-  "Vitinha élu homme du match de Manchester City-PSG",
-  "GMCA statement omitted Burnham’s two lunches with Manchester City chairman — Anadolu Agency",
-  "Manchester City are suddenly box-office in age of charge-rage and mega defiance | Barney Ronay",
-  "Perfect PSG - can anybody stop the defending champions?",
-  "Prime ministers, billions in UAE investment: the Manchester City cheating scandal turns political",
-  "Defiance or denial? Inside Manchester City’s bubble, decked with inflatable bananas"
+  "PSG holds off Manchester City in Champions League clash"
  ]
 }
