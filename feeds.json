@@ -1,12 +1,36 @@
 {
- "updated": "2026-10-15T17:39:00Z",
+ "updated": "2026-10-15T21:02:53Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
    "img": null,
    "video": null,
-   "time": "2026-10-15T17:30:05Z"
+   "time": "2026-10-15T20:30:06Z"
+  },
+  {
+   "title": "Andy Burnham orders review of his ties with Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T20:05:08Z"
+  },
+  {
+   "title": "Man City charges LIVE: UK Gov stance, Independent Football Regulator claim, new sanctions timeline",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T19:20:49Z"
+  },
+  {
+   "title": "Every Haaland goal for City in the Champions League",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T18:00:00Z"
+  },
+  {
+   "title": "Man City charges LIVE: Points deduction latest as Independent Football Regulator stance clear",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T17:52:00Z"
   },
   {
    "title": "‍‍‍[!WATCHLIVE]4K!]Manchester City vs Paris Saint-Germain 𝐋𝐈𝐕𝐄 ＯＮ Ｔｖ Ｃｈａｎｧｅｌ 15 October 2026 - Universidad de Córdoba (UCO)",
@@ -15,10 +39,10 @@
    "time": "2026-10-15T17:09:16Z"
   },
   {
-   "title": "Man City charges LIVE: Points deduction latest as Independent Football Regulator stance clear",
+   "title": "U.K. Government Satisfied With ‘Most Extreme’ Outcome in Man City Case",
    "img": null,
    "video": null,
-   "time": "2026-10-15T16:52:34Z"
+   "time": "2026-10-15T16:30:00Z"
   },
   {
    "title": "Limited places available for our Youth Coaching Experience",
@@ -39,52 +63,28 @@
    "time": "2026-10-15T15:30:00Z"
   },
   {
-   "title": "Football Daily | Guardiola returns to Manchester as City spin into dizzy mess against PSG",
+   "title": "Man City blow Arsenal out of the water as five-year transfer plan raises £285m question",
    "img": null,
    "video": null,
-   "time": "2026-10-15T15:05:00Z"
+   "time": "2026-10-15T15:09:45Z"
   },
   {
-   "title": "Loan U-turn considered as talent attends Man City game - Manchester United Academy Notebook",
+   "title": "Manchester City march on with title charge clouded by financial case",
    "img": null,
    "video": null,
-   "time": "2026-10-15T14:53:18Z"
-  },
-  {
-   "title": "The Rundown Podcast: The Politics Of The Manchester City Charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T14:37:37Z"
-  },
-  {
-   "title": "Why Pep Guardiola's next job could be the one that defines him - more than Barcelona or Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T14:13:44Z"
-  },
-  {
-   "title": "Burnham asks for 'manual trawl' of records for former Man City links",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T14:08:02Z"
-  },
-  {
-   "title": "Premier League v Manchester City FC: MCFC’s appeal routes and the sanctions to come (Part 1)",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T14:03:44Z"
+   "time": "2026-10-15T15:09:45Z"
   }
  ],
  "ticker": [
   "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
-  "‍‍‍[!WATCHLIVE]4K!]Manchester City vs Paris Saint-Germain 𝐋𝐈𝐕𝐄 ＯＮ Ｔｖ Ｃｈａｎｧｅｌ 15 October 2026 - Universidad de Córdoba (UCO)",
+  "Andy Burnham orders review of his ties with Manchester City",
+  "Man City charges LIVE: UK Gov stance, Independent Football Regulator claim, new sanctions timeline",
+  "Every Haaland goal for City in the Champions League",
   "Man City charges LIVE: Points deduction latest as Independent Football Regulator stance clear",
+  "‍‍‍[!WATCHLIVE]4K!]Manchester City vs Paris Saint-Germain 𝐋𝐈𝐕𝐄 ＯＮ Ｔｖ Ｃｈａｎｧｅｌ 15 October 2026 - Universidad de Córdoba (UCO)",
+  "U.K. Government Satisfied With ‘Most Extreme’ Outcome in Man City Case",
   "Limited places available for our Youth Coaching Experience",
   "Burnham vowed to fight for Manchester City over cheating charges",
-  "Squad signed shirts gifted to Greater Manchester's largest Official Supporters Clubs",
-  "Football Daily | Guardiola returns to Manchester as City spin into dizzy mess against PSG",
-  "Loan U-turn considered as talent attends Man City game - Manchester United Academy Notebook",
-  "The Rundown Podcast: The Politics Of The Manchester City Charges",
-  "Why Pep Guardiola's next job could be the one that defines him - more than Barcelona or Manchester City"
+  "Squad signed shirts gifted to Greater Manchester's largest Official Supporters Clubs"
  ]
 }
