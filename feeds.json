@@ -1,36 +1,48 @@
 {
- "updated": "2026-10-15T21:02:53Z",
+ "updated": "2026-10-15T23:45:07Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
    "img": null,
    "video": null,
-   "time": "2026-10-15T20:30:06Z"
+   "time": "2026-10-15T23:30:06Z"
   },
   {
-   "title": "Andy Burnham orders review of his ties with Manchester City",
+   "title": "Paul Vallely: Man City ruling raises questions for PM",
    "img": null,
    "video": null,
-   "time": "2026-10-15T20:05:08Z"
+   "time": "2026-10-15T23:28:37Z"
   },
   {
    "title": "Man City charges LIVE: UK Gov stance, Independent Football Regulator claim, new sanctions timeline",
    "img": null,
    "video": null,
-   "time": "2026-10-15T19:20:49Z"
+   "time": "2026-10-15T22:00:13Z"
   },
   {
-   "title": "Every Haaland goal for City in the Champions League",
+   "title": "Manchester City vs. Ipswich Town: Prediction, date, venue, and how to watch Premier League match",
    "img": null,
    "video": null,
-   "time": "2026-10-15T18:00:00Z"
+   "time": "2026-10-15T21:20:02Z"
   },
   {
-   "title": "Man City charges LIVE: Points deduction latest as Independent Football Regulator stance clear",
+   "title": "Man City cult hero cashes in on fans' banana craze amid financial scandal",
    "img": null,
    "video": null,
-   "time": "2026-10-15T17:52:00Z"
+   "time": "2026-10-15T21:15:00Z"
+  },
+  {
+   "title": "Swansea City could have lost £63m amid Manchester City financial scandal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T20:53:02Z"
+  },
+  {
+   "title": "Nunes And Ndiaye To Start | 4-2-3-1 Manchester City Predicted Lineup Vs Ipswich Town",
+   "img": null,
+   "video": null,
+   "time": "2026-10-15T18:45:00Z"
   },
   {
    "title": "‍‍‍[!WATCHLIVE]4K!]Manchester City vs Paris Saint-Germain 𝐋𝐈𝐕𝐄 ＯＮ Ｔｖ Ｃｈａｎｧｅｌ 15 October 2026 - Universidad de Córdoba (UCO)",
@@ -57,18 +69,6 @@
    "time": "2026-10-15T15:58:00Z"
   },
   {
-   "title": "Squad signed shirts gifted to Greater Manchester's largest Official Supporters Clubs",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T15:30:00Z"
-  },
-  {
-   "title": "Man City blow Arsenal out of the water as five-year transfer plan raises £285m question",
-   "img": null,
-   "video": null,
-   "time": "2026-10-15T15:09:45Z"
-  },
-  {
    "title": "Manchester City march on with title charge clouded by financial case",
    "img": null,
    "video": null,
@@ -77,14 +77,14 @@
  ],
  "ticker": [
   "Man City 2-4 PSG: Erling Haaland scores twice but Enzo Maresca's side suffer first defeat of season in front of Pep Guardiola",
-  "Andy Burnham orders review of his ties with Manchester City",
+  "Paul Vallely: Man City ruling raises questions for PM",
   "Man City charges LIVE: UK Gov stance, Independent Football Regulator claim, new sanctions timeline",
-  "Every Haaland goal for City in the Champions League",
-  "Man City charges LIVE: Points deduction latest as Independent Football Regulator stance clear",
+  "Manchester City vs. Ipswich Town: Prediction, date, venue, and how to watch Premier League match",
+  "Man City cult hero cashes in on fans' banana craze amid financial scandal",
+  "Swansea City could have lost £63m amid Manchester City financial scandal",
+  "Nunes And Ndiaye To Start | 4-2-3-1 Manchester City Predicted Lineup Vs Ipswich Town",
   "‍‍‍[!WATCHLIVE]4K!]Manchester City vs Paris Saint-Germain 𝐋𝐈𝐕𝐄 ＯＮ Ｔｖ Ｃｈａｎｧｅｌ 15 October 2026 - Universidad de Córdoba (UCO)",
   "U.K. Government Satisfied With ‘Most Extreme’ Outcome in Man City Case",
-  "Limited places available for our Youth Coaching Experience",
-  "Burnham vowed to fight for Manchester City over cheating charges",
-  "Squad signed shirts gifted to Greater Manchester's largest Official Supporters Clubs"
+  "Limited places available for our Youth Coaching Experience"
  ]
 }
