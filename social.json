@@ -1,16 +1,76 @@
 {
-    "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-    "updated": "2026-10-15T05:10:34Z",
-    "posts": [
-          { "text": "Great to have you back, @PepTeam 🩵\n\nThank you to all you blues at the Etihad tonight for your superb support 🙌\n\nWe'll see you back at home on Saturday 👊", "url": "https://x.com/ManCity/status/2110494824206143895", "time": "2026-10-14T22:15:51Z", "account": "Man City", "handle": "ManCity" },
-          { "text": "Enzo's thoughts on tonight's defeat 💬", "url": "https://x.com/ManCity/status/2110488156097183890", "time": "2026-10-14T21:49:22Z", "account": "Man City", "handle": "ManCity" },
-          { "text": "Battling hard on a tough night 🩵", "url": "https://x.com/ManCity/status/2110480744002765176", "time": "2026-10-14T21:19:54Z", "account": "Man City", "handle": "ManCity" },
-          { "text": "Two matches, two wins, six points ✅\n\n@AstonVilla dominate against Fenerbahce at Villa Park, winning 6-0 in the Champions League league phase 👊", "url": "https://x.com/premierleague/status/2110476606427078662", "time": "2026-10-14T21:03:28Z", "account": "Premier League", "handle": "premierleague" },
-          { "text": "Our Matchday Live team analyse tonight's result.", "url": "https://x.com/ManCity/status/2110475016106049929", "time": "2026-10-14T20:57:09Z", "account": "Man City", "handle": "ManCity" },
-          { "text": "Full-time.\n\n🩵 2-4 🔵", "url": "https://x.com/ManCity/status/2110474565961068785", "time": "2026-10-14T20:55:21Z", "account": "Man City", "handle": "ManCity" },
-          { "text": "Bradley Barcola ⚽️⚽️⚽️\nJeremie Frimpong ⚽️\nLewis Koumas ⚽️\nRonald Araujo ⚽️\n\nA nine-goal affair as @LFC defeat LASK 6-3 in the Champions League, making it two wins from two 👊", "url": "https://x.com/premierleague/status/2110440039049998783", "time": "2026-10-14T18:38:10Z", "account": "Premier League", "handle": "premierleague" },
-          { "text": "Two debut goals within two minutes of each other 🤝\n\nRonald Araujo and Bradley Barcola score their first @LFC goals as the Reds lead LASK 3-0 in the Champions League 🔴", "url": "https://x.com/premierleague/status/2110426280294285443", "time": "2026-10-14T17:43:29Z", "account": "Premier League", "handle": "premierleague" },
-          { "text": "Central figures in big wins 💪\n\nElliot Anderson, Jordan Henderson and Sidiki Cherif make @EASPORTSFC Team of the Week 💫\n\n#TOTW #FC27", "url": "https://x.com/premierleague/status/2110415338382782923", "time": "2026-10-14T17:00:00Z", "account": "Premier League", "handle": "premierleague" },
-          { "text": "David Raya hitting the brakes just in time ⏹️\n\n@Arsenal", "url": "https://x.com/premierleague/status/2110404011014922560", "time": "2026-10-14T16:15:00Z", "account": "Premier League", "handle": "premierleague" }
-    ]
+  "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+  "updated": "2026-10-16T05:09:08Z",
+  "posts": [
+    {
+      "text": "Brighton have now scored 29 goals in their last 9 matches 🤯\n\n18-year-old debutant Younes Ibrahim earned an assist as the Seagulls started their Conference League campaign with a win 👏",
+      "url": "https://x.com/premierleague/status/2110856527179366834",
+      "time": "2026-10-15T22:13:08Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "A night to dream of 🌟\n\n@AFCBournemouth's first-ever European home match was simply perfect 🍒",
+      "url": "https://x.com/premierleague/status/2110836656341446988",
+      "time": "2026-10-15T20:54:10Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Next up 💪⏳\n\n🤝 #AsahiSuperDry",
+      "url": "https://x.com/ManCity/status/2110824330061807967",
+      "time": "2026-10-15T20:05:12Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "At home, in Europe, for the first time ever 💪\n\n🍒 @AFCBournemouth",
+      "url": "https://x.com/premierleague/status/2110812707293167883",
+      "time": "2026-10-15T19:19:01Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "Straight back to work 👊🔒",
+      "url": "https://x.com/ManCity/status/2110809257285124308",
+      "time": "2026-10-15T19:05:18Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Scenes for Sunderland in Portugal 😱\n\nNoah Sadiki's late strike sees the Black Cats come from behind to beat Torreensee 2-1 in the Europa League 👏",
+      "url": "https://x.com/premierleague/status/2110804511421870136",
+      "time": "2026-10-15T18:46:27Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    },
+    {
+      "text": "All eyes on Saturday 💪🩵",
+      "url": "https://x.com/ManCity/status/2110804178138530159",
+      "time": "2026-10-15T18:45:07Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Battling for every ball 💪😤",
+      "url": "https://x.com/ManCity/status/2110799257913508249",
+      "time": "2026-10-15T18:25:34Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "A special talent 🇲🇦💫",
+      "url": "https://x.com/ManCity/status/2110795384507281814",
+      "time": "2026-10-15T18:10:11Z",
+      "account": "Man City",
+      "handle": "ManCity"
+    },
+    {
+      "text": "Putting on the afterburners ⚡️⚡️\n\nTake a look at the five fastest players this season 👇\nhttps://premierleague.app.link/e/1Jtgcmm9f7b",
+      "url": "https://x.com/premierleague/status/2110789047790825766",
+      "time": "2026-10-15T17:45:00Z",
+      "account": "Premier League",
+      "handle": "premierleague"
+    }
+  ]
 }
