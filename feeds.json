@@ -1,7 +1,49 @@
 {
- "updated": "2026-10-16T20:38:25Z",
+ "updated": "2026-10-16T23:17:51Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T21:56:14Z"
+  },
+  {
+   "title": "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T21:54:12Z"
+  },
+  {
+   "title": "Surely, a first Premier League start for Manchester City surely awaits a Moroccan sensation",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T21:36:25Z"
+  },
+  {
+   "title": "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T21:31:30Z"
+  },
+  {
+   "title": "Mikel Arteta told to sign Man City star in January to replace two Arsenal players",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T21:23:00Z"
+  },
+  {
+   "title": "Will Erling Haaland play against Ipswich? Maresca says Man City 'probably need to give him rest'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T20:45:51Z"
+  },
+  {
+   "title": "Man Utd teetering toward crisis as Man City cloud hangs over Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T20:30:00Z"
+  },
   {
    "title": "Maresca: 'I don't feel any kind of stress' about Man City case",
    "img": null,
@@ -15,16 +57,10 @@
    "time": "2026-10-16T20:19:00Z"
   },
   {
-   "title": "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
+   "title": "Man City FFP: Sports lawyer reveals chances of City winning appeal as 'substantial' issue emerges",
    "img": null,
    "video": null,
-   "time": "2026-10-16T20:11:56Z"
-  },
-  {
-   "title": "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T19:47:21Z"
+   "time": "2026-10-16T18:34:35Z"
   },
   {
    "title": "Manchester City charges: Features, explainers, what's next after guilty verdict",
@@ -37,54 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-16T18:22:47Z"
-  },
-  {
-   "title": "Men vs the Machine: Our Town v Man City predictions - versus AI!",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T18:00:00Z"
-  },
-  {
-   "title": "Training: Back to it before Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T18:00:00Z"
-  },
-  {
-   "title": "How to watch Manchester City vs Ipswich Town live: Stream, TV, team news, prediction",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T17:51:11Z"
-  },
-  {
-   "title": "Maresca prepares for possibility Ipswich ‘surprise’ Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T17:35:56Z"
-  },
-  {
-   "title": "Training: Ready to welcome the Tractor Boys!",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T17:30:00Z"
-  },
-  {
-   "title": "The mystery Man City dinner that raises awkward questions for PM over £55m loans",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T17:29:21Z"
   }
  ],
  "ticker": [
+  "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
+  "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
+  "Surely, a first Premier League start for Manchester City surely awaits a Moroccan sensation",
+  "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
+  "Mikel Arteta told to sign Man City star in January to replace two Arsenal players",
+  "Will Erling Haaland play against Ipswich? Maresca says Man City 'probably need to give him rest'",
+  "Man Utd teetering toward crisis as Man City cloud hangs over Premier League",
   "Maresca: 'I don't feel any kind of stress' about Man City case",
   "Manchester City 26-27 Special Kit",
-  "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
-  "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
-  "Manchester City charges: Features, explainers, what's next after guilty verdict",
-  "Man City v Ipswich Town: Key stats and talking points",
-  "Men vs the Machine: Our Town v Man City predictions - versus AI!",
-  "Training: Back to it before Brighton",
-  "How to watch Manchester City vs Ipswich Town live: Stream, TV, team news, prediction",
-  "Maresca prepares for possibility Ipswich ‘surprise’ Man City"
+  "Man City FFP: Sports lawyer reveals chances of City winning appeal as 'substantial' issue emerges"
  ]
 }
