@@ -1,12 +1,66 @@
 {
- "updated": "2026-10-16T17:50:47Z",
+ "updated": "2026-10-16T20:38:25Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "'We go there full of belief' - Walton looking forward to 'good test'",
+   "title": "Maresca: 'I don't feel any kind of stress' about Man City case",
    "img": null,
    "video": null,
-   "time": "2026-10-16T17:36:15Z"
+   "time": "2026-10-16T20:27:00Z"
+  },
+  {
+   "title": "Manchester City 26-27 Special Kit",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T20:19:00Z"
+  },
+  {
+   "title": "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T20:11:56Z"
+  },
+  {
+   "title": "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T19:47:21Z"
+  },
+  {
+   "title": "Manchester City charges: Features, explainers, what's next after guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T18:22:56Z"
+  },
+  {
+   "title": "Man City v Ipswich Town: Key stats and talking points",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T18:22:47Z"
+  },
+  {
+   "title": "Men vs the Machine: Our Town v Man City predictions - versus AI!",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T18:00:00Z"
+  },
+  {
+   "title": "Training: Back to it before Brighton",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T18:00:00Z"
+  },
+  {
+   "title": "How to watch Manchester City vs Ipswich Town live: Stream, TV, team news, prediction",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T17:51:11Z"
+  },
+  {
+   "title": "Maresca prepares for possibility Ipswich ‘surprise’ Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T17:35:56Z"
   },
   {
    "title": "Training: Ready to welcome the Tractor Boys!",
@@ -19,72 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-16T17:29:21Z"
-  },
-  {
-   "title": "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T17:25:20Z"
-  },
-  {
-   "title": "Inside City 530: Liverpool and PSG thrillers!",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T17:00:00Z"
-  },
-  {
-   "title": "Premier League news: go bananas: Maresca loving fans’ show of defiance; James injury blow for Blues",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T16:57:00Z"
-  },
-  {
-   "title": "Maresca says Manchester City is ‘more together’ after financial charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T16:30:51Z"
-  },
-  {
-   "title": "City v Ipswich: What's happening on Matchday at the Etihad Stadium",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T16:30:00Z"
-  },
-  {
-   "title": "Do Manchester City have any grounds to win their appeal?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T16:17:01Z"
-  },
-  {
-   "title": "Burnham championed Manchester City during cheating inquiry",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T15:50:00Z"
-  },
-  {
-   "title": "Bev Craig on Manchester City and Abu Dhabi investments",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T15:47:52Z"
-  },
-  {
-   "title": "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T15:31:29Z"
   }
  ],
  "ticker": [
-  "'We go there full of belief' - Walton looking forward to 'good test'",
-  "Training: Ready to welcome the Tractor Boys!",
-  "The mystery Man City dinner that raises awkward questions for PM over £55m loans",
+  "Maresca: 'I don't feel any kind of stress' about Man City case",
+  "Manchester City 26-27 Special Kit",
+  "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
   "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
-  "Inside City 530: Liverpool and PSG thrillers!",
-  "Premier League news: go bananas: Maresca loving fans’ show of defiance; James injury blow for Blues",
-  "Maresca says Manchester City is ‘more together’ after financial charges",
-  "City v Ipswich: What's happening on Matchday at the Etihad Stadium",
-  "Do Manchester City have any grounds to win their appeal?",
-  "Burnham championed Manchester City during cheating inquiry"
+  "Manchester City charges: Features, explainers, what's next after guilty verdict",
+  "Man City v Ipswich Town: Key stats and talking points",
+  "Men vs the Machine: Our Town v Man City predictions - versus AI!",
+  "Training: Back to it before Brighton",
+  "How to watch Manchester City vs Ipswich Town live: Stream, TV, team news, prediction",
+  "Maresca prepares for possibility Ipswich ‘surprise’ Man City"
  ]
 }
