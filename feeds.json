@@ -1,18 +1,60 @@
 {
- "updated": "2026-10-17T21:59:53Z",
+ "updated": "2026-10-17T23:57:08Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City 3-2 Ipswich: Erling Haaland's incredible scoring run continues as Enzo Maresca's side continue to weather storm",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T23:04:01Z"
+  },
+  {
+   "title": "How 'dangerous' Man City maintained 100 per cent record",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T23:00:53Z"
+  },
+  {
+   "title": "Match of the Day: Joe Hart and Danny Murphy analysis of Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T23:00:53Z"
+  },
+  {
+   "title": "City 3-2 Ipswich Town: Eight-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T23:00:00Z"
+  },
+  {
+   "title": "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T21:54:20Z"
+  },
   {
    "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
    "img": null,
    "video": null,
-   "time": "2026-10-17T20:19:00Z"
+   "time": "2026-10-17T21:23:00Z"
+  },
+  {
+   "title": "Labour minister’s Dubai trip & £7.5k flights to meet firm run by Man City owners - at height of club’s ‘cheat’ probe",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T20:10:00Z"
   },
   {
    "title": "'12 added minutes? Have the sanctions already started?'",
    "img": null,
    "video": null,
    "time": "2026-10-17T19:06:18Z"
+  },
+  {
+   "title": "'We're still Man City even if we're in Division Two playing Ramsbottom United or Ashton FC'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T19:05:54Z"
   },
   {
    "title": "Haaland nets double as Man City go six points clear at the top",
@@ -31,60 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-17T18:02:39Z"
-  },
-  {
-   "title": "Haaland scores twice as Man City beat Ipswich",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T17:37:58Z"
-  },
-  {
-   "title": "Maresca delighted with record-breaking start",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T17:15:00Z"
-  },
-  {
-   "title": "Foden hails 'class' City support",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T17:05:00Z"
-  },
-  {
-   "title": "City 3-2 Ipswich: Two-minute highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T17:00:00Z"
-  },
-  {
-   "title": "Manchester City 3-2 Ipswich Town | Premier League highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:40:56Z"
-  },
-  {
-   "title": "Bouaddi elated after victory in first Premier League start",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:35:00Z"
-  },
-  {
-   "title": "MANCHESTER CITY 3 TOWN 2",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:08:00Z"
   }
  ],
  "ticker": [
+  "Man City 3-2 Ipswich: Erling Haaland's incredible scoring run continues as Enzo Maresca's side continue to weather storm",
+  "How 'dangerous' Man City maintained 100 per cent record",
+  "Match of the Day: Joe Hart and Danny Murphy analysis of Manchester City",
+  "City 3-2 Ipswich Town: Eight-minute highlights",
+  "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
   "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+  "Labour minister’s Dubai trip & £7.5k flights to meet firm run by Man City owners - at height of club’s ‘cheat’ probe",
   "'12 added minutes? Have the sanctions already started?'",
-  "Haaland nets double as Man City go six points clear at the top",
-  "Highlights - Premier League - Manchester City 3-2 Ipswich Town",
-  "Boos and bananas on day of defiance at Man City",
-  "Haaland scores twice as Man City beat Ipswich",
-  "Maresca delighted with record-breaking start",
-  "Foden hails 'class' City support",
-  "City 3-2 Ipswich: Two-minute highlights",
-  "Manchester City 3-2 Ipswich Town | Premier League highlights"
+  "'We're still Man City even if we're in Division Two playing Ramsbottom United or Ashton FC'",
+  "Haaland nets double as Man City go six points clear at the top"
  ]
 }
