@@ -1,14 +1,7 @@
 {
- "updated": "2026-10-17T12:09:27Z",
+ "updated": "2026-10-17T17:07:07Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-10-17T14:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Ipswich",
-   "venue": "Etihad Stadium"
-  },
   {
    "utc": "2026-10-20T19:00:00Z",
    "comp": "UCL",
@@ -141,6 +134,13 @@
    "home": "Manchester City",
    "away": "Nottingham Forest",
    "venue": "Etihad Stadium"
+  },
+  {
+   "utc": "2027-01-20T20:00:00Z",
+   "comp": "UCL",
+   "home": "Lens",
+   "away": "Manchester City",
+   "venue": "Stade Bollaert-Delelis"
   }
  ],
  "results": {
@@ -176,6 +176,11 @@
   },
   "2026-10-11": {
    "score": "0-3",
+   "res": "W",
+   "fr": false
+  },
+  "2026-10-17": {
+   "score": "3-2",
    "res": "W",
    "fr": false
   },
