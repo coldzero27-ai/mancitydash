@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-16T23:17:51Z",
+ "updated": "2026-10-17T01:25:49Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
+   "title": "Manchester City lineup prediction vs Ipswich Town: Will Haaland start?",
    "img": null,
    "video": null,
-   "time": "2026-10-16T21:56:14Z"
+   "time": "2026-10-16T23:48:36Z"
   },
   {
-   "title": "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
+   "title": "Man City vs. Ipswich: Preview, Predictions and Lineups",
    "img": null,
    "video": null,
-   "time": "2026-10-16T21:54:12Z"
+   "time": "2026-10-16T23:34:28Z"
   },
   {
    "title": "Surely, a first Premier League start for Manchester City surely awaits a Moroccan sensation",
@@ -27,10 +27,10 @@
    "time": "2026-10-16T21:31:30Z"
   },
   {
-   "title": "Mikel Arteta told to sign Man City star in January to replace two Arsenal players",
+   "title": "Maresca reveals his KIDS are backing banana craze as he fires warning to haters",
    "img": null,
    "video": null,
-   "time": "2026-10-16T21:23:00Z"
+   "time": "2026-10-16T20:53:00Z"
   },
   {
    "title": "Will Erling Haaland play against Ipswich? Maresca says Man City 'probably need to give him rest'",
@@ -57,12 +57,6 @@
    "time": "2026-10-16T20:19:00Z"
   },
   {
-   "title": "Man City FFP: Sports lawyer reveals chances of City winning appeal as 'substantial' issue emerges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-16T18:34:35Z"
-  },
-  {
    "title": "Manchester City charges: Features, explainers, what's next after guilty verdict",
    "img": null,
    "video": null,
@@ -73,18 +67,24 @@
    "img": null,
    "video": null,
    "time": "2026-10-16T18:22:47Z"
+  },
+  {
+   "title": "Training: Back to it before Brighton",
+   "img": null,
+   "video": null,
+   "time": "2026-10-16T18:00:00Z"
   }
  ],
  "ticker": [
-  "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
-  "Man City charges LIVE: Huge points deduction and £1bn threat as UEFA punishment rumours swirl",
+  "Manchester City lineup prediction vs Ipswich Town: Will Haaland start?",
+  "Man City vs. Ipswich: Preview, Predictions and Lineups",
   "Surely, a first Premier League start for Manchester City surely awaits a Moroccan sensation",
   "Burnham in trouble: wide-ranging investigation opened into the British prime minister's relationship with Manchester City",
-  "Mikel Arteta told to sign Man City star in January to replace two Arsenal players",
+  "Maresca reveals his KIDS are backing banana craze as he fires warning to haters",
   "Will Erling Haaland play against Ipswich? Maresca says Man City 'probably need to give him rest'",
   "Man Utd teetering toward crisis as Man City cloud hangs over Premier League",
   "Maresca: 'I don't feel any kind of stress' about Man City case",
   "Manchester City 26-27 Special Kit",
-  "Man City FFP: Sports lawyer reveals chances of City winning appeal as 'substantial' issue emerges"
+  "Manchester City charges: Features, explainers, what's next after guilty verdict"
  ]
 }
