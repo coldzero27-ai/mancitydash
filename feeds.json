@@ -1,7 +1,13 @@
 {
- "updated": "2026-10-17T19:38:40Z",
+ "updated": "2026-10-17T21:59:53Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T20:19:00Z"
+  },
   {
    "title": "'12 added minutes? Have the sanctions already started?'",
    "img": null,
@@ -15,10 +21,10 @@
    "time": "2026-10-17T19:00:09Z"
   },
   {
-   "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+   "title": "Highlights - Premier League - Manchester City 3-2 Ipswich Town",
    "img": null,
    "video": null,
-   "time": "2026-10-17T18:14:00Z"
+   "time": "2026-10-17T19:00:09Z"
   },
   {
    "title": "Boos and bananas on day of defiance at Man City",
@@ -27,10 +33,10 @@
    "time": "2026-10-17T18:02:39Z"
   },
   {
-   "title": "City 3-2 Ipswich: Two-minute highlights",
+   "title": "Haaland scores twice as Man City beat Ipswich",
    "img": null,
    "video": null,
-   "time": "2026-10-17T18:00:00Z"
+   "time": "2026-10-17T17:37:58Z"
   },
   {
    "title": "Maresca delighted with record-breaking start",
@@ -45,46 +51,40 @@
    "time": "2026-10-17T17:05:00Z"
   },
   {
+   "title": "City 3-2 Ipswich: Two-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T17:00:00Z"
+  },
+  {
    "title": "Manchester City 3-2 Ipswich Town | Premier League highlights",
    "img": null,
    "video": null,
    "time": "2026-10-17T16:40:56Z"
   },
   {
-   "title": "City see off Ipswich as Maresca makes Premier League history",
+   "title": "Bouaddi elated after victory in first Premier League start",
    "img": null,
    "video": null,
-   "time": "2026-10-17T16:05:00Z"
+   "time": "2026-10-17T16:35:00Z"
   },
   {
-   "title": "Maresca breaks Premier League record for most wins to start a managerial reign",
+   "title": "MANCHESTER CITY 3 TOWN 2",
    "img": null,
    "video": null,
-   "time": "2026-10-17T16:00:00Z"
-  },
-  {
-   "title": "*&(\"𝐋𝐈𝐕𝐄𝐒𝐓𝐑𝐄𝐀𝐌\")𝐅𝐑𝐄𝐄!]# Ipswich Town vs Manchester City Live Streaming - Universidad de Córdoba (UCO)",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T15:16:41Z"
-  },
-  {
-   "title": "++[ＬＩＶＥＳｔｒｅａｍ]!!] Ipswich vs Man City Live FREE - Universidad de Córdoba (UCO)",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T15:16:41Z"
+   "time": "2026-10-17T16:08:00Z"
   }
  ],
  "ticker": [
+  "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
   "'12 added minutes? Have the sanctions already started?'",
   "Haaland nets double as Man City go six points clear at the top",
-  "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+  "Highlights - Premier League - Manchester City 3-2 Ipswich Town",
   "Boos and bananas on day of defiance at Man City",
-  "City 3-2 Ipswich: Two-minute highlights",
+  "Haaland scores twice as Man City beat Ipswich",
   "Maresca delighted with record-breaking start",
   "Foden hails 'class' City support",
-  "Manchester City 3-2 Ipswich Town | Premier League highlights",
-  "City see off Ipswich as Maresca makes Premier League history",
-  "Maresca breaks Premier League record for most wins to start a managerial reign"
+  "City 3-2 Ipswich: Two-minute highlights",
+  "Manchester City 3-2 Ipswich Town | Premier League highlights"
  ]
 }
