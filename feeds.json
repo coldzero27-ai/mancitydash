@@ -1,24 +1,42 @@
 {
- "updated": "2026-10-17T17:26:36Z",
+ "updated": "2026-10-17T19:38:40Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "O'Neil 'unbelievably proud' of Ipswich Town despite loss to Man City",
+   "title": "'12 added minutes? Have the sanctions already started?'",
    "img": null,
    "video": null,
-   "time": "2026-10-17T17:18:52Z"
+   "time": "2026-10-17T19:06:18Z"
   },
   {
-   "title": "Premier League: Manchester City 3-2 Ipswich - Enzo Maresca interview",
+   "title": "Haaland nets double as Man City go six points clear at the top",
    "img": null,
    "video": null,
-   "time": "2026-10-17T17:08:01Z"
+   "time": "2026-10-17T19:00:09Z"
   },
   {
-   "title": "Manchester City’s Erling Haaland ‘OK’ after finishing Ipswich win limping – Enzo Maresca",
+   "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
    "img": null,
    "video": null,
-   "time": "2026-10-17T17:06:39Z"
+   "time": "2026-10-17T18:14:00Z"
+  },
+  {
+   "title": "Boos and bananas on day of defiance at Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T18:02:39Z"
+  },
+  {
+   "title": "City 3-2 Ipswich: Two-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T18:00:00Z"
+  },
+  {
+   "title": "Maresca delighted with record-breaking start",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T17:15:00Z"
   },
   {
    "title": "Foden hails 'class' City support",
@@ -33,58 +51,40 @@
    "time": "2026-10-17T16:40:56Z"
   },
   {
-   "title": "Premier League LIVE: Newcastle vs Aston Villa after wins for Chelsea, Fulham, Liverpool and Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:40:05Z"
-  },
-  {
-   "title": "Liverpool’s £400m front line finally clicks as Brentford succumb with nine men",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:28:39Z"
-  },
-  {
-   "title": "Man City fans' inflatable banana craze sweeps defiant Etihad",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:07:00Z"
-  },
-  {
-   "title": "Five observations from Ipswich Town's 3-2 defeat to Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:07:00Z"
-  },
-  {
    "title": "City see off Ipswich as Maresca makes Premier League history",
    "img": null,
    "video": null,
    "time": "2026-10-17T16:05:00Z"
   },
   {
-   "title": "Haaland scores twice as Man City beat Ipswich",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T16:04:00Z"
-  },
-  {
    "title": "Maresca breaks Premier League record for most wins to start a managerial reign",
    "img": null,
    "video": null,
    "time": "2026-10-17T16:00:00Z"
+  },
+  {
+   "title": "*&(\"𝐋𝐈𝐕𝐄𝐒𝐓𝐑𝐄𝐀𝐌\")𝐅𝐑𝐄𝐄!]# Ipswich Town vs Manchester City Live Streaming - Universidad de Córdoba (UCO)",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T15:16:41Z"
+  },
+  {
+   "title": "++[ＬＩＶＥＳｔｒｅａｍ]!!] Ipswich vs Man City Live FREE - Universidad de Córdoba (UCO)",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T15:16:41Z"
   }
  ],
  "ticker": [
-  "O'Neil 'unbelievably proud' of Ipswich Town despite loss to Man City",
-  "Premier League: Manchester City 3-2 Ipswich - Enzo Maresca interview",
-  "Manchester City’s Erling Haaland ‘OK’ after finishing Ipswich win limping – Enzo Maresca",
+  "'12 added minutes? Have the sanctions already started?'",
+  "Haaland nets double as Man City go six points clear at the top",
+  "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+  "Boos and bananas on day of defiance at Man City",
+  "City 3-2 Ipswich: Two-minute highlights",
+  "Maresca delighted with record-breaking start",
   "Foden hails 'class' City support",
   "Manchester City 3-2 Ipswich Town | Premier League highlights",
-  "Premier League LIVE: Newcastle vs Aston Villa after wins for Chelsea, Fulham, Liverpool and Man City",
-  "Liverpool’s £400m front line finally clicks as Brentford succumb with nine men",
-  "Man City fans' inflatable banana craze sweeps defiant Etihad",
-  "Five observations from Ipswich Town's 3-2 defeat to Manchester City",
-  "City see off Ipswich as Maresca makes Premier League history"
+  "City see off Ipswich as Maresca makes Premier League history",
+  "Maresca breaks Premier League record for most wins to start a managerial reign"
  ]
 }
