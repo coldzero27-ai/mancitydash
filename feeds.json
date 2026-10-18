@@ -1,90 +1,64 @@
 {
- "updated": "2026-10-18T16:43:23Z",
+ "updated": "2026-10-18T19:17:09Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "WSL: Manchester City 3-2 Brighton & Hove Albion - Steph Houghton talking to Lauren Hemp after the game",
+   "title": "Do Manchester City have any grounds to win their appeal?",
    "img": null,
    "video": null,
-   "time": "2026-10-18T16:35:26Z"
+   "time": "2026-10-18T06:36:21Z"
   },
   {
-   "title": "Manchester City beat Brighton 3-2 to maintain perfect WSL record — Sky Sports News",
+   "title": "'12 added minutes? Have the sanctions already started?'",
    "img": null,
    "video": null,
-   "time": "2026-10-18T16:14:17Z"
+   "time": "2026-10-17T19:06:18Z"
   },
   {
-   "title": "WSL: Manchester City 3-2 Brighton - highlights",
+   "title": "Haaland nets double as Man City go six points clear at the top",
    "img": null,
    "video": null,
-   "time": "2026-10-18T16:13:45Z"
+   "time": "2026-10-17T19:00:09Z"
   },
   {
-   "title": "Man City maintain perfect record as Chelsea, Man Utd and London City Lionesses all win - Women's Super League round-up",
+   "title": "Boos and bananas on day of defiance at Man City",
    "img": null,
    "video": null,
-   "time": "2026-10-18T16:01:33Z"
+   "time": "2026-10-17T18:02:39Z"
   },
   {
-   "title": "It was special to score my first goal at home, says Charles",
+   "title": "Guardiola receives standing ovation on return to Barcelona",
    "img": null,
    "video": null,
-   "time": "2026-10-18T16:00:00Z"
+   "time": "2026-10-17T10:00:10Z"
   },
   {
-   "title": "Jeglertz: Belief and confidence got us the win over Brighton",
+   "title": "Is Donnarumma the best keeper in the world?",
    "img": null,
    "video": null,
-   "time": "2026-10-18T16:00:00Z"
+   "time": "2026-10-16T11:19:23Z"
   },
   {
-   "title": "Shaw scores twice as Manchester City beat Brighton & Hove Albion - WSL Full-Time",
+   "title": "An interesting punishment idea for Man City...",
    "img": null,
    "video": null,
-   "time": "2026-10-18T15:56:19Z"
+   "time": "2026-10-16T11:16:23Z"
   },
   {
-   "title": "WSL LIVE: Build-up to six games - team news, radio commentary, text & score updates & match stats",
+   "title": "Burnham asks for 'manual trawl' of records for former Man City links",
    "img": null,
    "video": null,
-   "time": "2026-10-18T15:53:13Z"
-  },
-  {
-   "title": "Man City charges LIVE: Punishment timeline emerges as appeal prediction made",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T15:49:01Z"
-  },
-  {
-   "title": "Nottingham Forest vs Arsenal live: Score and latest Premier League updates",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T15:44:08Z"
-  },
-  {
-   "title": "Man City beat Brighton, Chelsea hammer Spurs in WSL",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T15:38:09Z"
-  },
-  {
-   "title": "African Stars Shine as Manchester City Edge Ipswich Town in Five-Goal Thriller",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T15:33:55Z"
+   "time": "2026-10-16T10:51:56Z"
   }
  ],
  "ticker": [
-  "WSL: Manchester City 3-2 Brighton & Hove Albion - Steph Houghton talking to Lauren Hemp after the game",
-  "Manchester City beat Brighton 3-2 to maintain perfect WSL record — Sky Sports News",
-  "WSL: Manchester City 3-2 Brighton - highlights",
-  "Man City maintain perfect record as Chelsea, Man Utd and London City Lionesses all win - Women's Super League round-up",
-  "It was special to score my first goal at home, says Charles",
-  "Jeglertz: Belief and confidence got us the win over Brighton",
-  "Shaw scores twice as Manchester City beat Brighton & Hove Albion - WSL Full-Time",
-  "WSL LIVE: Build-up to six games - team news, radio commentary, text & score updates & match stats",
-  "Man City charges LIVE: Punishment timeline emerges as appeal prediction made",
-  "Nottingham Forest vs Arsenal live: Score and latest Premier League updates"
+  "Do Manchester City have any grounds to win their appeal?",
+  "'12 added minutes? Have the sanctions already started?'",
+  "Haaland nets double as Man City go six points clear at the top",
+  "Boos and bananas on day of defiance at Man City",
+  "Guardiola receives standing ovation on return to Barcelona",
+  "Is Donnarumma the best keeper in the world?",
+  "An interesting punishment idea for Man City...",
+  "Burnham asks for 'manual trawl' of records for former Man City links"
  ]
 }
