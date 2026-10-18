@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T07:11:29Z",
+ "updated": "2026-10-18T12:35:27Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -215,6 +215,6 @@
    "fr": false
   }
  },
- "topScorer": "Haaland - 6",
+ "topScorer": "Haaland - 8",
  "topAssists": "Semenyo - 3"
 }
