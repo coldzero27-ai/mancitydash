@@ -1,64 +1,90 @@
 {
- "updated": "2026-10-18T19:17:09Z",
+ "updated": "2026-10-18T21:41:31Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Do Manchester City have any grounds to win their appeal?",
+   "title": "Women's Super League",
    "img": null,
    "video": null,
-   "time": "2026-10-18T06:36:21Z"
+   "time": "2026-10-18T19:40:09Z"
   },
   {
-   "title": "'12 added minutes? Have the sanctions already started?'",
+   "title": "A Manchester City midfielder proves his worth against Ipswich Town with a timely reminder of his quality",
    "img": null,
    "video": null,
-   "time": "2026-10-17T19:06:18Z"
+   "time": "2026-10-18T19:37:00Z"
   },
   {
-   "title": "Haaland nets double as Man City go six points clear at the top",
+   "title": "Manchester City 3-2 Brighton - WSL highlights",
    "img": null,
    "video": null,
-   "time": "2026-10-17T19:00:09Z"
+   "time": "2026-10-18T19:26:39Z"
   },
   {
-   "title": "Boos and bananas on day of defiance at Man City",
+   "title": "City 3-2 Brighton: 8-minute WSL highlights",
    "img": null,
    "video": null,
-   "time": "2026-10-17T18:02:39Z"
+   "time": "2026-10-18T19:20:00Z"
   },
   {
-   "title": "Guardiola receives standing ovation on return to Barcelona",
+   "title": "Man City charges LIVE: Transfer lined up as punishment timeline emerges",
    "img": null,
    "video": null,
-   "time": "2026-10-17T10:00:10Z"
+   "time": "2026-10-18T19:18:03Z"
   },
   {
-   "title": "Is Donnarumma the best keeper in the world?",
+   "title": "PREVIEW | Manchester City vs AEK: team news, lineups, predictions (Champions League 20/10)",
    "img": null,
    "video": null,
-   "time": "2026-10-16T11:19:23Z"
+   "time": "2026-10-18T19:00:00Z"
   },
   {
-   "title": "An interesting punishment idea for Man City...",
+   "title": "Arsenal snatch late win to keep pressure on Man City as Man Utd held",
    "img": null,
    "video": null,
-   "time": "2026-10-16T11:16:23Z"
+   "time": "2026-10-18T18:38:13Z"
   },
   {
-   "title": "Burnham asks for 'manual trawl' of records for former Man City links",
+   "title": "Manchester City’s financial case could reshape the future of European football",
    "img": null,
    "video": null,
-   "time": "2026-10-16T10:51:56Z"
+   "time": "2026-10-18T18:30:00Z"
+  },
+  {
+   "title": "Arsenal late show keeps heat on Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T18:24:44Z"
+  },
+  {
+   "title": "Manchester City owner’s £55m housing loan while Burnham was mayor investigated",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T17:17:00Z"
+  },
+  {
+   "title": "WSL: Manchester City 3-2 Brighton & Hove Albion - Steph Houghton talking to Lauren Hemp after the game",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T16:35:26Z"
+  },
+  {
+   "title": "Perfect Run Continues | Manchester City v Brighton Highlights | Barclays WSL 2026-27",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T16:27:05Z"
   }
  ],
  "ticker": [
-  "Do Manchester City have any grounds to win their appeal?",
-  "'12 added minutes? Have the sanctions already started?'",
-  "Haaland nets double as Man City go six points clear at the top",
-  "Boos and bananas on day of defiance at Man City",
-  "Guardiola receives standing ovation on return to Barcelona",
-  "Is Donnarumma the best keeper in the world?",
-  "An interesting punishment idea for Man City...",
-  "Burnham asks for 'manual trawl' of records for former Man City links"
+  "Women's Super League",
+  "A Manchester City midfielder proves his worth against Ipswich Town with a timely reminder of his quality",
+  "Manchester City 3-2 Brighton - WSL highlights",
+  "City 3-2 Brighton: 8-minute WSL highlights",
+  "Man City charges LIVE: Transfer lined up as punishment timeline emerges",
+  "PREVIEW | Manchester City vs AEK: team news, lineups, predictions (Champions League 20/10)",
+  "Arsenal snatch late win to keep pressure on Man City as Man Utd held",
+  "Manchester City’s financial case could reshape the future of European football",
+  "Arsenal late show keeps heat on Man City",
+  "Manchester City owner’s £55m housing loan while Burnham was mayor investigated"
  ]
 }
