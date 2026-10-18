@@ -1,13 +1,7 @@
 {
- "updated": "2026-10-17T23:57:08Z",
+ "updated": "2026-10-18T04:14:50Z",
  "source": "bbc + google news (server-side)",
  "news": [
-  {
-   "title": "Man City 3-2 Ipswich: Erling Haaland's incredible scoring run continues as Enzo Maresca's side continue to weather storm",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T23:04:01Z"
-  },
   {
    "title": "How 'dangerous' Man City maintained 100 per cent record",
    "img": null,
@@ -24,25 +18,13 @@
    "title": "City 3-2 Ipswich Town: Eight-minute highlights",
    "img": null,
    "video": null,
-   "time": "2026-10-17T23:00:00Z"
-  },
-  {
-   "title": "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T21:54:20Z"
+   "time": "2026-10-17T22:00:00Z"
   },
   {
    "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
    "img": null,
    "video": null,
    "time": "2026-10-17T21:23:00Z"
-  },
-  {
-   "title": "Labour minister’s Dubai trip & £7.5k flights to meet firm run by Man City owners - at height of club’s ‘cheat’ probe",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T20:10:00Z"
   },
   {
    "title": "'12 added minutes? Have the sanctions already started?'",
@@ -63,28 +45,46 @@
    "time": "2026-10-17T19:00:09Z"
   },
   {
-   "title": "Highlights - Premier League - Manchester City 3-2 Ipswich Town",
-   "img": null,
-   "video": null,
-   "time": "2026-10-17T19:00:09Z"
-  },
-  {
    "title": "Boos and bananas on day of defiance at Man City",
    "img": null,
    "video": null,
    "time": "2026-10-17T18:02:39Z"
+  },
+  {
+   "title": "City 3-2 Ipswich Town: Two-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T18:00:00Z"
+  },
+  {
+   "title": "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T17:53:07Z"
+  },
+  {
+   "title": "O'Neil: Disappointed But Proud",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T17:41:00Z"
+  },
+  {
+   "title": "『LIVeSTREAMS』 Manchester City v Ipswich Town Live Stream - Universidad de Córdoba (UCO)",
+   "img": null,
+   "video": null,
+   "time": "2026-10-17T17:38:24Z"
   }
  ],
  "ticker": [
-  "Man City 3-2 Ipswich: Erling Haaland's incredible scoring run continues as Enzo Maresca's side continue to weather storm",
   "How 'dangerous' Man City maintained 100 per cent record",
   "Match of the Day: Joe Hart and Danny Murphy analysis of Manchester City",
   "City 3-2 Ipswich Town: Eight-minute highlights",
-  "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'",
   "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
-  "Labour minister’s Dubai trip & £7.5k flights to meet firm run by Man City owners - at height of club’s ‘cheat’ probe",
   "'12 added minutes? Have the sanctions already started?'",
   "'We're still Man City even if we're in Division Two playing Ramsbottom United or Ashton FC'",
-  "Haaland nets double as Man City go six points clear at the top"
+  "Haaland nets double as Man City go six points clear at the top",
+  "Boos and bananas on day of defiance at Man City",
+  "City 3-2 Ipswich Town: Two-minute highlights",
+  "Man City charges LIVE: Points deduction size emerges as Premier League rivals 'fuming'"
  ]
 }
