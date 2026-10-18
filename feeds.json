@@ -1,7 +1,31 @@
 {
- "updated": "2026-10-18T21:41:31Z",
+ "updated": "2026-10-18T23:58:04Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Preview: Manchester City vs. AEK Athens - prediction, team news, lineups",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T22:44:51Z"
+  },
+  {
+   "title": "Man City charges news: Transfer lined up as punishment timeline emerges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T21:54:06Z"
+  },
+  {
+   "title": "Man City kit 'set for subtle change' after Premier League charges guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T21:22:00Z"
+  },
+  {
+   "title": "Man City continue perfect start to WSL defence, James inspires Chelsea",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T19:46:00Z"
+  },
   {
    "title": "Women's Super League",
    "img": null,
@@ -12,31 +36,13 @@
    "title": "A Manchester City midfielder proves his worth against Ipswich Town with a timely reminder of his quality",
    "img": null,
    "video": null,
-   "time": "2026-10-18T19:37:00Z"
+   "time": "2026-10-18T19:37:32Z"
   },
   {
    "title": "Manchester City 3-2 Brighton - WSL highlights",
    "img": null,
    "video": null,
    "time": "2026-10-18T19:26:39Z"
-  },
-  {
-   "title": "City 3-2 Brighton: 8-minute WSL highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T19:20:00Z"
-  },
-  {
-   "title": "Man City charges LIVE: Transfer lined up as punishment timeline emerges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T19:18:03Z"
-  },
-  {
-   "title": "PREVIEW | Manchester City vs AEK: team news, lineups, predictions (Champions League 20/10)",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T19:00:00Z"
   },
   {
    "title": "Arsenal snatch late win to keep pressure on Man City as Man Utd held",
@@ -57,34 +63,28 @@
    "time": "2026-10-18T18:24:44Z"
   },
   {
+   "title": "City 3-2 Brighton: 8-minute WSL highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T18:20:00Z"
+  },
+  {
    "title": "Manchester City owner’s £55m housing loan while Burnham was mayor investigated",
    "img": null,
    "video": null,
    "time": "2026-10-18T17:17:00Z"
-  },
-  {
-   "title": "WSL: Manchester City 3-2 Brighton & Hove Albion - Steph Houghton talking to Lauren Hemp after the game",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T16:35:26Z"
-  },
-  {
-   "title": "Perfect Run Continues | Manchester City v Brighton Highlights | Barclays WSL 2026-27",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T16:27:05Z"
   }
  ],
  "ticker": [
+  "Preview: Manchester City vs. AEK Athens - prediction, team news, lineups",
+  "Man City charges news: Transfer lined up as punishment timeline emerges",
+  "Man City kit 'set for subtle change' after Premier League charges guilty verdict",
+  "Man City continue perfect start to WSL defence, James inspires Chelsea",
   "Women's Super League",
   "A Manchester City midfielder proves his worth against Ipswich Town with a timely reminder of his quality",
   "Manchester City 3-2 Brighton - WSL highlights",
-  "City 3-2 Brighton: 8-minute WSL highlights",
-  "Man City charges LIVE: Transfer lined up as punishment timeline emerges",
-  "PREVIEW | Manchester City vs AEK: team news, lineups, predictions (Champions League 20/10)",
   "Arsenal snatch late win to keep pressure on Man City as Man Utd held",
   "Manchester City’s financial case could reshape the future of European football",
-  "Arsenal late show keeps heat on Man City",
-  "Manchester City owner’s £55m housing loan while Burnham was mayor investigated"
+  "Arsenal late show keeps heat on Man City"
  ]
 }
