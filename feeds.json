@@ -1,7 +1,13 @@
 {
- "updated": "2026-10-18T23:58:04Z",
+ "updated": "2026-10-19T04:26:00Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "The £55m Secret Loan Probe: Why Council Watchdogs Are Investigating Manchester City’s Billionaire Owner Over Andy Burnham’s Flagship Housing Scheme",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T23:56:55Z"
+  },
   {
    "title": "Preview: Manchester City vs. AEK Athens - prediction, team news, lineups",
    "img": null,
@@ -9,22 +15,10 @@
    "time": "2026-10-18T22:44:51Z"
   },
   {
-   "title": "Man City charges news: Transfer lined up as punishment timeline emerges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T21:54:06Z"
-  },
-  {
    "title": "Man City kit 'set for subtle change' after Premier League charges guilty verdict",
    "img": null,
    "video": null,
    "time": "2026-10-18T21:22:00Z"
-  },
-  {
-   "title": "Man City continue perfect start to WSL defence, James inspires Chelsea",
-   "img": null,
-   "video": null,
-   "time": "2026-10-18T19:46:00Z"
   },
   {
    "title": "Women's Super League",
@@ -73,18 +67,24 @@
    "img": null,
    "video": null,
    "time": "2026-10-18T17:17:00Z"
+  },
+  {
+   "title": "WSL: Manchester City 3-2 Brighton & Hove Albion - Steph Houghton talking to Lauren Hemp after the game",
+   "img": null,
+   "video": null,
+   "time": "2026-10-18T16:35:26Z"
   }
  ],
  "ticker": [
+  "The £55m Secret Loan Probe: Why Council Watchdogs Are Investigating Manchester City’s Billionaire Owner Over Andy Burnham’s Flagship Housing Scheme",
   "Preview: Manchester City vs. AEK Athens - prediction, team news, lineups",
-  "Man City charges news: Transfer lined up as punishment timeline emerges",
   "Man City kit 'set for subtle change' after Premier League charges guilty verdict",
-  "Man City continue perfect start to WSL defence, James inspires Chelsea",
   "Women's Super League",
   "A Manchester City midfielder proves his worth against Ipswich Town with a timely reminder of his quality",
   "Manchester City 3-2 Brighton - WSL highlights",
   "Arsenal snatch late win to keep pressure on Man City as Man Utd held",
   "Manchester City’s financial case could reshape the future of European football",
-  "Arsenal late show keeps heat on Man City"
+  "Arsenal late show keeps heat on Man City",
+  "City 3-2 Brighton: 8-minute WSL highlights"
  ]
 }
