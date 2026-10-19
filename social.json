@@ -1,76 +1,16 @@
 {
-    "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
-    "updated": "2026-10-18T05:08:14Z",
-    "posts": [
-        {
-            "text": "Josh King running the show in @FulhamFC first win of the season 👏",
-            "url": "https://x.com/premierleague/status/2111589321580974359",
-            "time": "2026-10-17T22:45:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
-            "text": "Rio Ngumoha bringing some flair off the bench ✨\n\n🔴 @LFC",
-            "url": "https://x.com/premierleague/status/2111583029592261022",
-            "time": "2026-10-17T22:20:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
-            "text": "Jeremy Jacquet said NO🫸\n\n🔴 @LFC",
-            "url": "https://x.com/premierleague/status/2111579761554149826",
-            "time": "2026-10-17T22:07:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
-            "text": "🕹️ @OfficialFPL managers who own this Chelsea trio were on the edge of their seats watching this!",
-            "url": "https://x.com/premierleague/status/2111576739491053988",
-            "time": "2026-10-17T21:55:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
-            "text": "The calmest player on the pitch 🥶💫",
-            "url": "https://x.com/ManCity/status/2111575479706702028",
-            "time": "2026-10-17T21:50:00Z",
-            "account": "Man City",
-            "handle": "ManCity"
-        },
-        {
-            "text": "Skiliman 😮‍💨✨",
-            "url": "https://x.com/ManCity/status/2111572963191296153",
-            "time": "2026-10-17T21:40:00Z",
-            "account": "Man City",
-            "handle": "ManCity"
-        },
-        {
-            "text": "A goalkeeper that can do it all 🧤\n\nZion Suzuki 👏",
-            "url": "https://x.com/premierleague/status/2111571205085856046",
-            "time": "2026-10-17T21:33:00Z",
-            "account": "Premier League",
-            "handle": "premierleague"
-        },
-        {
-            "text": "Enzo knew it 😏\n\n🩵 @PhilFoden",
-            "url": "https://x.com/ManCity/status/2111570447850516911",
-            "time": "2026-10-17T21:30:00Z",
-            "account": "Man City",
-            "handle": "ManCity"
-        },
-        {
-            "text": "You can't stop @Erling 💪😮‍💨",
-            "url": "https://x.com/ManCity/status/2111567930328789392",
-            "time": "2026-10-17T21:20:00Z",
-            "account": "Man City",
-            "handle": "ManCity"
-        },
-        {
-            "text": "Pure power! 😤💥",
-            "url": "https://x.com/ManCity/status/2111565413645533399",
-            "time": "2026-10-17T21:10:00Z",
-            "account": "Man City",
-            "handle": "ManCity"
-        }
-    ]
+      "_readme": "Written by the Cowork laptop task. Board reads this every 15 min. Keep newest first: the 5 most recent original posts from each of Man City and Premier League, 10 total, interleaved by timestamp. 'time' is the post's UTC timestamp; the board renders GST.",
+      "updated": "2026-10-19T05:07:48Z",
+      "posts": [
+              { "text": "Declan Rice loved this block 👊", "url": "https://x.com/premierleague/status/2111947936972025919", "time": "2026-10-18T22:30:00Z", "account": "Premier League", "handle": "premierleague" },
+              { "text": "Evanilson didn’t need to look 😤", "url": "https://x.com/premierleague/status/2111944161565843704", "time": "2026-10-18T22:15:00Z", "account": "Premier League", "handle": "premierleague" },
+              { "text": "Three goals in the first 10 minutes gave Brighton the dream start 🤩", "url": "https://x.com/premierleague/status/2111940387497447470", "time": "2026-10-18T22:00:00Z", "account": "Premier League", "handle": "premierleague" },
+              { "text": "Ezri Konsa came in clutch in stoppage time for @arsenal 😤", "url": "https://x.com/premierleague/status/2111936609524301986", "time": "2026-10-18T21:45:00Z", "account": "Premier League", "handle": "premierleague" },
+              { "text": "Diego Gomez joins the list of longest Premier League goals scored by outfield players 😯", "url": "https://x.com/premierleague/status/2111935835385782670", "time": "2026-10-18T21:41:55Z", "account": "Premier League", "handle": "premierleague" },
+              { "text": "Focus flips back to the @ChampionsLeague 💪", "url": "https://x.com/ManCity/status/2111880053491708134", "time": "2026-10-18T18:00:16Z", "account": "Man City", "handle": "ManCity" },
+              { "text": "The talk of today’s recovery session: Erling’s haircut 💇‍♂️", "url": "https://x.com/ManCity/status/2111864927233216769", "time": "2026-10-18T17:00:09Z", "account": "Man City", "handle": "ManCity" },
+              { "text": "MD3 in the @ChampionsLeague is fast approaching! 🤩\n\nJoin us at the Etihad as we take on AEK Athens ⤵️\n\nGet your tickets 👉 https://mancity.co/AEKAthens", "url": "https://x.com/ManCity/status/2111849789214388289", "time": "2026-10-18T16:00:00Z", "account": "Man City", "handle": "ManCity" },
+              { "text": "Sweeping home our opener ✨\n\n🤝 @Sure", "url": "https://x.com/ManCity/status/2111819615290732626", "time": "2026-10-18T14:00:06Z", "account": "Man City", "handle": "ManCity" },
+              { "text": "A complete performance! 👏\n\n🤝 @etisalat", "url": "https://x.com/ManCity/status/2111789392515752220", "time": "2026-10-18T12:00:00Z", "account": "Man City", "handle": "ManCity" }
+      ]
 }
