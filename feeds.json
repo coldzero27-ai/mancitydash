@@ -1,7 +1,43 @@
 {
- "updated": "2026-10-19T21:40:15Z",
+ "updated": "2026-10-20T00:56:37Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City vs. AEK Athens: Preview, Predictions and Lineups",
+   "img": null,
+   "video": null,
+   "time": "2026-10-20T00:49:45Z"
+  },
+  {
+   "title": "Manchester City vs AEK Athens prediction, tips and odds | Champions League",
+   "img": null,
+   "video": null,
+   "time": "2026-10-19T22:57:32Z"
+  },
+  {
+   "title": "A picture emerges of which Manchester City players are available for AEK Athens clash",
+   "img": null,
+   "video": null,
+   "time": "2026-10-19T22:13:19Z"
+  },
+  {
+   "title": "Manchester City - AEK Athens",
+   "img": null,
+   "video": null,
+   "time": "2026-10-19T22:02:42Z"
+  },
+  {
+   "title": "Guehi destaca la unión del Manchester City: \"Ha sido bonito\"",
+   "img": null,
+   "video": null,
+   "time": "2026-10-19T21:59:02Z"
+  },
+  {
+   "title": "Man City charges LIVE: BBC pundit 'leaks punishment' as Premier League clubs left 'fuming'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-19T21:36:59Z"
+  },
   {
    "title": "Guehi is not ‘concerned’ by Man City shipping goals",
    "img": null,
@@ -9,82 +45,46 @@
    "time": "2026-10-19T21:28:02Z"
   },
   {
-   "title": "Man City charges LIVE: BBC pundit 'leaks punishment' as Premier League clubs left 'fuming'",
+   "title": "Jamie Carragher makes Premier League title prediction as Arsenal chase Man City",
    "img": null,
    "video": null,
-   "time": "2026-10-19T21:05:42Z"
+   "time": "2026-10-19T20:54:00Z"
   },
   {
-   "title": "Manchester City confident evidence can overturn Premier League financial verdict",
+   "title": "Antoine Semenyo to miss eight weeks, Erling Haaland ‘available’ for Manchester City vs. AEK",
    "img": null,
    "video": null,
-   "time": "2026-10-19T20:48:25Z"
+   "time": "2026-10-19T20:42:02Z"
   },
   {
    "title": "Manchester City’s owners, a 482ft superyacht and links to ‘one of the biggest financial crimes’ in history - The Athletic",
    "img": null,
    "video": null,
-   "time": "2026-10-19T20:41:00Z"
+   "time": "2026-10-19T20:41:48Z"
+  },
+  {
+   "title": "Manchester City confident evidence can overturn Premier League financial verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-19T20:40:00Z"
   },
   {
    "title": "Bombshell report reveals likely brutal City punishment as verdict on ‘doomsday’ scenario emerges",
    "img": null,
    "video": null,
-   "time": "2026-10-19T20:15:00Z"
-  },
-  {
-   "title": "Enzo Maresca hints a Manchester City superstar could play against AEK Athens – but is it worth the risk?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T19:45:00Z"
-  },
-  {
-   "title": "Marc Guéhi insists Manchester City players 'relaxed' over Premier League charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T19:44:02Z"
-  },
-  {
-   "title": "A hole in the Manchester City attack has now appeared which opens up an opportunity for others",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T19:19:00Z"
-  },
-  {
-   "title": "Manchester City facing point deduction that could guarantee Premier League relegation",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T19:15:00Z"
-  },
-  {
-   "title": "Manchester City - AEK Athens",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T19:00:08Z"
-  },
-  {
-   "title": "Training: Our attention turns to AEK Athens",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T19:00:00Z"
-  },
-  {
-   "title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
-   "img": null,
-   "video": null,
-   "time": "2026-10-19T18:55:00Z"
+   "time": "2026-10-19T20:21:52Z"
   }
  ],
  "ticker": [
-  "Guehi is not ‘concerned’ by Man City shipping goals",
+  "Man City vs. AEK Athens: Preview, Predictions and Lineups",
+  "Manchester City vs AEK Athens prediction, tips and odds | Champions League",
+  "A picture emerges of which Manchester City players are available for AEK Athens clash",
+  "Manchester City - AEK Athens",
+  "Guehi destaca la unión del Manchester City: \"Ha sido bonito\"",
   "Man City charges LIVE: BBC pundit 'leaks punishment' as Premier League clubs left 'fuming'",
-  "Manchester City confident evidence can overturn Premier League financial verdict",
-  "Manchester City’s owners, a 482ft superyacht and links to ‘one of the biggest financial crimes’ in history - The Athletic",
-  "Bombshell report reveals likely brutal City punishment as verdict on ‘doomsday’ scenario emerges",
-  "Enzo Maresca hints a Manchester City superstar could play against AEK Athens – but is it worth the risk?",
-  "Marc Guéhi insists Manchester City players 'relaxed' over Premier League charges",
-  "A hole in the Manchester City attack has now appeared which opens up an opportunity for others",
-  "Manchester City facing point deduction that could guarantee Premier League relegation",
-  "Manchester City - AEK Athens"
+  "Guehi is not ‘concerned’ by Man City shipping goals",
+  "Jamie Carragher makes Premier League title prediction as Arsenal chase Man City",
+  "Antoine Semenyo to miss eight weeks, Erling Haaland ‘available’ for Manchester City vs. AEK",
+  "Manchester City’s owners, a 482ft superyacht and links to ‘one of the biggest financial crimes’ in history - The Athletic"
  ]
 }
