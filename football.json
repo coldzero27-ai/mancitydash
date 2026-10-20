@@ -1,14 +1,7 @@
 {
- "updated": "2026-10-20T18:26:49Z",
+ "updated": "2026-10-20T23:09:57Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
-  {
-   "utc": "2026-10-20T19:00:00Z",
-   "comp": "UCL",
-   "home": "Manchester City",
-   "away": "AEK Athens FC",
-   "venue": "Etihad Stadium"
-  },
   {
    "utc": "2026-10-24T11:30:00Z",
    "comp": "PL",
@@ -141,6 +134,13 @@
    "home": "Lens",
    "away": "Manchester City",
    "venue": "Stade Bollaert-Delelis"
+  },
+  {
+   "utc": "2027-01-23T15:00:00Z",
+   "comp": "PL",
+   "home": "Brighton",
+   "away": "Manchester City",
+   "venue": "Amex Stadium"
   }
  ],
  "results": {
@@ -212,6 +212,11 @@
   "2026-10-14": {
    "score": "2-4",
    "res": "L",
+   "fr": false
+  },
+  "2026-10-20": {
+   "score": "5-1",
+   "res": "W",
    "fr": false
   }
  },
