@@ -1,7 +1,55 @@
 {
- "updated": "2026-10-20T22:59:34Z",
+ "updated": "2026-10-21T01:28:01Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City fans stay away from 5-1 Champions League rout of AEK Athens",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T00:53:34Z"
+  },
+  {
+   "title": "Man City 5-1 AEK Athens: Phil Foden bags hat-trick as Enzo Maresca's side claim second Champions League win",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T00:39:44Z"
+  },
+  {
+   "title": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T00:23:00Z"
+  },
+  {
+   "title": "Regulator may force sale of Manchester City — The Guardian",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T00:01:26Z"
+  },
+  {
+   "title": "Football watchdog chair asserts 'absolute' power to force City sale",
+   "img": null,
+   "video": null,
+   "time": "2026-10-20T23:52:00Z"
+  },
+  {
+   "title": "Football regulator has ‘absolute power’ to force club owners to sell, says Kogan",
+   "img": null,
+   "video": null,
+   "time": "2026-10-20T23:05:43Z"
+  },
+  {
+   "title": "Manchester City vs AEK Athens: Foden’s Hat-Trick Seals 5-1 Win as Hosts Bounce Back in Champions League",
+   "img": null,
+   "video": null,
+   "time": "2026-10-20T23:03:06Z"
+  },
+  {
+   "title": "Regulator has 'absolute power' to force Manchester City sale",
+   "img": null,
+   "video": null,
+   "time": "2026-10-20T23:02:05Z"
+  },
   {
    "title": "Man City charges LIVE: Huge points deduction leaked as EFL 'ready to agree' punishment",
    "img": null,
@@ -15,76 +63,28 @@
    "time": "2026-10-20T22:35:32Z"
   },
   {
-   "title": "Man City 5-1 AEK Athens: Phil Foden bags hat-trick as Enzo Maresca's side claim second Champions League win",
+   "title": "Man City 5-1 AEK Athens: Phil Foden 'going in right direction' after five star showing",
    "img": null,
    "video": null,
-   "time": "2026-10-20T22:31:11Z"
+   "time": "2026-10-20T22:35:32Z"
   },
   {
-   "title": "I know how good Foden is - Maresca",
+   "title": "Foden hat-trick helps Manchester City cut through noise and crush AEK Athens",
    "img": null,
    "video": null,
-   "time": "2026-10-20T22:15:00Z"
-  },
-  {
-   "title": "Aston Villa v Manchester City preview: Emery faces perfect City start after Newcastle lift",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T22:07:18Z"
-  },
-  {
-   "title": "AEK Athens display massive for my confidence, says Lewis",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T22:05:00Z"
-  },
-  {
-   "title": "Manchester City 5 AEK Athens 1: City player ratings as Phil Foden stars at the Etihad",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T22:05:00Z"
-  },
-  {
-   "title": "2-minute highlights: City 1-1 AEK Athens - UEFA Youth League",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T22:00:00Z"
-  },
-  {
-   "title": "Maresca delight as City thrive while Haaland rests",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T22:00:00Z"
-  },
-  {
-   "title": "Man City fans stay away from 5-1 Champions League rout of AEK Athens",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T21:53:05Z"
-  },
-  {
-   "title": "Maresca 'needs' option of goalscoring Foden after 'complete' Man City display",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T21:50:00Z"
-  },
-  {
-   "title": "Manchester City 5-1 AEK Athens: Foden hits hat-trick in five-star victory",
-   "img": null,
-   "video": null,
-   "time": "2026-10-20T21:45:11Z"
+   "time": "2026-10-20T22:29:00Z"
   }
  ],
  "ticker": [
-  "Man City charges LIVE: Huge points deduction leaked as EFL 'ready to agree' punishment",
-  "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
+  "Man City fans stay away from 5-1 Champions League rout of AEK Athens",
   "Man City 5-1 AEK Athens: Phil Foden bags hat-trick as Enzo Maresca's side claim second Champions League win",
-  "I know how good Foden is - Maresca",
-  "Aston Villa v Manchester City preview: Emery faces perfect City start after Newcastle lift",
-  "AEK Athens display massive for my confidence, says Lewis",
-  "Manchester City 5 AEK Athens 1: City player ratings as Phil Foden stars at the Etihad",
-  "2-minute highlights: City 1-1 AEK Athens - UEFA Youth League",
-  "Maresca delight as City thrive while Haaland rests",
-  "Man City fans stay away from 5-1 Champions League rout of AEK Athens"
+  "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
+  "Regulator may force sale of Manchester City — The Guardian",
+  "Football watchdog chair asserts 'absolute' power to force City sale",
+  "Football regulator has ‘absolute power’ to force club owners to sell, says Kogan",
+  "Manchester City vs AEK Athens: Foden’s Hat-Trick Seals 5-1 Win as Hosts Bounce Back in Champions League",
+  "Regulator has 'absolute power' to force Manchester City sale",
+  "Man City charges LIVE: Huge points deduction leaked as EFL 'ready to agree' punishment",
+  "No Haaland, no problem - can Foden be Man City's alternative goalscorer?"
  ]
 }
