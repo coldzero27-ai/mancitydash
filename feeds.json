@@ -1,90 +1,90 @@
 {
- "updated": "2026-10-21T17:33:45Z",
+ "updated": "2026-10-21T21:23:10Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City charges LIVE: Owners sent warning as Premier League clubs 'get punishment wish'",
+   "title": "UEFA Champions League",
    "img": null,
    "video": null,
-   "time": "2026-10-21T17:22:31Z"
+   "time": "2026-10-21T21:13:33Z"
   },
   {
-   "title": "Man City charges LIVE: Fresh investigation confirmed as EFL 'ready to agree' punishment",
+   "title": "Foden nets hat-trick as Man City beat AEK Athens",
    "img": null,
    "video": null,
-   "time": "2026-10-21T17:17:57Z"
+   "time": "2026-10-21T21:00:44Z"
+  },
+  {
+   "title": "Highlights - Champions League - Manchester City 5-1 AEK Athens",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T21:00:44Z"
+  },
+  {
+   "title": "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T20:56:13Z"
+  },
+  {
+   "title": "Man City facing double points deduction and owners could be booted out of UK",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T19:46:00Z"
+  },
+  {
+   "title": "Manchester City facing FIFTH probe following cash cheat verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T19:33:00Z"
+  },
+  {
+   "title": "The 3 punishments facing Man City with relegation likely amid Newcastle United approach",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T19:00:00Z"
+  },
+  {
+   "title": "Foden shines as Man City rout Athens 5-1 despite Haaland, Semenyo injuries",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T18:25:47Z"
+  },
+  {
+   "title": "Kyle Walker admits to tattoo problem as he addresses Man City charges",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T18:03:36Z"
+  },
+  {
+   "title": "Training: Gearing up for the Manchester derby",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T18:00:00Z"
+  },
+  {
+   "title": "Nearly 900 homes to be built in new £225m neighbourhood on edge of Manchester city centre",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T17:32:00Z"
   },
   {
    "title": "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
    "img": null,
    "video": null,
    "time": "2026-10-21T17:08:00Z"
-  },
-  {
-   "title": "No mistake over Gravenberch red card",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T16:28:39Z"
-  },
-  {
-   "title": "Liverpool news: No mistake over Gravenberch red against Man City - panel",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T16:28:39Z"
-  },
-  {
-   "title": "Football regulator ‘could require’ Manchester City owners to step away",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T16:05:02Z"
-  },
-  {
-   "title": "Man City charges LIVE: Double points deduction leaked as owners face being booted out",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T15:54:00Z"
-  },
-  {
-   "title": "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T15:33:54Z"
-  },
-  {
-   "title": "Report: Manchester City could be forced to seek new owners",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T15:20:00Z"
-  },
-  {
-   "title": "Watch City's Under-18s Premier League Cup clash against Southampton live on CITY+",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T15:00:00Z"
-  },
-  {
-   "title": "WEDNESDAY 28 OCTOBER: City v Southampton - Under-18 Premier League Cup",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T15:00:00Z"
-  },
-  {
-   "title": "Manchester City hammer AEK Athens in front of sparse crowd at Etihad Stadium",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T14:52:37Z"
   }
  ],
  "ticker": [
-  "Man City charges LIVE: Owners sent warning as Premier League clubs 'get punishment wish'",
-  "Man City charges LIVE: Fresh investigation confirmed as EFL 'ready to agree' punishment",
-  "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
-  "No mistake over Gravenberch red card",
-  "Liverpool news: No mistake over Gravenberch red against Man City - panel",
-  "Football regulator ‘could require’ Manchester City owners to step away",
-  "Man City charges LIVE: Double points deduction leaked as owners face being booted out",
+  "UEFA Champions League",
+  "Foden nets hat-trick as Man City beat AEK Athens",
+  "Highlights - Champions League - Manchester City 5-1 AEK Athens",
   "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
-  "Report: Manchester City could be forced to seek new owners",
-  "Watch City's Under-18s Premier League Cup clash against Southampton live on CITY+"
+  "Man City facing double points deduction and owners could be booted out of UK",
+  "Manchester City facing FIFTH probe following cash cheat verdict",
+  "The 3 punishments facing Man City with relegation likely amid Newcastle United approach",
+  "Foden shines as Man City rout Athens 5-1 despite Haaland, Semenyo injuries",
+  "Kyle Walker admits to tattoo problem as he addresses Man City charges",
+  "Training: Gearing up for the Manchester derby"
  ]
 }
