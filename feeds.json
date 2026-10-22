@@ -1,13 +1,7 @@
 {
- "updated": "2026-10-22T00:07:38Z",
+ "updated": "2026-10-22T05:13:09Z",
  "source": "bbc + google news (server-side)",
  "news": [
-  {
-   "title": "Video | Champions League highlights: Manchester City 5-1 AEK Athens | RTÉ",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T21:34:52Z"
-  },
   {
    "title": "UEFA Champions League",
    "img": null,
@@ -33,34 +27,10 @@
    "time": "2026-10-21T21:00:00Z"
   },
   {
-   "title": "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T20:56:13Z"
-  },
-  {
    "title": "Manchester City facing FIFTH probe following cash cheat verdict",
    "img": null,
    "video": null,
    "time": "2026-10-21T19:33:17Z"
-  },
-  {
-   "title": "The Scout’s FPL Gameweek 8 transfer radar",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T18:57:34Z"
-  },
-  {
-   "title": "Foden shines as Man City rout Athens 5-1 despite Haaland, Semenyo injuries",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T18:25:47Z"
-  },
-  {
-   "title": "Kyle Walker admits to tattoo problem as he addresses Man City charges",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T18:03:36Z"
   },
   {
    "title": "Training: Gearing up for the Manchester derby",
@@ -69,22 +39,52 @@
    "time": "2026-10-21T18:00:00Z"
   },
   {
-   "title": "Liverpool v United Women: Watch it live on YouTube",
+   "title": "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
    "img": null,
    "video": null,
-   "time": "2026-10-21T17:49:20Z"
+   "time": "2026-10-21T17:08:00Z"
+  },
+  {
+   "title": "No mistake over Gravenberch red card",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T16:28:39Z"
+  },
+  {
+   "title": "Watch City's Under-18s Premier League Cup clash against Southampton live on CITY+",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T15:00:00Z"
+  },
+  {
+   "title": "Man City defended over 20,000 empty seats at Etihad Stadium for Champions League clash",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T14:51:42Z"
+  },
+  {
+   "title": "Manchester City must face justice for sake of Premier League and Uefa, says Tebas",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T14:47:05Z"
+  },
+  {
+   "title": "The Man City empty seat factors no-one wants to acknowledge",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T13:59:00Z"
   }
  ],
  "ticker": [
-  "Video | Champions League highlights: Manchester City 5-1 AEK Athens | RTÉ",
   "UEFA Champions League",
   "Foden nets hat-trick as Man City beat AEK Athens",
   "Highlights - Champions League - Manchester City 5-1 AEK Athens",
   "I'll have my 'four in a row' leg tattoo removed if Man City are stripped of their Prem titles, reveals Kyle Walker",
-  "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
   "Manchester City facing FIFTH probe following cash cheat verdict",
-  "The Scout’s FPL Gameweek 8 transfer radar",
-  "Foden shines as Man City rout Athens 5-1 despite Haaland, Semenyo injuries",
-  "Kyle Walker admits to tattoo problem as he addresses Man City charges"
+  "Training: Gearing up for the Manchester derby",
+  "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
+  "No mistake over Gravenberch red card",
+  "Watch City's Under-18s Premier League Cup clash against Southampton live on CITY+",
+  "Man City defended over 20,000 empty seats at Etihad Stadium for Champions League clash"
  ]
 }
