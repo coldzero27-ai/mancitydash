@@ -1,7 +1,13 @@
 {
- "updated": "2026-10-21T21:23:10Z",
+ "updated": "2026-10-22T00:07:38Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Video | Champions League highlights: Manchester City 5-1 AEK Athens | RTÉ",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T21:34:52Z"
+  },
   {
    "title": "UEFA Champions League",
    "img": null,
@@ -21,28 +27,28 @@
    "time": "2026-10-21T21:00:44Z"
   },
   {
+   "title": "I'll have my 'four in a row' leg tattoo removed if Man City are stripped of their Prem titles, reveals Kyle Walker",
+   "img": null,
+   "video": null,
+   "time": "2026-10-21T21:00:00Z"
+  },
+  {
    "title": "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
    "img": null,
    "video": null,
    "time": "2026-10-21T20:56:13Z"
   },
   {
-   "title": "Man City facing double points deduction and owners could be booted out of UK",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T19:46:00Z"
-  },
-  {
    "title": "Manchester City facing FIFTH probe following cash cheat verdict",
    "img": null,
    "video": null,
-   "time": "2026-10-21T19:33:00Z"
+   "time": "2026-10-21T19:33:17Z"
   },
   {
-   "title": "The 3 punishments facing Man City with relegation likely amid Newcastle United approach",
+   "title": "The Scout’s FPL Gameweek 8 transfer radar",
    "img": null,
    "video": null,
-   "time": "2026-10-21T19:00:00Z"
+   "time": "2026-10-21T18:57:34Z"
   },
   {
    "title": "Foden shines as Man City rout Athens 5-1 despite Haaland, Semenyo injuries",
@@ -63,28 +69,22 @@
    "time": "2026-10-21T18:00:00Z"
   },
   {
-   "title": "Nearly 900 homes to be built in new £225m neighbourhood on edge of Manchester city centre",
+   "title": "Liverpool v United Women: Watch it live on YouTube",
    "img": null,
    "video": null,
-   "time": "2026-10-21T17:32:00Z"
-  },
-  {
-   "title": "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
-   "img": null,
-   "video": null,
-   "time": "2026-10-21T17:08:00Z"
+   "time": "2026-10-21T17:49:20Z"
   }
  ],
  "ticker": [
+  "Video | Champions League highlights: Manchester City 5-1 AEK Athens | RTÉ",
   "UEFA Champions League",
   "Foden nets hat-trick as Man City beat AEK Athens",
   "Highlights - Champions League - Manchester City 5-1 AEK Athens",
+  "I'll have my 'four in a row' leg tattoo removed if Man City are stripped of their Prem titles, reveals Kyle Walker",
   "Legendary record and a striking paradox: Bayern Munich fear a repeat of the Manchester City nightmare",
-  "Man City facing double points deduction and owners could be booted out of UK",
   "Manchester City facing FIFTH probe following cash cheat verdict",
-  "The 3 punishments facing Man City with relegation likely amid Newcastle United approach",
+  "The Scout’s FPL Gameweek 8 transfer radar",
   "Foden shines as Man City rout Athens 5-1 despite Haaland, Semenyo injuries",
-  "Kyle Walker admits to tattoo problem as he addresses Man City charges",
-  "Training: Gearing up for the Manchester derby"
+  "Kyle Walker admits to tattoo problem as he addresses Man City charges"
  ]
 }
