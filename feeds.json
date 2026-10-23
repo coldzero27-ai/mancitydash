@@ -1,12 +1,54 @@
 {
- "updated": "2026-10-23T21:07:39Z",
+ "updated": "2026-10-23T23:55:15Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City charges LIVE: Three punishments facing club as Kyle Walker forced to backpedal",
+   "title": "Can Aston Villa Be the First Team to Stop Enzo Maresca's Manchester City?",
    "img": null,
    "video": null,
-   "time": "2026-10-23T20:43:46Z"
+   "time": "2026-10-23T22:09:29Z"
+  },
+  {
+   "title": "Aston Villa Predicted Lineup vs Man City: Buendia Starts",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T22:08:07Z"
+  },
+  {
+   "title": "Man City XI vs Aston Villa: Haaland injury latest, team news, predicted lineup",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T21:58:42Z"
+  },
+  {
+   "title": "Man City charges news: Triple punishment claim as Walker forced to backpedal",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T21:44:13Z"
+  },
+  {
+   "title": "Miles dissects important role in thrilling Stoke comeback",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T21:30:00Z"
+  },
+  {
+   "title": "Reiss: My players never stopped believing",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T21:15:00Z"
+  },
+  {
+   "title": "Vincent Kompany has won five trophies in two years as Bayern coach: his record and career",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T21:10:07Z"
+  },
+  {
+   "title": "Saturday's football tips: Aston Villa look good at 6/5 in double chance against Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T21:06:46Z"
   },
   {
    "title": "City EDS mount incredible four-goal comeback to beat Stoke",
@@ -27,64 +69,22 @@
    "time": "2026-10-23T19:52:00Z"
   },
   {
-   "title": "Tuning up for the Manchester Derby",
+   "title": "Aston Villa vs Manchester City: Premier League – teams, prediction, lineups",
    "img": null,
    "video": null,
-   "time": "2026-10-23T19:00:00Z"
-  },
-  {
-   "title": "Man City XI vs Aston Villa: Haaland injury latest, team news, predicted lineup",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T18:57:59Z"
-  },
-  {
-   "title": "Manchester City Given 56% Relegation Odds Ahead Of Punishment",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T18:40:22Z"
-  },
-  {
-   "title": "Aston Villa v Man City: Key stats and talking points",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T18:31:20Z"
-  },
-  {
-   "title": "Training: All set for Villa!",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T18:30:00Z"
-  },
-  {
-   "title": "Manchester United vs Manchester City prediction: our WSL betting tips",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T18:07:20Z"
-  },
-  {
-   "title": "Haaland 100% Fit: Man City Get Major Boost Before Villa Clash",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T17:50:51Z"
-  },
-  {
-   "title": "Aston Villa–Manchester City: Haaland returns as Villa target the perfect run · SNA",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T17:46:42Z"
+   "time": "2026-10-23T19:08:49Z"
   }
  ],
  "ticker": [
-  "Man City charges LIVE: Three punishments facing club as Kyle Walker forced to backpedal",
-  "City EDS mount incredible four-goal comeback to beat Stoke",
-  "Premier League team news: predicted lineups for the weekend action",
-  "The striker who left Manchester United this summer but can't stop scoring against Man City",
-  "Tuning up for the Manchester Derby",
+  "Can Aston Villa Be the First Team to Stop Enzo Maresca's Manchester City?",
+  "Aston Villa Predicted Lineup vs Man City: Buendia Starts",
   "Man City XI vs Aston Villa: Haaland injury latest, team news, predicted lineup",
-  "Manchester City Given 56% Relegation Odds Ahead Of Punishment",
-  "Aston Villa v Man City: Key stats and talking points",
-  "Training: All set for Villa!",
-  "Manchester United vs Manchester City prediction: our WSL betting tips"
+  "Man City charges news: Triple punishment claim as Walker forced to backpedal",
+  "Miles dissects important role in thrilling Stoke comeback",
+  "Reiss: My players never stopped believing",
+  "Vincent Kompany has won five trophies in two years as Bayern coach: his record and career",
+  "Saturday's football tips: Aston Villa look good at 6/5 in double chance against Manchester City",
+  "City EDS mount incredible four-goal comeback to beat Stoke",
+  "Premier League team news: predicted lineups for the weekend action"
  ]
 }
