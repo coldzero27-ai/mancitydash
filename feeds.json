@@ -1,12 +1,42 @@
 {
- "updated": "2026-10-24T19:17:38Z",
+ "updated": "2026-10-24T21:45:48Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T20:40:47Z"
+  },
+  {
+   "title": "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma - middle-east-online.com",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T20:37:19Z"
+  },
   {
    "title": "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
    "img": null,
    "video": null,
-   "time": "2026-10-24T19:05:41Z"
+   "time": "2026-10-24T20:35:41Z"
+  },
+  {
+   "title": "Taking Guehi off at half-time will 'shatter his confidence' - Lescott",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T19:36:00Z"
+  },
+  {
+   "title": "Why Did Unai Emery’s Aston Villa End Enzo Maresca’s Manchester City Unbeaten Run in the Premier League?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T19:05:00Z"
+  },
+  {
+   "title": "Premier League: Should Gianluigi Donnarumma have saved second Aston Villa goal in Manchester City's 2-1 loss?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T19:00:10Z"
   },
   {
    "title": "Premier League highlights: Arsenal 2-0 Everton",
@@ -15,28 +45,10 @@
    "time": "2026-10-24T18:59:30Z"
   },
   {
-   "title": "Manchester City's perfect start ended by Aston Villa, Arsenal go joint-top",
+   "title": "Arsenal join Man City at summit after Villa end leaders' perfect start",
    "img": null,
    "video": null,
-   "time": "2026-10-24T18:56:14Z"
-  },
-  {
-   "title": "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T18:15:10Z"
-  },
-  {
-   "title": "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T17:36:44Z"
-  },
-  {
-   "title": "Arsenal sink Everton to join Manchester City at Premier League summit",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T17:22:46Z"
+   "time": "2026-10-24T18:48:56Z"
   },
   {
    "title": "Arsenal wipe out gap to leaders Manchester City as defensive duo score to down Everton",
@@ -45,10 +57,10 @@
    "time": "2026-10-24T17:20:41Z"
   },
   {
-   "title": "Arsenal join Man City at summit after Villa end leaders' perfect start",
+   "title": "Arsenal beat Everton to keep pace with Manchester City in Premier League title race | Football News",
    "img": null,
    "video": null,
-   "time": "2026-10-24T17:01:43Z"
+   "time": "2026-10-24T17:01:57Z"
   },
   {
    "title": "On-loan Man City ace subject of 'remarkable' claim after Latics loss at Huddersfield",
@@ -61,30 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-24T17:00:00Z"
-  },
-  {
-   "title": "Nicolas Jackson: Striker caps fine start to Aston Villa career with two goals to beat Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T16:58:27Z"
-  },
-  {
-   "title": "Nicolas Jackson double sees Aston Villa end Manchester City’s perfect start",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T16:40:00Z"
   }
  ],
  "ticker": [
-  "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
-  "Premier League highlights: Arsenal 2-0 Everton",
-  "Manchester City's perfect start ended by Aston Villa, Arsenal go joint-top",
-  "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
   "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
-  "Arsenal sink Everton to join Manchester City at Premier League summit",
-  "Arsenal wipe out gap to leaders Manchester City as defensive duo score to down Everton",
+  "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma - middle-east-online.com",
+  "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
+  "Taking Guehi off at half-time will 'shatter his confidence' - Lescott",
+  "Why Did Unai Emery’s Aston Villa End Enzo Maresca’s Manchester City Unbeaten Run in the Premier League?",
+  "Premier League: Should Gianluigi Donnarumma have saved second Aston Villa goal in Manchester City's 2-1 loss?",
+  "Premier League highlights: Arsenal 2-0 Everton",
   "Arsenal join Man City at summit after Villa end leaders' perfect start",
-  "On-loan Man City ace subject of 'remarkable' claim after Latics loss at Huddersfield",
-  "Manchester United v City: Derby day awaits..."
+  "Arsenal wipe out gap to leaders Manchester City as defensive duo score to down Everton",
+  "Arsenal beat Everton to keep pace with Manchester City in Premier League title race | Football News"
  ]
 }
