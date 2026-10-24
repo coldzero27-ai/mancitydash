@@ -1,7 +1,25 @@
 {
- "updated": "2026-10-23T23:55:15Z",
+ "updated": "2026-10-24T03:47:46Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Aston Villa vs Man City Predicted Lineups: Haaland Fit, Manzambi a Doubt",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T03:37:09Z"
+  },
+  {
+   "title": "Aston Villa vs. Man City: Preview, Predictions and Lineups",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T23:30:00Z"
+  },
+  {
+   "title": "Saturday's Premier League predictions including Chelsea vs. Tottenham, Aston Villa vs. Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T23:00:00Z"
+  },
   {
    "title": "Can Aston Villa Be the First Team to Stop Enzo Maresca's Manchester City?",
    "img": null,
@@ -15,18 +33,6 @@
    "time": "2026-10-23T22:08:07Z"
   },
   {
-   "title": "Man City XI vs Aston Villa: Haaland injury latest, team news, predicted lineup",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T21:58:42Z"
-  },
-  {
-   "title": "Man City charges news: Triple punishment claim as Walker forced to backpedal",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T21:44:13Z"
-  },
-  {
    "title": "Miles dissects important role in thrilling Stoke comeback",
    "img": null,
    "video": null,
@@ -37,18 +43,6 @@
    "img": null,
    "video": null,
    "time": "2026-10-23T21:15:00Z"
-  },
-  {
-   "title": "Vincent Kompany has won five trophies in two years as Bayern coach: his record and career",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T21:10:07Z"
-  },
-  {
-   "title": "Saturday's football tips: Aston Villa look good at 6/5 in double chance against Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-23T21:06:46Z"
   },
   {
    "title": "City EDS mount incredible four-goal comeback to beat Stoke",
@@ -73,18 +67,24 @@
    "img": null,
    "video": null,
    "time": "2026-10-23T19:08:49Z"
+  },
+  {
+   "title": "Tuning up for the Manchester Derby",
+   "img": null,
+   "video": null,
+   "time": "2026-10-23T19:00:00Z"
   }
  ],
  "ticker": [
+  "Aston Villa vs Man City Predicted Lineups: Haaland Fit, Manzambi a Doubt",
+  "Aston Villa vs. Man City: Preview, Predictions and Lineups",
+  "Saturday's Premier League predictions including Chelsea vs. Tottenham, Aston Villa vs. Man City",
   "Can Aston Villa Be the First Team to Stop Enzo Maresca's Manchester City?",
   "Aston Villa Predicted Lineup vs Man City: Buendia Starts",
-  "Man City XI vs Aston Villa: Haaland injury latest, team news, predicted lineup",
-  "Man City charges news: Triple punishment claim as Walker forced to backpedal",
   "Miles dissects important role in thrilling Stoke comeback",
   "Reiss: My players never stopped believing",
-  "Vincent Kompany has won five trophies in two years as Bayern coach: his record and career",
-  "Saturday's football tips: Aston Villa look good at 6/5 in double chance against Manchester City",
   "City EDS mount incredible four-goal comeback to beat Stoke",
-  "Premier League team news: predicted lineups for the weekend action"
+  "Premier League team news: predicted lineups for the weekend action",
+  "The striker who left Manchester United this summer but can't stop scoring against Man City"
  ]
 }
