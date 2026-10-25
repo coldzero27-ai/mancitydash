@@ -1,18 +1,60 @@
 {
- "updated": "2026-10-25T14:29:50Z",
+ "updated": "2026-10-25T17:47:58Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Man City must be 'more clinical,' Enzo Maresca demands",
+   "title": "After the rape cases: former Manchester City star attempts to revive his career once more",
    "img": null,
    "video": null,
-   "time": "2026-10-25T13:47:32Z"
+   "time": "2026-10-25T17:45:18Z"
   },
   {
-   "title": "Enzo Maresca calls for ‘clinical’ edge from Man City after Villa defeat",
+   "title": "Man Utd Women vs Man City Women LIVE! WSL score updates, news, prediction, lineups and how to watch or stream",
    "img": null,
    "video": null,
-   "time": "2026-10-25T13:12:12Z"
+   "time": "2026-10-25T17:20:00Z"
+  },
+  {
+   "title": "Jeremy Monga Scouting Report: Man City’s 17-Year-Old Winger at Swansea",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T16:52:05Z"
+  },
+  {
+   "title": "WSL: Man City look to reclaim top spot in derby against Man Utd",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T16:35:45Z"
+  },
+  {
+   "title": "Bournemouth shake Old Trafford: a feat achieved only by Liverpool and City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T16:22:05Z"
+  },
+  {
+   "title": "Man City must be more efficient in attack, says Maresca",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T15:40:26Z"
+  },
+  {
+   "title": "The Holy Trinity: Aston Villa conclusions from Premier League win against Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T15:20:50Z"
+  },
+  {
+   "title": "Manchester City Coach Enzo Maresca Explains Why He Chose Foden Over Ayoub Bouaddi Against Aston Villa",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T14:44:45Z"
+  },
+  {
+   "title": "Crystal Palace vs Chelsea: Women's Super League stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T14:15:48Z"
   },
   {
    "title": "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester",
@@ -31,60 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-25T10:00:00Z"
-  },
-  {
-   "title": "Chelsea and Man City on Sunday scouting mission for nine-goal Champions League striker - Exclusive",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T09:59:10Z"
-  },
-  {
-   "title": "Premier League: Manchester City Stumbles as Arsenal and Spurs Win",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T09:44:02Z"
-  },
-  {
-   "title": "Premier League Standings After Arsenal Wins, Man City Loses",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T09:28:05Z"
-  },
-  {
-   "title": "Subscribe to CITY+ for live audio commentary of Carabao Cup clash with Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T09:00:00Z"
-  },
-  {
-   "title": "Manchester derby tops a packed day across both leagues | BWSL",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T08:00:00Z"
-  },
-  {
-   "title": "What have Man Utd changed to turn around WSL form?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T07:58:04Z"
-  },
-  {
-   "title": "Arsenal's next five Premier League fixtures compared to Man City as title rivals level on points",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T07:30:28Z"
   }
  ],
  "ticker": [
-  "Man City must be 'more clinical,' Enzo Maresca demands",
-  "Enzo Maresca calls for ‘clinical’ edge from Man City after Villa defeat",
-  "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester",
-  "'We can' - Fabian Hurzeler delivers Brighton verdict amid Liverpool and Manchester City warning",
-  "Manchester City Quintet up for Ballon d'Or award | BWSL",
-  "Chelsea and Man City on Sunday scouting mission for nine-goal Champions League striker - Exclusive",
-  "Premier League: Manchester City Stumbles as Arsenal and Spurs Win",
-  "Premier League Standings After Arsenal Wins, Man City Loses",
-  "Subscribe to CITY+ for live audio commentary of Carabao Cup clash with Brighton",
-  "Manchester derby tops a packed day across both leagues | BWSL"
+  "After the rape cases: former Manchester City star attempts to revive his career once more",
+  "Man Utd Women vs Man City Women LIVE! WSL score updates, news, prediction, lineups and how to watch or stream",
+  "Jeremy Monga Scouting Report: Man City’s 17-Year-Old Winger at Swansea",
+  "WSL: Man City look to reclaim top spot in derby against Man Utd",
+  "Bournemouth shake Old Trafford: a feat achieved only by Liverpool and City",
+  "Man City must be more efficient in attack, says Maresca",
+  "The Holy Trinity: Aston Villa conclusions from Premier League win against Manchester City",
+  "Manchester City Coach Enzo Maresca Explains Why He Chose Foden Over Ayoub Bouaddi Against Aston Villa",
+  "Crystal Palace vs Chelsea: Women's Super League stats & head-to-head",
+  "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester"
  ]
 }
