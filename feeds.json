@@ -1,7 +1,55 @@
 {
- "updated": "2026-10-25T17:47:58Z",
+ "updated": "2026-10-25T20:31:44Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Terland strikes late to give Man United derby draw with City in WSL",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T20:25:00Z"
+  },
+  {
+   "title": "United net late equaliser to end Manchester City’s perfect WSL record",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T20:22:22Z"
+  },
+  {
+   "title": "Man Utd 1-1 Man City: Andree Jeglertz's City drop behind Chelsea on goal difference as perfect start ends in derby",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T20:20:34Z"
+  },
+  {
+   "title": "Manchester United 1-1 Manchester City: Derby ends in draw as City's 100% start ended",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T19:52:00Z"
+  },
+  {
+   "title": "Honours even as City draw with United in Manchester derby",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T18:58:00Z"
+  },
+  {
+   "title": "Arsenal v Man City: Next Five Fixtures Compared – Gunners Face Tough November",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T18:45:00Z"
+  },
+  {
+   "title": "Sunderland 0-0 Leeds United: Post-match analysis",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T18:41:40Z"
+  },
+  {
+   "title": "Manchester United vs Manchester City Women's Super League Match Preview Today | 25 October 2026 - FC東京オフィシャルホームページ",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T18:04:24Z"
+  },
   {
    "title": "After the rape cases: former Manchester City star attempts to revive his career once more",
    "img": null,
@@ -9,7 +57,7 @@
    "time": "2026-10-25T17:45:18Z"
   },
   {
-   "title": "Man Utd Women vs Man City Women LIVE! WSL score updates, news, prediction, lineups and how to watch or stream",
+   "title": "Man Utd 1-1 Man City - WSL highlights, commentary and reaction",
    "img": null,
    "video": null,
    "time": "2026-10-25T17:20:00Z"
@@ -25,66 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-25T16:35:45Z"
-  },
-  {
-   "title": "Bournemouth shake Old Trafford: a feat achieved only by Liverpool and City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T16:22:05Z"
-  },
-  {
-   "title": "Man City must be more efficient in attack, says Maresca",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T15:40:26Z"
-  },
-  {
-   "title": "The Holy Trinity: Aston Villa conclusions from Premier League win against Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T15:20:50Z"
-  },
-  {
-   "title": "Manchester City Coach Enzo Maresca Explains Why He Chose Foden Over Ayoub Bouaddi Against Aston Villa",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T14:44:45Z"
-  },
-  {
-   "title": "Crystal Palace vs Chelsea: Women's Super League stats & head-to-head",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T14:15:48Z"
-  },
-  {
-   "title": "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T11:40:00Z"
-  },
-  {
-   "title": "'We can' - Fabian Hurzeler delivers Brighton verdict amid Liverpool and Manchester City warning",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T10:04:00Z"
-  },
-  {
-   "title": "Manchester City Quintet up for Ballon d'Or award | BWSL",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T10:00:00Z"
   }
  ],
  "ticker": [
+  "Terland strikes late to give Man United derby draw with City in WSL",
+  "United net late equaliser to end Manchester City’s perfect WSL record",
+  "Man Utd 1-1 Man City: Andree Jeglertz's City drop behind Chelsea on goal difference as perfect start ends in derby",
+  "Manchester United 1-1 Manchester City: Derby ends in draw as City's 100% start ended",
+  "Honours even as City draw with United in Manchester derby",
+  "Arsenal v Man City: Next Five Fixtures Compared – Gunners Face Tough November",
+  "Sunderland 0-0 Leeds United: Post-match analysis",
+  "Manchester United vs Manchester City Women's Super League Match Preview Today | 25 October 2026 - FC東京オフィシャルホームページ",
   "After the rape cases: former Manchester City star attempts to revive his career once more",
-  "Man Utd Women vs Man City Women LIVE! WSL score updates, news, prediction, lineups and how to watch or stream",
-  "Jeremy Monga Scouting Report: Man City’s 17-Year-Old Winger at Swansea",
-  "WSL: Man City look to reclaim top spot in derby against Man Utd",
-  "Bournemouth shake Old Trafford: a feat achieved only by Liverpool and City",
-  "Man City must be more efficient in attack, says Maresca",
-  "The Holy Trinity: Aston Villa conclusions from Premier League win against Manchester City",
-  "Manchester City Coach Enzo Maresca Explains Why He Chose Foden Over Ayoub Bouaddi Against Aston Villa",
-  "Crystal Palace vs Chelsea: Women's Super League stats & head-to-head",
-  "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester"
+  "Man Utd 1-1 Man City - WSL highlights, commentary and reaction"
  ]
 }
