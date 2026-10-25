@@ -1,18 +1,42 @@
 {
- "updated": "2026-10-25T00:03:58Z",
+ "updated": "2026-10-25T05:06:30Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
    "img": null,
    "video": null,
-   "time": "2026-10-24T23:35:41Z"
+   "time": "2026-10-25T04:26:44Z"
+  },
+  {
+   "title": "Arsenal down Everton to join Manchester City atop EPL table",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T03:53:31Z"
+  },
+  {
+   "title": "Arsenal goes level with Manchester City at top of Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T03:16:15Z"
   },
   {
    "title": "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
    "img": null,
    "video": null,
-   "time": "2026-10-24T23:13:59Z"
+   "time": "2026-10-25T03:15:10Z"
+  },
+  {
+   "title": "Aston Villa 2-1 Manchester City: Nicolas Jackson double ends City's 100% start",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T01:25:35Z"
+  },
+  {
+   "title": "Transfer Rumors: Man Utd Plot Man City Raid; Barcelona Eye Vitinha",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T23:05:00Z"
   },
   {
    "title": "Aston Villa 2-1 City: Eight-minute highlights",
@@ -21,10 +45,16 @@
    "time": "2026-10-24T22:59:00Z"
   },
   {
-   "title": "Aston Villa 2-1 City: 20-minute highlights",
+   "title": "Premier League: Nicholas Jackson analysis - Aston Villa 2-1 Man City",
    "img": null,
    "video": null,
-   "time": "2026-10-24T22:59:00Z"
+   "time": "2026-10-24T22:43:17Z"
+  },
+  {
+   "title": "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T22:33:05Z"
   },
   {
    "title": "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’",
@@ -39,52 +69,22 @@
    "time": "2026-10-24T21:55:53Z"
   },
   {
-   "title": "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma - middle-east-online.com",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T20:37:19Z"
-  },
-  {
    "title": "Barcelona Track Teenage Midfielder Amid Manchester City Doubts: Should Deco Pursue Him?",
    "img": null,
    "video": null,
    "time": "2026-10-24T20:35:00Z"
-  },
-  {
-   "title": "Maresca: We'll provide right response to Villa defeat",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T20:30:00Z"
-  },
-  {
-   "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T20:07:39Z"
-  },
-  {
-   "title": "Why Did Unai Emery’s Aston Villa End Enzo Maresca’s Manchester City Unbeaten Run in the Premier League?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T19:05:00Z"
-  },
-  {
-   "title": "Premier League highlights: Arsenal 2-0 Everton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T18:59:30Z"
   }
  ],
  "ticker": [
   "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
+  "Arsenal down Everton to join Manchester City atop EPL table",
+  "Arsenal goes level with Manchester City at top of Premier League",
   "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
+  "Aston Villa 2-1 Manchester City: Nicolas Jackson double ends City's 100% start",
+  "Transfer Rumors: Man Utd Plot Man City Raid; Barcelona Eye Vitinha",
   "Aston Villa 2-1 City: Eight-minute highlights",
-  "Aston Villa 2-1 City: 20-minute highlights",
-  "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’",
-  "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
-  "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma - middle-east-online.com",
-  "Barcelona Track Teenage Midfielder Amid Manchester City Doubts: Should Deco Pursue Him?",
-  "Maresca: We'll provide right response to Villa defeat",
-  "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0"
+  "Premier League: Nicholas Jackson analysis - Aston Villa 2-1 Man City",
+  "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma",
+  "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’"
  ]
 }
