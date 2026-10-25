@@ -1,12 +1,42 @@
 {
- "updated": "2026-10-24T21:45:48Z",
+ "updated": "2026-10-25T00:03:58Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T23:35:41Z"
+  },
+  {
+   "title": "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T23:13:59Z"
+  },
+  {
+   "title": "Aston Villa 2-1 City: Eight-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T22:59:00Z"
+  },
+  {
+   "title": "Aston Villa 2-1 City: 20-minute highlights",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T22:59:00Z"
+  },
+  {
+   "title": "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T22:12:07Z"
+  },
   {
    "title": "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
    "img": null,
    "video": null,
-   "time": "2026-10-24T20:40:47Z"
+   "time": "2026-10-24T21:55:53Z"
   },
   {
    "title": "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma - middle-east-online.com",
@@ -15,16 +45,22 @@
    "time": "2026-10-24T20:37:19Z"
   },
   {
-   "title": "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
+   "title": "Barcelona Track Teenage Midfielder Amid Manchester City Doubts: Should Deco Pursue Him?",
    "img": null,
    "video": null,
-   "time": "2026-10-24T20:35:41Z"
+   "time": "2026-10-24T20:35:00Z"
   },
   {
-   "title": "Taking Guehi off at half-time will 'shatter his confidence' - Lescott",
+   "title": "Maresca: We'll provide right response to Villa defeat",
    "img": null,
    "video": null,
-   "time": "2026-10-24T19:36:00Z"
+   "time": "2026-10-24T20:30:00Z"
+  },
+  {
+   "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
+   "img": null,
+   "video": null,
+   "time": "2026-10-24T20:07:39Z"
   },
   {
    "title": "Why Did Unai Emery’s Aston Villa End Enzo Maresca’s Manchester City Unbeaten Run in the Premier League?",
@@ -33,58 +69,22 @@
    "time": "2026-10-24T19:05:00Z"
   },
   {
-   "title": "Premier League: Should Gianluigi Donnarumma have saved second Aston Villa goal in Manchester City's 2-1 loss?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T19:00:10Z"
-  },
-  {
    "title": "Premier League highlights: Arsenal 2-0 Everton",
    "img": null,
    "video": null,
    "time": "2026-10-24T18:59:30Z"
-  },
-  {
-   "title": "Arsenal join Man City at summit after Villa end leaders' perfect start",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T18:48:56Z"
-  },
-  {
-   "title": "Arsenal wipe out gap to leaders Manchester City as defensive duo score to down Everton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T17:20:41Z"
-  },
-  {
-   "title": "Arsenal beat Everton to keep pace with Manchester City in Premier League title race | Football News",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T17:01:57Z"
-  },
-  {
-   "title": "On-loan Man City ace subject of 'remarkable' claim after Latics loss at Huddersfield",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T17:01:00Z"
-  },
-  {
-   "title": "Manchester United v City: Derby day awaits...",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T17:00:00Z"
   }
  ],
  "ticker": [
+  "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
+  "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
+  "Aston Villa 2-1 City: Eight-minute highlights",
+  "Aston Villa 2-1 City: 20-minute highlights",
+  "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’",
   "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
   "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma - middle-east-online.com",
-  "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
-  "Taking Guehi off at half-time will 'shatter his confidence' - Lescott",
-  "Why Did Unai Emery’s Aston Villa End Enzo Maresca’s Manchester City Unbeaten Run in the Premier League?",
-  "Premier League: Should Gianluigi Donnarumma have saved second Aston Villa goal in Manchester City's 2-1 loss?",
-  "Premier League highlights: Arsenal 2-0 Everton",
-  "Arsenal join Man City at summit after Villa end leaders' perfect start",
-  "Arsenal wipe out gap to leaders Manchester City as defensive duo score to down Everton",
-  "Arsenal beat Everton to keep pace with Manchester City in Premier League title race | Football News"
+  "Barcelona Track Teenage Midfielder Amid Manchester City Doubts: Should Deco Pursue Him?",
+  "Maresca: We'll provide right response to Villa defeat",
+  "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0"
  ]
 }
