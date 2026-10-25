@@ -1,18 +1,66 @@
 {
- "updated": "2026-10-25T05:06:30Z",
+ "updated": "2026-10-25T10:01:25Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester United vs Manchester City: Women's Super League stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T08:38:26Z"
+  },
+  {
+   "title": "What have Manchester United changed to turn around their WSL form?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T07:58:04Z"
+  },
+  {
+   "title": "Aston Villa – Manchester City: Jackson’s Double Sinks City (2-1)",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T07:29:30Z"
+  },
   {
    "title": "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
    "img": null,
    "video": null,
-   "time": "2026-10-25T04:26:44Z"
+   "time": "2026-10-25T07:27:09Z"
   },
   {
-   "title": "Arsenal down Everton to join Manchester City atop EPL table",
+   "title": "Enzo Maresca explains Phil Foden substitution as Man City lose midfield battle against Aston Villa",
    "img": null,
    "video": null,
-   "time": "2026-10-25T03:53:31Z"
+   "time": "2026-10-25T07:23:46Z"
+  },
+  {
+   "title": "Aston Villa 2-1 Manchester City: Unai Emery's side answer big question with win",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T07:15:30Z"
+  },
+  {
+   "title": "Man City charges news: Premier League face 'worst case scenario' after 'surprise' decision claim",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T07:09:13Z"
+  },
+  {
+   "title": "Aston Villa - Manchester City Live - Premier League: Football Scores & Highlights - 24/10/2026",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T06:21:41Z"
+  },
+  {
+   "title": "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T06:02:00Z"
+  },
+  {
+   "title": "Can we read much into Arsenal and Man City topping table? Will weather impact Premier League?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-25T05:15:00Z"
   },
   {
    "title": "Arsenal goes level with Manchester City at top of Premier League",
@@ -21,70 +69,22 @@
    "time": "2026-10-25T03:16:15Z"
   },
   {
-   "title": "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T03:15:10Z"
-  },
-  {
    "title": "Aston Villa 2-1 Manchester City: Nicolas Jackson double ends City's 100% start",
    "img": null,
    "video": null,
    "time": "2026-10-25T01:25:35Z"
-  },
-  {
-   "title": "Transfer Rumors: Man Utd Plot Man City Raid; Barcelona Eye Vitinha",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T23:05:00Z"
-  },
-  {
-   "title": "Aston Villa 2-1 City: Eight-minute highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T22:59:00Z"
-  },
-  {
-   "title": "Premier League: Nicholas Jackson analysis - Aston Villa 2-1 Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T22:43:17Z"
-  },
-  {
-   "title": "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T22:33:05Z"
-  },
-  {
-   "title": "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T22:12:07Z"
-  },
-  {
-   "title": "Man City charges LIVE: Premier League face 'worst case scenario' after 'surprise' decision claim",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T21:55:53Z"
-  },
-  {
-   "title": "Barcelona Track Teenage Midfielder Amid Manchester City Doubts: Should Deco Pursue Him?",
-   "img": null,
-   "video": null,
-   "time": "2026-10-24T20:35:00Z"
   }
  ],
  "ticker": [
+  "Manchester United vs Manchester City: Women's Super League stats & head-to-head",
+  "What have Manchester United changed to turn around their WSL form?",
+  "Aston Villa – Manchester City: Jackson’s Double Sinks City (2-1)",
   "Arsenal 2-0 Everton: Goals from Ezri Konsa and Gabriel move the champions level on points with leaders Man City",
-  "Arsenal down Everton to join Manchester City atop EPL table",
-  "Arsenal goes level with Manchester City at top of Premier League",
-  "Aston Villa 2-1 Man City: Nicolas Jackson scores both Villa goals as Enzo Maresca’s 100 per cent record ends in defeat",
-  "Aston Villa 2-1 Manchester City: Nicolas Jackson double ends City's 100% start",
-  "Transfer Rumors: Man Utd Plot Man City Raid; Barcelona Eye Vitinha",
-  "Aston Villa 2-1 City: Eight-minute highlights",
-  "Premier League: Nicholas Jackson analysis - Aston Villa 2-1 Man City",
-  "Villa stun Manchester City as Tottenham beat Chelsea and Napoli share six-goal thriller with Roma",
-  "Man Utd ‘ready’ to raid Man City in January for £36m star ‘to salvage their season’"
+  "Enzo Maresca explains Phil Foden substitution as Man City lose midfield battle against Aston Villa",
+  "Aston Villa 2-1 Manchester City: Unai Emery's side answer big question with win",
+  "Man City charges news: Premier League face 'worst case scenario' after 'surprise' decision claim",
+  "Aston Villa - Manchester City Live - Premier League: Football Scores & Highlights - 24/10/2026",
+  "‘That’s the way the city works’: how the UAE changed the face of Andy Burnham’s Manchester",
+  "Can we read much into Arsenal and Man City topping table? Will weather impact Premier League?"
  ]
 }
