@@ -1,7 +1,67 @@
 {
- "updated": "2026-10-26T01:30:17Z",
+ "updated": "2026-10-26T07:31:19Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man Utd 1-1 Man City - WSL highlights, commentary and reaction",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T07:21:22Z"
+  },
+  {
+   "title": "Manchester City Player Ratings Vs Aston Villa",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T07:07:56Z"
+  },
+  {
+   "title": "Paulo Wanchope: The Derby Cult Hero Who Stunned Old Trafford on Debut",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T06:53:56Z"
+  },
+  {
+   "title": "Man Utd 1-1 Man City: Andree Jeglertz's City drop behind Chelsea on goal difference as perfect start ends in derby",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T06:51:28Z"
+  },
+  {
+   "title": "African players in Europe: Jackson brace ends City's perfect record",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T06:51:00Z"
+  },
+  {
+   "title": "Samba Starts: Maresca’s Rotated 4-2-3-1 Man City Lineup Against Brighton",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T06:36:46Z"
+  },
+  {
+   "title": "Man City Predicted Lineup v Brighton: Samba Starts",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T06:21:58Z"
+  },
+  {
+   "title": "The Man City star staring at a January transfer exit after Enzo Maresca decision",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T04:00:00Z"
+  },
+  {
+   "title": "WSL: Terland’s late strike gives Manchester United derby draw against City; Chelsea beats Crystal Palace to top standings",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T03:26:09Z"
+  },
+  {
+   "title": "United Women 1 City 1",
+   "img": null,
+   "video": null,
+   "time": "2026-10-26T01:49:14Z"
+  },
   {
    "title": "Terland’s Late Goal Ends Manchester City’s Perfect Start",
    "img": null,
@@ -9,82 +69,22 @@
    "time": "2026-10-26T01:00:20Z"
   },
   {
-   "title": "Man Utd 1-1 Man City: Andree Jeglertz's City drop behind Chelsea on goal difference as perfect start ends in derby",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T00:51:19Z"
-  },
-  {
-   "title": "Premier League: Match of the Day Analysis of Manchester United's stats",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T00:50:06Z"
-  },
-  {
    "title": "Women's Super League",
    "img": null,
    "video": null,
    "time": "2026-10-26T00:29:21Z"
-  },
-  {
-   "title": "WSL: Manchester United 1-1 Manchester City - highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T23:52:55Z"
-  },
-  {
-   "title": "United 1-1 City: 8-minute highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T22:55:00Z"
-  },
-  {
-   "title": "Maresca feels City were not ‘clinical enough’ at Villa Park",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T22:44:02Z"
-  },
-  {
-   "title": "Man Utd women are everything the men are not: fighters",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T21:21:00Z"
-  },
-  {
-   "title": "\"Don't get me wrong\": Haaland identifies what Manchester City need after Aston Villa slap",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T20:50:38Z"
-  },
-  {
-   "title": "Terland strikes late to give Man United derby draw with City in WSL",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T20:23:20Z"
-  },
-  {
-   "title": "Man Utd prove mettle in gritty derby to end City’s perfect start",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T20:15:13Z"
-  },
-  {
-   "title": "Man United 1-1 Man City | WSL highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-25T20:10:32Z"
   }
  ],
  "ticker": [
-  "Terland’s Late Goal Ends Manchester City’s Perfect Start",
+  "Man Utd 1-1 Man City - WSL highlights, commentary and reaction",
+  "Manchester City Player Ratings Vs Aston Villa",
+  "Paulo Wanchope: The Derby Cult Hero Who Stunned Old Trafford on Debut",
   "Man Utd 1-1 Man City: Andree Jeglertz's City drop behind Chelsea on goal difference as perfect start ends in derby",
-  "Premier League: Match of the Day Analysis of Manchester United's stats",
-  "Women's Super League",
-  "WSL: Manchester United 1-1 Manchester City - highlights",
-  "United 1-1 City: 8-minute highlights",
-  "Maresca feels City were not ‘clinical enough’ at Villa Park",
-  "Man Utd women are everything the men are not: fighters",
-  "\"Don't get me wrong\": Haaland identifies what Manchester City need after Aston Villa slap",
-  "Terland strikes late to give Man United derby draw with City in WSL"
+  "African players in Europe: Jackson brace ends City's perfect record",
+  "Samba Starts: Maresca’s Rotated 4-2-3-1 Man City Lineup Against Brighton",
+  "Man City Predicted Lineup v Brighton: Samba Starts",
+  "The Man City star staring at a January transfer exit after Enzo Maresca decision",
+  "WSL: Terland’s late strike gives Manchester United derby draw against City; Chelsea beats Crystal Palace to top standings",
+  "United Women 1 City 1"
  ]
 }
