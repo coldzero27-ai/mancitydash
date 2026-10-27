@@ -1,7 +1,43 @@
 {
- "updated": "2026-10-26T23:59:40Z",
+ "updated": "2026-10-27T04:50:42Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Tuesday briefing: Sheikh Mansour injects £100 million into City Football Group amid Premier League legal battle",
+   "img": null,
+   "video": null,
+   "time": "2026-10-27T04:35:08Z"
+  },
+  {
+   "title": "Forgotten Man City man has new role after transfer decision",
+   "img": null,
+   "video": null,
+   "time": "2026-10-27T04:00:00Z"
+  },
+  {
+   "title": "Manchester City vs Brighton & Hove Albion: League Cup stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-27T03:01:46Z"
+  },
+  {
+   "title": "BIG READ | Sportswashing and greenwashing threaten to wash Manchester City away",
+   "img": null,
+   "video": null,
+   "time": "2026-10-27T03:00:00Z"
+  },
+  {
+   "title": "Manchester City vs Brighton & Hove Albion Predictions, Picks & Odds – 28/10/2026",
+   "img": null,
+   "video": null,
+   "time": "2026-10-27T01:32:13Z"
+  },
+  {
+   "title": "Se Manchester City vs. UE Cornellà | Disney+",
+   "img": null,
+   "video": null,
+   "time": "2026-10-27T00:13:39Z"
+  },
   {
    "title": "The scene near Manchester City's ground was taped off last night 🚨 #manchestereveningnews #news #police",
    "img": null,
@@ -21,16 +57,10 @@
    "time": "2026-10-26T23:00:00Z"
   },
   {
-   "title": "Man City XI vs Brighton: Confirmed team news and predicted lineup",
+   "title": "Ballon d'Or 2026 results: Winners announced as Erling Haaland and Bruno Fernandes ranked",
    "img": null,
    "video": null,
-   "time": "2026-10-26T22:59:30Z"
-  },
-  {
-   "title": "Haaland finishes eighth at 2026 Ballon d’Or",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T22:55:00Z"
+   "time": "2026-10-26T22:56:18Z"
   },
   {
    "title": "City contingent honoured at 2026 Women's Ballon d'Or",
@@ -39,52 +69,22 @@
    "time": "2026-10-26T22:50:00Z"
   },
   {
-   "title": "Shaw named third best player at 2026 Women's Ballon d’Or",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T22:45:00Z"
-  },
-  {
-   "title": "Damning data: stats that show Michael Carrick’s luck was bound to run out | Andrew Beasley",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T21:03:00Z"
-  },
-  {
    "title": "Lavish lunches, gagging clauses & sweetheart deals - inside Man City's Abu Dhabi empire and PM's role in 'sell-off'",
    "img": null,
    "video": null,
    "time": "2026-10-26T21:00:00Z"
-  },
-  {
-   "title": "Manchester United Women Secure Late Draw to Snap Man City’s Perfect WSL Run",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T20:35:57Z"
-  },
-  {
-   "title": "One ‘issue’ at Manchester City that cost them against Aston Villa can easily be rectified",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T20:07:00Z"
-  },
-  {
-   "title": "Erling Haaland shows off new look as fans say ‘I need my hair to grow this fast’",
-   "img": null,
-   "video": null,
-   "time": "2026-10-26T20:04:00Z"
   }
  ],
  "ticker": [
+  "Tuesday briefing: Sheikh Mansour injects £100 million into City Football Group amid Premier League legal battle",
+  "Forgotten Man City man has new role after transfer decision",
+  "Manchester City vs Brighton & Hove Albion: League Cup stats & head-to-head",
+  "BIG READ | Sportswashing and greenwashing threaten to wash Manchester City away",
+  "Manchester City vs Brighton & Hove Albion Predictions, Picks & Odds – 28/10/2026",
+  "Se Manchester City vs. UE Cornellà | Disney+",
   "The scene near Manchester City's ground was taped off last night 🚨 #manchestereveningnews #news #police",
   "Gallery: Manchester City Women at the 2026 Ballon d'Or",
   "Sjögran: Our Ballon d’Or nominees deserve recognition",
-  "Man City XI vs Brighton: Confirmed team news and predicted lineup",
-  "Haaland finishes eighth at 2026 Ballon d’Or",
-  "City contingent honoured at 2026 Women's Ballon d'Or",
-  "Shaw named third best player at 2026 Women's Ballon d’Or",
-  "Damning data: stats that show Michael Carrick’s luck was bound to run out | Andrew Beasley",
-  "Lavish lunches, gagging clauses & sweetheart deals - inside Man City's Abu Dhabi empire and PM's role in 'sell-off'",
-  "Manchester United Women Secure Late Draw to Snap Man City’s Perfect WSL Run"
+  "Ballon d'Or 2026 results: Winners announced as Erling Haaland and Bruno Fernandes ranked"
  ]
 }
