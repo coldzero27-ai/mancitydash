@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T19:31:23Z",
+ "updated": "2026-10-28T23:59:13Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -222,6 +222,11 @@
   "2026-10-20": {
    "score": "5-1",
    "res": "W",
+   "fr": false
+  },
+  "2026-10-28": {
+   "score": "2-2",
+   "res": "D",
    "fr": false
   }
  },
