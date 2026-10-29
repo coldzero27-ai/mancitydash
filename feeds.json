@@ -1,18 +1,60 @@
 {
- "updated": "2026-10-29T02:40:25Z",
+ "updated": "2026-10-29T09:33:10Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "EFL Cup draw: Are Liverpool or Man City favourites as quarter-finals revealed after Chelsea and Brighton wins?",
+   "title": "Man City fan on his club's new heroic goalkeeper",
    "img": null,
    "video": null,
-   "time": "2026-10-29T00:34:00Z"
+   "time": "2026-10-29T09:21:07Z"
+  },
+  {
+   "title": "Man City FFP: 'Likely' number of points deducted revealed as part of three-pronged punishment",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T08:34:45Z"
+  },
+  {
+   "title": "Manchester City vs Paris Saint-Germain: UEFA Women's Champions League stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T08:16:57Z"
+  },
+  {
+   "title": "Carabao Cup: Erling Haaland goes viral for his dance moves after Manchester City's win",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T07:52:37Z"
   },
   {
    "title": "Carabao Cup quarter-final draw LIVE: Man City GIFTED favourable tie in last-8",
    "img": null,
    "video": null,
-   "time": "2026-10-28T23:22:18Z"
+   "time": "2026-10-29T07:20:59Z"
+  },
+  {
+   "title": "Man City beat Brighton on penalties after dramatic League Cup comeback",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T07:17:47Z"
+  },
+  {
+   "title": "Rulli’s heroics earn Manchester City shootout success against Brighton",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T03:24:00Z"
+  },
+  {
+   "title": "CITY TO TRAVEL TO MAN CITY IN CARABAO CUP QUARTER-FINALS",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T01:05:05Z"
+  },
+  {
+   "title": "Manchester City vs Brighton & Hove Albion: League Cup stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-28T23:32:17Z"
   },
   {
    "title": "'He knows his role'",
@@ -21,70 +63,28 @@
    "time": "2026-10-28T23:10:06Z"
   },
   {
-   "title": "Carabao Cup quarter-final draw in full as Man City discover opponents",
+   "title": "'He knows his role' - Rulli provides heroics but no worries for Donnarumma",
    "img": null,
    "video": null,
-   "time": "2026-10-28T23:05:00Z"
-  },
-  {
-   "title": "Carabao Cup draw in full: Liverpool, Man City and Newcastle learn quarter-final fate",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:51:47Z"
+   "time": "2026-10-28T23:10:06Z"
   },
   {
    "title": "Fleetwood get Premier League tie as Liverpool and Man City also discover Carabao Cup opponents",
    "img": null,
    "video": null,
    "time": "2026-10-28T22:50:40Z"
-  },
-  {
-   "title": "Fleetwood to face Everton or Newcastle in last eight",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:45:35Z"
-  },
-  {
-   "title": "Carabao Cup draw LIVE: Quarter-finalists learn last-eight opponents",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:43:00Z"
-  },
-  {
-   "title": "Carabao Cup quarter-final draw in full as Liverpool and Man City discover opponents",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:34:00Z"
-  },
-  {
-   "title": "Carabao Cup quarter-final draw as Liverpool avoid Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:33:00Z"
-  },
-  {
-   "title": "City to play Bradford City in Carabao Cup quarter-final",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:30:00Z"
-  },
-  {
-   "title": "Manchester City 2-2 Brighton (4-3 pens) | Carabao Cup highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T22:09:17Z"
   }
  ],
  "ticker": [
-  "EFL Cup draw: Are Liverpool or Man City favourites as quarter-finals revealed after Chelsea and Brighton wins?",
+  "Man City fan on his club's new heroic goalkeeper",
+  "Man City FFP: 'Likely' number of points deducted revealed as part of three-pronged punishment",
+  "Manchester City vs Paris Saint-Germain: UEFA Women's Champions League stats & head-to-head",
+  "Carabao Cup: Erling Haaland goes viral for his dance moves after Manchester City's win",
   "Carabao Cup quarter-final draw LIVE: Man City GIFTED favourable tie in last-8",
-  "'He knows his role'",
-  "Carabao Cup quarter-final draw in full as Man City discover opponents",
-  "Carabao Cup draw in full: Liverpool, Man City and Newcastle learn quarter-final fate",
-  "Fleetwood get Premier League tie as Liverpool and Man City also discover Carabao Cup opponents",
-  "Fleetwood to face Everton or Newcastle in last eight",
-  "Carabao Cup draw LIVE: Quarter-finalists learn last-eight opponents",
-  "Carabao Cup quarter-final draw in full as Liverpool and Man City discover opponents",
-  "Carabao Cup quarter-final draw as Liverpool avoid Manchester City"
+  "Man City beat Brighton on penalties after dramatic League Cup comeback",
+  "Rulli’s heroics earn Manchester City shootout success against Brighton",
+  "CITY TO TRAVEL TO MAN CITY IN CARABAO CUP QUARTER-FINALS",
+  "Manchester City vs Brighton & Hove Albion: League Cup stats & head-to-head",
+  "'He knows his role'"
  ]
 }
