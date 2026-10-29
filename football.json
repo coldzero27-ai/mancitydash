@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:24:22Z",
+ "updated": "2026-10-29T19:35:57Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -73,6 +73,13 @@
    "venue": "Etihad Stadium"
   },
   {
+   "utc": "2026-12-14T19:45:00Z",
+   "comp": "EFL",
+   "home": "Manchester City",
+   "away": "Bradford",
+   "venue": "Etihad Stadium"
+  },
+  {
    "utc": "2026-12-19T15:00:00Z",
    "comp": "PL",
    "home": "Manchester City",
@@ -133,13 +140,6 @@
    "comp": "UCL",
    "home": "Manchester City",
    "away": "Sporting CP",
-   "venue": "Etihad Stadium"
-  },
-  {
-   "utc": "2027-01-30T15:00:00Z",
-   "comp": "PL",
-   "home": "Manchester City",
-   "away": "Arsenal",
    "venue": "Etihad Stadium"
   }
  ],
