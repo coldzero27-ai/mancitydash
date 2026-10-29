@@ -1,24 +1,42 @@
 {
- "updated": "2026-10-28T23:06:25Z",
+ "updated": "2026-10-29T02:40:25Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Carabao Cup quarter-final draw in full as Man City host Bradford City",
+   "title": "EFL Cup draw: Are Liverpool or Man City favourites as quarter-finals revealed after Chelsea and Brighton wins?",
    "img": null,
    "video": null,
-   "time": "2026-10-28T23:05:07Z"
+   "time": "2026-10-29T00:34:00Z"
   },
   {
-   "title": "Carabao Cup draw in full as Everton could face Fleetwood Town and Liverpool get Bournemouth",
+   "title": "Carabao Cup quarter-final draw LIVE: Man City GIFTED favourable tie in last-8",
    "img": null,
    "video": null,
-   "time": "2026-10-28T22:59:54Z"
+   "time": "2026-10-28T23:22:18Z"
+  },
+  {
+   "title": "'He knows his role'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-28T23:10:06Z"
+  },
+  {
+   "title": "Carabao Cup quarter-final draw in full as Man City discover opponents",
+   "img": null,
+   "video": null,
+   "time": "2026-10-28T23:05:00Z"
   },
   {
    "title": "Carabao Cup draw in full: Liverpool, Man City and Newcastle learn quarter-final fate",
    "img": null,
    "video": null,
    "time": "2026-10-28T22:51:47Z"
+  },
+  {
+   "title": "Fleetwood get Premier League tie as Liverpool and Man City also discover Carabao Cup opponents",
+   "img": null,
+   "video": null,
+   "time": "2026-10-28T22:50:40Z"
   },
   {
    "title": "Fleetwood to face Everton or Newcastle in last eight",
@@ -33,10 +51,16 @@
    "time": "2026-10-28T22:43:00Z"
   },
   {
-   "title": "Carabao Cup quarter-final draw LIVE: Man City GIFTED favourable home tie, Iraola to face former side in last-eight",
+   "title": "Carabao Cup quarter-final draw in full as Liverpool and Man City discover opponents",
    "img": null,
    "video": null,
-   "time": "2026-10-28T22:37:00Z"
+   "time": "2026-10-28T22:34:00Z"
+  },
+  {
+   "title": "Carabao Cup quarter-final draw as Liverpool avoid Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-28T22:33:00Z"
   },
   {
    "title": "City to play Bradford City in Carabao Cup quarter-final",
@@ -45,46 +69,22 @@
    "time": "2026-10-28T22:30:00Z"
   },
   {
-   "title": "Manchester City 2-2 Brighton | Carabao Cup highlights",
+   "title": "Manchester City 2-2 Brighton (4-3 pens) | Carabao Cup highlights",
    "img": null,
    "video": null,
    "time": "2026-10-28T22:09:17Z"
-  },
-  {
-   "title": "Manchester City 2-2 Brighton (4-3 pens): Rulli's shoot-out heroics sends EFL Cup holders through",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T21:57:02Z"
-  },
-  {
-   "title": "'That's just wrong' - Brighton player ratings at Manchester City as Seagulls pay the penalty",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T21:55:00Z"
-  },
-  {
-   "title": "Geronimo Rulli the Manchester City hero in shootout win over Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T21:52:18Z"
-  },
-  {
-   "title": "Man City player ratings vs Brighton as Geronimo Rulli the hero and Phil Foden shines",
-   "img": null,
-   "video": null,
-   "time": "2026-10-28T21:48:00Z"
   }
  ],
  "ticker": [
-  "Carabao Cup quarter-final draw in full as Man City host Bradford City",
-  "Carabao Cup draw in full as Everton could face Fleetwood Town and Liverpool get Bournemouth",
+  "EFL Cup draw: Are Liverpool or Man City favourites as quarter-finals revealed after Chelsea and Brighton wins?",
+  "Carabao Cup quarter-final draw LIVE: Man City GIFTED favourable tie in last-8",
+  "'He knows his role'",
+  "Carabao Cup quarter-final draw in full as Man City discover opponents",
   "Carabao Cup draw in full: Liverpool, Man City and Newcastle learn quarter-final fate",
+  "Fleetwood get Premier League tie as Liverpool and Man City also discover Carabao Cup opponents",
   "Fleetwood to face Everton or Newcastle in last eight",
   "Carabao Cup draw LIVE: Quarter-finalists learn last-eight opponents",
-  "Carabao Cup quarter-final draw LIVE: Man City GIFTED favourable home tie, Iraola to face former side in last-eight",
-  "City to play Bradford City in Carabao Cup quarter-final",
-  "Manchester City 2-2 Brighton | Carabao Cup highlights",
-  "Manchester City 2-2 Brighton (4-3 pens): Rulli's shoot-out heroics sends EFL Cup holders through",
-  "'That's just wrong' - Brighton player ratings at Manchester City as Seagulls pay the penalty"
+  "Carabao Cup quarter-final draw in full as Liverpool and Man City discover opponents",
+  "Carabao Cup quarter-final draw as Liverpool avoid Manchester City"
  ]
 }
