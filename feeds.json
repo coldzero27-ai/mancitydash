@@ -1,7 +1,37 @@
 {
- "updated": "2026-10-30T19:59:45Z",
+ "updated": "2026-10-30T23:37:47Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City vs Brighton: Prediction, Tips and Odds | Premier League",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T23:11:33Z"
+  },
+  {
+   "title": "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T23:03:57Z"
+  },
+  {
+   "title": "How can playing for Manchester City fit into Marc Guéhi’s moral universe? | Barney Ronay",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T22:59:00Z"
+  },
+  {
+   "title": "Maresca expecting another difficult test for Man City against Brighton",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T22:51:19Z"
+  },
+  {
+   "title": "\"It Always Takes Time to Compete Again\" - Enzo Maresca Makes Manchester City Silverware Prediction After Pep Guardiola Exit",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T20:30:00Z"
+  },
   {
    "title": "Enzo Fernandez reveals desire to join club in future just weeks after Man City transfer",
    "img": null,
@@ -15,22 +45,16 @@
    "time": "2026-10-30T19:37:52Z"
   },
   {
-   "title": "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
-   "img": null,
-   "video": null,
-   "time": "2026-10-30T19:17:38Z"
-  },
-  {
    "title": "London City Lionesses: Eder Maestre explains how his team are succeeding in the WSL ahead of big Man City test",
    "img": null,
    "video": null,
    "time": "2026-10-30T19:05:41Z"
   },
   {
-   "title": "'They can score four or five!' – Enzo Maresca issues stern warning ahead of Brighton clash",
+   "title": "Training: Building up to Brighton",
    "img": null,
    "video": null,
-   "time": "2026-10-30T18:51:40Z"
+   "time": "2026-10-30T19:00:00Z"
   },
   {
    "title": "Pep who? Maresca claims reborn City are ahead of schedule after summer upheaval",
@@ -49,42 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-30T18:22:13Z"
-  },
-  {
-   "title": "Grealish could have been Everton’s poster boy of a new era. Now his career is in limbo",
-   "img": null,
-   "video": null,
-   "time": "2026-10-30T18:10:00Z"
-  },
-  {
-   "title": "The Manchester City forward received special recognition from Instagram — the player's profile was given a blue background - Українські Національні Новини (УНН)",
-   "img": null,
-   "video": null,
-   "time": "2026-10-30T18:04:01Z"
-  },
-  {
-   "title": "My Football Philosophy: Yui Hasegawa on Ronaldinho, tactics and inspiring Japan’s next generation",
-   "img": null,
-   "video": null,
-   "time": "2026-10-30T17:57:47Z"
-  },
-  {
-   "title": "Enzo Maresca addresses Brighton revenge talk after Fabian Hürzeler's Man City remarks",
-   "img": null,
-   "video": null,
-   "time": "2026-10-30T17:57:00Z"
   }
  ],
  "ticker": [
+  "Manchester City vs Brighton: Prediction, Tips and Odds | Premier League",
+  "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
+  "How can playing for Manchester City fit into Marc Guéhi’s moral universe? | Barney Ronay",
+  "Maresca expecting another difficult test for Man City against Brighton",
+  "\"It Always Takes Time to Compete Again\" - Enzo Maresca Makes Manchester City Silverware Prediction After Pep Guardiola Exit",
   "Enzo Fernandez reveals desire to join club in future just weeks after Man City transfer",
   "Manchester City v Brighton & Hove Albion: Key stats and talking points",
-  "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
   "London City Lionesses: Eder Maestre explains how his team are succeeding in the WSL ahead of big Man City test",
-  "'They can score four or five!' – Enzo Maresca issues stern warning ahead of Brighton clash",
-  "Pep who? Maresca claims reborn City are ahead of schedule after summer upheaval",
-  "Ally vs Fletch: Is Man City's Donnarumma suffering from lack of confidence?",
-  "Manchester City confirm Nunes and Ndiaye injury boost before Albion",
-  "Grealish could have been Everton’s poster boy of a new era. Now his career is in limbo",
-  "The Manchester City forward received special recognition from Instagram — the player's profile was given a blue background - Українські Національні Новини (УНН)"
+  "Training: Building up to Brighton",
+  "Pep who? Maresca claims reborn City are ahead of schedule after summer upheaval"
  ]
 }
