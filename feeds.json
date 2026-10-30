@@ -1,7 +1,43 @@
 {
- "updated": "2026-10-30T01:40:14Z",
+ "updated": "2026-10-30T08:14:36Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T08:00:24Z"
+  },
+  {
+   "title": "Manchester City vs Bradford City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T07:10:49Z"
+  },
+  {
+   "title": "Manchester City youngster Allan earns first Brazil call-up",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T07:00:17Z"
+  },
+  {
+   "title": "OTD: Zaha and Gallagher sink City at the Etihad (2021)",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T07:00:00Z"
+  },
+  {
+   "title": "What now for the City Football Group project?",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T05:12:58Z"
+  },
+  {
+   "title": "PSG Late Goal Holds Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-30T04:30:19Z"
+  },
   {
    "title": "No penalty practice? No problem for City",
    "img": null,
@@ -9,16 +45,22 @@
    "time": "2026-10-30T01:23:12Z"
   },
   {
-   "title": "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
+   "title": "Carrick fights for Man Utd job, Arsenal face Liverpool test",
    "img": null,
    "video": null,
-   "time": "2026-10-30T01:17:37Z"
+   "time": "2026-10-30T01:19:50Z"
   },
   {
-   "title": "Women's Champions League: Manchester City vs Paris Saint-Germain - Lauren Hemp protests innocence over foul",
+   "title": "Manchester City held to dramatic 1-1 draw by PSG as Tara Elimbi Gilbert cancels out late Khadija Shaw penalty to extend Women's Champions League winless run",
    "img": null,
    "video": null,
-   "time": "2026-10-29T23:32:14Z"
+   "time": "2026-10-30T01:14:55Z"
+  },
+  {
+   "title": "PSG claim late point after Shaw penalty to hit Manchester City’s WCL top-four hopes",
+   "img": null,
+   "video": null,
+   "time": "2026-10-29T23:45:00Z"
   },
   {
    "title": "Women's Champions League: Manchester City's Khadija Shaw's second half brilliance",
@@ -31,60 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-29T23:01:08Z"
-  },
-  {
-   "title": "PSG equalised in the 88th minute, leaving Manchester City without a win — The Guardian",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:55:52Z"
-  },
-  {
-   "title": "Women's Champions League highlights: Manchester City 1-1 PSG",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:40:17Z"
-  },
-  {
-   "title": "Man City 1-1 PSG: Late equaliser denies hosts first Women's Champions League win of the season - as it happened",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:40:00Z"
-  },
-  {
-   "title": "WCL: Man City 1-1 PSG: As it happened",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:39:46Z"
-  },
-  {
-   "title": "Manchester City 1-1 Paris St-Germain: WSL side held for third successive Women's Champions League game",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:34:08Z"
-  },
-  {
-   "title": "Manchester City vs Brighton & Hove Albion: League Cup stats & head-to-head",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:33:38Z"
-  },
-  {
-   "title": "Manchester City 1-1 Paris Saint-Germain: Elimbi Gilbert keeps hosts winless in Champions League",
-   "img": null,
-   "video": null,
-   "time": "2026-10-29T22:18:56Z"
   }
  ],
  "ticker": [
-  "No penalty practice? No problem for City",
   "Man City 1-1 PSG: Khadija Shaw opener cancelled out with Andree Jeglertz's side in danger of not making Women's Champions League top four",
-  "Women's Champions League: Manchester City vs Paris Saint-Germain - Lauren Hemp protests innocence over foul",
-  "Women's Champions League: Manchester City's Khadija Shaw's second half brilliance",
-  "Women's Champions League: Manchester City's Khadija Shaw on her third place finish in the Ballon d'Or",
-  "PSG equalised in the 88th minute, leaving Manchester City without a win — The Guardian",
-  "Women's Champions League highlights: Manchester City 1-1 PSG",
-  "Man City 1-1 PSG: Late equaliser denies hosts first Women's Champions League win of the season - as it happened",
-  "WCL: Man City 1-1 PSG: As it happened",
-  "Manchester City 1-1 Paris St-Germain: WSL side held for third successive Women's Champions League game"
+  "Manchester City vs Bradford City",
+  "Manchester City youngster Allan earns first Brazil call-up",
+  "OTD: Zaha and Gallagher sink City at the Etihad (2021)",
+  "What now for the City Football Group project?",
+  "PSG Late Goal Holds Manchester City",
+  "No penalty practice? No problem for City",
+  "Carrick fights for Man Utd job, Arsenal face Liverpool test",
+  "Manchester City held to dramatic 1-1 draw by PSG as Tara Elimbi Gilbert cancels out late Khadija Shaw penalty to extend Women's Champions League winless run",
+  "PSG claim late point after Shaw penalty to hit Manchester City’s WCL top-four hopes"
  ]
 }
