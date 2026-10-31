@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:42:39Z",
+ "updated": "2026-10-31T08:22:03Z",
  "source": "api-football (api-sports.io)",
  "fixtures": [
   {
@@ -73,7 +73,7 @@
    "venue": "Etihad Stadium"
   },
   {
-   "utc": "2026-12-14T19:45:00Z",
+   "utc": "2026-12-15T19:45:00Z",
    "comp": "EFL",
    "home": "Manchester City",
    "away": "Bradford",
