@@ -1,7 +1,37 @@
 {
- "updated": "2026-10-31T19:52:06Z",
+ "updated": "2026-10-31T23:09:31Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Brighton pick up first away league victory over Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T22:30:05Z"
+  },
+  {
+   "title": "Highlights - Premier League - Manchester City 0-1 Brighton & Hove Albion",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T22:30:05Z"
+  },
+  {
+   "title": "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T21:39:38Z"
+  },
+  {
+   "title": "Haaland's dad breaks silence on Man City charges and speaks about son's future",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T20:44:00Z"
+  },
+  {
+   "title": "'Man City's perfect start is slowly disintegrating'",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T20:42:10Z"
+  },
   {
    "title": "Premier League wrap: Leaders Manchester City beaten by Brighton",
    "img": null,
@@ -9,10 +39,10 @@
    "time": "2026-10-31T19:50:05Z"
   },
   {
-   "title": "Premier League: Can Brighton and Hove Albion push Manchester City and Arsenal for the title?",
+   "title": "Victory over Manchester City shows Brighton can stay the course at top",
    "img": null,
    "video": null,
-   "time": "2026-10-31T19:41:25Z"
+   "time": "2026-10-31T19:15:00Z"
   },
   {
    "title": "Maresca's big test is to address mounting Man City issues",
@@ -21,70 +51,40 @@
    "time": "2026-10-31T19:05:41Z"
   },
   {
-   "title": "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
+   "title": "Man City 0-1 Brighton: Enzo Maresca has issues to address all over the pitch",
    "img": null,
    "video": null,
-   "time": "2026-10-31T18:44:48Z"
+   "time": "2026-10-31T19:05:41Z"
   },
   {
-   "title": "Enzo Maresca rues costly errors after Manchester City defeat against Brighton",
+   "title": "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton",
    "img": null,
    "video": null,
-   "time": "2026-10-31T18:44:00Z"
+   "time": "2026-10-31T19:01:00Z"
   },
   {
-   "title": "Ayari on target as Brighton stun Manchester City to close gap on leaders",
+   "title": "Jamie Carragher was right about Man City and Liverpool result looks even better now",
    "img": null,
    "video": null,
-   "time": "2026-10-31T17:48:00Z"
-  },
-  {
-   "title": "Erling Haaland loses poppy in Man City’s loss to Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T17:35:43Z"
+   "time": "2026-10-31T17:58:23Z"
   },
   {
    "title": "Manchester City 0-1 Brighton | Premier League highlights",
    "img": null,
    "video": null,
    "time": "2026-10-31T17:21:50Z"
-  },
-  {
-   "title": "'Just brilliant, a physical beast' - Brighton player ratings at Manchester City as sublime duo score 9/10s",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T16:56:00Z"
-  },
-  {
-   "title": "City suffer narrow loss to Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T16:55:00Z"
-  },
-  {
-   "title": "Man City player ratings vs Brighton with two 4/10s as Elliot Anderson good",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T16:53:00Z"
-  },
-  {
-   "title": "Manchester City vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T16:19:41Z"
   }
  ],
  "ticker": [
-  "Premier League wrap: Leaders Manchester City beaten by Brighton",
-  "Premier League: Can Brighton and Hove Albion push Manchester City and Arsenal for the title?",
-  "Maresca's big test is to address mounting Man City issues",
+  "Brighton pick up first away league victory over Man City",
+  "Highlights - Premier League - Manchester City 0-1 Brighton & Hove Albion",
   "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
-  "Enzo Maresca rues costly errors after Manchester City defeat against Brighton",
-  "Ayari on target as Brighton stun Manchester City to close gap on leaders",
-  "Erling Haaland loses poppy in Man City’s loss to Brighton",
-  "Manchester City 0-1 Brighton | Premier League highlights",
-  "'Just brilliant, a physical beast' - Brighton player ratings at Manchester City as sublime duo score 9/10s",
-  "City suffer narrow loss to Brighton"
+  "Haaland's dad breaks silence on Man City charges and speaks about son's future",
+  "'Man City's perfect start is slowly disintegrating'",
+  "Premier League wrap: Leaders Manchester City beaten by Brighton",
+  "Victory over Manchester City shows Brighton can stay the course at top",
+  "Maresca's big test is to address mounting Man City issues",
+  "Man City 0-1 Brighton: Enzo Maresca has issues to address all over the pitch",
+  "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton"
  ]
 }
