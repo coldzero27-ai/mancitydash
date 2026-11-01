@@ -1,24 +1,48 @@
 {
- "updated": "2026-11-01T02:27:46Z",
+ "updated": "2026-11-01T09:36:51Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
    "title": "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
    "img": null,
    "video": null,
-   "time": "2026-11-01T02:09:38Z"
+   "time": "2026-11-01T08:33:11Z"
   },
   {
-   "title": "🚨 Police mounted a significant operation in Manchester city centre",
+   "title": "Miliband refuses to investigate Man City owner over Sudan atrocities",
    "img": null,
    "video": null,
-   "time": "2026-10-31T23:14:02Z"
+   "time": "2026-11-01T06:00:00Z"
   },
   {
-   "title": "Dark day for Manchester United and City after Halloween defeats",
+   "title": "What’s going wrong with Manchester City? Look no further than their defending",
    "img": null,
    "video": null,
-   "time": "2026-10-31T22:48:27Z"
+   "time": "2026-11-01T05:02:06Z"
+  },
+  {
+   "title": "'Liverpool and Arsenal wanted to sign me – but I joined Man City and it wasn't for money'",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T05:00:00Z"
+  },
+  {
+   "title": "Why Ayari showed the Albion spirit which earned historic win at Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T05:00:00Z"
+  },
+  {
+   "title": "Brighton stun Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T04:36:42Z"
+  },
+  {
+   "title": "Match Of The Day expert says Hurzeler learned from Liverpool defeat",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T02:07:12Z"
   },
   {
    "title": "Brighton pick up first away league victory over Man City",
@@ -27,13 +51,7 @@
    "time": "2026-10-31T22:30:05Z"
   },
   {
-   "title": "Highlights - Premier League - Manchester City 0-1 Brighton & Hove Albion",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T22:30:05Z"
-  },
-  {
-   "title": "Haaland's dad breaks silence on Man City charges and speaks about son's future",
+   "title": "Erling Haaland's dad breaks silence on Man City guilty verdict and speaks out over son's future amid relegation threat",
    "img": null,
    "video": null,
    "time": "2026-10-31T20:44:00Z"
@@ -54,37 +72,19 @@
    "title": "Manchester City vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
    "img": null,
    "video": null,
-   "time": "2026-10-31T20:00:26Z"
-  },
-  {
-   "title": "Premier League wrap: Leaders Manchester City beaten by Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T19:50:05Z"
-  },
-  {
-   "title": "Victory over Manchester City shows Brighton can stay the course at top",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T19:15:00Z"
-  },
-  {
-   "title": "Maresca's big test is to address mounting Man City issues",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T19:05:41Z"
+   "time": "2026-10-31T20:06:12Z"
   }
  ],
  "ticker": [
   "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
-  "🚨 Police mounted a significant operation in Manchester city centre",
-  "Dark day for Manchester United and City after Halloween defeats",
+  "Miliband refuses to investigate Man City owner over Sudan atrocities",
+  "What’s going wrong with Manchester City? Look no further than their defending",
+  "'Liverpool and Arsenal wanted to sign me – but I joined Man City and it wasn't for money'",
+  "Why Ayari showed the Albion spirit which earned historic win at Manchester City",
+  "Brighton stun Manchester City",
+  "Match Of The Day expert says Hurzeler learned from Liverpool defeat",
   "Brighton pick up first away league victory over Man City",
-  "Highlights - Premier League - Manchester City 0-1 Brighton & Hove Albion",
-  "Haaland's dad breaks silence on Man City charges and speaks about son's future",
-  "'Man City's perfect start is slowly disintegrating'",
-  "Ayari on target as Brighton stun Manchester City to close gap on leaders",
-  "Manchester City vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
-  "Premier League wrap: Leaders Manchester City beaten by Brighton"
+  "Erling Haaland's dad breaks silence on Man City guilty verdict and speaks out over son's future amid relegation threat",
+  "'Man City's perfect start is slowly disintegrating'"
  ]
 }
