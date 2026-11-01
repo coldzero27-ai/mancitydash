@@ -1,7 +1,25 @@
 {
- "updated": "2026-10-31T23:09:31Z",
+ "updated": "2026-11-01T02:27:46Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T02:09:38Z"
+  },
+  {
+   "title": "🚨 Police mounted a significant operation in Manchester city centre",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T23:14:02Z"
+  },
+  {
+   "title": "Dark day for Manchester United and City after Halloween defeats",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T22:48:27Z"
+  },
   {
    "title": "Brighton pick up first away league victory over Man City",
    "img": null,
@@ -15,12 +33,6 @@
    "time": "2026-10-31T22:30:05Z"
   },
   {
-   "title": "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T21:39:38Z"
-  },
-  {
    "title": "Haaland's dad breaks silence on Man City charges and speaks about son's future",
    "img": null,
    "video": null,
@@ -31,6 +43,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-31T20:42:10Z"
+  },
+  {
+   "title": "Ayari on target as Brighton stun Manchester City to close gap on leaders",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T20:16:00Z"
+  },
+  {
+   "title": "Manchester City vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
+   "img": null,
+   "video": null,
+   "time": "2026-10-31T20:00:26Z"
   },
   {
    "title": "Premier League wrap: Leaders Manchester City beaten by Brighton",
@@ -49,42 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-10-31T19:05:41Z"
-  },
-  {
-   "title": "Man City 0-1 Brighton: Enzo Maresca has issues to address all over the pitch",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T19:05:41Z"
-  },
-  {
-   "title": "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T19:01:00Z"
-  },
-  {
-   "title": "Jamie Carragher was right about Man City and Liverpool result looks even better now",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T17:58:23Z"
-  },
-  {
-   "title": "Manchester City 0-1 Brighton | Premier League highlights",
-   "img": null,
-   "video": null,
-   "time": "2026-10-31T17:21:50Z"
   }
  ],
  "ticker": [
+  "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
+  "🚨 Police mounted a significant operation in Manchester city centre",
+  "Dark day for Manchester United and City after Halloween defeats",
   "Brighton pick up first away league victory over Man City",
   "Highlights - Premier League - Manchester City 0-1 Brighton & Hove Albion",
-  "Man City 0-1 Brighton: Yasin Ayari and Bart Verbruggen the heroes in historic win for Seagulls at Etihad",
   "Haaland's dad breaks silence on Man City charges and speaks about son's future",
   "'Man City's perfect start is slowly disintegrating'",
-  "Premier League wrap: Leaders Manchester City beaten by Brighton",
-  "Victory over Manchester City shows Brighton can stay the course at top",
-  "Maresca's big test is to address mounting Man City issues",
-  "Man City 0-1 Brighton: Enzo Maresca has issues to address all over the pitch",
-  "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton"
+  "Ayari on target as Brighton stun Manchester City to close gap on leaders",
+  "Manchester City vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
+  "Premier League wrap: Leaders Manchester City beaten by Brighton"
  ]
 }
