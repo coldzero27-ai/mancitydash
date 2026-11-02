@@ -1,12 +1,36 @@
 {
- "updated": "2026-11-02T00:32:16Z",
+ "updated": "2026-11-02T07:25:01Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "WSL talking points: Chelsea flex title-winning credentials with dominant win at Charlton but Man City are keeping up",
+   "title": "Man City: Alf-Inge Haaland responds when asked whether Erling Haaland could leave after Arsenal contact",
    "img": null,
    "video": null,
-   "time": "2026-11-01T21:30:54Z"
+   "time": "2026-11-02T06:53:18Z"
+  },
+  {
+   "title": "London City Lionesses taught a lesson in ruthlessness as the champions weather the storm",
+   "img": null,
+   "video": null,
+   "time": "2026-11-02T05:20:17Z"
+  },
+  {
+   "title": "How Brighton’s cross-field passes destroyed Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-11-02T05:05:12Z"
+  },
+  {
+   "title": "The concerning Man City trend that is becoming a problem for Enzo Maresca",
+   "img": null,
+   "video": null,
+   "time": "2026-11-02T05:00:00Z"
+  },
+  {
+   "title": "Man City injury, suspension list and return dates for RB Leipzig: Antoine Semenyo latest news ahead of Champions League clash",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T22:59:50Z"
   },
   {
    "title": "WSL: London City Lionesses v Manchester City - Mary Earps makes an excellent double-save",
@@ -18,7 +42,7 @@
    "title": "Update On Manchester City And Their Pursuit Of This Nottingham Forest Talent: What Should Maresca Do?",
    "img": null,
    "video": null,
-   "time": "2026-11-01T20:30:00Z"
+   "time": "2026-11-01T20:30:56Z"
   },
   {
    "title": "Ex-Liverpool, Man City star Milner runs NYC Marathon in just over three hours",
@@ -49,42 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-11-01T17:54:43Z"
-  },
-  {
-   "title": "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T17:54:00Z"
-  },
-  {
-   "title": "Man City edge London Lionesses, Chelsea stay top of WSL",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T16:43:17Z"
-  },
-  {
-   "title": "London City Lionesses 1-2 Manchester City: Home side impresses but beaten by ruthless City",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T16:38:37Z"
-  },
-  {
-   "title": "Erling Haaland's true feelings on Man City future confirmed by dad after guilty verdict",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T16:14:00Z"
   }
  ],
  "ticker": [
-  "WSL talking points: Chelsea flex title-winning credentials with dominant win at Charlton but Man City are keeping up",
+  "Man City: Alf-Inge Haaland responds when asked whether Erling Haaland could leave after Arsenal contact",
+  "London City Lionesses taught a lesson in ruthlessness as the champions weather the storm",
+  "How Brighton’s cross-field passes destroyed Manchester City",
+  "The concerning Man City trend that is becoming a problem for Enzo Maresca",
+  "Man City injury, suspension list and return dates for RB Leipzig: Antoine Semenyo latest news ahead of Champions League clash",
   "WSL: London City Lionesses v Manchester City - Mary Earps makes an excellent double-save",
   "Update On Manchester City And Their Pursuit Of This Nottingham Forest Talent: What Should Maresca Do?",
   "Ex-Liverpool, Man City star Milner runs NYC Marathon in just over three hours",
   "Manchester City hold off impressive London City Lionesses to continue unbeaten WSL start",
-  "Women's Super League",
-  "Manchester City’s Key Dates and Fixtures in November 2026",
-  "WSL highlights: London City Lionesses 1-2 Manchester City",
-  "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
-  "Man City edge London Lionesses, Chelsea stay top of WSL"
+  "Women's Super League"
  ]
 }
