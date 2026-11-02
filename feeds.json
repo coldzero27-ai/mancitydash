@@ -1,18 +1,30 @@
 {
- "updated": "2026-11-01T20:58:32Z",
+ "updated": "2026-11-02T00:32:16Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Erling Haaland Is Unfazed by City's 114 Charges, Says His Father",
+   "title": "WSL talking points: Chelsea flex title-winning credentials with dominant win at Charlton but Man City are keeping up",
    "img": null,
    "video": null,
-   "time": "2026-11-01T19:59:45Z"
+   "time": "2026-11-01T21:30:54Z"
   },
   {
-   "title": "Three talking points from the Premier League",
+   "title": "WSL: London City Lionesses v Manchester City - Mary Earps makes an excellent double-save",
    "img": null,
    "video": null,
-   "time": "2026-11-01T19:05:38Z"
+   "time": "2026-11-01T21:22:34Z"
+  },
+  {
+   "title": "Update On Manchester City And Their Pursuit Of This Nottingham Forest Talent: What Should Maresca Do?",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T20:30:00Z"
+  },
+  {
+   "title": "Ex-Liverpool, Man City star Milner runs NYC Marathon in just over three hours",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T19:56:00Z"
   },
   {
    "title": "Manchester City hold off impressive London City Lionesses to continue unbeaten WSL start",
@@ -21,22 +33,10 @@
    "time": "2026-11-01T18:48:00Z"
   },
   {
-   "title": "Arsenal player ratings vs Liverpool: Declan Rice saves three 5/10s as Gunners go top",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T18:26:00Z"
-  },
-  {
    "title": "Women's Super League",
    "img": null,
    "video": null,
    "time": "2026-11-01T18:13:37Z"
-  },
-  {
-   "title": "WSL talking points: Chelsea flex title-winning credentials with dominant win at Charlton but Man City are keeping up",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T18:02:07Z"
   },
   {
    "title": "Manchester City’s Key Dates and Fixtures in November 2026",
@@ -51,16 +51,10 @@
    "time": "2026-11-01T17:54:43Z"
   },
   {
-   "title": "WSL round-up: Alessia Russo scores late equaliser to salvage draw for Arsenal as Man City hold on to beat London City",
+   "title": "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
    "img": null,
    "video": null,
-   "time": "2026-11-01T17:29:44Z"
-  },
-  {
-   "title": "Manchester City Beat London City Lionesses 2-1 As Hemp Scores Winner: 6 outlets compared",
-   "img": null,
-   "video": null,
-   "time": "2026-11-01T17:25:26Z"
+   "time": "2026-11-01T17:54:00Z"
   },
   {
    "title": "Man City edge London Lionesses, Chelsea stay top of WSL",
@@ -73,18 +67,24 @@
    "img": null,
    "video": null,
    "time": "2026-11-01T16:38:37Z"
+  },
+  {
+   "title": "Erling Haaland's true feelings on Man City future confirmed by dad after guilty verdict",
+   "img": null,
+   "video": null,
+   "time": "2026-11-01T16:14:00Z"
   }
  ],
  "ticker": [
-  "Erling Haaland Is Unfazed by City's 114 Charges, Says His Father",
-  "Three talking points from the Premier League",
-  "Manchester City hold off impressive London City Lionesses to continue unbeaten WSL start",
-  "Arsenal player ratings vs Liverpool: Declan Rice saves three 5/10s as Gunners go top",
-  "Women's Super League",
   "WSL talking points: Chelsea flex title-winning credentials with dominant win at Charlton but Man City are keeping up",
+  "WSL: London City Lionesses v Manchester City - Mary Earps makes an excellent double-save",
+  "Update On Manchester City And Their Pursuit Of This Nottingham Forest Talent: What Should Maresca Do?",
+  "Ex-Liverpool, Man City star Milner runs NYC Marathon in just over three hours",
+  "Manchester City hold off impressive London City Lionesses to continue unbeaten WSL start",
+  "Women's Super League",
   "Manchester City’s Key Dates and Fixtures in November 2026",
   "WSL highlights: London City Lionesses 1-2 Manchester City",
-  "WSL round-up: Alessia Russo scores late equaliser to salvage draw for Arsenal as Man City hold on to beat London City",
-  "Manchester City Beat London City Lionesses 2-1 As Hemp Scores Winner: 6 outlets compared"
+  "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
+  "Man City edge London Lionesses, Chelsea stay top of WSL"
  ]
 }
