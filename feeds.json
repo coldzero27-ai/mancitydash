@@ -1,7 +1,49 @@
 {
- "updated": "2026-11-02T23:59:18Z",
+ "updated": "2026-11-03T06:31:19Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Demichelis set for Manchester City reunion",
+   "img": null,
+   "video": null,
+   "time": "2026-11-03T06:11:32Z"
+  },
+  {
+   "title": "RB Leipzig vs Man Champions League preview: Time for Maresca to earn his money",
+   "img": null,
+   "video": null,
+   "time": "2026-11-03T05:58:42Z"
+  },
+  {
+   "title": "Are the charges affecting Man City’s players? Plus: Ait-Nouri’s future and January signings",
+   "img": null,
+   "video": null,
+   "time": "2026-11-03T05:16:39Z"
+  },
+  {
+   "title": "Rayan Cherki has excelled in a new role Man City can't afford to use him in",
+   "img": null,
+   "video": null,
+   "time": "2026-11-03T05:00:00Z"
+  },
+  {
+   "title": "Demichelis brings 'competitive aura' to Leipzig before City reunion",
+   "img": null,
+   "video": null,
+   "time": "2026-11-03T04:48:11Z"
+  },
+  {
+   "title": "Jack Grealish latest: Everton boss David Moyes reveals whether Man City loanee features in his plan after disciplinary issue",
+   "img": null,
+   "video": null,
+   "time": "2026-11-03T00:12:00Z"
+  },
+  {
+   "title": "How to watch RB Leipzig v Manchester City as Maresca's men look to return to winning ways",
+   "img": null,
+   "video": null,
+   "time": "2026-11-02T23:51:00Z"
+  },
   {
    "title": "The Manchester City attacking threat is being undermined by a frustrating issue",
    "img": null,
@@ -21,12 +63,6 @@
    "time": "2026-11-02T21:27:00Z"
   },
   {
-   "title": "Omar Marmoush looks unchanged from Manchester City, but Tottenham can't write him off just yet",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T21:13:15Z"
-  },
-  {
    "title": "PREVIEW | RB Leipzig vs Manchester City: team news, lineups, predictions (Champions League 04/11)",
    "img": null,
    "video": null,
@@ -37,54 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-11-02T20:00:00Z"
-  },
-  {
-   "title": "It seems that Enzo Maresca keeps getting one Manchester City midfield decision wrong",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T19:52:00Z"
-  },
-  {
-   "title": "RB Leipzig vs Manchester City Prediction, Tips and Odds | Champions League",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T19:45:42Z"
-  },
-  {
-   "title": "Manchester City have plenty to fix after frustrating 1-0 loss against Brighton",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T19:24:00Z"
-  },
-  {
-   "title": "Did Erling Haaland cost Man City the Premier League title? Liverpool vs Arsenal chaos is showing cheats prosper",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T18:40:00Z"
-  },
-  {
-   "title": "Man City's 'smoking gun' in charges appeal comes to light after secret meeting",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T18:25:00Z"
-  },
-  {
-   "title": "Haaland's father opens the door to doubts over his son's future with Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-11-02T17:53:50Z"
   }
  ],
  "ticker": [
+  "Demichelis set for Manchester City reunion",
+  "RB Leipzig vs Man Champions League preview: Time for Maresca to earn his money",
+  "Are the charges affecting Man City’s players? Plus: Ait-Nouri’s future and January signings",
+  "Rayan Cherki has excelled in a new role Man City can't afford to use him in",
+  "Demichelis brings 'competitive aura' to Leipzig before City reunion",
+  "Jack Grealish latest: Everton boss David Moyes reveals whether Man City loanee features in his plan after disciplinary issue",
+  "How to watch RB Leipzig v Manchester City as Maresca's men look to return to winning ways",
   "The Manchester City attacking threat is being undermined by a frustrating issue",
   "Manchester City Scandal: The UAE and Sportswashing",
-  "RB Leipzig vs. Manchester City preview: Team news and predicted lineups",
-  "Omar Marmoush looks unchanged from Manchester City, but Tottenham can't write him off just yet",
-  "PREVIEW | RB Leipzig vs Manchester City: team news, lineups, predictions (Champions League 04/11)",
-  "Subscribe to CITY+ for live audio commentary of RB Leipzig clash",
-  "It seems that Enzo Maresca keeps getting one Manchester City midfield decision wrong",
-  "RB Leipzig vs Manchester City Prediction, Tips and Odds | Champions League",
-  "Manchester City have plenty to fix after frustrating 1-0 loss against Brighton",
-  "Did Erling Haaland cost Man City the Premier League title? Liverpool vs Arsenal chaos is showing cheats prosper"
+  "RB Leipzig vs. Manchester City preview: Team news and predicted lineups"
  ]
 }
