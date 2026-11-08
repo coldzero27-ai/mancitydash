@@ -1,12 +1,54 @@
 {
- "updated": "2026-11-08T20:15:45Z",
+ "updated": "2026-11-08T23:54:40Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Brighton 2-0 Brentford: Diego Gomez scores thunderbolt as Seagulls enter November international break in second",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T23:33:07Z"
+  },
+  {
+   "title": "The price of success: Manchester City’s numerous charges of financial fraud",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T23:31:55Z"
+  },
+  {
+   "title": "The Manchester City midfield balance is suffering because of one Enzo Maresca decision",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T22:19:21Z"
+  },
+  {
+   "title": "The Manchester City midfield problem is becoming clear as Maresca relies too heavily on Elliot Anderson",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T21:25:00Z"
+  },
+  {
+   "title": "Premier League transfer LATEST: Man Utd target Nagida as Liverpool eye Verbuggen deal",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T20:35:43Z"
+  },
+  {
+   "title": "This was about more than just tactics as Manchester City were bullied by Nottingham Forest",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T20:19:00Z"
+  },
+  {
+   "title": "With Arsenal Storming Clear, is the Premier League Title Race as Good as Over?",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T20:00:00Z"
+  },
   {
    "title": "Manchester marathon draws runners to the Queen City",
    "img": null,
    "video": null,
-   "time": "2026-11-08T19:48:24Z"
+   "time": "2026-11-08T19:47:58Z"
   },
   {
    "title": "Donnarumma dividing opinions among fans and pundits after third straight EPL defeat",
@@ -31,60 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-11-08T17:41:00Z"
-  },
-  {
-   "title": "'Fernandez and Anderson can't work together in Man City midfield'",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:50:13Z"
-  },
-  {
-   "title": "Former Man City and Premier League star dies aged 59 as clubs pay touching tribute",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:50:00Z"
-  },
-  {
-   "title": "What's going wrong with Manchester City?",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:48:50Z"
-  },
-  {
-   "title": "Man City's latest struggles invite a humiliating comparison to Sheffield Wednesday",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:29:15Z"
-  },
-  {
-   "title": "Former Port Vale striker Beckford dies aged 59",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:12:26Z"
-  },
-  {
-   "title": "We will remember them ❤️ A beautiful service has taken place in Manchester city centre today (Nov 8​) to mark Remembrance Day, which is on November 11. The Remembrance Sunday ceremony commemorated the sacrifices of those who have served in t",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:03:02Z"
-  },
-  {
-   "title": "\"There's Something We Need to Do Better\" - Enzo Maresca Vows to Resolve Manchester City's Problems in International Break",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T16:00:00Z"
   }
  ],
  "ticker": [
+  "Brighton 2-0 Brentford: Diego Gomez scores thunderbolt as Seagulls enter November international break in second",
+  "The price of success: Manchester City’s numerous charges of financial fraud",
+  "The Manchester City midfield balance is suffering because of one Enzo Maresca decision",
+  "The Manchester City midfield problem is becoming clear as Maresca relies too heavily on Elliot Anderson",
+  "Premier League transfer LATEST: Man Utd target Nagida as Liverpool eye Verbuggen deal",
+  "This was about more than just tactics as Manchester City were bullied by Nottingham Forest",
+  "With Arsenal Storming Clear, is the Premier League Title Race as Good as Over?",
   "Manchester marathon draws runners to the Queen City",
   "Donnarumma dividing opinions among fans and pundits after third straight EPL defeat",
-  "Daniel Munoz and Morgan Gibbs-White assess Liam Delap’s display in Forest win",
-  "Tragedy as former Man City star passes away aged 59 with ex clubs paying tribute",
-  "Tributes paid as former Oldham Athletic and Man City striker dies",
-  "'Fernandez and Anderson can't work together in Man City midfield'",
-  "Former Man City and Premier League star dies aged 59 as clubs pay touching tribute",
-  "What's going wrong with Manchester City?",
-  "Man City's latest struggles invite a humiliating comparison to Sheffield Wednesday",
-  "Former Port Vale striker Beckford dies aged 59"
+  "Daniel Munoz and Morgan Gibbs-White assess Liam Delap’s display in Forest win"
  ]
 }
