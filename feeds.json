@@ -1,12 +1,30 @@
 {
- "updated": "2026-11-08T23:54:40Z",
+ "updated": "2026-11-09T05:12:05Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "One City transfer exit feels inevitable after latest Maresca decision",
+   "img": null,
+   "video": null,
+   "time": "2026-11-09T05:00:00Z"
+  },
   {
    "title": "Brighton 2-0 Brentford: Diego Gomez scores thunderbolt as Seagulls enter November international break in second",
    "img": null,
    "video": null,
-   "time": "2026-11-08T23:33:07Z"
+   "time": "2026-11-09T04:03:10Z"
+  },
+  {
+   "title": "Manchester City (GREED) v Real Madrid (KINGSLAYER) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-09T03:12:23Z"
+  },
+  {
+   "title": "Shaw treble powers Man City past West Ham and into WSL top spot",
+   "img": null,
+   "video": null,
+   "time": "2026-11-09T02:24:25Z"
   },
   {
    "title": "The price of success: Manchester City’s numerous charges of financial fraud",
@@ -18,7 +36,7 @@
    "title": "The Manchester City midfield balance is suffering because of one Enzo Maresca decision",
    "img": null,
    "video": null,
-   "time": "2026-11-08T22:19:21Z"
+   "time": "2026-11-08T22:07:42Z"
   },
   {
    "title": "The Manchester City midfield problem is becoming clear as Maresca relies too heavily on Elliot Anderson",
@@ -27,40 +45,16 @@
    "time": "2026-11-08T21:25:00Z"
   },
   {
-   "title": "Premier League transfer LATEST: Man Utd target Nagida as Liverpool eye Verbuggen deal",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T20:35:43Z"
-  },
-  {
    "title": "This was about more than just tactics as Manchester City were bullied by Nottingham Forest",
    "img": null,
    "video": null,
    "time": "2026-11-08T20:19:00Z"
   },
   {
-   "title": "With Arsenal Storming Clear, is the Premier League Title Race as Good as Over?",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T20:00:00Z"
-  },
-  {
    "title": "Manchester marathon draws runners to the Queen City",
    "img": null,
    "video": null,
    "time": "2026-11-08T19:47:58Z"
-  },
-  {
-   "title": "Donnarumma dividing opinions among fans and pundits after third straight EPL defeat",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T18:30:30Z"
-  },
-  {
-   "title": "Daniel Munoz and Morgan Gibbs-White assess Liam Delap’s display in Forest win",
-   "img": null,
-   "video": null,
-   "time": "2026-11-08T18:00:00Z"
   },
   {
    "title": "Tragedy as former Man City star passes away aged 59 with ex clubs paying tribute",
@@ -73,18 +67,24 @@
    "img": null,
    "video": null,
    "time": "2026-11-08T17:41:00Z"
+  },
+  {
+   "title": "'Fernandez and Anderson can't work together in Man City midfield'",
+   "img": null,
+   "video": null,
+   "time": "2026-11-08T16:50:13Z"
   }
  ],
  "ticker": [
+  "One City transfer exit feels inevitable after latest Maresca decision",
   "Brighton 2-0 Brentford: Diego Gomez scores thunderbolt as Seagulls enter November international break in second",
+  "Manchester City (GREED) v Real Madrid (KINGSLAYER) Odds",
+  "Shaw treble powers Man City past West Ham and into WSL top spot",
   "The price of success: Manchester City’s numerous charges of financial fraud",
   "The Manchester City midfield balance is suffering because of one Enzo Maresca decision",
   "The Manchester City midfield problem is becoming clear as Maresca relies too heavily on Elliot Anderson",
-  "Premier League transfer LATEST: Man Utd target Nagida as Liverpool eye Verbuggen deal",
   "This was about more than just tactics as Manchester City were bullied by Nottingham Forest",
-  "With Arsenal Storming Clear, is the Premier League Title Race as Good as Over?",
   "Manchester marathon draws runners to the Queen City",
-  "Donnarumma dividing opinions among fans and pundits after third straight EPL defeat",
-  "Daniel Munoz and Morgan Gibbs-White assess Liam Delap’s display in Forest win"
+  "Tragedy as former Man City star passes away aged 59 with ex clubs paying tribute"
  ]
 }
