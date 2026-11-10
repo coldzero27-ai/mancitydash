@@ -1,24 +1,42 @@
 {
- "updated": "2026-11-09T23:30:15Z",
+ "updated": "2026-11-10T06:26:26Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Aston Villa News Today: Emery's Reaction, McGinn's Lesson and Harwood-Bellis (10 November)",
+   "img": null,
+   "video": null,
+   "time": "2026-11-10T05:53:32Z"
+  },
+  {
+   "title": "Semenyo Injury Update and Return Date: December Target (10 November)",
+   "img": null,
+   "video": null,
+   "time": "2026-11-10T05:31:47Z"
+  },
+  {
+   "title": "Forest flattened Man City and Brobbey battered Chelsea: Who won the Premier League weekend?",
+   "img": null,
+   "video": null,
+   "time": "2026-11-10T05:14:20Z"
+  },
+  {
+   "title": "Man City season ratings so far with four 8/10s, one 3/10 and Enzo Maresca marked",
+   "img": null,
+   "video": null,
+   "time": "2026-11-10T05:00:00Z"
+  },
+  {
+   "title": "Khusanov, Guehi, Gvardiol - Man City injury news and return dates as duo withdraw from national teams",
+   "img": null,
+   "video": null,
+   "time": "2026-11-10T04:00:00Z"
+  },
   {
    "title": "Former Man City set-piece coach appointed manager of Europa League club",
    "img": null,
    "video": null,
    "time": "2026-11-09T22:45:31Z"
-  },
-  {
-   "title": "Man City's players are crumbling under the guilt of £1billion financial 'sham' - even footballers don't live in a vacuum",
-   "img": null,
-   "video": null,
-   "time": "2026-11-09T22:18:00Z"
-  },
-  {
-   "title": "Trying to find the best Manchester City defensive mix is no simple task right now",
-   "img": null,
-   "video": null,
-   "time": "2026-11-09T22:10:11Z"
   },
   {
    "title": "Manchester City hit by fresh injury blow with star forced to withdraw from international duty",
@@ -33,10 +51,10 @@
    "time": "2026-11-09T21:42:00Z"
   },
   {
-   "title": "Brighton 'can dream' of Premier League title charge after surge to second place",
+   "title": "Premier League transfer LATEST: Chelsea want Kamara, Man Utd prepare huge offer for Murillo",
    "img": null,
    "video": null,
-   "time": "2026-11-09T21:34:11Z"
+   "time": "2026-11-09T21:39:55Z"
   },
   {
    "title": "Hemp: We’re proud, but we want more",
@@ -55,36 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-11-09T20:07:19Z"
-  },
-  {
-   "title": "Jeglertz hails Hemp's goalscoring form",
-   "img": null,
-   "video": null,
-   "time": "2026-11-09T20:00:00Z"
-  },
-  {
-   "title": "Marc Guehi’s England withdrawal could be the best possible news for him and Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-11-09T19:33:33Z"
-  },
-  {
-   "title": "Who will come second in the Premier League? Our writers have their say",
-   "img": null,
-   "video": null,
-   "time": "2026-11-09T18:34:19Z"
   }
  ],
  "ticker": [
+  "Aston Villa News Today: Emery's Reaction, McGinn's Lesson and Harwood-Bellis (10 November)",
+  "Semenyo Injury Update and Return Date: December Target (10 November)",
+  "Forest flattened Man City and Brobbey battered Chelsea: Who won the Premier League weekend?",
+  "Man City season ratings so far with four 8/10s, one 3/10 and Enzo Maresca marked",
+  "Khusanov, Guehi, Gvardiol - Man City injury news and return dates as duo withdraw from national teams",
   "Former Man City set-piece coach appointed manager of Europa League club",
-  "Man City's players are crumbling under the guilt of £1billion financial 'sham' - even footballers don't live in a vacuum",
-  "Trying to find the best Manchester City defensive mix is no simple task right now",
   "Manchester City hit by fresh injury blow with star forced to withdraw from international duty",
   "Manchester’s soulless content machine football clubs sum up post-imperial Britain | Barney Ronay",
-  "Brighton 'can dream' of Premier League title charge after surge to second place",
-  "Hemp: We’re proud, but we want more",
-  "Jeglertz: We always want to play the City way",
-  "Watch Inter v Manchester City Women live today: who is showing the match on TV and via live stream?",
-  "Jeglertz hails Hemp's goalscoring form"
+  "Premier League transfer LATEST: Chelsea want Kamara, Man Utd prepare huge offer for Murillo",
+  "Hemp: We’re proud, but we want more"
  ]
 }
