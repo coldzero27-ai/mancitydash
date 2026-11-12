@@ -1,7 +1,67 @@
 {
- "updated": "2026-11-11T22:57:32Z",
+ "updated": "2026-11-12T03:43:37Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City (GLORY) v Real Madrid (ZEUS) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-12T02:51:32Z"
+  },
+  {
+   "title": "Arsenal, Chelsea and Liverpool chase Bournemouth star Alex Scott - Paper Talk | Football News",
+   "img": null,
+   "video": null,
+   "time": "2026-11-12T02:33:17Z"
+  },
+  {
+   "title": "Real Madrid (VIBE) v Manchester City (EDEN) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-12T01:53:46Z"
+  },
+  {
+   "title": "Manchester City (EDEN) v Paris SG (STORM) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-12T01:39:18Z"
+  },
+  {
+   "title": "Manchester City (EDEN) v Real Madrid (VIBE) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-12T00:55:09Z"
+  },
+  {
+   "title": "Pep Guardiola’s USMNT dream job could come with problem he never faced at Manchester City as Mauricio Poche...",
+   "img": null,
+   "video": null,
+   "time": "2026-11-12T00:01:53Z"
+  },
+  {
+   "title": "Paris SG (STORM) v Manchester City (EDEN) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-11T23:55:57Z"
+  },
+  {
+   "title": "Pep Guardiola emerges as shock USMNT target amid Manchester United domino effect",
+   "img": null,
+   "video": null,
+   "time": "2026-11-11T23:17:19Z"
+  },
+  {
+   "title": "£75m-rated Chelsea star could spark Man United vs Man City transfer tug of war",
+   "img": null,
+   "video": null,
+   "time": "2026-11-11T23:09:37Z"
+  },
+  {
+   "title": "How the Glazers sale timeline at Man Utd may have leaked the Man City punishment",
+   "img": null,
+   "video": null,
+   "time": "2026-11-11T23:07:14Z"
+  },
   {
    "title": "Pep Guardiola set to become United States' top target to replace Mauricio Pochettino as Manchester United close in",
    "img": null,
@@ -13,78 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-11-11T22:30:00Z"
-  },
-  {
-   "title": "Arsenal, Chelsea and Liverpool chase Bournemouth star Alex Scott - Paper Talk",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T22:03:13Z"
-  },
-  {
-   "title": "Football gossip: Scott, Guardiola, Zubimendi, Nyoni, Collins, Bassey, Lavia, Ait-Nouri",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T21:38:01Z"
-  },
-  {
-   "title": "Six months on: Manchester United's move opens the door for Guardiola's return to coaching",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T21:29:31Z"
-  },
-  {
-   "title": "Real Madrid (TEMPEST) v Manchester City (DOMINATOR) Odds",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T21:00:08Z"
-  },
-  {
-   "title": "Manchester City Are In The Running To Sign This Gifted Playmaker: Is He A Star In The Making?",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T21:00:00Z"
-  },
-  {
-   "title": "Pep Guardiola Reportedly 'Top Target' for USMNT amid Mauricio Pochettino, Manchester United Rumors",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T20:51:02Z"
-  },
-  {
-   "title": "Pep Guardiola expected to be a top USMNT target if Manchester United snares Pochettino - The Athletic",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T20:37:58Z"
-  },
-  {
-   "title": "Man Utd set for key Pochettino breakthrough as USA target Guardiola",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T20:24:34Z"
-  },
-  {
-   "title": "Pep Guardiola Targeted For International Manager Role Amid Ongoing Manchester United Pursuit",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T20:23:00Z"
-  },
-  {
-   "title": "Paris SG (UNLEASHED) v Manchester City (DOMINATOR) Odds",
-   "img": null,
-   "video": null,
-   "time": "2026-11-11T20:01:31Z"
   }
  ],
  "ticker": [
-  "Pep Guardiola set to become United States' top target to replace Mauricio Pochettino as Manchester United close in",
-  "Manchester city leaders vote to end contract with Flock",
-  "Arsenal, Chelsea and Liverpool chase Bournemouth star Alex Scott - Paper Talk",
-  "Football gossip: Scott, Guardiola, Zubimendi, Nyoni, Collins, Bassey, Lavia, Ait-Nouri",
-  "Six months on: Manchester United's move opens the door for Guardiola's return to coaching",
-  "Real Madrid (TEMPEST) v Manchester City (DOMINATOR) Odds",
-  "Manchester City Are In The Running To Sign This Gifted Playmaker: Is He A Star In The Making?",
-  "Pep Guardiola Reportedly 'Top Target' for USMNT amid Mauricio Pochettino, Manchester United Rumors",
-  "Pep Guardiola expected to be a top USMNT target if Manchester United snares Pochettino - The Athletic",
-  "Man Utd set for key Pochettino breakthrough as USA target Guardiola"
+  "Manchester City (GLORY) v Real Madrid (ZEUS) Odds",
+  "Arsenal, Chelsea and Liverpool chase Bournemouth star Alex Scott - Paper Talk | Football News",
+  "Real Madrid (VIBE) v Manchester City (EDEN) Odds",
+  "Manchester City (EDEN) v Paris SG (STORM) Odds",
+  "Manchester City (EDEN) v Real Madrid (VIBE) Odds",
+  "Pep Guardiola’s USMNT dream job could come with problem he never faced at Manchester City as Mauricio Poche...",
+  "Paris SG (STORM) v Manchester City (EDEN) Odds",
+  "Pep Guardiola emerges as shock USMNT target amid Manchester United domino effect",
+  "£75m-rated Chelsea star could spark Man United vs Man City transfer tug of war",
+  "How the Glazers sale timeline at Man Utd may have leaked the Man City punishment"
  ]
 }
