@@ -1,36 +1,48 @@
 {
- "updated": "2026-11-13T22:30:01Z",
+ "updated": "2026-11-14T02:39:13Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "Internationals: Bouaddi impresses in Morocco win",
+   "title": "Manchester City (VIBE) v Paris SG (ATLAS) Odds",
    "img": null,
    "video": null,
-   "time": "2026-11-13T22:15:00Z"
+   "time": "2026-11-14T02:26:47Z"
+  },
+  {
+   "title": "Manchester City (VIBE) v Real Madrid (GHOST) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-14T01:28:36Z"
+  },
+  {
+   "title": "FC Bayern Munchen (PILLAR) v Manchester City (VIBE) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-14T01:28:33Z"
+  },
+  {
+   "title": "Chelsea vs. Manchester City, Women’s Super League: Preview, team news, how to watch",
+   "img": null,
+   "video": null,
+   "time": "2026-11-13T23:22:23Z"
+  },
+  {
+   "title": "FC Bayern Munchen (HOLLYWOOD) v Manchester City (EMPEROR) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-13T22:47:48Z"
+  },
+  {
+   "title": "Kevin De Bruyne to leave Napoli 'the sooner the better', his wife says",
+   "img": null,
+   "video": null,
+   "time": "2026-11-13T22:01:32Z"
   },
   {
    "title": "Manchester City (EMPEROR) v FC Bayern Munchen (HOLLYWOOD) Odds",
    "img": null,
    "video": null,
    "time": "2026-11-13T21:33:39Z"
-  },
-  {
-   "title": "Why Chelsea and Manchester City’s WSL clash is not as season-defining as you think",
-   "img": null,
-   "video": null,
-   "time": "2026-11-13T21:20:00Z"
-  },
-  {
-   "title": "Man City guilty verdict could impact transfer plans as banks 'shy away' from lending",
-   "img": null,
-   "video": null,
-   "time": "2026-11-13T20:55:00Z"
-  },
-  {
-   "title": "Real Madrid (AGENT) v Manchester City (FORCE) Odds",
-   "img": null,
-   "video": null,
-   "time": "2026-11-13T20:51:24Z"
   },
   {
    "title": "Manchester City (FORCE) v FC Bayern Munchen (INFERNO) Odds",
@@ -45,46 +57,34 @@
    "time": "2026-11-13T20:35:14Z"
   },
   {
-   "title": "Manchester City Are In The Race To Sign This Chelsea Full-Back: Should Maresca Go For Him?",
+   "title": "Banks pull back from Man City transfer deals with financial sanctions looming",
+   "img": null,
+   "video": null,
+   "time": "2026-11-13T20:11:56Z"
+  },
+  {
+   "title": "Manchester City And Manchester United Set for Transfer Battle Over £75 Million-Rated Chelsea Star",
    "img": null,
    "video": null,
    "time": "2026-11-13T20:00:00Z"
   },
   {
-   "title": "Manchester City (FORCE) v Real Madrid (AGENT) Odds",
+   "title": "Manchester City Are In The Race To Sign This Chelsea Full-Back: Should Maresca Go For Him?",
    "img": null,
    "video": null,
-   "time": "2026-11-13T19:36:54Z"
-  },
-  {
-   "title": "FC Bayern Munchen (INFERNO) v Manchester City (FORCE) Odds",
-   "img": null,
-   "video": null,
-   "time": "2026-11-13T19:36:54Z"
-  },
-  {
-   "title": "Manchester City to Learn Court Ruling in a Few Weeks",
-   "img": null,
-   "video": null,
-   "time": "2026-11-13T19:34:43Z"
-  },
-  {
-   "title": "Manchester City decision expected in January 2027 - Operativ Məlumat Mərkəzi",
-   "img": null,
-   "video": null,
-   "time": "2026-11-13T19:27:21Z"
+   "time": "2026-11-13T20:00:00Z"
   }
  ],
  "ticker": [
-  "Internationals: Bouaddi impresses in Morocco win",
+  "Manchester City (VIBE) v Paris SG (ATLAS) Odds",
+  "Manchester City (VIBE) v Real Madrid (GHOST) Odds",
+  "FC Bayern Munchen (PILLAR) v Manchester City (VIBE) Odds",
+  "Chelsea vs. Manchester City, Women’s Super League: Preview, team news, how to watch",
+  "FC Bayern Munchen (HOLLYWOOD) v Manchester City (EMPEROR) Odds",
+  "Kevin De Bruyne to leave Napoli 'the sooner the better', his wife says",
   "Manchester City (EMPEROR) v FC Bayern Munchen (HOLLYWOOD) Odds",
-  "Why Chelsea and Manchester City’s WSL clash is not as season-defining as you think",
-  "Man City guilty verdict could impact transfer plans as banks 'shy away' from lending",
-  "Real Madrid (AGENT) v Manchester City (FORCE) Odds",
   "Manchester City (FORCE) v FC Bayern Munchen (INFERNO) Odds",
   "Manchester City (FORCE) v Paris SG (TEMPEST) Odds",
-  "Manchester City Are In The Race To Sign This Chelsea Full-Back: Should Maresca Go For Him?",
-  "Manchester City (FORCE) v Real Madrid (AGENT) Odds",
-  "FC Bayern Munchen (INFERNO) v Manchester City (FORCE) Odds"
+  "Banks pull back from Man City transfer deals with financial sanctions looming"
  ]
 }
