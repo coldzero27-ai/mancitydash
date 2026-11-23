@@ -1,18 +1,48 @@
 {
- "updated": "2026-11-22T21:36:24Z",
+ "updated": "2026-11-23T02:21:34Z",
  "source": "bbc + google news (server-side)",
  "news": [
   {
-   "title": "WSL LIVE! Match updates, score, streams and free highlights with Man Utd, Man City, Arsenal in action",
+   "title": "Tottenham stun Manchester City 3-1 to deny them WSL top spot",
    "img": null,
    "video": null,
-   "time": "2026-11-22T21:33:08Z"
+   "time": "2026-11-23T02:14:31Z"
   },
   {
    "title": "Man City Women 1-3 Tottenham Women: WSL champions lose again as winning home record crumbles with Spurs defeat",
    "img": null,
    "video": null,
-   "time": "2026-11-22T20:54:13Z"
+   "time": "2026-11-23T00:52:59Z"
+  },
+  {
+   "title": "Arsenal’s Six-Point Lead Survives as Brighton Stunned by Hull",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T22:58:55Z"
+  },
+  {
+   "title": "Manchester City vs. Napoli preview: Prediction, date, kick-off times, venue, how to watch Champions League match on DAZN",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T22:00:19Z"
+  },
+  {
+   "title": "PREVIEW | Manchester City vs Napoli: team news, lineups, predictions (Champions League 24/11)",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T21:40:00Z"
+  },
+  {
+   "title": "Five KEY lessons from Sunday's matches",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T21:31:30Z"
+  },
+  {
+   "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T21:12:00Z"
   },
   {
    "title": "Three Premier League talking points",
@@ -27,64 +57,34 @@
    "time": "2026-11-22T18:52:00Z"
   },
   {
-   "title": "Naz: It was nice to get the cooking celebration out again!",
+   "title": "Man City fans can thank Manchester United for saving their weekend",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T18:36:45Z"
+  },
+  {
+   "title": "Manchester City manager Enzo Maresca has revealed that a search for greater balance in midfield prompted his decision to push Elliot Anderson into a more advanced role in Saturday’s 1-1 draw with Fulham.",
+   "img": null,
+   "video": null,
+   "time": "2026-11-22T18:30:00Z"
+  },
+  {
+   "title": "Naz: 'It was nice to get the cooking celebration out again!'",
    "img": null,
    "video": null,
    "time": "2026-11-22T18:18:24Z"
-  },
-  {
-   "title": "Spurs hit back to end Man City's long WSL winning run",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T18:16:19Z"
-  },
-  {
-   "title": "City v Napoli: Kick-off time and TV information",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T18:00:00Z"
-  },
-  {
-   "title": "Man City Manchester City Napoli Napoli",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T18:00:00Z"
-  },
-  {
-   "title": "How can I watch City v Napoli on TV around the globe?",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T18:00:00Z"
-  },
-  {
-   "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T17:58:00Z"
-  },
-  {
-   "title": "Napoli discover referee for Manchester City trip in the Champions League",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T17:56:00Z"
-  },
-  {
-   "title": "Women's Super League highlights: Manchester City 1-3 Tottenham Hotspur",
-   "img": null,
-   "video": null,
-   "time": "2026-11-22T17:54:36Z"
   }
  ],
  "ticker": [
-  "WSL LIVE! Match updates, score, streams and free highlights with Man Utd, Man City, Arsenal in action",
+  "Tottenham stun Manchester City 3-1 to deny them WSL top spot",
   "Man City Women 1-3 Tottenham Women: WSL champions lose again as winning home record crumbles with Spurs defeat",
+  "Arsenal’s Six-Point Lead Survives as Brighton Stunned by Hull",
+  "Manchester City vs. Napoli preview: Prediction, date, kick-off times, venue, how to watch Champions League match on DAZN",
+  "PREVIEW | Manchester City vs Napoli: team news, lineups, predictions (Champions League 24/11)",
+  "Five KEY lessons from Sunday's matches",
+  "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
   "Three Premier League talking points",
   "Manchester City's 17-game winning home run ended as Arsenal held again",
-  "Naz: It was nice to get the cooking celebration out again!",
-  "Spurs hit back to end Man City's long WSL winning run",
-  "City v Napoli: Kick-off time and TV information",
-  "Man City Manchester City Napoli Napoli",
-  "How can I watch City v Napoli on TV around the globe?",
-  "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double"
+  "Man City fans can thank Manchester United for saving their weekend"
  ]
 }
