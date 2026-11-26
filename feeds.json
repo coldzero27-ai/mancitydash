@@ -1,7 +1,61 @@
 {
- "updated": "2026-11-25T22:11:18Z",
+ "updated": "2026-11-26T04:17:03Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Manchester City’s issues extend beyond its financial scandal",
+   "img": null,
+   "video": null,
+   "time": "2026-11-26T03:14:02Z"
+  },
+  {
+   "title": "Manchester City vs Leeds Betting Tips: Prediction & Lineups",
+   "img": null,
+   "video": null,
+   "time": "2026-11-26T00:27:49Z"
+  },
+  {
+   "title": "Manchester City vs Leeds Prediction, Stats & Lineups",
+   "img": null,
+   "video": null,
+   "time": "2026-11-26T00:24:42Z"
+  },
+  {
+   "title": "UEFA Champions League - Reaction as Manchester United draw despite Bruno Fernandes brace; Alexander Isak, Florian Wirtz net in Liverpool win",
+   "img": null,
+   "video": null,
+   "time": "2026-11-26T00:05:36Z"
+  },
+  {
+   "title": "Transfer Rumors: Haaland Requests Man City Exit; Osimhen’s Man Utd Plan",
+   "img": null,
+   "video": null,
+   "time": "2026-11-26T00:05:00Z"
+  },
+  {
+   "title": "Pep Guardiola confirms his next career move just months after leaving Manchester City",
+   "img": null,
+   "video": null,
+   "time": "2026-11-25T23:14:34Z"
+  },
+  {
+   "title": "Erling Haaland Admits Manchester City Are Not “Clicking Fully” Ahead of Arsenal Showdown",
+   "img": null,
+   "video": null,
+   "time": "2026-11-25T22:35:10Z"
+  },
+  {
+   "title": "UEFA Champions League",
+   "img": null,
+   "video": null,
+   "time": "2026-11-25T22:29:59Z"
+  },
+  {
+   "title": "FPL notes: Haaland + Jackson quiet, Cherki 90, City can't defend",
+   "img": null,
+   "video": null,
+   "time": "2026-11-25T22:13:18Z"
+  },
   {
    "title": "Cherki rescues point for Man City against Napoli",
    "img": null,
@@ -9,82 +63,28 @@
    "time": "2026-11-25T22:05:49Z"
   },
   {
+   "title": "Champions League: Manchester City 2-2 Napoli - Rasmus Hojlunds gets the second goal",
+   "img": null,
+   "video": null,
+   "time": "2026-11-25T22:01:28Z"
+  },
+  {
    "title": "Manchester City owners warned over 115 Premier League charges by football regulator",
    "img": null,
    "video": null,
    "time": "2026-11-25T21:59:17Z"
-  },
-  {
-   "title": "Regulator chief 'has stomach' to face Man City",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T21:27:35Z"
-  },
-  {
-   "title": "Manchester City: Football regulator chief 'has stomach' to take action against club",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T21:27:35Z"
-  },
-  {
-   "title": "🔴 Ex-Man City star Stones now faces trial",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T21:05:56Z"
-  },
-  {
-   "title": "Champions League Match of the Day analysis: Individual errors costing Man City - Onuoha",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T20:36:04Z"
-  },
-  {
-   "title": "Metropolitan Police Double Numbers as Manchester City's Arsenal Away Day Deemed 'High Risk'",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T20:30:00Z"
-  },
-  {
-   "title": "Man City vs Napoli",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T20:15:51Z"
-  },
-  {
-   "title": "FPL notes: Haaland + Jackson quiet, Cherki 90, City can't defend",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T20:06:46Z"
-  },
-  {
-   "title": "Watch Manchester City vs Fulham",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T19:59:27Z"
-  },
-  {
-   "title": "Manchester City Are Among The Clubs Keeping Tabs On This Gifted Winger: One For The Future?",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T19:20:00Z"
-  },
-  {
-   "title": "Haaland Lashes Out After Manchester City's Draw Against Napoli",
-   "img": null,
-   "video": null,
-   "time": "2026-11-25T18:58:57Z"
   }
  ],
  "ticker": [
-  "Cherki rescues point for Man City against Napoli",
-  "Manchester City owners warned over 115 Premier League charges by football regulator",
-  "Regulator chief 'has stomach' to face Man City",
-  "Manchester City: Football regulator chief 'has stomach' to take action against club",
-  "🔴 Ex-Man City star Stones now faces trial",
-  "Champions League Match of the Day analysis: Individual errors costing Man City - Onuoha",
-  "Metropolitan Police Double Numbers as Manchester City's Arsenal Away Day Deemed 'High Risk'",
-  "Man City vs Napoli",
+  "Manchester City’s issues extend beyond its financial scandal",
+  "Manchester City vs Leeds Betting Tips: Prediction & Lineups",
+  "Manchester City vs Leeds Prediction, Stats & Lineups",
+  "UEFA Champions League - Reaction as Manchester United draw despite Bruno Fernandes brace; Alexander Isak, Florian Wirtz net in Liverpool win",
+  "Transfer Rumors: Haaland Requests Man City Exit; Osimhen’s Man Utd Plan",
+  "Pep Guardiola confirms his next career move just months after leaving Manchester City",
+  "Erling Haaland Admits Manchester City Are Not “Clicking Fully” Ahead of Arsenal Showdown",
+  "UEFA Champions League",
   "FPL notes: Haaland + Jackson quiet, Cherki 90, City can't defend",
-  "Watch Manchester City vs Fulham"
+  "Cherki rescues point for Man City against Napoli"
  ]
 }
