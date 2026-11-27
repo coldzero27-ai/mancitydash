@@ -1,24 +1,54 @@
 {
- "updated": "2026-11-26T23:11:44Z",
+ "updated": "2026-11-27T05:15:00Z",
  "source": "bbc + google news (server-side)",
  "news": [
+  {
+   "title": "Premier League predictions & Jones Knows' best bets: Nottingham Forest vs Chelsea, Arsenal vs Manchester City and more!",
+   "img": null,
+   "video": null,
+   "time": "2026-11-27T03:23:20Z"
+  },
   {
    "title": "Manchester United, Liverpool and Spurs using same law firm to set up legal claim against City",
    "img": null,
    "video": null,
-   "time": "2026-11-26T23:00:00Z"
+   "time": "2026-11-27T02:30:00Z"
+  },
+  {
+   "title": "Paris SG (EDEN) v Manchester City (SALAMANDER) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-27T02:29:36Z"
+  },
+  {
+   "title": "Manchester City (SALAMANDER) v Paris SG (EDEN) Odds",
+   "img": null,
+   "video": null,
+   "time": "2026-11-27T01:31:28Z"
+  },
+  {
+   "title": "Arsenal vs Manchester City Prediction and Betting Tips – 29/11/2026",
+   "img": null,
+   "video": null,
+   "time": "2026-11-27T00:45:06Z"
+  },
+  {
+   "title": "Premier League Predictions: Everton and Liverpool Do Battle, Arsenal Host Man City",
+   "img": null,
+   "video": null,
+   "time": "2026-11-27T00:30:00Z"
+  },
+  {
+   "title": "Manchester City and Liverpool eye Lens goalkeeper Robin Risser",
+   "img": null,
+   "video": null,
+   "time": "2026-11-26T23:54:41Z"
   },
   {
    "title": "Gunners too powerful? Ally and Fletch predict Arsenal v Man City",
    "img": null,
    "video": null,
    "time": "2026-11-26T22:47:00Z"
-  },
-  {
-   "title": "Manchester City and Liverpool eye Lens goalkeeper Robin Risser",
-   "img": null,
-   "video": null,
-   "time": "2026-11-26T22:45:41Z"
   },
   {
    "title": "Manchester City legend Kevin De Bruyne is in the frame for a January 2027 move to PSV Eindhoven, according to new reports.",
@@ -30,10 +60,10 @@
    "title": "Big Match Predictor: Arsenal vs. Manchester City",
    "img": null,
    "video": null,
-   "time": "2026-11-26T22:22:17Z"
+   "time": "2026-11-26T22:21:27Z"
   },
   {
-   "title": "How Mikel Arteta's 'tactical tornado' can blow Man City away vs Arsenal",
+   "title": "How Mikel Arteta's 'tactical tornado' can blow Man City away with Arsenal set to adopt new approach in attack",
    "img": null,
    "video": null,
    "time": "2026-11-26T22:15:00Z"
@@ -43,48 +73,18 @@
    "img": null,
    "video": null,
    "time": "2026-11-26T21:25:06Z"
-  },
-  {
-   "title": "Each Club’s Claim Against Man City As Legal Battle Ramps Up",
-   "img": null,
-   "video": null,
-   "time": "2026-11-26T21:00:01Z"
-  },
-  {
-   "title": "Viktor Gyokeres Warns Arsenal About Manchester City Threat Ahead of Huge Clash",
-   "img": null,
-   "video": null,
-   "time": "2026-11-26T20:50:49Z"
-  },
-  {
-   "title": "Revealed: Bayern Munich Stance on Jeremy Doku Transfer Amid Manchester City Sanction Fears",
-   "img": null,
-   "video": null,
-   "time": "2026-11-26T20:30:00Z"
-  },
-  {
-   "title": "Manchester City Could Be Forced to Change Owners Over Financial Charges",
-   "img": null,
-   "video": null,
-   "time": "2026-11-26T20:20:00Z"
-  },
-  {
-   "title": "Clubs call on HSF Kramer and Wiggin in possible lawsuits against Manchester City",
-   "img": null,
-   "video": null,
-   "time": "2026-11-26T19:43:38Z"
   }
  ],
  "ticker": [
+  "Premier League predictions & Jones Knows' best bets: Nottingham Forest vs Chelsea, Arsenal vs Manchester City and more!",
   "Manchester United, Liverpool and Spurs using same law firm to set up legal claim against City",
-  "Gunners too powerful? Ally and Fletch predict Arsenal v Man City",
+  "Paris SG (EDEN) v Manchester City (SALAMANDER) Odds",
+  "Manchester City (SALAMANDER) v Paris SG (EDEN) Odds",
+  "Arsenal vs Manchester City Prediction and Betting Tips – 29/11/2026",
+  "Premier League Predictions: Everton and Liverpool Do Battle, Arsenal Host Man City",
   "Manchester City and Liverpool eye Lens goalkeeper Robin Risser",
+  "Gunners too powerful? Ally and Fletch predict Arsenal v Man City",
   "Manchester City legend Kevin De Bruyne is in the frame for a January 2027 move to PSV Eindhoven, according to new reports.",
-  "Big Match Predictor: Arsenal vs. Manchester City",
-  "How Mikel Arteta's 'tactical tornado' can blow Man City away vs Arsenal",
-  "Football gossip: Haaland, Musiala, Araujo, Alvarez, Rudiger, Owusu",
-  "Each Club’s Claim Against Man City As Legal Battle Ramps Up",
-  "Viktor Gyokeres Warns Arsenal About Manchester City Threat Ahead of Huge Clash",
-  "Revealed: Bayern Munich Stance on Jeremy Doku Transfer Amid Manchester City Sanction Fears"
+  "Big Match Predictor: Arsenal vs. Manchester City"
  ]
 }
